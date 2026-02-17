@@ -21,6 +21,7 @@ function gHQ(r){return r['HQ Location']||r['Company HQ Location']||'—';}
 function gAcq(r){return(r['Investors']||'').replace(/\([^()]*\)/g,'').replace(/\s+/g,' ').trim()||'—';}
 const fmt=n=>n!=null?`$${n.toLocaleString(undefined,{maximumFractionDigits:1})}M`:'—';
 const pNum=s=>{if(!s)return null;const n=parseFloat(s.toString().replace(/[^0-9.-]/g,''));return isNaN(n)?null:n;};
+const fmtFilterSize=v=>v>=1000?`$${(v/1000).toFixed(v>=10000?0:1)}B`:`$${Math.round(v)}M`;
 const parseDealText=text=>{const lines=text.split('\n').filter(l=>l.trim());let hdrs=lines[0].split('\t').map(h=>h.trim().replace(/\r/g,'')),dlm='\t';if(hdrs.length===1){hdrs=lines[0].split(',').map(h=>h.trim().replace(/\r/g,''));dlm=',';}const clean=v=>{const s=(v??'').toString().trim().replace(/\r/g,'');return s.startsWith('"')&&s.endsWith('"')?s.slice(1,-1):s;};const parsed=lines.slice(1).map(line=>{const v=line.split(dlm);const o={};hdrs.forEach((h,i)=>{o[h]=clean(v[i]);});if(o['Primary Industry Code'])o['Primary Industry Code']=normCode(o['Primary Industry Code']);return o;});const codes=[...new Set(parsed.map(d=>d['Primary Industry Code']).filter(Boolean))].sort();return{parsed,hdrs,codes};};
 
 const DealDetail=({deal,onClose,customCategory})=>{
@@ -57,6 +58,8 @@ const ExitDashboard=()=>{
   const [importSt,setImportSt]=useState('');
   const [startYr,setStartYr]=useState('2021');
   const [endYr,setEndYr]=useState('2025');
+  const [dealMin,setDealMin]=useState(null);
+  const [dealMax,setDealMax]=useState(null);
   const [locFilter,setLocFilter]=useState('all');
   const [catFilter,setCatFilter]=useState('all');
   const [showClear,setShowClear]=useState(false);
@@ -67,7 +70,7 @@ const ExitDashboard=()=>{
 
   useEffect(()=>{let on=true;(async()=>{try{const r=await fetch('/VC_Exits_21-26_deal_data.txt');if(!r.ok)throw new Error(`HTTP ${r.status}`);const text=await r.text();const {parsed,hdrs,codes}=parseDealText(text);if(!on)return;setAllCodes(codes);setDebugInfo({totalRows:parsed.length,cols:hdrs.length});setData(parsed);}catch(e){if(on)setBootErr('Default dataset failed to load. You can still upload manually.');}finally{if(on)setIsBootLoading(false);}})();return()=>{on=false;};},[]);
 
-  const filtered=useMemo(()=>{
+  const scopedForSize=useMemo(()=>{
     if(!data.length)return[];const s=+startYr,e=+endYr;
     return data.filter(d=>{
       const y=pYear(d['Deal Date']);if(y!==null&&(y<s||y>e))return false;
@@ -75,9 +78,23 @@ const ExitDashboard=()=>{
       if(exitType==='M&A'){const dt=d['Deal Type'];if(!dt||(!dt.includes('Merger/Acquisition')&&!dt.includes('Buyout/LBO')))return false;}
       if(locFilter!=='all'){const c=pCountry(gHQ(d)),r=RM[c]||'Other';if(locFilter!==c&&locFilter!==r)return false;}
       if(catFilter!=='all'&&gCat(d,catLevel,catMap)!==catFilter)return false;
-      return true;
+      return pSize(d)!==null;
     });
   },[data,startYr,endYr,exitType,locFilter,catFilter,catLevel,catMap]);
+  const dealSizeBounds=useMemo(()=>{
+    const vals=scopedForSize.map(pSize).filter(v=>v!==null);
+    if(!vals.length)return null;
+    return{min:Math.floor(Math.min(...vals)),max:Math.ceil(Math.max(...vals))};
+  },[scopedForSize]);
+  const effDealMin=dealMin??dealSizeBounds?.min??0;
+  const effDealMax=dealMax??dealSizeBounds?.max??0;
+  useEffect(()=>{
+    if(!dealSizeBounds)return;
+    setDealMin(v=>v===null?dealSizeBounds.min:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
+    setDealMax(v=>v===null?dealSizeBounds.max:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
+  },[dealSizeBounds]);
+
+  const filtered=useMemo(()=>scopedForSize.filter(d=>{const sz=pSize(d);return sz!==null&&sz>=effDealMin&&sz<=effDealMax;}),[scopedForSize,effDealMin,effDealMax]);
 
   const allByYr=useMemo(()=>{if(!data.length)return[];const s=+startYr,e=+endYr;return data.filter(d=>{const y=pYear(d['Deal Date']);return y===null||(y>=s&&y<=e);});},[data,startYr,endYr]);
   const avCountries=useMemo(()=>{const c={};data.forEach(d=>{const co=pCountry(gHQ(d));if(co&&co!=='Unknown')c[co]=(c[co]||0)+1;});return Object.entries(c).sort((a,b)=>b[1]-a[1]);},[data]);
@@ -249,7 +266,7 @@ const ExitDashboard=()=>{
               :<span style={{display:'flex',gap:4,alignItems:'center'}}><button onClick={()=>{setCatMap({});setCustCats([]);setShowClear(false);}} style={{background:'#dc2626',color:'white',padding:'4px 8px',borderRadius:4,border:'none',cursor:'pointer',fontSize:11}}>Yes</button><button onClick={()=>setShowClear(false)} style={{background:'#9ca3af',color:'white',padding:'4px 8px',borderRadius:4,border:'none',cursor:'pointer',fontSize:11}}>No</button></span>}
             </div>
           </div>
-          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr 1fr 1fr',gap:12}}>
+          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr 1fr 1fr 1fr',gap:12}}>
             <div>
               <label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Time: {startYr} – {endYr}</label>
               <div style={{position:'relative',height:32,display:'flex',alignItems:'center'}}>
@@ -259,6 +276,15 @@ const ExitDashboard=()=>{
                 <style>{`.rt::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:#3b82f6;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,.3);cursor:pointer;pointer-events:auto}.rt::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#3b82f6;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,.3);cursor:pointer;pointer-events:auto}`}</style>
               </div>
               <div style={{display:'flex',justifyContent:'space-between',fontSize:10,color:'#9ca3af',marginTop:2}}><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span></div>
+            </div>
+            <div>
+              <label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Deal Size ($M)</label>
+              <div style={{display:'flex',gap:6}}>
+                <input type="number" min={dealSizeBounds?.min??0} max={effDealMax} step="1" value={effDealMin} onChange={e=>{if(e.target.value===''){setDealMin(null);return;}const v=+e.target.value;if(!Number.isNaN(v)&&v<=effDealMax)setDealMin(v);}} disabled={!dealSizeBounds} placeholder="Min" style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
+                <input type="number" min={effDealMin} max={dealSizeBounds?.max??0} step="1" value={effDealMax} onChange={e=>{if(e.target.value===''){setDealMax(null);return;}const v=+e.target.value;if(!Number.isNaN(v)&&v>=effDealMin)setDealMax(v);}} disabled={!dealSizeBounds} placeholder="Max" style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
+                <button onClick={()=>{if(dealSizeBounds){setDealMin(dealSizeBounds.min);setDealMax(dealSizeBounds.max);}}} disabled={!dealSizeBounds} style={{background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:11,cursor:'pointer'}}>Reset</button>
+              </div>
+              <div style={{fontSize:10,color:'#9ca3af',marginTop:4}}>Available in current scope: {fmtFilterSize(dealSizeBounds?.min??0)} – {fmtFilterSize(dealSizeBounds?.max??0)}</div>
             </div>
             <div><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Location</label>
               <select value={locFilter} onChange={e=>setLocFilter(e.target.value)} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
