@@ -10,11 +10,13 @@ const CYBER=new Set(["Pangea (Palo Alto, California)","Accurics","Adaptive Mobil
 const USS={AL:1,AK:1,AZ:1,AR:1,CA:1,CO:1,CT:1,DE:1,FL:1,GA:1,HI:1,ID:1,IL:1,IN:1,IA:1,KS:1,KY:1,LA:1,ME:1,MD:1,MA:1,MI:1,MN:1,MS:1,MO:1,MT:1,NE:1,NV:1,NH:1,NJ:1,NM:1,NY:1,NC:1,ND:1,OH:1,OK:1,OR:1,PA:1,RI:1,SC:1,SD:1,TN:1,TX:1,UT:1,VT:1,VA:1,WA:1,WV:1,WI:1,WY:1,DC:1};
 const RM={"United States":"North America","Canada":"North America","Mexico":"North America","United Kingdom":"Europe","Germany":"Europe","France":"Europe","Sweden":"Europe","Switzerland":"Europe","Denmark":"Europe","Netherlands":"Europe","Spain":"Europe","Italy":"Europe","Ireland":"Europe","Norway":"Europe","Finland":"Europe","Belgium":"Europe","Austria":"Europe","Portugal":"Europe","Poland":"Europe","Czech Republic":"Europe","Romania":"Europe","Greece":"Europe","Hungary":"Europe","Luxembourg":"Europe","Estonia":"Europe","Latvia":"Europe","Lithuania":"Europe","China":"Asia","Japan":"Asia","South Korea":"Asia","India":"Asia","Singapore":"Asia","Hong Kong":"Asia","Taiwan":"Asia","Thailand":"Asia","Vietnam":"Asia","Indonesia":"Asia","Malaysia":"Asia","Philippines":"Asia","Israel":"Middle East","UAE":"Middle East","United Arab Emirates":"Middle East","Saudi Arabia":"Middle East","Turkey":"Middle East","Brazil":"Latin America","Argentina":"Latin America","Chile":"Latin America","Colombia":"Latin America","Australia":"Oceania","New Zealand":"Oceania","South Africa":"Africa","Nigeria":"Africa","Kenya":"Africa","Egypt":"Africa"};
 const CL=['#3b82f6','#10b981','#f59e0b','#ef4444','#8b5cf6','#06b6d4','#f97316','#ec4899','#14b8a6','#6366f1','#84cc16','#e11d48','#0ea5e9','#a855f7','#22c55e','#eab308','#dc2626','#7c3aed'];
+const DAY_MS=24*60*60*1000;
 
 function pCountry(hq){if(!hq?.trim())return'Unknown';const p=hq.replace(/"/g,'').split(',').map(s=>s.trim());if(p.length<2)return'Unknown';const l=p[p.length-1];if(USS[l]||(l.length===2&&/^[A-Z]{2}$/.test(l)))return'United States';return l||'Unknown';}
 function pYear(d){if(!d)return null;let m=d.match(/(\d{1,2})-(\w{3})-(\d{4})/);if(m)return+m[3];m=d.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);if(m)return+m[3];m=d.match(/(\d{4})-(\d{1,2})-(\d{1,2})/);if(m)return+m[1];return null;}
 function pSize(r){const v=r['Deal Size']||r['Deal Value']||'';if(!v)return null;const n=parseFloat(v.toString().replace(/[^0-9.-]/g,''));return isNaN(n)?null:n;}
 const normCode=v=>(v||'').toString().replace(/\r/g,'').trim().replace(/^"(.*)"$/,'$1').replace(/\*/g,'');
+const companyKey=v=>(v||'').toString().trim().toLowerCase();
 function gCat(row,level,mp){const nm=row['Companies']||'';if(COVR[nm])return COVR[nm];if(/rivian/i.test(nm))return'Logistics & Transportation';if(CYBER.has(nm))return'Cybersecurity';if(level==='custom')return mp[normCode(row['Primary Industry Code'])||'Unknown']||'Unmapped';const f=level==='sector'?'Primary Industry Sector':level==='group'?'Primary Industry Group':'Primary Industry Code';return row[f]||'Unknown';}
 function gName(r){return r['Companies']||r['Company Name']||'—';}
 function gHQ(r){return r['HQ Location']||r['Company HQ Location']||'—';}
@@ -22,10 +24,16 @@ function gAcq(r){return(r['Investors']||'').replace(/\([^()]*\)/g,'').replace(/\
 const fmt=n=>n!=null?`$${n.toLocaleString(undefined,{maximumFractionDigits:1})}M`:'—';
 const pNum=s=>{if(!s)return null;const n=parseFloat(s.toString().replace(/[^0-9.-]/g,''));return isNaN(n)?null:n;};
 const fmtFilterSize=v=>v>=1000?`$${(v/1000).toFixed(v>=10000?0:1)}B`:`$${Math.round(v)}M`;
+const fmtYears=v=>v!=null?`${v.toFixed(1)} yrs`:'—';
 const parseDealText=text=>{const lines=text.split('\n').filter(l=>l.trim());let hdrs=lines[0].split('\t').map(h=>h.trim().replace(/\r/g,'')),dlm='\t';if(hdrs.length===1){hdrs=lines[0].split(',').map(h=>h.trim().replace(/\r/g,''));dlm=',';}const clean=v=>{const s=(v??'').toString().trim().replace(/\r/g,'');return s.startsWith('"')&&s.endsWith('"')?s.slice(1,-1):s;};const parsed=lines.slice(1).map(line=>{const v=line.split(dlm);const o={};hdrs.forEach((h,i)=>{o[h]=clean(v[i]);});if(o['Primary Industry Code'])o['Primary Industry Code']=normCode(o['Primary Industry Code']);return o;});const codes=[...new Set(parsed.map(d=>d['Primary Industry Code']).filter(Boolean))].sort();return{parsed,hdrs,codes};};
+const parseCsv=text=>{const rows=[];let row=[],cell='',inQ=false;for(let i=0;i<text.length;i++){const ch=text[i],nx=text[i+1];if(ch==='"'){if(inQ&&nx==='"'){cell+='"';i++;}else inQ=!inQ;}else if(ch===','&&!inQ){row.push(cell);cell='';}else if((ch==='\n'||ch==='\r')&&!inQ){if(ch==='\r'&&nx==='\n')i++;row.push(cell);if(row.some(v=>v.trim()))rows.push(row);row=[];cell='';}else cell+=ch;}if(cell.length||row.length){row.push(cell);if(row.some(v=>v.trim()))rows.push(row);}return rows;};
+const parseFoundingText=text=>{const rows=parseCsv(text);if(!rows.length)return new Map();const hdrs=rows[0].map(h=>h.trim());const idx=Object.fromEntries(hdrs.map((h,i)=>[h,i]));const out=new Map();rows.slice(1).forEach(cols=>{const company=(cols[idx.company]||'').trim();if(!company)return;out.set(companyKey(company),{company,foundingDate:(cols[idx.founding_date]||'').trim(),source:(cols[idx.source]||'').trim(),confidence:(cols[idx.confidence]||'').trim(),notes:(cols[idx.notes]||'').trim()});});return out;};
+function pDate(v){if(!v)return null;const s=v.toString().trim();let m=s.match(/^(\d{4})-(\d{2})-(\d{2})$/);if(m)return new Date(Date.UTC(+m[1],+m[2]-1,+m[3]));m=s.match(/^(\d{4})-(\d{2})$/);if(m)return new Date(Date.UTC(+m[1],+m[2]-1,1));m=s.match(/^(\d{4})$/);if(m)return new Date(Date.UTC(+m[1],0,1));m=s.match(/(\d{1,2})-(\w{3})-(\d{4})/);if(m)return new Date(`${m[1]} ${m[2]} ${m[3]} UTC`);m=s.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);if(m)return new Date(Date.UTC(+m[3],+m[1]-1,+m[2]));m=s.match(/(\d{4})-(\d{1,2})-(\d{1,2})/);if(m)return new Date(Date.UTC(+m[1],+m[2]-1,+m[3]));return null;}
+const getFoundingRecord=(row,foundingMap)=>foundingMap.get(companyKey(gName(row)))||null;
+const pTimeToExit=(row,foundingMap)=>{const rec=getFoundingRecord(row,foundingMap);const start=pDate(rec?.foundingDate);const end=pDate(row['Deal Date']);if(!start||!end||end<start)return null;return Number((((end-start)/DAY_MS)/365.25).toFixed(2));};
 
-const DealDetail=({deal,onClose,customCategory})=>{
-  const fields=[['Category',customCategory],['Deal Type',deal['Deal Type']],['Deal Date',deal['Deal Date']],['Deal Size',fmt(pSize(deal))],['HQ',gHQ(deal)],['Employees',deal['Employees']],['Investors',deal['Investors']],['New Investors',deal['New Investors']],['Implied EV',fmt(pNum(deal['Implied EV']))],['Post Valuation',fmt(pNum(deal['Post Valuation']))],['Revenue',fmt(pNum(deal['Revenue']))],['EBITDA',fmt(pNum(deal['EBITDA']))],['Net Income',fmt(pNum(deal['Net Income']))],['Val/Revenue',pNum(deal['Valuation/Revenue'])?pNum(deal['Valuation/Revenue']).toFixed(1)+'x':null],['Val/EBITDA',pNum(deal['Valuation/EBITDA'])?pNum(deal['Valuation/EBITDA']).toFixed(1)+'x':null],['Raised to Date',fmt(pNum(deal['Raised to Date']))],['Industries',deal['All Industries']],['Verticals',deal['Verticals']],['Keywords',deal['Keywords']]];
+const DealDetail=({deal,onClose,customCategory,foundingRecord,timeToExit})=>{
+  const fields=[['Category',customCategory],['Deal Type',deal['Deal Type']],['Deal Date',deal['Deal Date']],['Founded',foundingRecord?.foundingDate],['Time to Exit',fmtYears(timeToExit)],['Founding Source',foundingRecord?.source],['Confidence',foundingRecord?.confidence],['Deal Size',fmt(pSize(deal))],['HQ',gHQ(deal)],['Employees',deal['Employees']],['Investors',deal['Investors']],['New Investors',deal['New Investors']],['Implied EV',fmt(pNum(deal['Implied EV']))],['Post Valuation',fmt(pNum(deal['Post Valuation']))],['Revenue',fmt(pNum(deal['Revenue']))],['EBITDA',fmt(pNum(deal['EBITDA']))],['Net Income',fmt(pNum(deal['Net Income']))],['Val/Revenue',pNum(deal['Valuation/Revenue'])?pNum(deal['Valuation/Revenue']).toFixed(1)+'x':null],['Val/EBITDA',pNum(deal['Valuation/EBITDA'])?pNum(deal['Valuation/EBITDA']).toFixed(1)+'x':null],['Raised to Date',fmt(pNum(deal['Raised to Date']))],['Industries',deal['All Industries']],['Verticals',deal['Verticals']],['Keywords',deal['Keywords']],['Founding Notes',foundingRecord?.notes]];
   return(<div style={{background:'#f8fafc',border:'1px solid #e2e8f0',borderRadius:8,padding:12,marginBottom:8}}>
     <div style={{display:'flex',justifyContent:'space-between',marginBottom:8}}><h4 style={{fontSize:14,fontWeight:700}}>{gName(deal)}</h4><button onClick={onClose} style={{background:'none',border:'none',cursor:'pointer',color:'#94a3b8',fontSize:16}}>×</button></div>
     <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:6}}>{fields.map(([l,v])=>v&&v!=='—'&&!String(v).includes('NaN')?<div key={l} style={{fontSize:11}}><span style={{color:'#64748b',fontWeight:500}}>{l}: </span><span style={{color:'#1e293b'}}>{v}</span></div>:null)}</div>
@@ -42,6 +50,7 @@ const DollarTooltip=({active,payload,label})=>{
 
 const ExitDashboard=()=>{
   const [data,setData]=useState([]);
+  const [foundingMap,setFoundingMap]=useState(new Map());
   const [catLevel,setCatLevel]=useState('custom');
   const [exitType,setExitType]=useState('all');
   const [debugInfo,setDebugInfo]=useState(null);
@@ -60,6 +69,8 @@ const ExitDashboard=()=>{
   const [endYr,setEndYr]=useState('2025');
   const [dealMin,setDealMin]=useState(null);
   const [dealMax,setDealMax]=useState(null);
+  const [timeToExitMin,setTimeToExitMin]=useState('');
+  const [timeToExitMax,setTimeToExitMax]=useState('');
   const [locFilter,setLocFilter]=useState('all');
   const [catFilter,setCatFilter]=useState('all');
   const [showClear,setShowClear]=useState(false);
@@ -68,9 +79,9 @@ const ExitDashboard=()=>{
   const [isBootLoading,setIsBootLoading]=useState(true);
   const [bootErr,setBootErr]=useState('');
 
-  useEffect(()=>{let on=true;(async()=>{try{const r=await fetch('/VC_Exits_21-26_deal_data.txt');if(!r.ok)throw new Error(`HTTP ${r.status}`);const text=await r.text();const {parsed,hdrs,codes}=parseDealText(text);if(!on)return;setAllCodes(codes);setDebugInfo({totalRows:parsed.length,cols:hdrs.length});setData(parsed);}catch(e){if(on)setBootErr('Default dataset failed to load. You can still upload manually.');}finally{if(on)setIsBootLoading(false);}})();return()=>{on=false;};},[]);
+  useEffect(()=>{let on=true;(async()=>{try{const [dealResp,foundingResp]=await Promise.all([fetch('/VC_Exits_21-26_deal_data.txt'),fetch('/company_founding_dates.csv')]);if(!dealResp.ok)throw new Error(`HTTP ${dealResp.status}`);const text=await dealResp.text();const {parsed,hdrs,codes}=parseDealText(text);if(!on)return;setAllCodes(codes);setDebugInfo({totalRows:parsed.length,cols:hdrs.length});setData(parsed);if(foundingResp.ok){const foundingText=await foundingResp.text();if(on)setFoundingMap(parseFoundingText(foundingText));}}catch(e){if(on)setBootErr('Default dataset failed to load. You can still upload manually.');}finally{if(on)setIsBootLoading(false);}})();return()=>{on=false;};},[]);
 
-  const scopedForSize=useMemo(()=>{
+  const scopedBase=useMemo(()=>{
     if(!data.length)return[];const s=+startYr,e=+endYr;
     return data.filter(d=>{
       const y=pYear(d['Deal Date']);if(y!==null&&(y<s||y>e))return false;
@@ -82,24 +93,33 @@ const ExitDashboard=()=>{
     });
   },[data,startYr,endYr,exitType,locFilter,catFilter,catLevel,catMap]);
   const dealSizeBounds=useMemo(()=>{
-    const vals=scopedForSize.map(pSize).filter(v=>v!==null);
+    const vals=scopedBase.map(pSize).filter(v=>v!==null);
     if(!vals.length)return null;
     return{min:Math.floor(Math.min(...vals)),max:Math.ceil(Math.max(...vals))};
-  },[scopedForSize]);
+  },[scopedBase]);
+  const timeToExitBounds=useMemo(()=>{
+    const vals=scopedBase.map(d=>pTimeToExit(d,foundingMap)).filter(v=>v!==null);
+    if(!vals.length)return null;
+    return{min:Number(Math.min(...vals).toFixed(1)),max:Number(Math.max(...vals).toFixed(1)),count:vals.length};
+  },[scopedBase,foundingMap]);
   const effDealMin=dealMin??dealSizeBounds?.min??0;
   const effDealMax=dealMax??dealSizeBounds?.max??0;
+  const hasTimeToExitFilter=timeToExitMin!==''||timeToExitMax!=='';
+  const effTimeToExitMin=timeToExitMin===''?timeToExitBounds?.min??null:Number(timeToExitMin);
+  const effTimeToExitMax=timeToExitMax===''?timeToExitBounds?.max??null:Number(timeToExitMax);
   useEffect(()=>{
     if(!dealSizeBounds)return;
     setDealMin(v=>v===null?dealSizeBounds.min:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
     setDealMax(v=>v===null?dealSizeBounds.max:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
   },[dealSizeBounds]);
 
-  const filtered=useMemo(()=>scopedForSize.filter(d=>{const sz=pSize(d);return sz!==null&&sz>=effDealMin&&sz<=effDealMax;}),[scopedForSize,effDealMin,effDealMax]);
+  const filtered=useMemo(()=>scopedBase.filter(d=>{const sz=pSize(d);if(sz===null||sz<effDealMin||sz>effDealMax)return false;if(!hasTimeToExitFilter)return true;const t=pTimeToExit(d,foundingMap);if(t===null)return false;if(effTimeToExitMin!==null&&t<effTimeToExitMin)return false;if(effTimeToExitMax!==null&&t>effTimeToExitMax)return false;return true;}),[scopedBase,effDealMin,effDealMax,hasTimeToExitFilter,effTimeToExitMin,effTimeToExitMax,foundingMap]);
 
   const allByYr=useMemo(()=>{if(!data.length)return[];const s=+startYr,e=+endYr;return data.filter(d=>{const y=pYear(d['Deal Date']);return y===null||(y>=s&&y<=e);});},[data,startYr,endYr]);
   const avCountries=useMemo(()=>{const c={};data.forEach(d=>{const co=pCountry(gHQ(d));if(co&&co!=='Unknown')c[co]=(c[co]||0)+1;});return Object.entries(c).sort((a,b)=>b[1]-a[1]);},[data]);
   const avRegions=useMemo(()=>{const r={};avCountries.forEach(([c])=>{const reg=RM[c]||'Other';r[reg]=(r[reg]||0)+1;});return Object.entries(r).sort((a,b)=>b[1]-a[1]);},[avCountries]);
   const avCats=useMemo(()=>{const c={};allByYr.forEach(d=>{const cat=gCat(d,catLevel,catMap);c[cat]=(c[cat]||0)+1;});return Object.entries(c).sort((a,b)=>b[1]-a[1]);},[allByYr,catLevel,catMap]);
+  const foundingCoverage=useMemo(()=>{const total=scopedBase.length;const covered=scopedBase.filter(d=>pTimeToExit(d,foundingMap)!==null).length;return{total,covered,pct:total?covered/total*100:0};},[scopedBase,foundingMap]);
 
   const stats=useMemo(()=>{
     const total=filtered.length;
@@ -266,7 +286,7 @@ const ExitDashboard=()=>{
               :<span style={{display:'flex',gap:4,alignItems:'center'}}><button onClick={()=>{setCatMap({});setCustCats([]);setShowClear(false);}} style={{background:'#dc2626',color:'white',padding:'4px 8px',borderRadius:4,border:'none',cursor:'pointer',fontSize:11}}>Yes</button><button onClick={()=>setShowClear(false)} style={{background:'#9ca3af',color:'white',padding:'4px 8px',borderRadius:4,border:'none',cursor:'pointer',fontSize:11}}>No</button></span>}
             </div>
           </div>
-          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr 1fr 1fr 1fr',gap:12}}>
+          <div style={{display:'grid',gridTemplateColumns:'repeat(7,minmax(0,1fr))',gap:12}}>
             <div>
               <label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Time: {startYr} – {endYr}</label>
               <div style={{position:'relative',height:32,display:'flex',alignItems:'center'}}>
@@ -285,6 +305,18 @@ const ExitDashboard=()=>{
                 <button onClick={()=>{if(dealSizeBounds){setDealMin(dealSizeBounds.min);setDealMax(dealSizeBounds.max);}}} disabled={!dealSizeBounds} style={{background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:11,cursor:'pointer'}}>Reset</button>
               </div>
               <div style={{fontSize:10,color:'#9ca3af',marginTop:4}}>Available in current scope: {fmtFilterSize(dealSizeBounds?.min??0)} – {fmtFilterSize(dealSizeBounds?.max??0)}</div>
+            </div>
+            <div>
+              <label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Time to Exit (Years)</label>
+              <div style={{display:'flex',gap:6}}>
+                <input type="number" min={timeToExitBounds?.min??0} max={effTimeToExitMax??timeToExitBounds?.max??50} step="0.1" value={timeToExitMin} onChange={e=>setTimeToExitMin(e.target.value)} disabled={!timeToExitBounds} placeholder="Min" style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
+                <input type="number" min={effTimeToExitMin??timeToExitBounds?.min??0} max={timeToExitBounds?.max??50} step="0.1" value={timeToExitMax} onChange={e=>setTimeToExitMax(e.target.value)} disabled={!timeToExitBounds} placeholder="Max" style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
+                <button onClick={()=>{setTimeToExitMin('');setTimeToExitMax('');}} disabled={!hasTimeToExitFilter} style={{background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:11,cursor:'pointer'}}>Reset</button>
+              </div>
+              <div style={{fontSize:10,color:'#9ca3af',marginTop:4}}>
+                Verified coverage: {foundingCoverage.covered}/{foundingCoverage.total} ({foundingCoverage.pct.toFixed(0)}%)
+                {timeToExitBounds&&` · Range ${timeToExitBounds.min.toFixed(1)}-${timeToExitBounds.max.toFixed(1)} yrs`}
+              </div>
             </div>
             <div><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Location</label>
               <select value={locFilter} onChange={e=>setLocFilter(e.target.value)} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
@@ -456,7 +488,7 @@ const ExitDashboard=()=>{
                   <td style={{padding:'6px 10px',fontSize:12,fontWeight:600,textAlign:'right'}}>{fmt(d._s)}</td>
                   <td style={{padding:'6px 10px',fontSize:12,color:'#6b7280'}}>{gHQ(d)}</td>
                 </tr>
-                {expTop10===i&&<tr><td colSpan={7} style={{padding:'4px 10px'}}><DealDetail deal={d} customCategory={gCat(d,'custom',catMap)} onClose={()=>setExpTop10(null)}/></td></tr>}
+                  {expTop10===i&&<tr><td colSpan={7} style={{padding:'4px 10px'}}><DealDetail deal={d} customCategory={gCat(d,'custom',catMap)} foundingRecord={getFoundingRecord(d,foundingMap)} timeToExit={pTimeToExit(d,foundingMap)} onClose={()=>setExpTop10(null)}/></td></tr>}
               </React.Fragment>)}</tbody>
             </table>
           </div>
@@ -531,7 +563,7 @@ const ExitDashboard=()=>{
                       <div style={{fontSize:10,color:'#64748b'}}>{gCat(d,'custom',catMap)}</div>
                     </button>)}
                   </div>
-                  {expDeal!==null&&top5[expDeal]&&<DealDetail deal={top5[expDeal]} customCategory={gCat(top5[expDeal],'custom',catMap)} onClose={()=>setExpDeal(null)}/>}
+                  {expDeal!==null&&top5[expDeal]&&<DealDetail deal={top5[expDeal]} customCategory={gCat(top5[expDeal],'custom',catMap)} foundingRecord={getFoundingRecord(top5[expDeal],foundingMap)} timeToExit={pTimeToExit(top5[expDeal],foundingMap)} onClose={()=>setExpDeal(null)}/>}
                 </div>);
               })()}
               {(()=>{
@@ -550,13 +582,14 @@ const ExitDashboard=()=>{
               <h3 style={{fontSize:13,fontWeight:600,color:'#374151',marginBottom:8}}>All Companies</h3>
               <table style={{width:'100%',borderCollapse:'collapse'}}>
                 <thead style={{position:'sticky',top:0,backgroundColor:'white'}}><tr style={{borderBottom:'2px solid #e5e7eb'}}>
-                  {['Company','Category','Date','Type','Size ($M)','HQ'].map(h=><th key={h} style={{textAlign:h.includes('Size')?'right':'left',padding:'8px 6px',fontSize:11,fontWeight:600}}>{h}</th>)}
+                  {['Company','Category','Date','Type','Time to Exit','Size ($M)','HQ'].map(h=><th key={h} style={{textAlign:h.includes('Size')?'right':'left',padding:'8px 6px',fontSize:11,fontWeight:600}}>{h}</th>)}
                 </tr></thead>
                 <tbody>{selCat.companies.map((c,i)=>{const s=pSize(c);return<tr key={i} style={{borderBottom:'1px solid #f3f4f6'}}>
                   <td style={{padding:'5px 6px',fontSize:11,fontWeight:500}}>{gName(c)}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#475569'}}>{gCat(c,'custom',catMap)}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{c['Deal Date']||'—'}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{c['Deal Type']||'—'}</td>
+                  <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{fmtYears(pTimeToExit(c,foundingMap))}</td>
                   <td style={{padding:'5px 6px',fontSize:11,textAlign:'right'}}>{s!==null?fmt(s):'—'}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{gHQ(c)}</td>
                 </tr>;})}</tbody>
