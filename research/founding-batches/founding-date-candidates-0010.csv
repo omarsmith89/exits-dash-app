@@ -1,0 +1,11 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+3DEO,12-Nov-2025,Merger/Acquisition,"""Belfast, United Kingdom""",3deo,,Wikidata,NONE,45,NO_MATCH,Q104193318,3deoxyadenosine,hq=united kingdom; desc=group of stereoisomers with the chemical formula C₁₀H₁₃N₅O₃
+3iQ,23-Apr-2024,Merger/Acquisition,"""Toronto, Canada""",3iq,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+3radical,03-May-2024,Merger/Acquisition,"""Bristol, United Kingdom""",3radical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+401kplans.com,31-May-2022,Merger/Acquisition,"""Naples, FL""",401kplanscom,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+42matters,01-Jul-2024,Merger/Acquisition,"""Zurich, Switzerland""",42matters,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+4U By Tia,02-Dec-2023,Merger/Acquisition,"""Emeryville, CA""",4u by tia,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+5th Planet Games (OSL: 5PG),23-Sep-2021,Merger/Acquisition,"""Copenhagen, Denmark""",5th planet games,,Wikidata,NONE,45,NO_MATCH,Q115167217,5TH PLANET GAMES A/S,hq=denmark
+60 Degrees Pharma (NAS: SXTP),13-Jul-2023,IPO,"""Washington, DC""",60 degrees pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+7D Surgical,20-May-2021,Merger/Acquisition,"""Toronto, Canada""",7d surgical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+8 Rivers,07-Mar-2023,Merger/Acquisition,"""Durham, NC""",8 rivers,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30297129|Q26896247|Q126704828.json

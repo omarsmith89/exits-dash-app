@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Hprobe,13-Mar-2025,Merger/Acquisition,"""Eybens, France""",hprobe,2017-03-27,Wikidata,MEDIUM,70,REVIEW,Q131636172,Hprobe,hq=france
+Hu,04-Jan-2021,Merger/Acquisition,"""New York, NY""",hu,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q28|Q9067|Q53464|Q8686|Q6900.json
+HUB Organoids,23-Dec-2024,Merger/Acquisition,"""Utrecht, Netherlands""",hub organoids,,Wikidata,NONE,45,NO_MATCH,Q110741789,"HUB Organoids™ improve pre-clinical toxicology, metabolism, and pharmacokinetic studies for drug discovery and development",hq=netherlands; desc=scientific article
+Hubbster Group,10-Mar-2022,IPO,"""Stockholm, Sweden""",hubbster,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hubs (New York),22-Jan-2021,Merger/Acquisition,"""Amsterdam, Netherlands""",hubs (new york),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HubTran,01-Jun-2021,Merger/Acquisition,"""Chicago, IL""",hubtran,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Humacyte Global (NAS: HUMA),26-Aug-2021,Reverse Merger,"""Durham, NC""",humacyte global,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Human Data Sciences,21-May-2024,Merger/Acquisition,"""Cardiff, United Kingdom""",human data sciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Humane,18-Feb-2025,Merger/Acquisition,"""San Francisco, CA""",humane,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12767209|Q31416159|Q2512884|Q51626166|Q24011181.json
+HumanFirst (Pharmaceuticals and Biotechnology),09-Jan-2024,Merger/Acquisition,"""San Francisco, CA""",humanfirst (pharmaceuticals and biotechnology),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Humanigen,14-Feb-2024,Merger/Acquisition,"""Short Hills, NJ""",humanigen,2000,Wikidata,LOW,45,REVIEW,Q104480817,Humanigen (United States),"hq=united states; desc=company in Burlingame, United States"
+Humi (Business/Productivity Softwar),08-Jan-2025,Merger/Acquisition,"""Toronto, Canada""",humi (business/productivity softwar),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Humio,05-Mar-2021,Merger/Acquisition,"""London, United Kingdom""",humio,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q58351867|Q5495088|Q133758266.json
+Hurel,15-Sep-2021,Merger/Acquisition,"""North Brunswick Township, NJ""",hurel,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q23774788|Q86817976|Q97226252|Q6484998|Q20677635.json
+Hutano Diagnostics,02-Oct-2023,Merger/Acquisition,"""Oxford, United Kingdom""",hutano diagnostics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HUUB (Logistics),01-Sep-2021,Merger/Acquisition,"""Matosinhos, Portugal""",huub (logistics),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Huuuge (WAR: HUG),19-Feb-2021,IPO,"""Dover, DE""",huuuge,2002-00-00,Wikidata,LOW,45,REVIEW,Q110386561,Huuuge Games,hq=united states; desc=American company
+Hybrid Power Solutions (CNQ: HPSS),01-Dec-2023,IPO,"""Etobicoke, Canada""",hybrid power solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hybrid Theory,10-Nov-2022,Merger/Acquisition,"""London, United Kingdom""",hybrid theory,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q19862|Q19997|Q261|Q130473901|Q98406790.json
+Hydralyte (ASX: HPC),14-Dec-2021,IPO,"""La Jolla, CA""",hydralyte,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HYDY(San Francisco),29-Aug-2024,Merger/Acquisition,"""San Francisco, CA""",hydy(san francisco),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hype (California),14-May-2024,Merger/Acquisition,"""Covina, CA""",hype (california),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hyperfine (NAS: HYPR),22-Dec-2021,Reverse Merger,"""Guilford, CT""",hyperfine,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q107010388|Q15760130|Q105047321|Q1413102|Q59547533.json
+Hypur,01-Apr-2023,Merger/Acquisition,"""Phoenix, AZ""",hypur,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q14923408|Q21216134|Q21276277|Q1393463|Q60743355.json
+Hyzon Fuel Cell,16-Jul-2021,Reverse Merger,"""Bolingbrook, IL""",hyzon fuel cell,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+i2O Water,14-Jun-2021,Merger/Acquisition,"""Southampton, United Kingdom""",i2o water,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+iAsesoria,31-May-2022,Merger/Acquisition,"""Madrid, Spain""",iasesoria,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ibotta (NYS: IBTA),18-Apr-2024,IPO,"""Denver, CO""",ibotta,2011-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q28133993,Ibotta,"hq=united states; aliases=Ibotta, Inc.; desc=marketing company"
+IC'Alps,04-Aug-2025,Merger/Acquisition,"""Grenoble, France""",icalps,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Icosavax,29-Jul-2021,IPO,"""Seattle, WA""",icosavax,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ID Quantique,30-Apr-2025,Merger/Acquisition,"""Geneva, Switzerland""",id quantique,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5986868|Q111522245.json
+ID R&D,28-May-2021,Merger/Acquisition,"""New York, NY""",id r and d,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Identified Technologies,20-Oct-2021,Merger/Acquisition,"""Pittsburgh, PA""",identified technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Identify3D,01-Sep-2022,Merger/Acquisition,"""San Francisco, CA""",identify3d,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IDRx,24-Feb-2025,Merger/Acquisition,"""Plymouth, MA""",idrx,,Wikidata,NONE,45,NO_MATCH,Q131926975,IDRX-42,hq=united states; desc=possible gastrointestinal tumour drug
+Ieso,20-Aug-2025,Merger/Acquisition,"""Cambridge, United Kingdom""",ieso,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q35581|Q108843389|Q2657439|Q47952825|Q104626052.json
+iGenomX,14-Jun-2021,Merger/Acquisition,"""San Francisco, CA""",igenomx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Igloo (Alternative Energy Equipment),02-Dec-2022,Merger/Acquisition,"""Southampton, United Kingdom""",igloo (alternative energy equipment),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ignis Technologies,12-Sep-2023,Merger/Acquisition,"""Bozeman, MT""",ignis technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ignium,14-Feb-2023,Merger/Acquisition,"""Tallinn, Estonia""",ignium,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ikena Oncology,26-Mar-2021,IPO,"""Boston, MA""",ikena oncology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IKS Health (NSE: IKS),19-Dec-2024,IPO,"""Coppell, TX""",iks health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+iLearningEngines,16-Apr-2024,Reverse Merger,"""Bethesda, MD""",ilearningengines,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ilegal Mezcal,01-Sep-2023,Merger/Acquisition,"""New York, NY""",ilegal mezcal,,Wikidata,NONE,70,NO_MATCH,Q124367047,Ilegal Mezcal,hq=united states; desc=brand of Mezcal (Liquor/Spirit)
+IllumiCare,13-Jun-2025,Merger/Acquisition,"""Vestavia, AL""",illumicare,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Illuria,20-Dec-2021,Merger/Acquisition,"""Wilmington, DE""",illuria,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ImageneBio (NAS: IMA),25-Jul-2025,Reverse Merger,"""San Diego, CA""",imagenebio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Imagineoptix,17-Dec-2021,Merger/Acquisition,"""Durham, NC""",imagineoptix,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Imago BioSciences,09-Jul-2021,IPO,"""Redwood City, CA""",imago biosciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Imara,23-Feb-2023,Merger/Acquisition,"""Boston, MA""",imara,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q6003381|Q4303265|Q189898|Q86685217|Q1943193.json

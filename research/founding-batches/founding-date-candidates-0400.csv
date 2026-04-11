@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Bison Trails,18-Jan-2021,Merger/Acquisition,"""New York, NY""",bison trails,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q58833456|Q59263223|Q59263222.json
+Bit Discovery,01-Jun-2022,Merger/Acquisition,"""Santa Clara, CA""",bit discovery,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BitGo (NYS: BTGO),22-Jan-2026,IPO,"""Palo Alto, CA""",bitgo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q37178586|Q22077752|Q137779124|Q12599549|Q43117725.json
+Bitstamp,02-Jun-2025,Merger/Acquisition,"""London, United Kingdom""",bitstamp,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16971589|Q137779179|Q42073353.json
+BiVictrix Therapeutics,11-Aug-2021,IPO,"""Alderley Edge, United Kingdom""",bivictrix therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bizdirect,01-Jun-2021,Merger/Acquisition,"""Lisbon, Portugal""",bizdirect,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BizSecure,12-Feb-2022,Merger/Acquisition,"""San Diego, CA""",bizsecure,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blackbird (Business/Productivity Software),08-Jun-2021,Merger/Acquisition,"""Oakland, CA""",blackbird (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BlackBox Biometrics,17-May-2021,Merger/Acquisition,"""Rochester, NY""",blackbox biometrics,2011,Wikidata,LOW,45,REVIEW,Q61934653,BlackBox Biometrics (United States),"hq=united states; aliases=B3; desc=company in Rochester, United States"
+BlackHorse Solutions,06-Jul-2021,Merger/Acquisition,"""Herndon, VA""",blackhorse solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blackrock Neurotech,29-Apr-2024,Buyout/LBO,"""Salt Lake City, UT""",blackrock neurotech,,Wikidata,NONE,70,NO_MATCH,Q136757019,Blackrock Neurotech,hq=united states
+BlackSignal,16-Aug-2024,Merger/Acquisition,"""Chantilly, VA""",blacksignal,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BlackSky Technology (NYS: BKSY),08-Sep-2021,Reverse Merger,"""Herndon, VA""",blacksky technology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BlackSwan Vascular,24-Apr-2023,Merger/Acquisition,"""Hayward, CA""",blackswan vascular,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blaize (NAS: BZAI),13-Jan-2025,Reverse Merger,"""El Dorado Hills, CA""",blaize,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16860077|Q16275046|Q65098273|Q1532683|Q125121581.json
+Blend Labs (NYS: BLND),16-Jul-2021,IPO,"""San Francisco, CA""",blend labs,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BlinkLab (ASX: BB1),02-Apr-2024,IPO,"""Princeton, NJ""",blinklab,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Block Mining,23-Jul-2024,Merger/Acquisition,"""Chicago, IL""",block mining,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blockchain Moon Acquisition,19-Oct-2021,IPO,"""Jacksonville, FL""",blockchain moon acquisition,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BlockX Capital,25-Sep-2024,Merger/Acquisition,"""Vancouver, Canada""",blockx capital,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bloom Farms,19-Aug-2022,Merger/Acquisition,"""Alameda, CA""",bloom farms,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bloomia,22-Feb-2024,Merger/Acquisition,"""King George, VA""",bloomia,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BluBracket,02-Jun-2023,Merger/Acquisition,"""Palo Alto, CA""",blubracket,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blue Apron,13-Nov-2023,Merger/Acquisition,"""New York, NY""",blue apron,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q26913624|Q114686170|Q114686583.json
+Blue Hexagon,04-Oct-2022,Merger/Acquisition,"""Sunnyvale, CA""",blue hexagon,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blue Ocean Robotics,11-Feb-2025,Merger/Acquisition,"""Odense, Denmark""",blue ocean robotics,2021-12,Wikidata,LOW,0,REVIEW,Q134635079,Blue Océan Robotics Aps,hq=denmark
+Blue Pillar,03-Oct-2022,Merger/Acquisition,"""Indianapolis, IN""",blue pillar,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blue Run Spirits,07-Aug-2023,Merger/Acquisition,"""Georgetown, KY""",blue run spirits,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blue Water Financial Technologies,22-Sep-2022,Merger/Acquisition,"""Deephaven, MN""",blue water financial technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bluedot (Business/Productivity Software),09-Jan-2024,Merger/Acquisition,"""San Francisco, CA""",bluedot (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bluegrass Vascular Technologies,02-May-2023,Merger/Acquisition,"""San Antonio, TX""",bluegrass vascular technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bluejay Diagnostics (NAS: BJDX),10-Nov-2021,IPO,"""Acton, MA""",bluejay diagnostics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bluejay Therapeutics,26-Jan-2026,Merger/Acquisition,"""Redwood City, CA""",bluejay therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Blueprint Medicines,18-Jul-2025,Merger/Acquisition,"""Cambridge, MA""",blueprint medicines,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q56582970|Q132100133|Q126879147.json
+BlueRibbon,01-Apr-2021,Merger/Acquisition,"""Ta'Xbiex, Malta""",blueribbon,1982,Wikidata,LOW,0,REVIEW,Q6971043,National Blue Ribbon Schools Program,hq=malta; aliases=National Blue Ribbon Award; desc=school excellence award in the United States
+Boa Concept (PAR: ALBOA),29-Jun-2021,IPO,"""Saint-�tienne, France""",boa concept,2012-06,Wikidata,MEDIUM,70,REVIEW,Q131642042,Boa Concept,hq=france
+BodySano,29-Dec-2022,Merger/Acquisition,"""Antibes, France""",bodysano,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Boku Identity,01-Feb-2022,Merger/Acquisition,"""San Jose, CA""",boku identity,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bolder Surgical,29-Nov-2021,Merger/Acquisition,"""Louisville, CO""",bolder surgical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Boleron (XBUL: BLRN),15-Feb-2024,IPO,"""Sofia, Bulgaria""",boleron,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q2909541|Q34396253.json
+Bollinger Motors,07-Sep-2022,Merger/Acquisition,"""Oak Park, MI""",bollinger motors,,Wikidata,NONE,70,NO_MATCH,Q96185213,Bollinger Motors,hq=united states; desc=electric car manufacturer
+Bolt Biotherapeutics (NAS: BOLT),05-Feb-2021,IPO,"""Redwood City, CA""",bolt biotherapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bolt Medical,01-Apr-2025,Merger/Acquisition,"""Carlsbad, CA""",bolt medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bonzun (STO: PADEL),13-Oct-2021,Reverse Merger,"""Stockholm, Sweden""",bonzun,,Wikidata,NONE,70,NO_MATCH,Q23044676,Bonzun,hq=sweden; desc=pregnant women information bank
+Boomf,14-Jan-2022,Merger/Acquisition,"""London, United Kingdom""",boomf,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q20876035|Q83342555|Q109078092|Q87009973|Q133041269.json
+Boost Mobile,02-Dec-2024,Merger/Acquisition,"""Irvine, CA""",boost mobile,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q51263919|Q4943790|Q110263804|Q22021887|Q3143407.json
+Borqs Technologies,08-Apr-2025,Merger/Acquisition,"""Santa Clara, CA""",borqs technologies,2007-09-00,Wikidata,MEDIUM,65,REVIEW,Q11078578,Borqs,hq=united states; aliases=Borqs Beijing|Borqs Technologies Inc.; desc=developer of IoT products and solutions
+Bossa Studios,26-Aug-2022,Merger/Acquisition,"""London, United Kingdom""",bossa studios,2010-10-00,Wikidata,HIGH,90,LIKELY_MATCH,Q4947547,Bossa Studios,"hq=united kingdom; aliases=Bossa Studios Ltd.; desc=video game developer and publisher based in London, UK"
+Bouncer(Financial Software),14-May-2021,Merger/Acquisition,"""Oakland, CA""",bouncer(financial software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Boundless Bio (NAS: BOLD),28-Mar-2024,IPO,"""San Diego, CA""",boundless bio,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104481180|Q127204912.json

@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Desert Control (OSL: DSRT),14-Apr-2021,IPO,"""Sandnes, Norway""",desert control,,Wikidata,NONE,45,NO_MATCH,Q120141635,Desert control need to pacify the public firstly: An analysis of settlement sites in northern Shaanxi since Tang Dynasty,"hq=norway; desc=scholarly article in Journal of Arid Land Resources and Environment, no. 7, 2016"
+Desktop Metal,02-Apr-2025,Merger/Acquisition,"""Burlington, MA""",desktop metal,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q48800016|Q131634320.json
+Devolver Digital (LON: DEVO),04-Nov-2021,IPO,"""Austin, TX""",devolver digital,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5267669|Q115610401.json
+DeVoro Medical,21-Sep-2021,Merger/Acquisition,"""Fremont, CA""",devoro medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DFLabs,24-May-2021,Merger/Acquisition,"""Milan, Italy""",dflabs,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DG Innovate,08-Apr-2022,Reverse Merger,"""Manchester, United Kingdom""",dg innovate,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dharma Pharmaceuticals,01-Jul-2021,Merger/Acquisition,"""Abingdon, VA""",dharma pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Diagenode,01-Mar-2021,Merger/Acquisition,"""Seraing, Belgium""",diagenode,2003,Wikidata,LOW,45,REVIEW,Q30254375,Diagenode (Belgium),"hq=belgium; desc=company in Seraing, Belgium"
+DialogTech,24-May-2021,Merger/Acquisition,"""Chicago, IL""",dialogtech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dialogue Health Technologies,30-Mar-2021,IPO,"""Montreal, Canada""",dialogue health technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Diamond Fortress Technologies,30-Jul-2021,Merger/Acquisition,"""Birmingham, AL""",diamond fortress technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Diamond Whites Aligners,15-Feb-2023,Merger/Acquisition,"""London, United Kingdom""",diamond whites aligners,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dianomi (LON: DNM),24-May-2021,IPO,"""London, United Kingdom""",dianomi,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q99333588|Q64866292|Q118732268|Q134642411.json
+Dianthus Therapeutics (NAS: DNTH),11-Sep-2023,Reverse Merger,"""New York, NY""",dianthus therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DiaSpect Medical,30-Dec-2023,Merger/Acquisition,"""Sailauf, Germany""",diaspect medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DICE Therapeutics,15-Sep-2021,IPO,"""South San Francisco, CA""",dice therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dicerna Pharmaceuticals,28-Dec-2021,Merger/Acquisition,"""Lexington, MA""",dicerna pharmaceuticals,2007,Wikidata,LOW,45,REVIEW,Q30268905,Dicerna Pharmaceuticals (United States),"hq=united states; desc=company in Cambridge, United States"
+Diem Association,31-Jan-2022,Merger/Acquisition,"""Geneva, Switzerland""",diem association,2019-00-00,Wikidata,MEDIUM,65,REVIEW,Q64684932,Diem,hq=switzerland; aliases=Libra Project|GlobalCoin|Facebook Coin; desc=digital currency proposed by Meta Platforms
+Dig Security,05-Dec-2023,Merger/Acquisition,"""New York, NY""",dig security,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Digisure,31-Oct-2023,Merger/Acquisition,"""Oslo, Norway""",digisure,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Digit (Financial Software),22-Dec-2021,Merger/Acquisition,"""San Francisco, CA""",digit (financial software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Digital Asset Custody Company,10-Feb-2024,Merger/Acquisition,NJ,digital asset custody,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Digital Ignition (Georgia),22-Apr-2024,Merger/Acquisition,"""Alpharetta, GA""",digital ignition (georgia),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Digital Magics,01-Apr-2024,Merger/Acquisition,"""Milan, Italy""",digital magics,2003-00-00,Wikidata,MEDIUM,70,REVIEW,Q65131169,Digital Magics,hq=italy
+Digital Motors,31-May-2022,Merger/Acquisition,"""Irvine, CA""",digital motors,,Wikidata,NONE,70,NO_MATCH,Q60846151,Digital Motors,hq=united states; desc=English car manufacturer
+Digital Workforce Services (HEL: DWF),03-Dec-2021,IPO,"""Helsinki, Finland""",digital workforce services,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Digitalcrafts,02-Aug-2021,Merger/Acquisition,"""Atlanta, GA""",digitalcrafts,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DigitalOcean (NYS: DOCN),24-Mar-2021,IPO,"""New York, NY""",digitalocean,,Wikidata,ERROR,0,ERROR,,,Timeout after 15000ms
+DigitalOnUS,19-Apr-2021,Merger/Acquisition,"""San Jose, CA""",digitalonus,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Diligent Robotics,27-Jan-2026,Merger/Acquisition,"""Austin, TX""",diligent robotics,,Wikidata,NONE,70,NO_MATCH,Q116185071,Diligent Robotics,hq=united states; desc=American robotics company
+Direct Credit,23-Sep-2021,Merger/Acquisition,"""Moscow, Russia""",direct credit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Direktiv,17-Mar-2025,Merger/Acquisition,"""San Francisco, CA""",direktiv,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q326124|Q1665268|Q655020|Q12772763|Q3029439.json
+Disc Medicine (NAS: IRON),30-Dec-2022,Reverse Merger,"""Watertown, MA""",disc medicine,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DISCO (Austin) (NYS: LAW),21-Jul-2021,IPO,"""Austin, TX""",disco (austin),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Disior,10-Jan-2022,Merger/Acquisition,"""Helsinki, Finland""",disior,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Divvy Homes,10-Jan-2025,Merger/Acquisition,"""San Francisco, CA""",divvy homes,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DJS Antibodies,19-Oct-2022,Merger/Acquisition,"""Bicester, United Kingdom""",djs antibodies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dlaboratory Sweden (STO: DLAB),21-Apr-2021,IPO,"""Lund, Sweden""",dlaboratory sweden,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DocFox,20-Mar-2024,Merger/Acquisition,"""Miami, FL""",docfox,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DocGo (NAS: DCGO),05-Nov-2021,Reverse Merger,"""New York, NY""",docgo,,Wikidata,NONE,70,NO_MATCH,Q134311141,DocGo,hq=united states
+DocSend,22-Mar-2021,Merger/Acquisition,"""San Francisco, CA""",docsend,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Donde (Media and Information Services),20-Jul-2021,Merger/Acquisition,"""New York, NY""",donde (media and information services),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DonkeyRepublic Admin (CSE: DONKEY),25-May-2021,IPO,"""Copenhagen, Denmark""",donkeyrepublic admin,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Door2Door,24-Mar-2022,Merger/Acquisition,"""Berlin, Germany""",door2door,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dosh,10-Mar-2021,Merger/Acquisition,"""Bee Cave, TX""",dosh,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q37032526|Q921088|Q1204426|Q1250980|Q324637.json
+Dot Ai (NAS: DAIC),20-Jun-2025,Reverse Merger,"""Las Vegas, NV""",dot ai,1995-00-00,Wikidata,MEDIUM,65,REVIEW,Q40689,.ai,hq=united states; aliases=dot ai; desc=country code top-level domain for Anguilla
+DotEmu,30-Sep-2021,Merger/Acquisition,"""Paris, France""",dotemu,2007,Wikidata,MEDIUM,70,REVIEW,Q4037549,DotEmu,hq=france; aliases=DotEmu SAS.; desc=French video game developer and publisher
+Dotstay (MIL: DOT),29-Dec-2022,IPO,"""Milan, Italy""",dotstay,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Doximity (NYS: DOCS),24-Jun-2021,IPO,"""San Francisco, CA""",doximity,2011-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q5303699,Doximity,"hq=united states; aliases=Doximity Inc.; desc=company in San Mateo, United States"
+DrChrono,18-Nov-2021,Merger/Acquisition,"""Orlando, FL""",drchrono,2009-00-00,Wikidata,MEDIUM,70,REVIEW,Q5306192,drchrono,hq=united states; desc=company

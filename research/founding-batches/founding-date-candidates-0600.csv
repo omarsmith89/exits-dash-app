@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Chalk (Canada),02-May-2022,Merger/Acquisition,"""Kitchener, Canada""",chalk (canada),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Champion Health,06-May-2022,Merger/Acquisition,"""Sheffield, United Kingdom""",champion health,,Wikidata,NONE,45,NO_MATCH,Q74747424,Champion Healthcare to buy 13 hospitals from Humana,hq=united kingdom; desc=scientific article published on 01 July 1992
+Champion Health (Sweden),30-Sep-2021,Merger/Acquisition,"""Bastad, Sweden""",champion health (sweden),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chargeback (Salt Lake City),01-Nov-2021,Merger/Acquisition,"""Salt Lake City, UT""",chargeback (salt lake city),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ChargePoint (NYS: CHPT),26-Feb-2021,Reverse Merger,"""Campbell, CA""",chargepoint,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5176149|Q127690382|Q119727023|Q132737828|Q131890890.json
+Chartio,26-Feb-2021,Merger/Acquisition,"""San Francisco, CA""",chartio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Checkin.com Group (STO: CHECK),20-May-2021,IPO,"""Stockholm, Sweden""",checkincom,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Checkmate Pharmaceuticals,31-May-2022,Merger/Acquisition,"""Cambridge, MA""",checkmate pharmaceuticals,2015-00-00,Wikidata,MEDIUM,70,REVIEW,Q113503545,Checkmate Pharmaceuticals,hq=united states; desc=biopharmaceutical company
+Checkme,15-Jul-2024,Merger/Acquisition,"""Moscow, Russia""",checkme,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Checkmyguest,29-Jul-2024,Merger/Acquisition,"""Paris, France""",checkmyguest,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Checkout Charlie,18-Jul-2025,Merger/Acquisition,"""Berlin, Germany""",checkout charlie,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cheelcare,07-Jul-2025,Reverse Merger,"""Markham, Canada""",cheelcare,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ChemIntelligence,28-Jun-2022,Merger/Acquisition,"""Lyon, France""",chemintelligence,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CHEQ (Kirkland),01-Feb-2024,Merger/Acquisition,"""Kirkland, WA""",cheq (kirkland),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cherry Xtrfy,14-Dec-2022,Merger/Acquisition,"""Landskrona, Sweden""",cherry xtrfy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chevron Renewable Energy Group,13-Jun-2022,Merger/Acquisition,"""Ames, IA""",chevron renewable energy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Childs Farm,21-Mar-2022,Merger/Acquisition,"""Basingstoke, United Kingdom""",childs farm,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q26670419|Q26531739.json
+Chime Financial (NAS: CHYM),11-Jun-2025,IPO,"""San Francisco, CA""",chime financial,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chinook Therapeutics,11-Aug-2023,Merger/Acquisition,"""Seattle, WA""",chinook therapeutics,,Wikidata,NONE,90,NO_MATCH,Q112085469,Chinook Therapeutics,"hq=united states; aliases=Chinook Therapeutics, Inc.|Chinook; desc=business"
+Chorus.ai,12-Jul-2021,Merger/Acquisition,"""San Francisco, CA""",chorusai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chroma Medicine,04-Dec-2024,Merger/Acquisition,"""Boston, MA""",chroma medicine,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chronos Therapeutics,05-Apr-2024,Merger/Acquisition,"""Oxford, United Kingdom""",chronos therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chronosphere,29-Jan-2026,Merger/Acquisition,"""New York, NY""",chronosphere,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q31836926|Q110581844|Q92898445.json
+Cidara Therapeutics,07-Jan-2026,Merger/Acquisition,"""San Diego, CA""",cidara therapeutics,2013,Wikidata,MEDIUM,70,REVIEW,Q30268897,Cidara Therapeutics,"hq=united states; desc=company in San Diego, United States"
+CiiTECH,03-Apr-2023,Merger/Acquisition,"""London, United Kingdom""",ciitech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cinclus Pharma (STO: CINPHA),19-Jun-2024,IPO,"""Stockholm, Sweden""",cinclus pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CinCor Pharma,07-Jan-2022,IPO,"""Waltham, MA""",cincor pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cinis Fertilizer,21-Oct-2022,IPO,"""Lund, Sweden""",cinis fertilizer,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cipher ( Business/Productivity Software),31-Mar-2023,Merger/Acquisition,"""London, United Kingdom""",cipher ( business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Circle (NYS: CRCL),05-Jun-2025,IPO,"""New York, NY""",circle,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q2298308|Q17278|Q5121383|Q86744221|Q6346.json
+Circularis,03-Oct-2022,Merger/Acquisition,"""Oakland, CA""",circularis,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q59255371|Q2974146|Q16230780.json
+Circulomics,20-Jul-2021,Merger/Acquisition,"""Baltimore, MD""",circulomics,2009-04-21,Wikidata,LOW,45,REVIEW,Q30255570,Circulomics (United States),"hq=united states; desc=company in Baltimore, United States"
+Citizen Health,14-Sep-2021,Merger/Acquisition,"""San Francisco, CA""",citizen health,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q39416676|Q99552228|Q38460774.json
+Citymapper,15-Mar-2023,Merger/Acquisition,"""London, United Kingdom""",citymapper,2011-00-00,Wikidata,MEDIUM,70,REVIEW,Q23818238,Citymapper,hq=united kingdom; desc=Public transit mapping application
+Cityscoot,21-Feb-2024,Merger/Acquisition,"""Paris, France""",cityscoot,,Wikidata,NONE,70,NO_MATCH,Q60853295,Cityscoot,hq=france
+Civil Maps,15-Jun-2022,Merger/Acquisition,"""San Francisco, CA""",civil maps,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cizzle Biotechnology Holdings (LON: CIZ),26-Apr-2021,Reverse Merger,"""London, United Kingdom""",cizzle biotechnology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Clade Therapeutics,11-Apr-2024,Merger/Acquisition,"""Boston, MA""",clade therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Clairvoyant,16-Dec-2021,Merger/Acquisition,"""Chandler, AZ""",clairvoyant,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q133284973|Q30060441|Q7723249|Q52261860|Q19877087.json
+Clarabridge,01-Oct-2021,Merger/Acquisition,"""Reston, VA""",clarabridge,,Wikidata,NONE,70,NO_MATCH,Q104841020,Clarabridge,hq=united states; desc=American software company
+Clare (Other Hardware),08-Aug-2022,Merger/Acquisition,"""Sarasota, FL""",clare (other hardware),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Clarus R+D,01-Sep-2022,Merger/Acquisition,"""Columbus, OH""",clarus r+d,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Clarus Therapeutics,09-Sep-2021,Reverse Merger,"""Northbrook, IL""",clarus therapeutics,2003,Wikidata,LOW,45,REVIEW,Q30268910,Clarus Therapeutics (United States),"hq=united states; desc=company in Northbrook, United States"
+Class Collaborate,29-Jun-2022,Merger/Acquisition,"""Calgary, Canada""",class collaborate,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Clean Power Hydrogen (LON: CPH2),16-Feb-2022,IPO,"""Doncaster, United Kingdom""",clean power hydrogen,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cleana,31-Oct-2024,Merger/Acquisition,"""Boston, MA""",cleana,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q55696791|Q7834757|Q39045305|Q36878356|Q104259785.json
+Cleanlab,20-Jan-2026,Merger/Acquisition,"""San Francisco, CA""",cleanlab,,Wikidata,NONE,70,NO_MATCH,Q120634932,cleanlab,hq=united states; desc=Python library
+Cleanshelf,18-Mar-2021,Merger/Acquisition,"""San Francisco, CA""",cleanshelf,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cleaq,23-Oct-2024,Merger/Acquisition,"""Paris, France""",cleaq,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Clearbit,01-Dec-2023,Merger/Acquisition,"""San Francisco, CA""",clearbit,,Wikidata,NONE,70,NO_MATCH,Q107386924,clearbit,hq=united states; desc=Python library

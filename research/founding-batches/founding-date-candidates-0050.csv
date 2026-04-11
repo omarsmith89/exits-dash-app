@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Accusonus,10-Feb-2022,Merger/Acquisition,"""Lexington, MA""",accusonus,,Wikidata,NONE,90,NO_MATCH,Q48967121,Accusonus,"hq=united states; aliases=Accusonus, Inc; desc=Greek technology company"
+ACEA Therapeutics,01-Jun-2021,Merger/Acquisition,"""San Diego, CA""",acea therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acelyrin,05-May-2023,IPO,"""Agoura Hills, CA""",acelyrin,,Wikidata,NONE,70,NO_MATCH,Q134522677,Acelyrin,hq=united states; desc=biopharmaceutical company
+Acenta,24-Jan-2025,Reverse Merger,"""Stockholm, Sweden""",acenta,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q134464185|Q136351915.json
+Acera Surgical,23-Dec-2025,Merger/Acquisition,"""Saint Louis, MO""",acera surgical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aceyus,14-Aug-2023,Merger/Acquisition,"""Charlotte, NC""",aceyus,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Achilles Therapeutics (DUS: 698),31-Mar-2021,IPO,"""London, United Kingdom""",achilles therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aclarion (NAS: ACON),25-Apr-2022,IPO,"""Broomfield, CO""",aclarion,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acregreen,01-Apr-2023,Merger/Acquisition,"""Tipperary, Ireland""",acregreen,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acrivon Therapeutics (NAS: ACRV),15-Nov-2022,IPO,"""Watertown, MA""",acrivon therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acticor Biotech,01-Nov-2021,IPO,"""Paris, France""",acticor biotech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Action Face,04-Jun-2024,Merger/Acquisition,"""Berkeley, CA""",action face,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Action Network (Information Services (B2C)),28-May-2021,Merger/Acquisition,"""New York, NY""",action network (information services (b2c)),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ActiveQuote,08-Aug-2024,Merger/Acquisition,"""Cardiff, United Kingdom""",activequote,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Actuate Therapeutics (NAS: ACTU),12-Aug-2024,IPO,"""Fort Worth, TX""",actuate therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AcuFocus,17-Jan-2023,Merger/Acquisition,"""Irvine, CA""",acufocus,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104479894|Q35999779.json
+Acurx Pharmaceuticals (NAS: ACXP),25-Jun-2021,IPO,"""Staten Island, NY""",acurx pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acutrace,28-Mar-2023,Merger/Acquisition,"""Dublin, Ireland""",acutrace,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ACV Auctions (NYS: ACVA),24-Mar-2021,IPO,"""Buffalo, NY""",acv auctions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adagio Medical (NAS: ADGM),31-Jul-2024,Reverse Merger,"""Laguna Hills, CA""",adagio medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adamas One (PINX: JEWL),02-Dec-2022,IPO,"""Scottsdale, AZ""",adamas one,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adaptive Mobile Security,17-Jul-2021,Merger/Acquisition,"""Dublin, Ireland""",adaptive mobile security,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adaptive Phage Therapeutics,15-Mar-2024,Merger/Acquisition,"""Gaithersburg, MD""",adaptive phage therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adaptive3D,07-May-2021,Merger/Acquisition,"""Richardson, TX""",adaptive3d,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adaptix,18-Sep-2023,Merger/Acquisition,"""Oxford, United Kingdom""",adaptix,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30263377|Q130838126.json
+Adara,03-Feb-2023,Merger/Acquisition,"""Irving, TX""",adara,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q9140722|Q3914011|Q97357047|Q22359708|Q19984160.json
+AdColony,29-Apr-2021,Merger/Acquisition,"""Los Angeles, CA""",adcolony,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AdCreative.ai,12-Feb-2025,Merger/Acquisition,"""Paris, France""",adcreativeai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Additive Flow,14-Aug-2023,Merger/Acquisition,"""London, United Kingdom""",additive flow,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Additive Instruments,09-Mar-2023,Merger/Acquisition,"""Watford, United Kingdom""",additive instruments,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ADELYA,29-Apr-2022,Merger/Acquisition,France,adelya,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q11722256|Q88953252|Q98090560|Q124731299|Q135356912.json
+Adhezion Biomedical,23-Jun-2023,Merger/Acquisition,"""Wyomissing, PA""",adhezion biomedical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adjust,01-Apr-2021,Merger/Acquisition,"""Berlin, Germany""",adjust,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q7256373|Q17430655|Q317158|Q77252369|Q10340057.json
+Adlai Nortye (NAS: ANL),29-Sep-2023,IPO,"""North Brunswick Township, NJ""",adlai nortye,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adlumin,20-Nov-2024,Merger/Acquisition,"""Washington, DC""",adlumin,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AdMass,29-Jun-2023,Merger/Acquisition,"""Toronto, Canada""",admass,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q37437707|Q11684441|Q106368472|Q116547769|Q100956565.json
+AdMobilize,23-Feb-2021,Merger/Acquisition,"""Miami Lakes, FL""",admobilize,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adonis Minerals (CNQ: ADON),12-Mar-2025,IPO,"""Vancouver, Canada""",adonis minerals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adore Me,30-Dec-2022,Merger/Acquisition,"""New York, NY""",adore me,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q20165030|Q134958008.json
+AdPushup,02-Mar-2023,Merger/Acquisition,"""Wilmington, DE""",adpushup,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adracare,04-Jan-2021,Merger/Acquisition,"""Toronto, Canada""",adracare,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Adsmurai,18-Aug-2022,Merger/Acquisition,"""Barcelona, Spain""",adsmurai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Advanced Accelerator Applications,02-Dec-2024,Merger/Acquisition,"""Rueil-Malmaison, France""",advanced accelerator applications,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16824303|Q126878468.json
+Advanced BioMatrix,27-Aug-2021,Merger/Acquisition,"""Carlsbad, CA""",advanced biomatrix,,Wikidata,NONE,45,NO_MATCH,Q26824257,Advanced biomatrix designs for regenerative therapy of periodontal tissues,hq=united states; desc=scientific article
+Advent Technologies Holdings (PINX: ADNH),04-Feb-2021,Reverse Merger,"""Livermore, CA""",advent technologies,2022-01-04,Wikidata,MEDIUM,70,REVIEW,Q131638356,Advent Technologies Holdings Inc,hq=united states
+Advertising Week,21-Jun-2022,Merger/Acquisition,"""New York, NY""",advertising week,,Wikidata,NONE,45,NO_MATCH,Q20894852,Advertising Week OMMA Awards,hq=united states; desc=To honor agencies and advertisers that push the potential of digital advertising.
+Adverum Biotechnologies,09-Dec-2025,Merger/Acquisition,"""Redwood City, CA""",adverum biotechnologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AdvisorStream,09-Jun-2021,Merger/Acquisition,"""New York, NY""",advisorstream,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AdvisorTarget,30-May-2024,Merger/Acquisition,"""Coral Gables, FL""",advisortarget,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ADx NeuroSciences,08-Aug-2022,Merger/Acquisition,"""Ghent, Belgium""",adx neurosciences,2011,Wikidata,MEDIUM,70,REVIEW,Q114340020,ADx NeuroSciences,"hq=belgium; desc=company in Ghent, Belgium"

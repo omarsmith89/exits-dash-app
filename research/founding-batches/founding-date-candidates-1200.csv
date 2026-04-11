@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Gambit (Entertainment Software),22-Feb-2022,Merger/Acquisition,"""Westmount, Canada""",gambit (entertainment software),,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gambit+%28Entertainment+Software%29
+Gambling.com Group (NAS: GAMB),23-Jul-2021,IPO,"""Saint Helier, United Kingdom""",gamblingcom,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gambling.com+Group
+Gamelancer (Acquired),13-Apr-2022,Merger/Acquisition,"""West Hollywood, CA""",gamelancer (acquired),,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gamelancer+%28Acquired%29
+GamePlanner,14-Nov-2023,Merger/Acquisition,CA,gameplanner,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=GamePlanner
+GamerSpeak,01-Aug-2021,Merger/Acquisition,"""San Luis Obispo, CA""",gamerspeak,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=GamerSpeak
+Gamesys,01-Oct-2021,Merger/Acquisition,"""London, United Kingdom""",gamesys,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gamesys
+Gaming Technologies,02-Mar-2021,IPO,"""Las Vegas, NV""",gaming technologies,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gaming+Technologies
+Gamma Labs,02-Mar-2021,Merger/Acquisition,"""Rossendale, United Kingdom""",gamma labs,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gamma+Labs
+Gamma.AI,11-Aug-2021,Merger/Acquisition,"""Sunnyvale, CA""",gammaai,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gamma.AI
+GaN Systems,24-Oct-2023,Merger/Acquisition,"""Ottawa, Canada""",gan systems,,Wikidata,ERROR,0,ERROR,,,fetch failed
+GapFish,01-Jun-2021,Merger/Acquisition,"""Berlin, Germany""",gapfish,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=GapFish
+Garden,05-Feb-2026,Merger/Acquisition,"""New York, NY""",garden,,Wikidata,ERROR,0,ERROR,,,fetch failed
+Garvis,05-Sep-2023,Merger/Acquisition,"""Antwerp, Belgium""",garvis,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Garvis
+Gatsby (Financial Software),17-Aug-2022,Merger/Acquisition,"""White Plains, NY""",gatsby (financial software),,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gatsby+%28Financial+Software%29
+Gauss,07-Sep-2021,Merger/Acquisition,"""Menlo Park, CA""",gauss,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gauss
+GCommerce,19-Jul-2022,Merger/Acquisition,"""Des Moines, IA""",gcommerce,,Wikidata,ERROR,0,ERROR,,,fetch failed
+Geins,08-Sep-2025,Merger/Acquisition,"""Stockholm, Sweden""",geins,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q19120926|Q1498791|Q1498790|Q111350817|Q19120928.json
+Gelesis Holdings (PINX: GLSHQ),13-Jan-2022,Reverse Merger,"""Boston, MA""",gelesis,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gem (Network Management Software),10-Apr-2024,Merger/Acquisition,"""New York, NY""",gem (network management software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gemini CAD Systems,31-Dec-2021,Merger/Acquisition,"""Lasi, Romania""",gemini cad systems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gemini Space Station (NAS: GEMI),12-Sep-2025,IPO,"""New York, NY""",gemini space station,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gemini Therapeutics,05-Feb-2021,Reverse Merger,"""Cambridge, MA""",gemini therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GeneDx Holding (NAS: WGS),22-Jul-2021,Reverse Merger,"""Stamford, CT""",genedx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Genelux (NAS: GNLX),26-Jan-2023,IPO,"""Westlake Village, CA""",genelux,2001-00-00,Wikidata,MEDIUM,70,REVIEW,Q25326575,Genelux Corporation,hq=united states; desc=biopharmaceutical company
+Genenta Science (NAS: GNTA),17-Dec-2021,IPO,"""Milan, Italy""",genenta science,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Generation Esports,18-Apr-2025,Merger/Acquisition,"""Kansas City, MO""",generation esports,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Generation Genius,03-Feb-2025,Merger/Acquisition,"""New York, NY""",generation genius,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Genetic Networks,20-Mar-2025,Merger/Acquisition,"""Miami Beach, FL""",genetic networks,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q71930819|Q36163052|Q34399194|Q33325905|Q36529472.json
+Genetico (MISX: GECO),26-Apr-2023,IPO,"""Moscow, Russia""",genetico,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q3126128|Q5352065|Q124066117|Q73960638|Q44150965.json
+GeneTx,18-Jul-2022,Merger/Acquisition,"""Downers Grove, IL""",genetx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Geneva,01-Jul-2024,Merger/Acquisition,"""New York, NY""",geneva,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q71|Q11917|Q28707501|Q37556960|Q23366230.json
+GenFlow Biosciences (LON: GENF),17-Jan-2022,IPO,"""London, United Kingdom""",genflow biosciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GENinCode (LON: GENI),22-Jul-2021,IPO,"""Oxford, United Kingdom""",genincode,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Genomtec (WAR: GMT),17-Mar-2021,IPO,"""Wroclaw, Poland""",genomtec,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Genuine Tea,14-Nov-2024,Merger/Acquisition,"""Toronto, Canada""",genuine tea,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Genuity Science,16-Aug-2021,Merger/Acquisition,"""Dublin, Ireland""",genuity science,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Geo Comix,19-Sep-2023,Merger/Acquisition,"""Rochelle, France""",geo comix,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GEO Semiconductor,03-Mar-2023,Merger/Acquisition,"""San Jose, CA""",geo semiconductor,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GeoPhy,28-Feb-2022,Merger/Acquisition,"""The Hague, Netherlands""",geophy,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q46255|Q5535576|Q5535568|Q15755784|Q12094958.json
+Get A-Head,12-Dec-2022,Merger/Acquisition,"""Toronto, Canada""",get a-head,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q42275894|Q80363247|Q54319891.json
+GetaPro,01-Jul-2022,Merger/Acquisition,"""Riga, Latvia""",getapro,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Getaround (PINX: GETR),09-Dec-2022,Reverse Merger,"""San Francisco, CA""",getaround,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5554388|Q120983572|Q120978976|Q16040166|Q120983498.json
+GetJenny,01-Aug-2021,Merger/Acquisition,"""Helsinki, Finland""",getjenny,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ggCircuit,01-Jun-2021,Merger/Acquisition,"""Terre Haute, IN""",ggcircuit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GH Research (NAS: GHRS),25-Jun-2021,IPO,"""Dublin, Ireland""",gh research,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ghost (Consumer Non-Durables),31-Dec-2024,Merger/Acquisition,"""Henderson, NV""",ghost (consumer non-durables),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GigaGen,09-Mar-2021,Merger/Acquisition,"""San Francisco, CA""",gigagen,2010-03,Wikidata,LOW,45,REVIEW,Q30282519,GigaGen (United States),"hq=united states; desc=company in San Francisco, United States"
+Ginger,14-Oct-2021,Merger/Acquisition,"""San Francisco, CA""",ginger,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1524985|Q35625|Q37170168|Q163563|Q15046077.json
+Ginkgo Bioworks (NYS: DNA),16-Sep-2021,Reverse Merger,"""Boston, MA""",ginkgo bioworks,2009,Wikidata,MEDIUM,70,REVIEW,Q29026065,Ginkgo Bioworks,hq=united states; desc=American biotechnology company
+Ginolis,01-Mar-2021,Merger/Acquisition,"""Oulu, Finland""",ginolis,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

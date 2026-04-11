@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+APEIRON Biologics,15-Jul-2024,Merger/Acquisition,"""Vienna, Austria""",apeiron biologics,2003,Wikidata,LOW,45,REVIEW,Q104479929,Apeiron Biologics (Austria),"hq=austria; desc=company in Vienna, Austria"
+Apexigen,23-Aug-2023,Merger/Acquisition,"""San Carlos, CA""",apexigen,2010,Wikidata,LOW,45,REVIEW,Q108737139,Apexigen (United States),"hq=united states; desc=company in San Carlos, United States"
+APIOS,05-Jan-2021,Merger/Acquisition,"""Zagreb, Croatia""",apios,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q2537603|Q264157|Q4779864|Q10415730|Q4779866.json
+Apogee Therapeutics (NAS: APGE),13-Jul-2023,IPO,"""Waltham, MA""",apogee therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Apolicy,01-Jul-2021,Merger/Acquisition,"""Sunnyvale, CA""",apolicy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Apollo Endosurgery,04-Apr-2023,Merger/Acquisition,"""Austin, TX""",apollo endosurgery,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q50039483|Q132099740.json
+Apollo Fusion,01-Jul-2021,Merger/Acquisition,"""Mountain View, CA""",apollo fusion,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Apollomics (NAS: APLM),26-Mar-2023,Reverse Merger,"""Foster City, CA""",apollomics,2016,Wikidata,LOW,45,REVIEW,Q108737121,Apollomics (United States),"hq=united states; desc=company in Foster City, United States"
+apoplex medical technologies,05-Nov-2024,Merger/Acquisition,"""Pirmasens, Germany""",apoplex medical technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Apostrophe,02-Jul-2021,Merger/Acquisition,"""Oakland, CA""",apostrophe,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q436048|Q620510|Q87495831|Q17085299|Q73391929.json
+ApParkingSpot,06-May-2022,Merger/Acquisition,"""Stockholm, Sweden""",apparkingspot,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Appear (Hardware) (OSL: APR),06-Nov-2025,IPO,"""Oslo, Norway""",appear (hardware),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Appetize,16-Sep-2021,Merger/Acquisition,"""Los Angeles, CA""",appetize,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1628963|Q4781056|Q4781059|Q4781061|Q16961762.json
+AppHarvest,29-Jan-2021,Reverse Merger,"""Morehead, KY""",appharvest,,Wikidata,NONE,90,NO_MATCH,Q106768814,AppHarvest,hq=united states; aliases=Appharvest; desc=American food production company
+Applica,23-Sep-2022,Merger/Acquisition,"""Warsaw, Poland""",applica,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q42332|Q165194|Q618536|Q166142|Q13430279.json
+Applied BioMath,12-Dec-2023,Merger/Acquisition,"""Concord, MA""",applied biomath,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q23091386|Q61934400.json
+Applied Graphene,28-Mar-2023,Merger/Acquisition,"""Redcar, United Kingdom""",applied graphene,2010,Wikidata,LOW,45,REVIEW,Q59536443,Applied Graphene Materials,"hq=united kingdom; aliases=Durham Graphene Science; desc=company in Redcar, United Kingdom"
+Applied Molecular Transport,27-Dec-2023,Merger/Acquisition,"""Menlo Park, CA""",applied molecular transport,,Wikidata,NONE,70,NO_MATCH,Q138496064,Applied Molecular Transport Inc.,hq=united states
+Aptamer Group (LON: APTA),22-Dec-2021,IPO,"""York, United Kingdom""",aptamer,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Apton Biosystems,02-Aug-2023,Merger/Acquisition,"""Pleasanton, CA""",apton biosystems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aquana,02-Jul-2021,Merger/Acquisition,"""Houston, TX""",aquana,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q2241277|Q126185253|Q4782709|Q15723813|Q112055667.json
+Aquaporin,01-Jul-2021,IPO,"""Kongens Lyngby, Denmark""",aquaporin,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q623090|Q63565867|Q62962229|Q63994075|Q29813187.json
+Aramis Group (PAR: ARAMI),17-Jun-2021,IPO,"""Arcueil, France""",aramis,2001-09-25,Wikidata,MEDIUM,70,REVIEW,Q2859488,Aramis Group,hq=france; desc=French used car sales company
+Aran Biomedical,06-Apr-2022,Merger/Acquisition,"""Galway, Ireland""",aran biomedical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Araris,31-Mar-2025,Merger/Acquisition,"""Zurich, Switzerland""",araris,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q35335117|Q19998927|Q19991090|Q138860621|Q136523393.json
+Arcadia Gaming,11-Sep-2024,Merger/Acquisition,"""Nicosia, Cyprus""",arcadia gaming,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arcan,20-Dec-2023,Merger/Acquisition,"""Milan, Italy""",arcan,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q197339|Q164475|Q10417124|Q638331|Q37227860.json
+ArcaNatura,19-Dec-2022,Merger/Acquisition,"""Lyon, France""",arcanatura,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arcellx (NAS: ACLX),04-Feb-2022,IPO,"""Gaithersburg, MD""",arcellx,2014-00-00,Wikidata,MEDIUM,70,REVIEW,Q137816685,Arcellx,hq=united states; aliases=ACLX; desc=Biotechnology Company
+Archaea Energy,28-Dec-2022,Merger/Acquisition,"""Houston, TX""",archaea energy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ArcherDX,20-Dec-2022,Merger/Acquisition,"""Boulder, CO""",archerdx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arcion,03-Nov-2023,Merger/Acquisition,"""San Mateo, CA""",arcion,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q42765664|Q111888|Q29877143|Q33135481|Q3678342.json
+Arctic Fish Holding (OSL: AFISH),29-Dec-2022,Merger/Acquisition,"""Isafjordur, Iceland""",arctic fish,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+arculus (Hardware),28-Oct-2021,Merger/Acquisition,"""Munich, Germany""",arculus (hardware),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ardgowan,14-Jun-2021,Merger/Acquisition,"""Inverkip, United Kingdom""",ardgowan,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4788018|Q63517649|Q4788023|Q29175824|Q103908293.json
+Area 1 Security,01-Apr-2022,Merger/Acquisition,"""San Mateo, CA""",area 1 security,2013,Wikidata,MEDIUM,70,REVIEW,Q54958728,Area 1 Security,hq=united states; desc=American cybersecurity company
+Arecor Therapeutics (LON: AREC),03-Jun-2021,IPO,"""Little Chesterford, United Kingdom""",arecor therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arena Solutions,15-Jan-2021,Merger/Acquisition,"""Boston, MA""",arena solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aretto Wellness (BER: 0RW0),09-Mar-2021,IPO,"""Vancouver, Canada""",aretto wellness,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Argeo,26-Apr-2021,IPO,"""Hvalstad, Norway""",argeo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q105038569|Q20097917|Q20097911|Q4789524|Q718335.json
+ARInspect,31-Oct-2023,Merger/Acquisition,"""McLean, VA""",arinspect,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arix Bioscience,22-Jan-2024,Merger/Acquisition,"""London, United Kingdom""",arix bioscience,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Armory (Business/Productivity Software),11-Jan-2024,Merger/Acquisition,"""San Francisco, CA""",armory (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arqit (NAS: ARQQ),03-Sep-2021,Reverse Merger,"""London, United Kingdom""",arqit,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q26199863|Q24839885.json
+Arrival UK,24-Mar-2021,Reverse Merger,"""London, United Kingdom""",arrival uk,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ArriVent Biopharma (NAS: AVBP),26-Jan-2024,IPO,"""Newtown Square, PA""",arrivent biopharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arroweye,06-May-2025,Merger/Acquisition,"""Henderson, NV""",arroweye,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ARS Pharmaceuticals (NAS: SPRY),08-Nov-2022,Reverse Merger,"""San Diego, CA""",ars pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ARTELLA Solutions,30-Sep-2021,Merger/Acquisition,"""Houston, TX""",artella solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arteris (NAS: AIP),27-Oct-2021,IPO,"""Campbell, CA""",arteris,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q48861795|Q15104252|Q131633138.json

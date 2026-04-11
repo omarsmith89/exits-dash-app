@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+CreativeLive,01-Oct-2021,Merger/Acquisition,"""Seattle, WA""",creativelive,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16952600|Q136684469|Q136684459|Q136684331|Q136684337.json
+Credence ID,29-Dec-2025,Merger/Acquisition,"""Oakland, CA""",credence id,2017-06-24,Wikidata,LOW,45,REVIEW,Q134640555,Credence Id Llc,hq=united states
+Credit Kudos,22-Mar-2022,Merger/Acquisition,"""London, United Kingdom""",credit kudos,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CreditIQ,09-Nov-2021,Merger/Acquisition,"""New York, NY""",creditiq,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CreditPoint Software,01-Jul-2023,Merger/Acquisition,"""Tulsa, OK""",creditpoint software,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Credly,30-Jan-2022,Merger/Acquisition,"""New York, NY""",credly,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Credova,13-Mar-2024,Merger/Acquisition,"""Bozeman, MT""",credova,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Crestwynd Exploration,15-Feb-2022,Merger/Acquisition,"""Calgary, Canada""",crestwynd exploration,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Creturner,01-Oct-2022,Merger/Acquisition,"""Smedjebacken, Sweden""",creturner,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Crocus Technology,31-Oct-2023,Merger/Acquisition,"""Milpitas, CA""",crocus technology,2004,Wikidata,MEDIUM,70,REVIEW,Q3003170,Crocus Technology,hq=united states; desc=company developing 2nd generation MRAM
+Crosscope,27-Feb-2023,Merger/Acquisition,"""Mountain View, CA""",crosscope,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Crossinx,09-Apr-2021,Merger/Acquisition,"""Frankfurt, Germany""",crossinx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CrowdVision,06-Apr-2021,Merger/Acquisition,"""London, United Kingdom""",crowdvision,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Crown Bioscience,13-Nov-2025,Merger/Acquisition,"""San Diego, CA""",crown bioscience,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q48989820|Q30260352.json
+Crozdesk,28-Apr-2022,Merger/Acquisition,"""London, United Kingdom""",crozdesk,,Wikidata,NONE,70,NO_MATCH,Q24298975,Crozdesk,hq=united kingdom
+Crunchy Data,06-Jun-2025,Merger/Acquisition,"""Charleston, SC""",crunchy data,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cryo Pur,19-Apr-2022,Merger/Acquisition,"""Wissous, France""",cryo pur,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Crypto Finance,15-Dec-2021,Merger/Acquisition,"""Zurich, Switzerland""",crypto finance,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q133815055|Q111690518.json
+CTRG,31-Aug-2025,Merger/Acquisition,"""Bristol, United Kingdom""",ctrg,,Wikidata,NONE,0,NO_MATCH,Q56364339,Ressano Garcia Power Station,hq=united kingdom; aliases=Ressano Garcia Thermal Power Station; desc=power station in Mozambique
+CTsystems,31-Aug-2022,Merger/Acquisition,"""Dubendorf, Switzerland""",ctsystems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cube (Media and Information Services (B2B)),26-Nov-2021,Merger/Acquisition,"""Stockholm, Sweden""",cube (media and information services (b2b)),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cube Labs (MIL: CUBE),21-Mar-2023,IPO,"""Rome, Italy""",cube labs,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cubic3,04-Dec-2023,Merger/Acquisition,"""Dublin, Ireland""",cubic3,1981-00-00,Wikidata,LOW,0,REVIEW,Q110317869,Cubic 3 Design,hq=ireland; desc=Dutch design agency
+Cubicure,02-Jan-2024,Merger/Acquisition,"""Vienna, Austria""",cubicure,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cue Health,24-Sep-2021,IPO,"""San Diego, CA""",cue health,,Wikidata,NONE,90,NO_MATCH,Q110555260,Cue Health,hq=united states; aliases=Cue Health Inc.; desc=American molecular testing company
+Cullinan Therapeutics (NAS: CGEM),08-Jan-2021,IPO,"""Cambridge, MA""",cullinan therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cult Beauty,04-Aug-2021,Merger/Acquisition,"""London, United Kingdom""",cult beauty,,Wikidata,NONE,70,NO_MATCH,Q108281288,Cult Beauty,hq=united kingdom; desc=online beauty retailer
+Cunningham Energy,11-Oct-2022,Merger/Acquisition,"""Charleston, WV""",cunningham energy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Curaleaf International,07-Apr-2021,Merger/Acquisition,"""London, United Kingdom""",curaleaf international,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Curated,09-Jul-2024,Merger/Acquisition,"""San Francisco, CA""",curated,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q101392702|Q18618590|Q32945471|Q112180352|Q127040118.json
+CureVac,18-Dec-2025,Merger/Acquisition,"""Tubingen, Germany""",curevac,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1144473|Q97154239|Q27559226|Q27561816|Q100345755.json
+Currencycloud,20-Dec-2021,Merger/Acquisition,"""London, United Kingdom""",currencycloud,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Current Health,02-Nov-2021,Merger/Acquisition,"""Edinburgh, United Kingdom""",current health,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q26842456|Q136655419|Q107002300|Q112931021|Q73388477.json
+Curricula,19-Jul-2022,Merger/Acquisition,"""Atlanta, GA""",curricula,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q186649|Q6510200|Q157416|Q96704459|Q207137.json
+Curv,08-Mar-2021,Merger/Acquisition,"""New York, NY""",curv,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5196111|Q54366202|Q21769893|Q1434618|Q3172825.json
+CVRx (NAS: CVRX),30-Jun-2021,IPO,"""Minneapolis, MN""",cvrx,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q50038324|Q132100572.json
+Cybeats Technologies (CNQ: CYBT),18-Mar-2021,Merger/Acquisition,"""Toronto, Canada""",cybeats technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cybersprint,23-Feb-2022,Merger/Acquisition,"""The Hague, Netherlands""",cybersprint,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CycleZyme (SAT: CYCLE),22-Dec-2023,IPO,"""Lund, Sweden""",cyclezyme,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cyclica,25-May-2023,Merger/Acquisition,"""Toronto, Canada""",cyclica,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5198235|Q15275719|Q1857905|Q23768678|Q5198241.json
+Cykel AI,25-Oct-2023,IPO,"""London, United Kingdom""",cykel ai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cylance,03-Feb-2025,Merger/Acquisition,"""Irvine, CA""",cylance,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q19480914|Q21450809|Q26308599|Q28156207|Q25935428.json
+Cynerio,29-Jul-2025,Merger/Acquisition,"""New York, NY""",cynerio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cyngn (NAS: CYN),20-Oct-2021,IPO,"""Mountain View, CA""",cyngn,2012-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q21177770,CYNGN Inc.,hq=united states; aliases=Cyanogen Inc|Cyngn
+Cynny,01-Aug-2024,Merger/Acquisition,"""Firenze, Italy""",cynny,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q107583107|Q77173174|Q77179577|Q76857114|Q74572726.json
+Cyral,17-Mar-2025,Merger/Acquisition,"""Milpitas, CA""",cyral,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q112044788|Q136431088.json
+Cyteir Therapeutics,18-Jun-2021,IPO,"""Lexington, MA""",cyteir therapeutics,2012,Wikidata,LOW,45,REVIEW,Q64141428,Cyteir Therapeutics (United States),"hq=united states; desc=company in Lexington, United States"
+D-Line (Electrical Equipment),29-Feb-2024,Merger/Acquisition,"""North Shields, United Kingdom""",d-line (electrical equipment),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dadi,01-Mar-2022,Merger/Acquisition,"""New York, NY""",dadi,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q97143605|Q37199287|Q12479751|Q10263683|Q106608598.json
+Daedalean,05-Jan-2026,Merger/Acquisition,"""Zurich, Switzerland""",daedalean,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q115322007|Q105241985|Q105286962|Q77504942|Q77311070.json

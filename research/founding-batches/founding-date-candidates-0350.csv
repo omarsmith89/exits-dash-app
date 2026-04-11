@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+BellPal,08-Sep-2023,Merger/Acquisition,"""Stockholm, Sweden""",bellpal,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Belluscura,28-May-2021,IPO,"""London, United Kingdom""",belluscura,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Benefitfocus,24-Jan-2023,Merger/Acquisition,"""Charleston, SC""",benefitfocus,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Benefits Science,08-May-2023,Merger/Acquisition,"""Boston, MA""",benefits science,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BentoBox,22-Nov-2021,Merger/Acquisition,"""New York, NY""",bentobox,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+beqom,09-May-2022,Merger/Acquisition,"""Nyon, Switzerland""",beqom,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q18207449|Q99980258.json
+Berbix,24-Feb-2023,Merger/Acquisition,"""Sacramento, CA""",berbix,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bercman Technologies (TAL: BERCM),06-Jul-2021,IPO,"""Tartu, Estonia""",bercman technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BeReal,11-Jun-2024,Merger/Acquisition,"""Paris, France""",bereal,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q111947460|Q116689207.json
+Berkshire Grey,22-Jul-2021,Reverse Merger,"""Bedford, MA""",berkshire grey,,Wikidata,NONE,70,NO_MATCH,Q107657781,Berkshire Grey,hq=united states; desc=American technology company
+Bet.Works,28-May-2021,Merger/Acquisition,"""Las Vegas, NV""",betworks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Beta Bionics (NAS: BBNX),29-Jan-2025,IPO,"""Irvine, CA""",beta bionics,,Wikidata,NONE,70,NO_MATCH,Q137697244,"BETA BIONICS, INC.","hq=united states; aliases=BETA BIONICS, INC. (Concord, MA)"
+BETA Technologies (NYS: BETA),04-Nov-2025,IPO,"""South Burlington, VT""",beta technologies,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q65119109|Q135921116.json
+Betolar (HEL: BETOLAR),09-Dec-2021,IPO,"""Kannonkoski, Finland""",betolar,,Wikidata,NONE,70,NO_MATCH,Q126372956,Betolar,hq=finland
+Better Home & Finance Holding (NAS: BETR),22-Aug-2023,Reverse Merger,"""New York, NY""",better home and finance,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Betting Hero,27-Jun-2024,Merger/Acquisition,"""Rockford, MI""",betting hero,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Betty Labs,30-Mar-2021,Merger/Acquisition,"""Los Angeles, CA""",betty labs,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BeyondPlay,31-May-2024,Merger/Acquisition,"""London, United Kingdom""",beyondplay,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BFLY Operations (NYS: BFLY),12-Feb-2021,Reverse Merger,"""Burlington, MA""",bfly operations,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bicara Therapeutics (NAS: BCAX),09-Jan-2021,Merger/Acquisition,"""Boston, MA""",bicara therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Big Swig,30-Sep-2021,Merger/Acquisition,"""Cedar Park, TX""",big swig,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Biim Ultrasound,08-Mar-2022,Merger/Acquisition,"""Narvik, Norway""",biim ultrasound,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Billie (Personal Products),29-Nov-2021,Merger/Acquisition,"""New York, NY""",billie (personal products),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BillionToOne (NAS: BLLN),06-Nov-2025,IPO,"""Menlo Park, CA""",billiontoone,2016,Wikidata,MEDIUM,65,REVIEW,Q133812186,BillionToOne (United States),"hq=united states; aliases=BTO|BillionToOne, Inc.|Northstar Response; desc=company in Menlo Park, United States"
+bioAffinity Technologies (NAS: BIAF),01-Sep-2022,IPO,"""San Antonio, TX""",bioaffinity technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BioAge Labs (NAS: BIOA),26-Sep-2024,IPO,"""Richmond, CA""",bioage labs,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Biodit (XBUL: BDT),21-Jan-2021,IPO,"""Sofia, Bulgaria""",biodit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Biognosys,03-Jan-2023,Merger/Acquisition,"""Zurich, Switzerland""",biognosys,2008,Wikidata,LOW,45,REVIEW,Q107518058,Biognosys (Switzerland),"hq=switzerland; desc=company in Schlieren, Switzerland"
+Biohaven (NYS: BHVN),03-Oct-2022,Merger/Acquisition,"""New Haven, CT""",biohaven,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q92546757|Q128162739.json
+BioLegend,17-Sep-2021,Merger/Acquisition,"""San Diego, CA""",biolegend,2002-00-00,Wikidata,MEDIUM,70,REVIEW,Q4914628,BioLegend,"hq=united states; aliases=BioLegend (United States); desc=company in San Diego, United States"
+BIOLIE,14-Feb-2025,Merger/Acquisition,"""Vandoeuvre-les-Nancy, France""",biolie,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q2904019|Q56459088.json
+Biomea Fusion (NAS: BMEA),16-Apr-2021,IPO,"""Redwood City, CA""",biomea fusion,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Biomodex,11-Dec-2023,Merger/Acquisition,"""Paris, France""",biomodex,,Wikidata,NONE,45,NO_MATCH,Q96815739,Biomodex patient-specific brain aneurysm models: the value of simulation for first in-human experiences using new devices and robotics,hq=france; desc=scientific article published on 29 June 2020
+Bionic (Business/Productivity Software),28-Sep-2023,Merger/Acquisition,"""Palo Alto, CA""",bionic (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bioniz Therapeutics,14-Feb-2022,Merger/Acquisition,"""Irvine, CA""",bioniz therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bionos Biotech,06-Oct-2023,Merger/Acquisition,"""Valencia, Spain""",bionos biotech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BioPhero,19-Jul-2022,Merger/Acquisition,"""Copenhagen, Denmark""",biophero,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BioRez,09-Aug-2022,Merger/Acquisition,"""New Haven, CT""",biorez,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q179049|Q3457780|Q283925.json
+BioSenic (BRU: BIOS),25-Oct-2022,Reverse Merger,"""Mont-Saint-Guibert, Belgium""",biosenic,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Biosergen (STO: BIOSGN),24-Jun-2021,IPO,"""Solna, Sweden""",biosergen,2004,Wikidata,LOW,45,REVIEW,Q30299632,Biosergen (Norway),"hq=sweden; desc=company in Trondheim, Norway"
+BioStrand (Other Healthcare Technology Systems),14-Apr-2022,Merger/Acquisition,"""Diepenbeek, Belgium""",biostrand (other healthcare technology systems),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BioSymetrics,08-Apr-2025,Merger/Acquisition,"""New York, NY""",biosymetrics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Biotalys (BRU: BTLS),02-Jul-2021,IPO,"""Ghent, Belgium""",biotalys,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104698919|Q126871911.json
+BioTech Foods,09-May-2022,Merger/Acquisition,"""San Sebastian, Spain""",biotech foods,,Wikidata,NONE,70,NO_MATCH,Q104845570,BioTech Foods,hq=spain; desc=Spanish food technology company
+BioVersys (SWX: BIOV),07-Feb-2025,IPO,"""Basel, Switzerland""",bioversys,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q131898914|Q53811608.json
+Bipi,16-Jul-2021,Merger/Acquisition,"""Madrid, Spain""",bipi,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q96100068|Q1318672|Q2904312|Q26912653|Q100937928.json
+Bird Canada,03-Jan-2023,Merger/Acquisition,"""Toronto, Canada""",bird canada,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bird Global,05-Nov-2021,Reverse Merger,"""West Hollywood, CA""",bird global,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bird Office,30-May-2022,Merger/Acquisition,"""Paris, France""",bird office,2013-12-00,Wikidata,MEDIUM,70,REVIEW,Q22683569,Bird Office,hq=france
+Bird Rock Bio,18-Aug-2023,Merger/Acquisition,"""La Jolla, CA""",bird rock bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

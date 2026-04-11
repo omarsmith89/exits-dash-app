@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Integrity Orthopaedics,13-Jan-2026,Merger/Acquisition,"""Maple Plain, MN""",integrity orthopaedics,,Wikidata,NONE,70,NO_MATCH,Q138638007,"Integrity Orthopaedics, Inc.",hq=united states
+InteliWISE,01-Jul-2022,Merger/Acquisition,"""Warsaw, Poland""",inteliwise,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Intelligence Node,24-Dec-2024,Merger/Acquisition,"""San Francisco, CA""",intelligence node,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Intelligent Fingerprinting,04-Oct-2022,Merger/Acquisition,"""Cambridge, United Kingdom""",intelligent fingerprinting,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30295220|Q83366708.json
+Intelligent Observation,07-Aug-2025,Merger/Acquisition,"""Miami, FL""",intelligent observation,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Intelligent Ultrasound,18-Jul-2024,Merger/Acquisition,"""Abingdon, United Kingdom""",intelligent ultrasound,,Wikidata,NONE,45,NO_MATCH,Q129400142,Intelligent Ultrasound Imaging for Enhanced Breast Cancer Diagnosis: Ensemble Transfer Learning Strategies,hq=united kingdom; desc=scholarly article
+Intellimedia Networks,29-Apr-2022,Merger/Acquisition,"""Cerritos, CA""",intellimedia networks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Intello (Business/Productivity Software),22-Feb-2021,Merger/Acquisition,"""New York, NY""",intello (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Interactions,09-Sep-2025,Merger/Acquisition,"""Franklin, MA""",interactions,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4650721|Q15816932|Q6045219|Q110704021|Q114813556.json
+Intercept Pharmaceuticals,08-Nov-2023,Merger/Acquisition,"""Morristown, NJ""",intercept pharmaceuticals,2002-00-00,Wikidata,MEDIUM,70,REVIEW,Q16997126,Intercept Pharmaceuticals,hq=united states; desc=American biopharmaceutical company
+Intersect ENT,13-May-2022,Merger/Acquisition,"""Menlo Park, CA""",intersect ent,2003-00-00,Wikidata,MEDIUM,70,REVIEW,Q16997218,Intersect ENT,"hq=united states; desc=health care equipment company, subsidiary of Medtronic"
+InterWell Health,18-Sep-2025,Merger/Acquisition,"""Boston, MA""",interwell health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Intracellular Therapies,02-Apr-2025,Merger/Acquisition,"""Bedminster, NJ""",intracellular therapies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IntraNav,09-Dec-2021,Merger/Acquisition,"""Eschborn, Germany""",intranav,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Intrigue (Network Management Software),04-Aug-2021,Merger/Acquisition,"""Austin, TX""",intrigue (network management software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IntSights,19-Jul-2021,Merger/Acquisition,"""New York, NY""",intsights,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Intuitive Machines (NAS: LUNR),08-Feb-2023,Reverse Merger,"""Houston, TX""",intuitive machines,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q60760151|Q112959040|Q112959065|Q124545375|Q60760134.json
+Invalidiliiton Asumispalvelut,12-Feb-2025,Merger/Acquisition,"""Helsinki, Finland""",invalidiliiton asumispalvelut,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Invecas,08-Jan-2024,Merger/Acquisition,"""Santa Clara, CA""",invecas,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inversago Pharma,08-Sep-2023,Merger/Acquisition,"""Montreal, Canada""",inversago pharma,2011,Wikidata,LOW,45,REVIEW,Q43895153,Inversago Pharma (Canada),"hq=canada; aliases=gIcare pharma; desc=company in Montreal West, Canada"
+InVerse Infra,10-Sep-2025,Merger/Acquisition,United Kingdom,inverse infra,,Wikidata,NONE,45,NO_MATCH,Q58007015,Inverse infrastructures: self-organization in the water services,hq=united kingdom
+Invia Group,23-Dec-2024,Merger/Acquisition,"""Leipzig, Germany""",invia,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q67805275|Q20057477.json
+Invitae,05-Aug-2024,Merger/Acquisition,"""San Francisco, CA""",invitae,2010,Wikidata,HIGH,90,LIKELY_MATCH,Q30263140,Invitae,"hq=united states; aliases=Invitae Corporation; desc=company in San Francisco, United States"
+Invivyd (NAS: IVVD),06-Aug-2021,IPO,"""New Haven, CT""",invivyd,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Invoice2go,01-Sep-2021,Merger/Acquisition,"""San Jose, CA""",invoice2go,2002-00-00,Wikidata,MEDIUM,70,REVIEW,Q19874631,Invoice2go,hq=united states; desc=Software company to provide invoice and payment tools for small business
+Invoiced,02-Aug-2024,Merger/Acquisition,"""Boston, MA""",invoiced,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Involtum,19-Jan-2022,Merger/Acquisition,"""Rotterdam, Netherlands""",involtum,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IO Biotech (NAS: IOBT),05-Nov-2021,IPO,"""Copenhagen, Denmark""",io biotech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+io Products,21-May-2025,Merger/Acquisition,"""San Francisco, CA""",io products,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ionic Security,09-Apr-2021,Merger/Acquisition,"""Atlanta, GA""",ionic security,2011-05-04,Wikidata,LOW,45,REVIEW,Q30290084,Ionic Security (United States),"hq=united states; desc=company in Atlanta, United States"
+IonQ (NYS: IONQ),28-Sep-2021,Reverse Merger,"""College Park, MD""",ionq,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q47462183|Q72447449|Q112311568|Q62073498.json
+Iora Health,01-Sep-2021,Merger/Acquisition,"""Boston, MA""",iora health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ioTium,07-Jul-2021,Merger/Acquisition,"""Santa Clara, CA""",iotium,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IP Strategy (NAS: IPST),22-Nov-2024,IPO,"""Gig Harbor, WA""",ip strategy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IPG (Managed Care),01-Aug-2022,Merger/Acquisition,"""Alpharetta, GA""",ipg (managed care),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IPI Legacy Liquidation,22-Apr-2021,IPO,"""Seattle, WA""",ipi legacy liquidation,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IPKeys Power Partners,13-Apr-2023,Merger/Acquisition,"""Tinton falls, NJ""",ipkeys power partners,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Iris.TV,06-Nov-2024,Merger/Acquisition,"""Los Angeles, CA""",iristv,,Wikidata,NONE,70,NO_MATCH,Q117195291,IRIS.TV,"hq=united states; aliases=IRIS.TV INC.     (Los Angeles, CA)"
+Iron Network,04-Apr-2025,Merger/Acquisition,"""Vilnius, Lithuania""",iron network,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IronNet,26-Aug-2021,Reverse Merger,"""McLean, VA""",ironnet,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ironshore Therapeutics,03-Sep-2024,Merger/Acquisition,"""Morrisville, NC""",ironshore therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IRT (Other Commercial Services),15-Aug-2022,Merger/Acquisition,"""Dundee, United Kingdom""",irt (other commercial services),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Irwin,24-Oct-2024,Merger/Acquisition,"""Toronto, Canada""",irwin,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16871088|Q16277131|Q1673308|Q1512341|Q315380.json
+Isbj�rn,20-Apr-2022,Merger/Acquisition,"""Nacka, Sweden""",isbj�rn,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Island (Consumer Non-Durables),25-Apr-2022,Merger/Acquisition,"""Redondo Beach, CA""",island (consumer non-durables),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Isolere Bio,17-Feb-2023,Merger/Acquisition,"""Durham, NC""",isolere bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IsoPlexis,08-Oct-2021,IPO,"""Branford, CT""",isoplexis,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q149256|Q25647718|Q25664635|Q10304009|Q49436947.json
+Isovalent,12-Apr-2024,Merger/Acquisition,"""Milpitas, CA""",isovalent,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q17088433|Q3155633|Q64169767|Q57667966|Q48328136.json
+iSpecimen (NAS: ISPC),17-Jun-2021,IPO,"""Woburn, MA""",ispecimen,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+iSTAR Medical,30-Jun-2022,Merger/Acquisition,"""Wavre, Belgium""",istar medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

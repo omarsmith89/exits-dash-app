@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Formedix,10-Oct-2023,Merger/Acquisition,"""Glasgow, United Kingdom""",formedix,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Forsake,07-Jun-2021,Merger/Acquisition,"""Glendale, WI""",forsake,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1633977|Q60587224|Q16568625|Q113830017|Q1953627.json
+Fortis Frontier,10-Nov-2025,Merger/Acquisition,"""Cardiff, United Kingdom""",fortis frontier,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fortress Identity,22-Dec-2021,Merger/Acquisition,"""Miami, FL""",fortress identity,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Forward Water Technologies (TSX: FWTC),25-Oct-2021,Reverse Merger,"""Sarnia, Canada""",forward water technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FourCubed,01-Dec-2021,Merger/Acquisition,"""Minneapolis, MN""",fourcubed,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FourQ,26-Jan-2022,Merger/Acquisition,"""Westport, CT""",fourq,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1093067|Q244645|Q1345008|Q192740|Q65104186.json
+Foxberry,16-Apr-2024,Merger/Acquisition,"""London, United Kingdom""",foxberry,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q93235|Q122556230|Q122590051|Q111888805.json
+Foxtrot Systems,21-Apr-2022,Merger/Acquisition,"""San Francisco, CA""",foxtrot systems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fracta,17-Dec-2021,Merger/Acquisition,"""Palo Alto, CA""",fracta,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5477465|Q81392|Q64432726|Q5477502|Q14907780.json
+Fractyl Health (NAS: GUTS),02-Feb-2024,IPO,"""Burlington, MA""",fractyl health,,Wikidata,NONE,70,NO_MATCH,Q135427433,Fractyl Health,hq=united states; desc=American metabolic disease treatment company
+Fragbite Group (STO: FRAG),12-Jul-2021,IPO,"""Stockholm, Sweden""",fragbite,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frame Spatial,05-May-2022,Merger/Acquisition,"""Vancouver, Canada""",frame spatial,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frame Studios,15-Oct-2024,Merger/Acquisition,"""New York, NY""",frame studios,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frame Technology.,06-Jan-2025,Merger/Acquisition,"""New York, NY""",frame technology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frame Therapeutics,08-Jun-2022,Merger/Acquisition,"""Amsterdam, Netherlands""",frame therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frame.io,07-Oct-2021,Merger/Acquisition,"""New York, NY""",frameio,,Wikidata,NONE,70,NO_MATCH,Q137161911,Frame.io,hq=united states; desc=mobile app
+Frank (Franklin),21-Sep-2021,Merger/Acquisition,"""Franklin, OH""",frank (franklin),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Franka Robotics,03-Nov-2023,Merger/Acquisition,"""Munich, Germany""",franka robotics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frankly Media,02-Jan-2024,Merger/Acquisition,"""New York, NY""",frankly media,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fredahl Ryd�ns,01-Mar-2023,Merger/Acquisition,"""Nybro, Sweden""",fredahl ryd�ns,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Freedom Photonics,13-Apr-2022,Merger/Acquisition,"""Santa Barbara, CA""",freedom photonics,2005,Wikidata,LOW,45,REVIEW,Q30285669,Freedom Photonics (United States),"hq=united states; desc=company in Santa Barbara, United States"
+Freemelt (STO: FREEM),07-Jul-2021,IPO,"""Gothenburg, Sweden""",freemelt,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FreeNow,31-Jul-2025,Merger/Acquisition,"""London, United Kingdom""",freenow,2009-00-00,Wikidata,MEDIUM,70,REVIEW,Q48781517,Freenow,hq=united kingdom; aliases=mytaxi|MyTaxi|FREE NOW; desc=Mobility provider with ride-hailing service & business travel platform
+Freetrade,15-Jan-2025,Merger/Acquisition,"""London, United Kingdom""",freetrade,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q65065185|Q99485452|Q124454846|Q134650509.json
+Fresh Burritos,25-Jun-2024,Merger/Acquisition,"""Lille, France""",fresh burritos,,Wikidata,NONE,70,NO_MATCH,Q60963913,Fresh Burritos,hq=france
+Fresh Relevance,11-Sep-2023,Merger/Acquisition,"""London, United Kingdom""",fresh relevance,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Freshworks (NAS: FRSH),22-Sep-2021,IPO,"""San Mateo, CA""",freshworks,,Wikidata,NONE,70,NO_MATCH,Q117782453,Freshworks,hq=united states; desc=Customer service software company
+Frichti,27-Sep-2023,Merger/Acquisition,"""Paris, France""",frichti,2015-00-00,Wikidata,MEDIUM,70,REVIEW,Q86668796,Frichti,hq=france
+Frndly TV,09-May-2025,Merger/Acquisition,"""Denver, CO""",frndly tv,,Wikidata,NONE,70,NO_MATCH,Q107335066,Frndly TV,hq=united states; desc=American streaming television service
+FRNT Financial (TSX: FRNT),12-Apr-2022,IPO,"""Toronto, Canada""",frnt financial,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frontier Water Systems,03-Apr-2023,Merger/Acquisition,"""San Diego, CA""",frontier water systems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Frufru,16-Jan-2024,Merger/Acquisition,"""Bucharest, Romania""",frufru,,Wikidata,NONE,0,NO_MATCH,Q1144883,bangs,hq=romania; aliases=fringe; desc=shaped cutting of the front part of the hair so that it lies over the forehead
+FSport (STO: FSPORT),30-Sep-2021,IPO,"""Billdal, Sweden""",fsport,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fubo (NYS: FUBO),29-Oct-2025,Merger/Acquisition,"""New York, NY""",fubo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q32752760|Q18668816|Q28408034|Q45675695|Q27804812.json
+FullCircl,05-Nov-2024,Merger/Acquisition,"""Winnersh, United Kingdom""",fullcircl,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fullstakk,11-Jul-2025,Merger/Acquisition,"""Oslo, Norway""",fullstakk,,Wikidata,NONE,0,NO_MATCH,Q7558983,software stack,hq=norway; aliases=solution stack; desc=set of software subsystems or components needed to create a complete platform
+Fungible,09-Jan-2023,Merger/Acquisition,"""Santa Clara, CA""",fungible,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q85762302|Q317088|Q5509180|Q11596440|Q38664495.json
+Furscription,24-Oct-2022,Merger/Acquisition,"""El Dorado Hills, CA""",furscription,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fusebox (Entertainment Software),22-Aug-2024,Merger/Acquisition,"""London, United Kingdom""",fusebox (entertainment software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fusion Pharmaceuticals,04-Jun-2024,Merger/Acquisition,"""Hamilton, Canada""",fusion pharmaceuticals,,Wikidata,NONE,70,NO_MATCH,Q125003256,Fusion Pharmaceuticals,hq=canada; desc=oncology company
+Fusus,31-Jan-2024,Merger/Acquisition,"""Peachtree Corners, GA""",fusus,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5510368|Q30159128|Q5510420|Q5510405|Q108465779.json
+Fuze (Communication Software),18-Jan-2022,Merger/Acquisition,"""Boston, MA""",fuze (communication software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fylamynt,18-Feb-2022,Merger/Acquisition,"""San Jose, CA""",fylamynt,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Fylamynt
+Fyle,24-Jul-2025,Merger/Acquisition,"""Newark, DE""",fyle,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Fyle
+Fyndiq,12-Apr-2023,Merger/Acquisition,"""Stockholm, Sweden""",fyndiq,2010-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q19977626,Fyndiq,hq=sweden; aliases=Fyndiq AB; desc=Swedish e-commerce company
+G Squared Ascend II,15-Jun-2021,IPO,"""Chicago, IL""",g squared ascend ii,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+G1 Therapeutics,18-Sep-2024,Merger/Acquisition,"""Durham, NC""",g1 therapeutics,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q105038834|Q30256607.json
+Gabi Personal Insurance Agency,22-Nov-2021,Merger/Acquisition,"""San Francisco, CA""",gabi personal insurance agency,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gabi+Personal+Insurance+Agency
+Gain Therapeutics (NAS: GANX),18-Mar-2021,IPO,"""Bethesda, MD""",gain therapeutics,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Gain+Therapeutics

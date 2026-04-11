@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+AVAX One Technology (NAS: AVX),08-Jul-2021,IPO,"""Vancouver, Canada""",avax one technology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AVEO Oncology,19-Jan-2023,Merger/Acquisition,"""Boston, MA""",aveo oncology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Avinode,22-Mar-2024,Merger/Acquisition,"""Gothenburg, Sweden""",avinode,2002,Wikidata,MEDIUM,70,REVIEW,Q60749883,Avinode Group,hq=sweden
+Avitide,30-Sep-2021,Merger/Acquisition,"""Lebanon, NH""",avitide,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aviva Links,24-Oct-2025,Merger/Acquisition,"""San Jose, CA""",aviva links,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aviwest,01-Apr-2022,Merger/Acquisition,"""Saint Gr�goire Cedex, France""",aviwest,2008-09-24,Wikidata,MEDIUM,70,REVIEW,Q131634686,Aviwest,hq=france
+Awakn Life Sciences,27-May-2025,Merger/Acquisition,"""Toronto, Canada""",awakn life sciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Awashop,05-May-2022,Merger/Acquisition,"""Montpellier, France""",awashop,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Axign,03-Jan-2024,Merger/Acquisition,"""Enschede, Netherlands""",axign,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Axil (Acquired / merged),16-Jun-2022,Merger/Acquisition,"""American Fork, UT""",axil (acquired / merged),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Axios,08-Aug-2022,Merger/Acquisition,"""Arlington, VA""",axios,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q189596|Q28230873|Q4830576|Q95960982|Q83645807.json
+Axis Security,15-Mar-2023,Merger/Acquisition,"""Plano, TX""",axis security,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Axon Clinic,04-Oct-2021,Merger/Acquisition,"""Oslo, Norway""",axon clinic,,Wikidata,NONE,45,NO_MATCH,Q67904802,Axon clinical chemistry analyzer evaluated according to ECCLS protocol,hq=norway; desc=scientific article published on 01 October 1992
+Axonics,15-Nov-2024,Merger/Acquisition,"""Irvine, CA""",axonics,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104480010|Q63572440|Q113932533.json
+Azerion Group (AMS: AZRN),02-Feb-2022,Reverse Merger,"""Amsterdam, Netherlands""",azerion,2013-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q71060894,Azerion,hq=netherlands; aliases=Azerion Group N.V.|OrangeGames; desc=Dutch video game company
+Azimo,04-Apr-2022,Merger/Acquisition,"""London, United Kingdom""",azimo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q37140962|Q25160373|Q16479712|Q53771908|Q60169298.json
+Azitra (ASE: AZTR),15-Jun-2023,IPO,"""Branford, CT""",azitra,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BA Insight,22-Feb-2022,Merger/Acquisition,"""Austin, TX""",ba insight,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Babel Health,25-Mar-2022,Merger/Acquisition,"""Pittsburgh, PA""",babel health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Babylon Health,21-Oct-2021,Reverse Merger,"""Austin, TX""",babylon health,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q24083464|Q106489074|Q92888324.json
+Ba�a Food,22-Apr-2025,Merger/Acquisition,"""Madrid, Spain""",ba�a food,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bakkt Holdings (NYS: BKKT),18-Oct-2021,Reverse Merger,"""Alpharetta, GA""",bakkt,2018-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q83768717,Bakkt,"hq=united states; aliases=Bakkt Holdings, Inc|BKKT; desc=Spot market for crypto currency and derivatives"
+Ballard Motive Solutions,11-Nov-2021,Merger/Acquisition,"""London, United Kingdom""",ballard motive solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Balmonds,14-Jun-2022,Reverse Merger,"""Brighton, United Kingdom""",balmonds,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Banach Technology,20-Apr-2021,Merger/Acquisition,"""Dublin, Ireland""",banach technology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bandyer,08-Jul-2021,Merger/Acquisition,"""Milan, Italy""",bandyer,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q42537|Q81952|Q2697223|Q601595.json
+BanqUP,08-Jan-2021,Merger/Acquisition,"""Kontich, Belgium""",banqup,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Banzai International (NAS: BNZI),14-Dec-2023,Reverse Merger,"""Bainbridge Island, WA""",banzai international,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bardy Diagnostics,02-Aug-2021,Merger/Acquisition,"""Bellevue, WA""",bardy diagnostics,2013,Wikidata,LOW,45,REVIEW,Q104479988,Bardy Diagnostics (United States),"hq=united states; desc=company in Seattle, United States"
+Barinthus Biotherapeutics (NAS: BRNS),30-Apr-2021,IPO,"""Harwell, United Kingdom""",barinthus biotherapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bawat (STO: BAWAT),28-Mar-2022,IPO,"""Horsholm, Denmark""",bawat,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q25005457|Q27180364|Q5151|Q26804658|Q60776207.json
+Bay Equity,01-Apr-2022,Merger/Acquisition,"""Corte Madera, CA""",bay equity,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BayMedica,13-Oct-2021,Merger/Acquisition,"""Vancouver, Canada""",baymedica,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bbot,01-Mar-2022,Merger/Acquisition,"""Ruffsdale, PA""",bbot,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q26840908|Q138860352|Q23034501|Q66045157|Q59471157.json
+Be Your Essence,26-Feb-2021,Merger/Acquisition,"""Milan, Italy""",be your essence,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Beacon Bio,10-Jun-2021,Merger/Acquisition,"""Boston, MA""",beacon bio,,Wikidata,NONE,45,NO_MATCH,Q121811986,The Beacon Biographies,hq=united states; aliases=Beacon Biographies; desc=series of biographical books edited by M. A. De Wolfe Howe
+Beacon Platform,30-Apr-2025,Merger/Acquisition,"""New York, NY""",beacon platform,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Beam (Financial Software),16-Oct-2025,Merger/Acquisition,"""San Francisco, CA""",beam (financial software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BeammWave (STO: BEAMMW B),11-Mar-2022,IPO,"""Lund, Sweden""",beammwave,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Beanfields,11-Feb-2022,Merger/Acquisition,"""Los Angeles, CA""",beanfields,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Beanworks,01-Mar-2021,Merger/Acquisition,"""Vancouver, Canada""",beanworks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bear Flag Robotics,05-Aug-2021,Merger/Acquisition,"""Santa Clara, CA""",bear flag robotics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Beauty Labs,31-Aug-2021,Merger/Acquisition,"""Cambridge, United Kingdom""",beauty labs,2022-03-03,Wikidata,MEDIUM,70,REVIEW,Q132095265,Beauty Labs,hq=united kingdom
+Beckley Psytech,03-Jun-2025,Merger/Acquisition,"""Oxford, United Kingdom""",beckley psytech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Becorp Rental Homes,17-Jan-2022,Merger/Acquisition,"""Barcelona, Spain""",becorp rental homes,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Beeper (Social/Platform Software),01-Apr-2024,Merger/Acquisition,"""Palo Alto, CA""",beeper (social/platform software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BehavioSec,23-Apr-2022,Merger/Acquisition,"""San Francisco, CA""",behaviosec,2006,Wikidata,LOW,45,REVIEW,Q30295722,BehavioSec (Sweden),"hq=united states; desc=company in Stockholm, Sweden"
+Belantis,03-Apr-2025,Merger/Acquisition,"""Leipzig, Germany""",belantis,,Wikidata,NONE,70,NO_MATCH,Q815261,Belantis,hq=germany; desc=amusement park in Germany
+Belite Bio (NAS: BLTE),29-Apr-2022,IPO,"""San Diego, CA""",belite bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Belive.ai,14-Apr-2023,Merger/Acquisition,"""Amiens, France""",beliveai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

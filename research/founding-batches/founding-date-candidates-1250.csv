@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Giphy,23-Jun-2023,Merger/Acquisition,"""New York, NY""",giphy,2013-10-00,Wikidata,MEDIUM,70,REVIEW,Q17054335,Giphy,hq=united states; aliases=giphy.com; desc=website hosting animated GIFs
+GitLab (NAS: GTLB),14-Oct-2021,IPO,"""San Francisco, CA""",gitlab,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16639197|Q25973915|Q98731925|Q55589254|Q135492755.json
+Glass House Group (NEOE: GLAS.A.U),29-Jun-2021,Reverse Merger,"""Long Beach, CA""",glass house,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gl_d (Rail),24-Oct-2022,Merger/Acquisition,"""Riverside, CA""",gl_d (rail),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Glide Health,15-Feb-2023,Merger/Acquisition,"""Palo Alto, CA""",glide health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Glitch (Software Development Applications),09-May-2022,Merger/Acquisition,"""New York, NY""",glitch (software development applications),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Global Blood Therapeutics,05-Oct-2022,Merger/Acquisition,"""South San Francisco, CA""",global blood therapeutics,2012,Wikidata,LOW,45,REVIEW,Q30287310,Global Blood Therapeutics (United States),"hq=united states; desc=company in South San Francisco, United States"
+Global Training Aviation,05-Feb-2023,Merger/Acquisition,"""Madrid, Spain""",global training aviation,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Globe (Business/Productivity Software),30-Jun-2021,Merger/Acquisition,"""Madrid, Spain""",globe (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gloo Holdings (NAS: GLOO),18-Nov-2025,IPO,"""Boulder, CO""",gloo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Glovo,04-Jan-2022,Merger/Acquisition,"""Barcelona, Spain""",glovo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30899488|Q131892124|Q57951866.json
+Glow Technologies,12-Apr-2021,Merger/Acquisition,"""Pittsburgh, PA""",glow technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Glu Mobile,29-Apr-2021,Merger/Acquisition,"""San Francisco, CA""",glu mobile,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q2450081|Q114712963.json
+Glycotope,03-Jul-2024,Merger/Acquisition,"""Berlin, Germany""",glycotope,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30268993|Q33471849|Q35842380|Q38334857.json
+Glympse Bio.,09-Aug-2023,Merger/Acquisition,"""Cambridge, MA""",glympse bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Godsinl�sen Nordic,07-Jul-2021,IPO,"""Staffanstorp, Sweden""",godsinl�sen nordic,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gojob,02-Oct-2025,Merger/Acquisition,"""Aix-en-Provence, France""",gojob,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q532387|Q48989882|Q11488892|Q134405391.json
+Gold Flora (PINX: GRAM),09-Jul-2023,Reverse Merger,"""Costa Mesa, CA""",gold flora,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Good Chemistry,05-Jan-2024,Merger/Acquisition,"""Vancouver, Canada""",good chemistry,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q113578741|Q131549838|Q24807226|Q70232294|Q127825457.json
+Good Life+,30-Nov-2023,Reverse Merger,"""London, United Kingdom""",good life+,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Good Shepherd Entertainment,07-Jan-2021,Merger/Acquisition,"""The Hague, Netherlands""",good shepherd entertainment,2011,Wikidata,MEDIUM,70,REVIEW,Q5519649,Good Shepherd Entertainment,hq=netherlands; aliases=Gambitious BV|Gambitious Digital Entertainment; desc=Dutch video game publisher
+Good Therapeutics,18-Aug-2022,Merger/Acquisition,"""Seattle, WA""",good therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GoodPup,15-Jun-2022,Merger/Acquisition,"""Canton, MA""",goodpup,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GoParrot,18-May-2022,Merger/Acquisition,"""New York, NY""",goparrot,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GoPuls,12-Apr-2022,Merger/Acquisition,"""Berlin, Germany""",gopuls,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gordon Murray Automotive,17-Dec-2025,Merger/Acquisition,"""Windlesham, United Kingdom""",gordon murray automotive,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q65129456|Q136004319|Q65129453|Q110732836|Q136004271.json
+Gorilla Technology Group (NAS: GRRR),14-Jul-2022,Reverse Merger,"""London, United Kingdom""",gorilla technology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gorillas,09-Dec-2022,Merger/Acquisition,"""Berlin, Germany""",gorillas,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q613486|Q106866916|Q36611|Q1012216|Q3232990.json
+GQ Bio Therapeutics,27-Feb-2025,Merger/Acquisition,"""Hamburg, Germany""",gq bio therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Grab2Go (TAL: GRB2G),13-Jun-2023,IPO,"""Tallinn, Estonia""",grab2go,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GradFin,02-May-2022,Merger/Acquisition,"""Philadelphia, PA""",gradfin,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GRAIL (NAS: GRAL),18-Aug-2021,Merger/Acquisition,"""Menlo Park, CA""",grail,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q116681|Q160810|Q18046187|Q1341122|Q18262140.json
+Grainite,27-Sep-2023,Merger/Acquisition,"""Santa Clara, CA""",grainite,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Grand-Attic,01-Dec-2021,Merger/Acquisition,"""London, United Kingdom""",grand-attic,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Grandata,31-Oct-2024,Merger/Acquisition,"""San Mateo, CA""",grandata,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q106485350|Q29100798.json
+Graphcore,11-Jul-2024,Merger/Acquisition,"""Bristol, United Kingdom""",graphcore,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q38251361|Q114712818.json
+Graphite Bio,25-Jun-2021,IPO,"""South San Francisco, CA""",graphite bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gravite (Media and Information Services (B2B)),24-Feb-2022,Merger/Acquisition,"""Hamburg, Germany""",gravite (media and information services (b2b)),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Green Highland Renewables,19-Jan-2022,Merger/Acquisition,"""Perth, United Kingdom""",green highland renewables,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Green Innovation (Alternative Energy Equipment) (XBUL: HYD1),24-Jun-2025,IPO,"""Sofia, Bulgaria""",green innovation (alternative energy equipment),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Green Leaf Medical,11-Jun-2021,Merger/Acquisition,"""Frederick, MD""",green leaf medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Green Motion,22-Mar-2021,Merger/Acquisition,"""Le Mont-sur-Lausanne, Switzerland""",green motion,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q86664476|Q65315691.json
+Green Streams,24-Apr-2025,Merger/Acquisition,"""Riol, Germany""",green streams,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Greenbacker Capital Management,23-May-2022,Merger/Acquisition,"""New York, NY""",greenbacker capital management,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Greenbids,13-May-2025,Merger/Acquisition,"""Paris, France""",greenbids,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GreenCom Networks,10-Oct-2022,Merger/Acquisition,"""Munich, Germany""",greencom networks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GreenMerc Finance,31-Mar-2025,Merger/Acquisition,"""Stockholm, Sweden""",greenmerc finance,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Greenscreens.ai,08-May-2025,Merger/Acquisition,"""Fort Pierce, FL""",greenscreensai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Gretel,19-Mar-2025,Merger/Acquisition,"""San Diego, CA""",gretel,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1473690|Q59166737|Q55002530|Q108529145|Q106467191.json
+Grid Finder,22-Dec-2023,Merger/Acquisition,"""Newcastle Upon Tyne, United Kingdom""",grid finder,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

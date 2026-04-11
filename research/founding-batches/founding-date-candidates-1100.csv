@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Finaro,26-Oct-2023,Merger/Acquisition,"""Valletta, Malta""",finaro,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q25305477|Q101015592|Q56547132.json
+Finax,12-Dec-2025,IPO,"""Bratislava, Slovakia""",finax,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q10397888|Q96136571|Q424167|Q160054|Q131647034.json
+FinCompare,13-Dec-2021,Merger/Acquisition,"""Berlin, Germany""",fincompare,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fincura (Financial Software),07-Dec-2021,Merger/Acquisition,"""Boston, MA""",fincura (financial software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Findify,19-Apr-2022,Merger/Acquisition,"""Stockholm, Sweden""",findify,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Finexity (MUN: FXT),05-Sep-2025,IPO,"""Hamburg, Germany""",finexity,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Finomial,18-Oct-2021,Merger/Acquisition,"""Boston, MA""",finomial,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Finxact,01-Apr-2022,Merger/Acquisition,"""Jacksonville, FL""",finxact,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fire Sky Energy,01-Nov-2021,Merger/Acquisition,"""Estevan, Canada""",fire sky energy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Firefly Aerospace (NAS: FLY),07-Aug-2025,IPO,"""Cedar Park, TX""",firefly aerospace,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q17492679|Q111207569.json
+First Light Imaging,09-Jan-2024,Merger/Acquisition,"""Meyreuil, France""",first light imaging,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q47530590|Q131636104.json
+FiSpoke,05-Jun-2024,Merger/Acquisition,"""Wellesley, MA""",fispoke,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fit Analytics,17-Mar-2021,Merger/Acquisition,"""Berlin, Germany""",fit analytics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fit-Up,04-Jun-2021,Merger/Acquisition,"""Linz, Austria""",fit-up,,Wikidata,NONE,70,NO_MATCH,Q96378003,Fit-up,hq=austria; desc=style of theatre
+Fitbit,14-Jan-2021,Merger/Acquisition,"""San Francisco, CA""",fitbit,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5455414|Q63676444|Q25907392|Q52153406|Q52153380.json
+FitWell,29-May-2021,Merger/Acquisition,"""London, United Kingdom""",fitwell,2014-04-04,Wikidata,MEDIUM,70,REVIEW,Q28403905,FitWell,hq=united kingdom
+Five Stars Loyalty,13-Oct-2021,Merger/Acquisition,"""San Francisco, CA""",five stars loyalty,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FivePrime Therapeutics,16-Apr-2021,Merger/Acquisition,"""South San Francisco, CA""",fiveprime therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flame Biosciences,17-Jan-2023,Merger/Acquisition,"""New Hope, PA""",flame biosciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flare (Liverpool),09-Jan-2024,Merger/Acquisition,"""Liverpool, United Kingdom""",flare (liverpool),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flaschenpost,01-Jul-2021,Merger/Acquisition,"""Munster, Germany""",flaschenpost,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q99348894|Q32859615|Q105451638|Q23529|Q897951.json
+Flashgap,31-Jan-2022,Merger/Acquisition,"""Paris, France""",flashgap,,Wikidata,NONE,70,NO_MATCH,Q137860976,FLASHGAP,hq=france
+Fleet Mortgages,26-Jul-2021,Merger/Acquisition,"""Fleet, United Kingdom""",fleet mortgages,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flewber,03-Mar-2025,Merger/Acquisition,"""New York, NY""",flewber,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flexion Therapeutics,19-Nov-2021,Merger/Acquisition,"""Burlington, MA""",flexion therapeutics,2007,Wikidata,MEDIUM,70,REVIEW,Q5459008,Flexion Therapeutics,hq=united states; desc=American biotechnology company
+Flexiti,10-Mar-2021,Merger/Acquisition,"""Orangeville, Canada""",flexiti,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q21227730|Q21269974|Q29464085|Q77691994|Q62472312.json
+FlightWave,04-Sep-2024,Merger/Acquisition,"""Humacao, PR""",flightwave,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flinks,08-Sep-2021,Merger/Acquisition,"""Montreal, Canada""",flinks,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q550401|Q108582833|Q132155964|Q34876186|Q31407327.json
+flipMD,18-Feb-2022,Merger/Acquisition,"""Philadelphia, PA""",flipmd,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flow Commerce,03-Jan-2022,Merger/Acquisition,"""Hoboken, NJ""",flow commerce,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flowcup,24-Jan-2023,Merger/Acquisition,"""Lund, Sweden""",flowcup,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fluent BioSciences,09-Jul-2024,Merger/Acquisition,"""Watertown, MA""",fluent biosciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fluid truck,18-Dec-2024,Merger/Acquisition,"""Westminster, CO""",fluid truck,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fluoptics,01-Jul-2022,Merger/Acquisition,"""Grenoble, France""",fluoptics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Flywire (NAS: FLYW),26-May-2021,IPO,"""Boston, MA""",flywire,2009-07-31,Wikidata,MEDIUM,70,REVIEW,Q97498233,Flywire,hq=united states; desc=fintech company
+Flyy (Application Software),08-Sep-2022,Merger/Acquisition,"""Wilmington, DE""",flyy (application software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Focus Impact BH3 Acquisition,05-Oct-2021,IPO,"""New York, NY""",focus impact bh3 acquisition,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Focus-X Therapeutics,05-Dec-2022,Merger/Acquisition,"""Watchung, NJ""",focus-x therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Focusly,03-Nov-2021,Merger/Acquisition,"""Warsaw, Poland""",focusly,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fold (NAS: FLD),14-Feb-2025,Reverse Merger,"""Phoenix, AZ""",fold,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q81659|Q122342375|Q1006144|Q17232201|Q21482897.json
+Folsom Labs,09-Aug-2021,Merger/Acquisition,"""San Francisco, CA""",folsom labs,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fon,23-Feb-2021,Merger/Acquisition,"""Bilbao, Spain""",fon,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q182872|Q193899|Q9257418|Q269166|Q3052382.json
+Foodiq,05-Jan-2024,Merger/Acquisition,"""J�rvenp��, Finland""",foodiq,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Footshop (PRA: WSO),23-Jun-2023,Reverse Merger,"""Prague, Czech Republic""",footshop,2012-04-02,Wikidata,MEDIUM,70,REVIEW,Q67815209,Footshop,hq=czech republic; desc=Czech company
+Forendo Pharma,13-Dec-2021,Merger/Acquisition,"""Turku, Finland""",forendo pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Foreseeti,07-Mar-2022,Merger/Acquisition,"""Stockholm, Sweden""",foreseeti,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Foresight Diagnostics,05-Dec-2025,Merger/Acquisition,"""Boulder, CO""",foresight diagnostics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Forge Biologics,21-Dec-2023,Merger/Acquisition,"""Grove City, OH""",forge biologics,,Wikidata,NONE,70,NO_MATCH,Q130228894,Forge Biologics,hq=united states
+Forge Global Holdings (NYS: FRGE),22-Mar-2022,Reverse Merger,"""San Francisco, CA""",forge global,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FORME Life (NAS: TRNR),01-May-2023,IPO,"""Austin, TX""",forme life,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

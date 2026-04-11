@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+CareBridge,10-Dec-2024,Merger/Acquisition,"""Nashville, TN""",carebridge,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CareLinx,11-Aug-2021,Merger/Acquisition,"""Burlingame, CA""",carelinx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Carevive,24-May-2024,Merger/Acquisition,"""South Jordan, UT""",carevive,,Wikidata,NONE,45,NO_MATCH,Q66042653,Carevive Survivor Care Planning System in Improving Quality of Life in Breast Cancer Survivors,hq=united states; desc=clinical trial
+Carevoyance,16-Jan-2024,Merger/Acquisition,"""Portland, OR""",carevoyance,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cargo Therapeutics,10-Nov-2023,IPO,"""San Carlos, CA""",cargo therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Caribou Biosciences (NAS: CRBU),23-Jul-2021,IPO,"""Berkeley, CA""",caribou biosciences,2011,Wikidata,HIGH,90,LIKELY_MATCH,Q43895734,Caribou Biosciences,"hq=united states; aliases=Caribou Biosciences, Inc.; desc=company in Berkeley, United States"
+Carisma Therapeutics (PINX: CARM),07-Mar-2023,Reverse Merger,"""Philadelphia, PA""",carisma therapeutics,2016,Wikidata,LOW,45,REVIEW,Q107518199,Carisma Therapeutics (United States),"hq=united states; desc=company in Philadelphia, United States"
+Carlsmed (NAS: CARL),23-Jul-2025,IPO,"""Carlsbad, CA""",carlsmed,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Carmot Therapeutics,26-Jan-2024,Merger/Acquisition,"""Berkeley, CA""",carmot therapeutics,2008,Wikidata,LOW,45,REVIEW,Q30255591,Carmot Therapeutics (United States),"hq=united states; desc=company in San Francisco, United States"
+CARROLL,19-Dec-2023,Merger/Acquisition,"""Atlanta, GA""",carroll,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q2666084|Q18658568|Q1903180|Q233891|Q555487.json
+Cartesian Therapeutics (NAS: RNAC),13-Nov-2023,Reverse Merger,"""Frederick, MD""",cartesian therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CarZeus,31-Jul-2021,Merger/Acquisition,"""San Antonio, TX""",carzeus,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Casetext,17-Aug-2023,Merger/Acquisition,"""San Francisco, CA""",casetext,,Wikidata,NONE,90,NO_MATCH,Q123137077,Casetext,"hq=united states; aliases=CoCounsel|Jake Heller|Casetext, Inc.; desc=legal AI product"
+Cashforce,15-Jun-2022,Merger/Acquisition,"""Antwerp, Belgium""",cashforce,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Catalytic (Business/Productivity Software),08-Mar-2022,Merger/Acquisition,"""Chicago, IL""",catalytic (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Catapult Health,28-Feb-2025,Merger/Acquisition,"""Dallas, TX""",catapult health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CattleEye,12-Mar-2024,Merger/Acquisition,"""Belfast, United Kingdom""",cattleeye,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cava Group (Restaurants and Bars) (NYS: CAVA),16-Jun-2023,IPO,"""Washington, DC""",cava (restaurants and bars),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cavendish Online,01-Dec-2022,Merger/Acquisition,"""Exeter, United Kingdom""",cavendish online,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cazana,02-Sep-2021,Merger/Acquisition,"""London, United Kingdom""",cazana,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q63759629|Q37465378|Q137599497|Q104018984|Q104018983.json
+Ccea,01-Mar-2021,Merger/Acquisition,"""Espoo, Finland""",ccea,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5176333|Q5139059|Q104862580|Q217172|Q113483349.json
+Cedar Poly,09-May-2022,Merger/Acquisition,"""Tipton, IA""",cedar poly,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Celestial AI,02-Feb-2026,Merger/Acquisition,"""Santa Clara, CA""",celestial ai,,Wikidata,NONE,45,NO_MATCH,Q119822062,Celestial Air,"hq=united states; desc=painting by David Tinker (1924–2000), Newport Museum and Art Gallery"
+Celfinet,06-Jun-2022,Merger/Acquisition,"""Lisbon, Portugal""",celfinet,2003,Wikidata,LOW,45,REVIEW,Q30263718,Celfinet (Portugal),"hq=portugal; desc=company in Lisbon, Portugal"
+Cell2Cure,03-Jan-2024,Merger/Acquisition,"""Birkerod, Denmark""",cell2cure,2018,Wikidata,MEDIUM,65,REVIEW,Q124634990,Cell2Cure ApS,"hq=denmark; aliases=Cell2Cure|C2C; desc=company in Birkerød, Denmark"
+Cellen,29-Jun-2022,Merger/Acquisition,"""London, United Kingdom""",cellen,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q37042517|Q160943|Q2943996|Q107290473|Q30024501.json
+CellmAbs Biopharmaceuticals,18-Jul-2024,Merger/Acquisition,"""Obidos, Portugal""",cellmabs biopharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CellPoint (Biotechnology),21-Jun-2022,Merger/Acquisition,"""Oegstgeest, Netherlands""",cellpoint (biotechnology),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cellwize,07-Jun-2022,Merger/Acquisition,"""Southlake, TX""",cellwize,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Celsius Therapeutics,27-Jun-2024,Merger/Acquisition,"""Cambridge, MA""",celsius therapeutics,2018,Wikidata,LOW,45,REVIEW,Q107518056,Celsius Therapeutics (United States),"hq=united states; desc=company in Cambridge, United States"
+Cend Therapeutics,15-Sep-2022,Merger/Acquisition,"""San Diego, CA""",cend therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Census,01-May-2025,Merger/Acquisition,"""San Francisco, CA""",census,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q39825|Q637413|Q2725376|Q523716|Q56436498.json
+Centessa Pharmaceuticals (NAS: CNTA),28-May-2021,IPO,"""Altrincham, United Kingdom""",centessa pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CentML,13-Jun-2025,Merger/Acquisition,"""Toronto, Canada""",centml,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Centred,30-Sep-2022,Merger/Acquisition,"""Seattle, WA""",centred,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1067693|Q112577994|Q112250010|Q1961172|Q112577960.json
+Century Therapeutics (NAS: IPSC),18-Jun-2021,IPO,"""Philadelphia, PA""",century therapeutics,2018,Wikidata,LOW,45,REVIEW,Q107519701,Century Therapeutics (United States),"hq=united states; desc=company in Philadelphia, United States"
+Cepton,11-Feb-2022,Reverse Merger,"""San Jose, CA""",cepton,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ceres Technologies,20-Jun-2022,Merger/Acquisition,"""Saugerties, NY""",ceres technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ceribell (NAS: CBLL),11-Oct-2024,IPO,"""Sunnyvale, CA""",ceribell,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104019324|Q104019325|Q113921688|Q131384412.json
+Cernostics,03-Dec-2021,Merger/Acquisition,"""Pittsburgh, PA""",cernostics,2008,Wikidata,LOW,45,REVIEW,Q30265420,Cernostics (United States),"hq=united states; desc=company in Pittsburgh, United States"
+CERo Therapeutics Holdings (PINX: CERO),07-Jun-2023,Reverse Merger,"""South San Francisco, CA""",cero therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CertEurope,03-Nov-2021,Merger/Acquisition,"""Paris, France""",certeurope,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cerus Endovascular,01-May-2023,Merger/Acquisition,"""Oxford, United Kingdom""",cerus endovascular,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CervoMed (NAS: CRVO),16-Aug-2023,Reverse Merger,"""Boston, MA""",cervomed,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CF Intercity (MAD: CITY),29-Oct-2021,IPO,"""Alicante, Spain""",cf intercity,2017-00-00,Wikidata,MEDIUM,70,REVIEW,Q78345783,CF Intercity,hq=spain; aliases=Club de Fútbol Intercity|Club de Futbol Intercity|Intercity; desc=Spanish football club
+CG Oncology (NAS: CGON),25-Jan-2024,IPO,"""Irvine, CA""",cg oncology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chaikin Analytics,21-Jan-2021,Merger/Acquisition,"""Radnor, PA""",chaikin analytics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chain Bridge I (PINX: CBRRF),10-Nov-2021,IPO,"""Dover, DE""",chain bridge i,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q111903601|Q112028998|Q115599703|Q112034339|Q112035560.json
+Chainge (Logistics),18-Jul-2024,Merger/Acquisition,"""Frederiksberg, Denmark""",chainge (logistics),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Chairish,04-Aug-2025,Merger/Acquisition,"""San Francisco, CA""",chairish,2013-00-00,Wikidata,MEDIUM,70,REVIEW,Q18216788,Chairish,hq=united states; aliases=pamono; desc=company

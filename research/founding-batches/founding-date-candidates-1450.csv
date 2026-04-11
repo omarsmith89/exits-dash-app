@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Imeon Energy (PAR: MLIME),09-Aug-2024,IPO,"""Brest, France""",imeon energy,2013-04,Wikidata,MEDIUM,70,REVIEW,Q134655164,Imeon Energy,hq=france
+Immerok,06-Jan-2023,Merger/Acquisition,"""Berlin, Germany""",immerok,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Immix Biopharma (NAS: IMMX),16-Dec-2021,IPO,"""Los Angeles, CA""",immix biopharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ImmPACT Bio,31-Oct-2024,Merger/Acquisition,"""West Hills, CA""",immpact bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Immuneering (NAS: IMRX),30-Jul-2021,IPO,"""Cambridge, MA""",immuneering,,Wikidata,NONE,65,NO_MATCH,Q124525794,Immuneering (United States),"hq=united states; aliases=Immuneering|Immuneering Corporation; desc=company in Cambridge, United States"
+Immunetrics,16-Jun-2023,Merger/Acquisition,"""Pittsburgh, PA""",immunetrics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ImmunityBio (NAS: IBRX),08-Mar-2021,Reverse Merger,"""San Diego, CA""",immunitybio,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q101246646|Q106616925.json
+ImmunogenX,13-Mar-2024,Merger/Acquisition,"""Newport Beach, CA""",immunogenx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+iMotions,25-Nov-2021,Merger/Acquisition,"""Copenhagen, Denmark""",imotions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IMOTO Photo,10-Dec-2021,Merger/Acquisition,"""New Orleans, LA""",imoto photo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Implanet (PAR: ALIMP),02-Feb-2024,Merger/Acquisition,"""Martillac, France""",implanet,2006-12-29,Wikidata,MEDIUM,70,REVIEW,Q132101696,Implanet,hq=france
+Imprint Energy,29-Aug-2023,Merger/Acquisition,"""Alameda, CA""",imprint energy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+In2Bones,13-Jun-2022,Merger/Acquisition,"""Memphis, TN""",in2bones,2011-11-15,Wikidata,MEDIUM,70,REVIEW,Q131665697,In2bones,hq=united states
+IN8bio (NAS: INAB),30-Jul-2021,IPO,"""New York, NY""",in8bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inari Medical,19-Feb-2025,Merger/Acquisition,"""Irvine, CA""",inari medical,2020-11,Wikidata,LOW,0,REVIEW,Q132101711,Inari Médical Europe,hq=united states
+Inception Exploration,18-Mar-2021,Merger/Acquisition,"""Calgary, Canada""",inception exploration,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Incipy,03-Apr-2023,Merger/Acquisition,"""Barcelona, Spain""",incipy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Incuvo (WAR: IVO),13-Jan-2021,IPO,"""Katowice, Poland""",incuvo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Indieflix,22-Sep-2021,Merger/Acquisition,"""Seattle, WA""",indieflix,2005-00-00,Wikidata,MEDIUM,70,REVIEW,Q18208037,Indieflix,hq=united states; desc=American entertainment company
+INDUS.AI,03-May-2021,Merger/Acquisition,"""San Francisco, CA""",indusai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Industrial Climate Solutions,01-Feb-2022,Merger/Acquisition,"""Calgary, Canada""",industrial climate solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Infinera,28-Feb-2025,Merger/Acquisition,"""San Jose, CA""",infinera,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q6029685|Q128804060|Q131999834|Q132011781.json
+Infinity Stone Ventures,13-Jul-2021,Reverse Merger,"""Vancouver, Canada""",infinity stone ventures,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inflection Risk Solutions,07-Apr-2022,Merger/Acquisition,"""San Francisco, CA""",inflection risk solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Influential,25-Jul-2024,Merger/Acquisition,"""Las Vegas, NV""",influential,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1344240|Q16908492|Q111734305|Q3150770|Q70418823.json
+Infocyte,20-Jan-2022,Merger/Acquisition,"""Travis, TX""",infocyte,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+InfoSum,04-Apr-2025,Merger/Acquisition,"""Basingstoke, United Kingdom""",infosum,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Infutor Data Solutions,11-Feb-2022,Merger/Acquisition,"""Oakbrook Terrace, IL""",infutor data solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inhibrx,30-May-2024,Merger/Acquisition,"""La Jolla, CA""",inhibrx,2010,Wikidata,LOW,45,REVIEW,Q64141812,Inhibrx (United States),"hq=united states; desc=company in La Jolla, United States"
+Inigo (Insurance),02-Feb-2026,Merger/Acquisition,"""London, United Kingdom""",inigo (insurance),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inin Group,11-Nov-2024,Merger/Acquisition,"""Oslo, Norway""",inin,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inivata,18-Jun-2021,Merger/Acquisition,"""Morrisville, NC""",inivata,,Wikidata,NONE,0,NO_MATCH,Q3547080,Ivatan,hq=united states; aliases=Ivatan language; desc=Batanic language spoken on the Batanes Islands by the Ivatan people
+Inkbox,01-Feb-2022,Merger/Acquisition,"""Toronto, Canada""",inkbox,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inlightened,09-Aug-2023,Merger/Acquisition,"""Boston, MA""",inlightened,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Innovative Eyewear (NAS: LUCY),15-Aug-2022,IPO,"""Miami, FL""",innovative eyewear,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Innovium,05-Oct-2021,Merger/Acquisition,"""San Jose, CA""",innovium,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Innoviva Specialty Therapeutics,11-Jul-2022,Merger/Acquisition,"""Waltham, MA""",innoviva specialty therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inositec,30-Nov-2021,Merger/Acquisition,"""Zurich, Switzerland""",inositec,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inozyme Pharma,01-Jul-2025,Merger/Acquisition,"""Boston, MA""",inozyme pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inphi,20-Apr-2021,Merger/Acquisition,"""San Jose, CA""",inphi,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q55454073|Q65087003|Q64143115.json
+Inpria,29-Oct-2021,Merger/Acquisition,"""Corvallis, OR""",inpria,,Wikidata,NONE,45,NO_MATCH,Q30289976,Inpria (United States),"hq=united states; desc=company in Corvallis, United States"
+Inras,21-Dec-2021,Merger/Acquisition,"""Linz, Austria""",inras,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q59664|Q10773023|Q116455343|Q97962718.json
+Insignia Health,03-Dec-2021,Merger/Acquisition,"""Wilmington, DE""",insignia health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Insmed Innovation,30-Jun-2023,Merger/Acquisition,"""Cambridge, United Kingdom""",insmed innovation,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Inspire Veterinary Partners (PINX: IVPR),30-Aug-2023,IPO,"""Virginia Beach, VA""",inspire veterinary partners,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Instacart (NAS: CART),19-Sep-2023,IPO,"""San Francisco, CA""",instacart,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q22909236|Q1506443|Q121307887.json
+Instaclustr,20-May-2022,Merger/Acquisition,"""San Jose, CA""",instaclustr,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+InstaDeep,31-Jul-2023,Merger/Acquisition,"""London, United Kingdom""",instadeep,2014-00-00,Wikidata,MEDIUM,70,REVIEW,Q125751368,InstaDeep,hq=united kingdom; desc=British company
+Instil Bio (NAS: TIL),19-Mar-2021,IPO,"""Dallas, TX""",instil bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Integral Acquisition Corporation 1 (PINX: INTE),03-Nov-2021,IPO,"""New York, NY""",integral acquisition 1,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+&ever,01-Oct-2021,Merger/Acquisition,"""Munich, Germany""",and ever,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+1606 (PINX: CBDW),12-Jan-2023,IPO,"""Phoenix, AZ""",1606,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12681517|Q6747|Q583622|Q3597608|Q1481053.json
+21seeds,31-Mar-2022,Merger/Acquisition,"""San Francisco, CA""",21seeds,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+24Storage,20-Dec-2021,Merger/Acquisition,"""Stockholm, Sweden""",24storage,,Wikidata,NONE,70,NO_MATCH,Q60967916,24Storage,hq=sweden
+2600Hz,20-Oct-2023,Merger/Acquisition,"""Henderson, NV""",2600hz,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+2nd.MD,02-Mar-2021,Merger/Acquisition,"""Houston, TX""",2ndmd,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+"""300 (Movies, Music and Entertainment)""",16-Dec-2021,Merger/Acquisition,"""New York, NY""",300 (movies music and entertainment),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+360X,29-Apr-2021,Merger/Acquisition,"""Frankfurt, Germany""",360x,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+365Talents,20-Jan-2026,Merger/Acquisition,"""Lyon, France""",365talents,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+3a-Diagnostics,06-Dec-2021,Merger/Acquisition,"""Frickenhausen, Germany""",3a-diagnostics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+3DEO,12-Nov-2025,Merger/Acquisition,"""Belfast, United Kingdom""",3deo,,Wikidata,NONE,45,NO_MATCH,Q104193318,3deoxyadenosine,hq=united kingdom; desc=group of stereoisomers with the chemical formula C₁₀H₁₃N₅O₃
+3iQ,23-Apr-2024,Merger/Acquisition,"""Toronto, Canada""",3iq,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+3radical,03-May-2024,Merger/Acquisition,"""Bristol, United Kingdom""",3radical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+401kplans.com,31-May-2022,Merger/Acquisition,"""Naples, FL""",401kplanscom,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+42matters,01-Jul-2024,Merger/Acquisition,"""Zurich, Switzerland""",42matters,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+4U By Tia,02-Dec-2023,Merger/Acquisition,"""Emeryville, CA""",4u by tia,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+5th Planet Games (OSL: 5PG),23-Sep-2021,Merger/Acquisition,"""Copenhagen, Denmark""",5th planet games,,Wikidata,NONE,45,NO_MATCH,Q115167217,5TH PLANET GAMES A/S,hq=denmark
+60 Degrees Pharma (NAS: SXTP),13-Jul-2023,IPO,"""Washington, DC""",60 degrees pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+7D Surgical,20-May-2021,Merger/Acquisition,"""Toronto, Canada""",7d surgical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+8 Rivers,07-Mar-2023,Merger/Acquisition,"""Durham, NC""",8 rivers,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30297129|Q26896247|Q126704828.json
+89bio,30-Oct-2025,Merger/Acquisition,"""San Francisco, CA""",89bio,2018-01-00,Wikidata,MEDIUM,70,REVIEW,Q136365899,89bio,hq=united states
+98point6,04-Apr-2023,Merger/Acquisition,"""Seattle, WA""",98point6,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aardvark Therapeutics (NAS: AARD),13-Feb-2025,IPO,"""San Diego, CA""",aardvark therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aarki,16-Jul-2021,Merger/Acquisition,"""San Francisco, CA""",aarki,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12271|Q123071946.json
+Aaron.ai,22-May-2024,Merger/Acquisition,"""Berlin, Germany""",aaronai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AAT Carriers,09-Feb-2022,Merger/Acquisition,"""Chattanooga, TN""",aat carriers,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AavantiBio,02-Dec-2022,Merger/Acquisition,"""Cambridge, MA""",aavantibio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Abaca (Financial Software),15-Nov-2022,Merger/Acquisition,"""North Little Rock, AR""",abaca (financial software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AbelZeta,19-Feb-2021,Merger/Acquisition,"""Rockville, MD""",abelzeta,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Abfero Pharmaceuticals,11-Nov-2021,Merger/Acquisition,"""Boston, MA""",abfero pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Abios Gaming,24-Aug-2021,Merger/Acquisition,"""Stockholm, Sweden""",abios gaming,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Abliva,14-Feb-2025,Merger/Acquisition,"""Lund, Sweden""",abliva,,Wikidata,NONE,70,NO_MATCH,Q117352889,Abliva,hq=sweden
+AboundBio,21-Jun-2022,Merger/Acquisition,"""Pittsburgh, PA""",aboundbio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+About You,16-Jun-2021,IPO,"""Hamburg, Germany""",about you,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q51844714|Q111547916|Q16207630|Q97012689|Q44257350.json
+Absci (NAS: ABSI),22-Jul-2021,IPO,"""Vancouver, WA""",absci,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q332211|Q333666|Q515874|Q25599399|Q117459479.json
+Absfront,10-Jan-2023,Merger/Acquisition,"""Malmo, Sweden""",absfront,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Abveris,01-Dec-2021,Merger/Acquisition,"""Quincy, MA""",abveris,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acacia (Recreational Goods),09-Dec-2025,Merger/Acquisition,"""Newark, CA""",acacia (recreational goods),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acacia Communications,01-Mar-2021,Merger/Acquisition,"""Maynard, MA""",acacia communications,2009-00-00,Wikidata,LOW,45,REVIEW,Q131541261,ACACIA,"hq=united states; aliases=ACACIA COMMUNICATIONS, INC.  (Maynard, MA)"
+Acacia Pharma,09-Jun-2022,Merger/Acquisition,"""Cambridge, United Kingdom""",acacia pharma,2007,Wikidata,LOW,45,REVIEW,Q30268747,Acacia Pharma (United Kingdom),"hq=united kingdom; desc=company in Cambridge, United Kingdom"
+Acast (STO: ACAST),17-Jun-2021,IPO,"""Stockholm, Sweden""",acast,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q21183704|Q4672160|Q4672171|Q2418275|Q416384.json
+Acceleron Pharma,19-Nov-2021,Merger/Acquisition,"""Cambridge, MA""",acceleron pharma,2003-00-00,Wikidata,MEDIUM,70,REVIEW,Q16824238,Acceleron Pharma,"hq=united states; aliases=Acceleron Pharma (United States); desc=company in Cambridge, United States"
+Accellix,22-Jan-2026,Merger/Acquisition,"""San Jose, CA""",accellix,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Access Physicians,26-Mar-2021,Merger/Acquisition,"""Dallas, TX""",access physicians,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Accessibility Now,09-Mar-2022,Merger/Acquisition,"""East Greenwich, RI""",accessibility now,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Acclarent,01-Apr-2024,Merger/Acquisition,"""Irvine, CA""",acclarent,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4672650|Q65356142.json
+Accolade (Managed Care),01-Apr-2025,Merger/Acquisition,"""Seattle, WA""",accolade (managed care),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Accrualify,03-Aug-2022,Merger/Acquisition,"""San Mateo, CA""",accrualify,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Accubits,02-Dec-2024,Merger/Acquisition,"""Vienna, VA""",accubits,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Accurics,01-Oct-2021,Merger/Acquisition,"""Pleasanton, CA""",accurics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

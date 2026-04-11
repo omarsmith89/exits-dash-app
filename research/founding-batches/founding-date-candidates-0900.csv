@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Dreamix,26-Mar-2024,Merger/Acquisition,"""Sofia, Bulgaria""",dreamix,,Wikidata,NONE,45,NO_MATCH,Q138002058,Dreamix Mada,"hq=bulgaria; desc=Service company based in Madagascar, specializing in digital, mobility, and event services."
+DripKit,25-Feb-2022,Merger/Acquisition,"""New York, NY""",dripkit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DriveWorks,15-Oct-2024,Merger/Acquisition,"""Thelwall, United Kingdom""",driveworks,,Wikidata,NONE,70,NO_MATCH,Q137196697,DriveWorks,hq=united kingdom; desc=design automation software for SOLIDWORKS
+Drizly,02-Feb-2021,Merger/Acquisition,"""Boston, MA""",drizly,2012-00-00,Wikidata,MEDIUM,70,REVIEW,Q23808553,Drizly,hq=united states; aliases=drizly.com; desc=liquor selling E-commerce platform
+Drone Racing League,19-Apr-2024,Merger/Acquisition,"""New York, NY""",drone racing league,2015-00-00,Wikidata,MEDIUM,70,REVIEW,Q48835558,Drone Racing League,hq=united states; desc=air sports league
+"""Drop (Computers, Parts and Peripherals)""",14-Jul-2023,Merger/Acquisition,"""Milpitas, CA""",drop (computers parts and peripherals),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dropworks (Boulder),15-Oct-2021,Merger/Acquisition,"""Boulder, CO""",dropworks (boulder),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+DTx Pharma,14-Jul-2023,Merger/Acquisition,"""San Diego, CA""",dtx pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ducentis,28-Dec-2022,Merger/Acquisition,"""Oxford, United Kingdom""",ducentis,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Duolingo (NAS: DUOL),28-Jul-2021,IPO,"""Pittsburgh, PA""",duolingo,,Wikidata,ERROR,0,ERROR,,,fetch failed
+DUPR,24-Jan-2024,Buyout/LBO,"""Delray Beach, FL""",dupr,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q25431887|Q21450534|Q63413269|Q56245371|Q37496138.json
+DX,19-Nov-2025,Merger/Acquisition,"""San Francisco, CA""",dx,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q422252|Q4252370|Q188695|Q296277|Q193439.json
+Dynamic (Financial Services),23-Oct-2025,Merger/Acquisition,"""Miami, FL""",dynamic (financial services),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Dynamic Biosensors,02-Oct-2024,Merger/Acquisition,"""Munich, Germany""",dynamic biosensors,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q107519012|Q134643862.json
+Dynamic Yield,01-Apr-2022,Merger/Acquisition,"""New York, NY""",dynamic yield,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q28605484|Q59003396|Q59003461|Q81439340.json
+DynamicAction,28-Apr-2021,Merger/Acquisition,"""Redwood City, CA""",dynamicaction,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+E-bot7,15-Jul-2021,Merger/Acquisition,"""Munich, Germany""",e-bot7,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+e-Novia (MIL: E9IA),12-Dec-2022,IPO,"""Milan, Italy""",e-novia,,Wikidata,NONE,45,NO_MATCH,Q138749312,e-Novia S.p.A.,hq=italy; aliases=e-novia spa; desc=Italian company developing and accelerating deep tech ventures
+E.C.D. Automotive Design (PINX: ECDA),12-Dec-2023,Reverse Merger,"""Kissimmee, FL""",ecd automotive design,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+eAgile,03-Apr-2023,Merger/Acquisition,"""Grand Rapids, MI""",eagile,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Earth Science Analytics,28-Jul-2025,Merger/Acquisition,"""Stavanger, Norway""",earth science analytics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Earthly Labs,14-Dec-2021,Merger/Acquisition,"""Austin, TX""",earthly labs,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eat & Co,31-Dec-2022,Merger/Acquisition,"""London, United Kingdom""",eat and,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EB Charging,22-Apr-2022,Merger/Acquisition,"""St Albans, United Kingdom""",eb charging,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EBCO (Automotive),01-Apr-2022,Merger/Acquisition,"""Warwick, United Kingdom""",ebco (automotive),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EBET (PINX: EBET),15-Apr-2021,IPO,"""Las Vegas, NV""",ebet,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q496681|Q12060656|Q3046830|Q137505962|Q872626.json
+EBR Systems (ASX: EBR),01-Oct-2021,IPO,"""Sunnyvale, CA""",ebr systems,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104480384|Q131665138.json
+Echo (Devices and Supplies),26-Jun-2021,Merger/Acquisition,"""San Diego, CA""",echo (devices and supplies),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Echo Ridge (Commercial Services),30-Jul-2021,Merger/Acquisition,"""Sterling, VA""",echo ridge (commercial services),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eclettica,06-Jan-2021,Merger/Acquisition,"""Fisciano, Italy""",eclettica,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eco Driver,17-Oct-2023,Merger/Acquisition,"""London, United Kingdom""",eco driver,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eco-Adapt,02-Mar-2023,Merger/Acquisition,"""Paris, France""",eco-adapt,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ecobee,01-Dec-2021,Merger/Acquisition,"""Toronto, Canada""",ecobee,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5333159|Q16741335|Q57182948.json
+Ecochlor,13-Nov-2024,Merger/Acquisition,"""North Haven, CT""",ecochlor,,Wikidata,NONE,45,NO_MATCH,Q110760722,Ecochlor ® Ballast Water Treatment System,hq=united states
+eCollect,11-Sep-2023,Merger/Acquisition,"""Zug, Switzerland""",ecollect,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ecosio,30-Aug-2024,Merger/Acquisition,"""Vienna, Austria""",ecosio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ectin Research,18-Aug-2021,IPO,"""Molndal, Sweden""",ectin research,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EdgeCast Networks,15-Jun-2022,Merger/Acquisition,"""Santa Monica, CA""",edgecast networks,2006-00-00,Wikidata,MEDIUM,70,REVIEW,Q5337638,EdgeCast Networks,hq=united states; desc=content delivery network company
+Edgewise Therapeutics (NAS: EWTX),26-Mar-2021,IPO,"""Boulder, CO""",edgewise therapeutics,2017,Wikidata,MEDIUM,65,REVIEW,Q119857228,Edgewise Therapeutics (United States),"hq=united states; aliases=Edgewise Therapeutics; desc=company in Boulder, United States"
+Edible Garden (NAS: EDBL),05-May-2022,IPO,"""Belvidere, NJ""",edible garden,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q111965983|Q39291129.json
+Edzcom,29-Feb-2024,Merger/Acquisition,"""Espoo, Finland""",edzcom,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+eEducation Albert (STO: ALBERT),01-Oct-2021,IPO,"""Gothenburg, Sweden""",eeducation albert,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Effectiv,24-Oct-2024,Merger/Acquisition,"""San Francisco, CA""",effectiv,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5347252|Q1296024|Q61890502|Q27714521|Q61890503.json
+Effector Therapeutics (PINX: EFTR),25-Aug-2021,Reverse Merger,"""Solana Beach, CA""",effector therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Effortless IVF,09-Sep-2021,Merger/Acquisition,"""Fort Worth, TX""",effortless ivf,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EGEIRO Pharma,17-Jun-2021,IPO,"""Jumet, Belgium""",egeiro pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EGO Movement,17-Sep-2021,Merger/Acquisition,"""Zurich, Switzerland""",ego movement,,Wikidata,NONE,45,NO_MATCH,Q73940602,Ego movement and identification,hq=switzerland; desc=scientific article published on 01 January 1956
+Egreement,24-Sep-2021,Merger/Acquisition,"""Stockholm, Sweden""",egreement,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eidos Therapeutics,26-Jan-2021,Merger/Acquisition,"""San Francisco, CA""",eidos therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eikon Therapeutics (NAS: EIKN),05-Feb-2026,IPO,"""Millbrae, CA""",eikon therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

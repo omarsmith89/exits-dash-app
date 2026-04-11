@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+iTeos Therapeutics,29-Aug-2025,Merger/Acquisition,"""Watertown, MA""",iteos therapeutics,,Wikidata,NONE,70,NO_MATCH,Q53792674,iTeos Therapeutics,hq=united states; desc=scientific article published on 6 June 2017
+Iterpro,07-Mar-2025,Merger/Acquisition,"""Southam, United Kingdom""",iterpro,,Wikidata,NONE,45,NO_MATCH,Q98439698,Iterprojektet,"hq=united kingdom; desc=interpellation in the Riksdag from Jonas Sjöstedt to Jan Björklund, 2011-04-01"
+ITK,31-Oct-2023,Merger/Acquisition,"""Montpellier, France""",itk,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q31280045|Q14911916|Q1145414|Q21475478|Q5974836.json
+Ivanhoe Electric (ASE: IE),28-Jun-2022,IPO,"""Tempe, AZ""",ivanhoe electric,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ivantis,07-Jan-2022,Merger/Acquisition,"""Irvine, CA""",ivantis,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12656930|Q104480815.json
+Ivenix,03-May-2022,Merger/Acquisition,"""North Andover, MA""",ivenix,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+IVERIC bio,11-Jul-2023,Merger/Acquisition,"""Parsippany, NJ""",iveric bio,2007,Wikidata,MEDIUM,70,REVIEW,Q30269231,IVERIC bio,"hq=united states; desc=company in New York, United States"
+Jace Medical,01-Feb-2023,Merger/Acquisition,"""Warsaw, IN""",jace medical,,Wikidata,NONE,45,NO_MATCH,Q138457581,"Jace Medical, LLC",hq=united states
+Jackpocket,23-May-2024,Merger/Acquisition,"""New York, NY""",jackpocket,,Wikidata,NONE,70,NO_MATCH,Q115804920,Jackpocket,hq=united states; desc=tech company and app
+Jampp,10-Jun-2021,Merger/Acquisition,"""San Francisco, CA""",jampp,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q18659459|Q124375822|Q17384358|Q115736263|Q24515775.json
+Janux Therapeutics (NAS: JANX),11-Jun-2021,IPO,"""San Diego, CA""",janux therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jaramba,30-Dec-2021,Merger/Acquisition,"""Stockholm, Sweden""",jaramba,,Wikidata,NONE,0,NO_MATCH,Q12280,bridge,"hq=sweden; aliases=bridge (structure)|bridge (engineering)|bridges; desc=structure that spans and provides a passage over a road, railway, river, or some other obstacle"
+Jasper Commerce,30-Jun-2024,Merger/Acquisition,"""Calgary, Canada""",jasper commerce,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jasper Therapeutics (NAS: JSPR),24-Sep-2021,Reverse Merger,"""Redwood City, CA""",jasper therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jastrzab Post,07-Nov-2022,Merger/Acquisition,"""Warsaw, Poland""",jastrzab post,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Javelo,31-Mar-2022,Merger/Acquisition,"""Montreuil, France""",javelo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4688391|Q65106768|Q138720229|Q7972779|Q104384527.json
+JBM Solar,15-Mar-2023,Merger/Acquisition,"""London, United Kingdom""",jbm solar,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+JC Medical,22-Jul-2024,Merger/Acquisition,"""Burlingame, CA""",jc medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jeeng,26-Jan-2023,Merger/Acquisition,"""New York, NY""",jeeng,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jeli,15-Nov-2023,Merger/Acquisition,"""San Francisco, CA""",jeli,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q19726898|Q511054|Q21507424|Q2232955|Q50375423.json
+Jet.AI (NAS: JTAI),10-Aug-2023,Reverse Merger,"""Las Vegas, NV""",jetai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jetcool,14-Nov-2024,Merger/Acquisition,"""Littleton, MA""",jetcool,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+JetLend (MISX: JETL),25-Mar-2025,IPO,"""Skolkovo, Russia""",jetlend,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jetty Extracts,19-May-2022,Merger/Acquisition,"""Oakland, CA""",jetty extracts,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jiobit,01-Sep-2021,Merger/Acquisition,"""San Mateo, CA""",jiobit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jnana Therapeutics,08-Oct-2024,Merger/Acquisition,"""Boston, MA""",jnana therapeutics,2016,Wikidata,LOW,45,REVIEW,Q104481194,Jnana Therapeutics (United States),"hq=united states; desc=company in Boston, United States"
+Joby Aviation (NYS: JOBY),10-Aug-2021,Reverse Merger,"""Santa Cruz, CA""",joby aviation,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q54933259|Q122790298.json
+Johnson Hana,30-Jun-2025,Merger/Acquisition,"""Dublin, Ireland""",johnson hana,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jolt (Business/Productivity Software),18-Aug-2025,Merger/Acquisition,"""Lehi, UT""",jolt (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Joule (Automotive),31-Mar-2022,Buyout/LBO,"""Gent, Belgium""",joule (automotive),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Joulebug,05-Apr-2021,Merger/Acquisition,"""Raleigh, NC""",joulebug,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jounce Therapeutics,03-May-2023,Merger/Acquisition,"""Cambridge, MA""",jounce therapeutics,2013,Wikidata,MEDIUM,70,REVIEW,Q106760435,Jounce Therapeutics,hq=united states; desc=company
+Jour,21-Sep-2021,Merger/Acquisition,"""New York, NY""",jour,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q867727|Q898902|Q902558|Q1355917|Q1524177.json
+Journey Medical (NAS: DERM),12-Nov-2021,IPO,"""Scottsdale, AZ""",journey medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jukin Media,12-Aug-2021,Merger/Acquisition,"""Los Angeles, CA""",jukin media,2009-00-00,Wikidata,MEDIUM,70,REVIEW,Q22078044,Jukin Media,hq=united states; desc=viral video licensing company
+Jumpship,15-Nov-2022,Merger/Acquisition,"""Guildford, United Kingdom""",jumpship,2017-01-19,Wikidata,HIGH,90,LIKELY_MATCH,Q116982475,Jumpship,hq=united kingdom; aliases=Jumpship Limited; desc=British video game developer
+Juno EMR,01-Nov-2022,Merger/Acquisition,"""Victoria, Canada""",juno emr,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Jupiter Neurosciences (NAS: JUNS),03-Dec-2024,IPO,"""Palm Beach Gardens, FL""",jupiter neurosciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Just Love,01-Apr-2021,Buyout/LBO,"""Blackwood, United Kingdom""",just love,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q24871615|Q19917653|Q6316185|Q6316181|Q114812225.json
+Just Spices,18-Jan-2022,Merger/Acquisition,"""Dusseldorf, Germany""",just spices,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+JustLight,20-Mar-2023,Merger/Acquisition,"""Pontiac, MI""",justlight,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+K2 Cyber Security,14-Sep-2022,Merger/Acquisition,"""San Jose, CA""",k2 cyber security,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+K33 (STO: K33),01-Jan-2021,Reverse Merger,"""Oslo, Norway""",k33,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q72008753|Q123375397|Q18028393|Q18028389|Q98713516.json
+Kadromierz,04-Mar-2025,Merger/Acquisition,"""Wroclaw, Poland""",kadromierz,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Kaia Health,28-Jan-2026,Merger/Acquisition,"""New York, NY""",kaia health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Kairos Pharma (ASE: KAPA),16-Sep-2024,IPO,"""Los Angeles, CA""",kairos pharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Kanabo Group,16-Feb-2021,Reverse Merger,"""London, United Kingdom""",kanabo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Karma Stratagy,08-Jun-2022,Merger/Acquisition,"""Zagarolo, Italy""",karma stratagy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Karuna Therapeutics,18-Mar-2024,Merger/Acquisition,"""Boston, MA""",karuna therapeutics,2009-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q113503524,Karuna Therapeutics,"hq=united states; aliases=Karuna Therapeutics, Inc.; desc=biopharmaceutical company"
+Kast (Entertainment Software),22-Apr-2022,Merger/Acquisition,"""Walnut, CA""",kast (entertainment software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

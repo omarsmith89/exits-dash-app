@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Butter (Consumer Finance),01-Feb-2023,Merger/Acquisition,"""London, United Kingdom""",butter (consumer finance),,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Butter+%28Consumer+Finance%29
+BUX,01-Jul-2024,Merger/Acquisition,"""Amsterdam, Netherlands""",bux,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=BUX
+BuyerQuest,28-Jan-2021,Merger/Acquisition,"""Cleveland, OH""",buyerquest,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=BuyerQuest
+BuzzFeed (NAS: BZFD),03-Dec-2021,Reverse Merger,"""New York, NY""",buzzfeed,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=BuzzFeed
+BuzzGames,28-Jan-2022,Merger/Acquisition,"""Miami, FL""",buzzgames,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=BuzzGames
+C2i Genomics,05-Feb-2024,Merger/Acquisition,"""New York, NY""",c2i genomics,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=C2i+Genomics
+Cacheflow,30-Oct-2024,Merger/Acquisition,"""Los Altos, CA""",cacheflow,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Cacheflow
+Cadent Therapeutics,31-Mar-2021,Merger/Acquisition,"""Cambridge, MA""",cadent therapeutics,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Cadent+Therapeutics
+Cadre (United States),22-Jan-2024,Merger/Acquisition,"""New York, NY""",cadre (united states),,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Cadre+%28United+States%29
+Cadrenal Therapeutics (NAS: CVKD),20-Jan-2023,IPO,"""Ponte Vedra Beach, FL""",cadrenal therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Caelum Biosciences,06-Oct-2021,Merger/Acquisition,"""Bordentown, NJ""",caelum biosciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cajoo,16-May-2022,Merger/Acquisition,"""Paris, France""",cajoo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q40913|Q113833963|Q131203315.json
+Caliber (Arizona) (NAS: CWD),17-May-2023,IPO,"""Scottsdale, AZ""",caliber (arizona),,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Caliber+%28Arizona%29
+Calidi Biotherapeutics (ASE: CLDI),12-Sep-2023,Reverse Merger,"""San Diego, CA""",calidi biotherapeutics,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Calidi+Biotherapeutics
+California Bank of Commerce (Acquired),31-Jul-2024,Merger/Acquisition,"""San Diego, CA""",california bank of commerce (acquired),,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=California+Bank+of+Commerce+%28Acquired%29
+Calipsa,19-Apr-2022,Merger/Acquisition,"""London, United Kingdom""",calipsa,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Calipsa
+Callahan Financial Planning,31-Mar-2021,Merger/Acquisition,"""Omaha, NE""",callahan financial planning,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Callahan+Financial+Planning
+CallDesk,29-Dec-2022,Merger/Acquisition,"""Paris, France""",calldesk,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=CallDesk
+Calliditas Therapeutics,30-Jul-2024,Merger/Acquisition,"""Stockholm, Sweden""",calliditas therapeutics,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Calliditas+Therapeutics
+Callin,15-May-2023,Merger/Acquisition,"""San Francisco, CA""",callin,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Callin
+Calypso Biotech,07-Jan-2024,Merger/Acquisition,"""Geneva, Switzerland""",calypso biotech,,Wikidata,ERROR,0,ERROR,,,fetch failed
+CalypsoAI,26-Sep-2025,Merger/Acquisition,"""New York, NY""",calypsoai,,Wikidata,ERROR,0,ERROR,,,fetch failed
+Cambridge Satchel,06-Aug-2022,Merger/Acquisition,"""Cambridge, United Kingdom""",cambridge satchel,,Wikidata,ERROR,0,ERROR,,,fetch failed
+Camelina Company,29-Dec-2021,Merger/Acquisition,"""Madrid, Spain""",camelina,,Wikidata,ERROR,0,ERROR,,,fetch failed
+CAMP4 (NAS: CAMP),11-Oct-2024,IPO,"""Cambridge, MA""",camp4,1960-00-00,Wikidata,MEDIUM,70,REVIEW,Q116136936,Camp4,hq=united states; aliases=Blumenhaus Interflor|Modesalon Madeleine; desc=cultural heritage site and camping store in Berlin
+Canapar,14-Jun-2021,Merger/Acquisition,"""Ragusa, Italy""",canapar,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q99906903|Q18461427|Q320311|Q55578849.json
+Canatu (HEL: CANATU),16-Sep-2024,Reverse Merger,"""Vantaa, Finland""",canatu,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30255442|Q16256398|Q107198636.json
+Cancer Prevention Pharmaceuticals,15-Jun-2022,Merger/Acquisition,"""Tucson, AZ""",cancer prevention pharmaceuticals,2008,Wikidata,LOW,45,REVIEW,Q50038303,Cancer Prevention Pharmaceuticals (United States),"hq=united states; desc=company in Tucson, United States"
+CannTx,29-Oct-2021,Merger/Acquisition,"""Toronto, Canada""",canntx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cantourage (FRA: HIGH),11-Nov-2022,IPO,"""Berlin, Germany""",cantourage,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Capcito Finance,01-Dec-2021,Merger/Acquisition,"""Stockholm, Sweden""",capcito finance,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cape Analytics,15-Jan-2025,Merger/Acquisition,"""Palo Alto, CA""",cape analytics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Capella Space,11-Jul-2025,Merger/Acquisition,"""San Francisco, CA""",capella space,2016-03-00,Wikidata,MEDIUM,70,REVIEW,Q43401532,Capella Space,hq=united states; aliases=Capella; desc=American radar satellite imagery company
+Caper,19-Oct-2021,Merger/Acquisition,"""San Francisco, CA""",caper,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q21450437|Q496523|Q156251|Q3229775|Q5432692.json
+Capillary Biomedical,21-Jul-2022,Merger/Acquisition,"""Irvine, CA""",capillary biomedical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Caplist,01-Jul-2022,Merger/Acquisition,"""Oslo, Norway""",caplist,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CapNostics,05-Oct-2021,Merger/Acquisition,"""Concord, NC""",capnostics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CapsoVision (NAS: CV),02-Jul-2025,IPO,"""Saratoga, CA""",capsovision,2006,Wikidata,LOW,45,REVIEW,Q104480115,CapsoVision (United States),"hq=united states; desc=company in Saratoga, United States"
+Capstan Therapeutics,19-Aug-2025,Merger/Acquisition,"""San Diego, CA""",capstan therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Caption Care,17-Feb-2023,Merger/Acquisition,"""San Mateo, CA""",caption care,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Captiv8,15-May-2025,Merger/Acquisition,"""San Mateo, CA""",captiv8,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Captura Biopharma,18-Aug-2022,Reverse Merger,"""Little Rock, AR""",captura biopharma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Caraway Therapeutics,20-Nov-2023,Merger/Acquisition,"""Cambridge, MA""",caraway therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Carbiolice,03-Jun-2021,Merger/Acquisition,"""Clermont-Ferrand, France""",carbiolice,,Wikidata,NONE,70,NO_MATCH,Q126874647,Carbiolice,hq=france
+Carbon Engineering,03-Nov-2023,Merger/Acquisition,"""Squamish, Canada""",carbon engineering,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q23074058|Q5037964.json
+Carbon6 (Media and Information Services (B2B)),04-Feb-2025,Merger/Acquisition,"""Toronto, Canada""",carbon6 (media and information services (b2b)),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Card Isle,03-Apr-2024,Merger/Acquisition,"""Blacksburg, VA""",card isle,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CardCash,29-Dec-2023,Merger/Acquisition,"""Brick, NJ""",cardcash,2009-00-00,Wikidata,MEDIUM,70,REVIEW,Q19866072,CardCash,hq=united states; desc=American online retail company
+Cardiac Insight,16-Mar-2022,Merger/Acquisition,"""Bellevue, WA""",cardiac insight,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cardior,25-Mar-2024,Merger/Acquisition,"""Hannover, Germany""",cardior,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1960747|Q5038718|Q26842240|Q1999902|Q303954.json

@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Elastic.io,08-Sep-2021,Merger/Acquisition,"""Solingen, Germany""",elasticio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ElectraMeccanica Vehicles,26-Mar-2024,Merger/Acquisition,"""Mesa, AZ""",electrameccanica vehicles,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Electric Last Mile Solutions,25-Jun-2021,Reverse Merger,"""Troy, MI""",electric last mile solutions,2020-00-00,Wikidata,LOW,20,REVIEW,Q108895028,ELMS,hq=united states; aliases=Electric Last Mile Solutions; desc=American startup
+Electriq Power (PINX: ELIQQ),31-Jul-2023,Reverse Merger,"""San Leandro, CA""",electriq power,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Elektrofi,18-Nov-2025,Merger/Acquisition,"""Boston, MA""",elektrofi,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1154774|Q132531807|Q110491581|Q48145595|Q236139.json
+Element AI,08-Jan-2021,Merger/Acquisition,"""Montreal, Canada""",element ai,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q65117775|Q97367165.json
+Element451,27-Nov-2024,Merger/Acquisition,"""Raleigh, NC""",element451,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eleos Technologies,01-Feb-2021,Merger/Acquisition,"""Greenville, SC""",eleos technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eleusis,20-Oct-2022,Merger/Acquisition,"""London, United Kingdom""",eleusis,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q14882001|Q11918833|Q204905|Q138701398|Q1328260.json
+Elevation Oncology,25-Jun-2021,IPO,"""Boston, MA""",elevation oncology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Elicio Therapeutics (NAS: ELTX),01-Jun-2023,Reverse Merger,"""Boston, MA""",elicio therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eligo,28-Dec-2022,IPO,"""Milan, Italy""",eligo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q321169|Q37554755|Q67812569|Q11184387|Q5305469.json
+ELIOS Vision,10-Dec-2024,Merger/Acquisition,"""Los Angeles, CA""",elios vision,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+elvah,28-Jun-2023,Merger/Acquisition,"""Essen, Germany""",elvah,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q31696030|Q31614671|Q31539511|Q31620633|Q32191937.json
+EMB Mission Bound (STO: EMB),23-Jun-2021,IPO,"""Stockholm, Sweden""",emb mission bound,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Embark Biotech,30-Aug-2023,Merger/Acquisition,"""Copenhagen, Denmark""",embark biotech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Embark Health,28-Jan-2022,Merger/Acquisition,"""Toronto, Canada""",embark health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Embee Mobile,01-Nov-2021,Merger/Acquisition,"""San Francisco, CA""",embee mobile,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Embody (Therapeutic Devices),01-Feb-2023,Merger/Acquisition,"""Norfolk, VA""",embody (therapeutic devices),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+emotion3D,10-Aug-2025,Merger/Acquisition,"""Vienna, Austria""",emotion3d,,Wikidata,NONE,45,NO_MATCH,Q131883294,emotion3D GmbH,hq=austria
+Empery Digital (NAS: EMPD),06-Oct-2021,IPO,"""Austin, TX""",empery digital,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Empire Games (Entertainment Software),14-Aug-2024,Merger/Acquisition,"""London, United Kingdom""",empire games (entertainment software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Emplify,27-Apr-2021,Merger/Acquisition,"""Fishers, IN""",emplify,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30672390|Q136088682.json
+Encore Technologies (Holding Companies) (CNQ: ENCR),28-Nov-2025,IPO,"""Vancouver, Canada""",encore technologies ( companies),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Encuentra24.com,31-Dec-2021,Buyout/LBO,"""Bern, Switzerland""",encuentra24com,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EndoGastric Solutions,01-Jul-2024,Merger/Acquisition,"""Redmond, WA""",endogastric solutions,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104480415|Q132101008.json
+Endomag,25-Jul-2024,Merger/Acquisition,"""Cambridge, United Kingdom""",endomag,2007,Wikidata,MEDIUM,70,REVIEW,Q30256893,Endomag,hq=united kingdom; aliases=Endomagnetics; desc=UK medical device company
+Endotronix,19-Aug-2024,Merger/Acquisition,"""Naperville, IL""",endotronix,2007,Wikidata,LOW,45,REVIEW,Q104480425,Endotronix (United States),"hq=united states; desc=company in Lisle, United States"
+Endurance Motive (MAD: END),08-Jul-2021,IPO,"""Valencia, Spain""",endurance motive,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Energenius,11-Oct-2022,Merger/Acquisition,"""Rovereto, Italy""",energenius,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Energy Solar Tech (MAD: ETC),09-Jan-2023,IPO,"""Madrid, Spain""",energy solar tech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Energy Vault Holdings (NYS: NRGV),14-Feb-2022,Reverse Merger,"""Westlake Village, CA""",energy vault,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EnergyVision (BRU: ENRGY),09-Jul-2025,IPO,"""Ghent, Belgium""",energyvision,2014-10-08,Wikidata,HIGH,90,LIKELY_MATCH,Q136399720,EnergyVision,hq=belgium; aliases=Energy Vision NV|Energyvision|energyvision; desc=Belgian renewable energy company
+Enfoil,23-Apr-2025,Merger/Acquisition,"""Genk, Belgium""",enfoil,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Engine,17-Feb-2022,Merger/Acquisition,"""New York, NY""",engine,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q96329007|Q93301|Q44167|Q81096|Q11023.json
+Enlighten Technologies,14-Jan-2022,Merger/Acquisition,"""Bowling Green, KY""",enlighten technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Enlitic (ASX: ENL),19-Dec-2023,IPO,"""Fort Collins, CO""",enlitic,,Wikidata,NONE,70,NO_MATCH,Q132184241,Enlitic,"hq=united states; aliases=Enlitic, Inc.  (San Francisco, CA)"
+Enliven Therapeutics (NAS: ELVN),23-Feb-2023,Reverse Merger,"""Boulder, CO""",enliven therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Enodo,25-Jun-2021,Merger/Acquisition,"""Chicago, IL""",enodo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q18113727|Q30148010|Q111995051|Q17984504|Q4991510.json
+Enogia (PAR: ALENO),14-Jul-2021,IPO,"""Marseille, France""",enogia,2009-00-00,Wikidata,MEDIUM,70,REVIEW,Q64604856,Enogia,hq=france
+Enovix (NAS: ENVX),14-Jul-2021,Reverse Merger,"""Fremont, CA""",enovix,,Wikidata,NONE,90,NO_MATCH,Q124624329,Enovix Corporation,hq=united states; aliases=Enovix; desc=battery technology company
+EnSilica (LON: ENSI),24-May-2022,IPO,"""Abingdon, United Kingdom""",ensilica,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5374944|Q92483487|Q96230327.json
+Entrada Therapeutics (NAS: TRDA),02-Nov-2021,IPO,"""Boston, MA""",entrada therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Envera Health,12-Oct-2023,Merger/Acquisition,"""Richmond, VA""",envera health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Enview,05-Jan-2022,Merger/Acquisition,"""San Diego, CA""",enview,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Envoy (Culver City),18-Apr-2023,Merger/Acquisition,"""Culver City, CA""",envoy (culver city),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EPH (Milan) (MIL: EPH),23-Jun-2022,Merger/Acquisition,"""Milan, Italy""",eph (milan),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Epic! Kids,21-Jul-2021,Merger/Acquisition,"""Palo Alto, CA""",epic! kids,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Epiluvac,31-Jan-2023,Merger/Acquisition,"""Lund, Sweden""",epiluvac,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Epizyme,12-Aug-2022,Merger/Acquisition,"""Cambridge, MA""",epizyme,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30260408|Q84489642|Q83935861.json

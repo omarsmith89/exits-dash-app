@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Artiva (NAS: ARTV),19-Jul-2024,IPO,"""San Diego, CA""",artiva,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q96704477|Q134631898.json
+ARTMS,11-Apr-2024,Merger/Acquisition,"""Burnaby, Canada""",artms,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q119692734|Q114075949|Q106485531.json
+Arvelle Therapeutics,02-Feb-2021,Merger/Acquisition,"""Zug, Switzerland""",arvelle therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Arx (Business/Productivity Software),09-Sep-2021,Merger/Acquisition,"""Auburn Hills, MI""",arx (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aryeo,31-Jul-2023,Merger/Acquisition,"""Boston, MA""",aryeo,,Wikidata,NONE,45,NO_MATCH,Q6673483,Aryeong,hq=united states; aliases=Alyeong; desc=noblewoman; 1st century BCE Korean kingdom of Silla founder's wife
+Asanalyzer,13-Apr-2022,Merger/Acquisition,"""Peterborough, United Kingdom""",asanalyzer,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ascend Wellness Holdings (CNQ: AAWH.U),28-Apr-2021,IPO,"""Morristown, NJ""",ascend wellness,,Wikidata,NONE,70,NO_MATCH,Q136995415,Ascend Wellness Holdings,hq=united states; desc=cannabis company
+Ask Sage,31-Dec-2025,Merger/Acquisition,"""Arlington, VA""",ask sage,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ASMPT NEXX,01-Feb-2025,Merger/Acquisition,"""Billerica, MA""",asmpt nexx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Asset Entities,02-Feb-2023,IPO,"""Dallas, TX""",asset entities,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AST SpaceMobile (NAS: ASTS),06-Apr-2021,Reverse Merger,"""Midland, TX""",ast spacemobile,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q112659289|Q131940547.json
+Asteo Red Neutra,01-Jul-2021,Buyout/LBO,"""Madrid, Spain""",asteo red neutra,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Astera Labs (NAS: ALAB),20-Mar-2024,IPO,"""San Jose, CA""",astera labs,2017-00-00,Wikidata,MEDIUM,70,REVIEW,Q125028873,Astera Labs,hq=united states; desc=semiconductor company
+Astra Space,30-Jun-2021,Reverse Merger,"""Alameda, CA""",astra space,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q18156798|Q135470168.json
+Astria Therapeutics,23-Jan-2026,Merger/Acquisition,"""Boston, MA""",astria therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Astrid Intelligence (LON: CLAI),26-Feb-2021,IPO,"""London, United Kingdom""",astrid intelligence,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Astrocast,25-Aug-2021,IPO,Switzerland,astrocast,,Wikidata,NONE,70,NO_MATCH,Q107563951,Astrocast,hq=switzerland; desc=Swiss satellite communications company
+Astronaut Party,25-May-2021,Merger/Acquisition,"""San Francisco, CA""",astronaut party,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Asuragen,06-Apr-2021,Merger/Acquisition,"""Austin, TX""",asuragen,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4811917|Q81383846.json
+Asystem,25-Aug-2023,Merger/Acquisition,"""Los Angeles, CA""",asystem,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q79137075|Q119966321|Q129384145.json
+At Mine Hospitality,03-Jun-2021,Merger/Acquisition,"""Miami Beach, FL""",at mine hospitality,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AtaiBeckley (NAS: ATAI),18-Jun-2021,IPO,"""New York, NY""",ataibeckley,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Atenoil,31-May-2024,Merger/Acquisition,"""Madrid, Spain""",atenoil,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Athelas (Enterprise Systems),30-Oct-2023,Merger/Acquisition,"""Mountain View, CA""",athelas (enterprise systems),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Athonet,23-Feb-2023,Merger/Acquisition,"""Bolzano Vicentino, Italy""",athonet,,Wikidata,NONE,45,NO_MATCH,Q114456334,Athonet Italy,hq=italy
+Atlanta Micro,29-Nov-2021,Merger/Acquisition,"""Norcross, GA""",atlanta micro,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Atlantic International (NAS: ATLN),27-Aug-2021,IPO,"""Billerica, MA""",atlantic international,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30262792|Q4816430|Q16252117|Q125607294|Q134250757.json
+Atom Power,04-Aug-2022,Merger/Acquisition,"""Huntersville, NC""",atom power,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4817191|Q114653168.json
+Atomic Alchemy,28-Feb-2025,Merger/Acquisition,"""Idaho Falls, ID""",atomic alchemy,,Wikidata,NONE,45,NO_MATCH,Q74440324,Atomic alchemy: Weak decays of muonic and pionic atoms into other atoms,hq=united states; desc=scientific article published on 01 October 1995
+Atomic Jelly (WAR: ATJ),09-Feb-2021,IPO,"""Poznan, Poland""",atomic jelly,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Atreus,01-Feb-2023,Merger/Acquisition,"""Munich, Germany""",atreus,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q192469|Q139711|Q54896805|Q60840346|Q45275848.json
+Atrin Pharmaceuticals,16-May-2022,Merger/Acquisition,"""Doylestown, PA""",atrin pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+atSpoke,02-Aug-2021,Merger/Acquisition,"""San Francisco, CA""",atspoke,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Attivo Networks,02-May-2022,Merger/Acquisition,"""Fremont, CA""",attivo networks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Attune Medical,01-Apr-2024,Merger/Acquisition,"""Chicago, IL""",attune medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Auddia (NAS: AUUD),17-Feb-2021,IPO,"""Boulder, CO""",auddia,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Audigent,04-Dec-2024,Merger/Acquisition,"""New York, NY""",audigent,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Augmenta,13-Mar-2023,Merger/Acquisition,"""Paris, France""",augmenta,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q13430997|Q1358239|Q21255975|Q781083|Q3851652.json
+Augmented Pixels,13-Jan-2022,Merger/Acquisition,"""Palo Alto, CA""",augmented pixels,,Wikidata,NONE,70,NO_MATCH,Q30970210,Augmented Pixels,hq=united states
+Aura Biosciences (NAS: AURA),02-Nov-2021,IPO,"""Cambridge, MA""",aura biosciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Auth0,03-May-2021,Merger/Acquisition,"""Bellevue, WA""",auth0,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q56072164|Q90834311|Q107384600.json
+Autifony Therapeutics,14-Nov-2023,Merger/Acquisition,"""Stevenage, United Kingdom""",autifony therapeutics,2011,Wikidata,MEDIUM,70,REVIEW,Q30268746,Autifony Therapeutics,"hq=united kingdom; desc=company in London, United Kingdom"
+AUTO1 Group (FRA: AG1),04-Feb-2021,IPO,"""Berlin, Germany""",auto1,2012-00-00,Wikidata,MEDIUM,70,REVIEW,Q47457075,AUTO1 Group,hq=germany; aliases=AUTO1 Group GmbH|Auto1 Group SE
+AutoNation Mobile Service,26-Jan-2023,Merger/Acquisition,"""Fort Lauderdale, FL""",autonation mobile service,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Autonomix (NAS: AMIX),26-Jan-2024,IPO,"""The Woodlands, TX""",autonomix,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q104480005|Q131646760.json
+AV Cannabis,01-Apr-2021,Merger/Acquisition,"""Toronto, Canada""",av cannabis,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ava Security,03-Mar-2022,Merger/Acquisition,"""London, United Kingdom""",ava security,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Avafin,11-Nov-2024,Merger/Acquisition,"""Limassol, Cyprus""",avafin,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AvaLAN Wireless,19-Apr-2021,Merger/Acquisition,"""Madison, AL""",avalan wireless,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Avalun,30-Apr-2021,Merger/Acquisition,"""Grenoble, France""",avalun,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q134053333|Q131197700|Q2349640|Q20995823.json

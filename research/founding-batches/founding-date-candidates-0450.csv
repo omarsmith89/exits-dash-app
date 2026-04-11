@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Boxed,09-Dec-2021,Reverse Merger,"""New York, NY""",boxed,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q394970|Q4951654|Q524874|Q6305814|Q9178253.json
+BPC Instruments (SAT: BPCINS),16-Dec-2021,IPO,"""Lund, Sweden""",bpc instruments,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BQ,28-Dec-2021,Merger/Acquisition,"""Madrid, Spain""",bq,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q87534006|Q735105|Q27561|Q102573|Q4709.json
+BR-DGE,22-Dec-2023,Merger/Acquisition,"""Edinburgh, United Kingdom""",br-dge,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brag House (NAS: TBH),06-Mar-2025,IPO,"""New York, NY""",brag house,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brain+ (CSE: BRAINP),07-Oct-2021,IPO,"""Copenhagen, Denmark""",brain+,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brain4Net,27-Oct-2021,Merger/Acquisition,"""Moscow, Russia""",brain4net,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BrainFx,08-Jun-2021,Merger/Acquisition,"""Pickering, Canada""",brainfx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brainhint,21-Mar-2022,Merger/Acquisition,"""Chorz�w, Poland""",brainhint,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BrainScan (WAR: BSN),15-May-2024,IPO,"""Gdansk, Poland""",brainscan,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q897449|Q40021084|Q49228208|Q12684279.json
+BranchOut Food (NAS: BOF),16-Jun-2023,IPO,"""Bend, OR""",branchout food,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brand Legends,01-May-2022,Merger/Acquisition,"""Sliema, Malta""",brand legends,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brand New Day Bank,01-Apr-2021,Merger/Acquisition,"""Amsterdam, Netherlands""",brand new day bank,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brand24,29-Apr-2024,Merger/Acquisition,"""Daytona Beach, FL""",brand24,2011-09-06,Wikidata,MEDIUM,70,REVIEW,Q18052539,Brand24,hq=united states; desc=Polish online media monitoring company
+Brax,31-Aug-2021,Merger/Acquisition,"""San Diego, CA""",brax,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1616394|Q765179|Q16860377|Q16275076|Q380562.json
+Braze (NAS: BRZE),17-Nov-2021,IPO,"""New York, NY""",braze,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16777|Q16263|Q126009798|Q903023|Q20829114.json
+BRD,25-Nov-2021,Merger/Acquisition,"""Zurich, Switzerland""",brd,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q183|Q713750|Q29731418|Q796920|Q17115892.json
+Breaking Free Group,24-Jan-2022,Merger/Acquisition,"""Birmingham, United Kingdom""",breaking free,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Breakroom,23-Jul-2024,Merger/Acquisition,"""London, United Kingdom""",breakroom,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q128931161|Q109602629|Q4959658.json
+Breather Products,27-May-2021,Merger/Acquisition,"""Montreal, Canada""",breather products,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bricata,24-Nov-2021,Merger/Acquisition,"""Waterloo, Canada""",bricata,,Wikidata,NONE,70,NO_MATCH,Q20942230,Bricata,hq=canada; desc=mountain in Republic of Macedonia
+Bricknode,09-Nov-2021,IPO,"""Skovde, Sweden""",bricknode,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BRICKS NEWCO,02-Jun-2023,Merger/Acquisition,"""Solihull, United Kingdom""",bricks newco,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bridg,05-May-2021,Merger/Acquisition,"""Los Angeles, CA""",bridg,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12280|Q6497774|Q49174|Q913810|Q914015.json
+Bridge (San Antonio),04-Feb-2025,Merger/Acquisition,"""San Antonio, TX""",bridge (san antonio),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bridgecrew,02-Mar-2021,Merger/Acquisition,"""San Francisco, CA""",bridgecrew,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BridgeHaul Logistics Solutions,01-Dec-2021,Merger/Acquisition,"""Atlanta, GA""",bridgehaul logistics solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BrightBid,03-Jul-2023,Merger/Acquisition,"""Stockholm, Sweden""",brightbid,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brightflag,29-May-2025,Merger/Acquisition,"""New York, NY""",brightflag,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brightpearl,17-Jan-2022,Merger/Acquisition,"""Newcastle Upon Tyne, United Kingdom""",brightpearl,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Brigit,31-Jan-2025,Merger/Acquisition,"""New York, NY""",brigit,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q18175370|Q18145781|Q36268|Q18190928|Q114094698.json
+Broadpeak (PAR: ALBPK),13-Jun-2022,IPO,"""Cesson Sevigne, France""",broadpeak,,Wikidata,NONE,45,NO_MATCH,Q51278941,BroadPeak: a novel algorithm for identifying broad peaks in diffuse ChIP-seq datasets.,hq=france; desc=scientific article published on 7 January 2013
+Brumbrum,31-Jan-2022,Merger/Acquisition,"""Milan, Italy""",brumbrum,,Wikidata,NONE,45,NO_MATCH,Q31571673,Brumbrumkonko,hq=italy; desc=mountain in Sierra Leone
+Br�ush (PINX: BRSHF),04-Aug-2022,IPO,"""Vancouver, Canada""",br�ush,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BTQ Technologies (NEOE: BTQ),17-Feb-2023,Reverse Merger,"""Vancouver, Canada""",btq technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+BUA FIT,10-Sep-2022,Merger/Acquisition,"""London, United Kingdom""",bua fit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bubty,27-Jun-2025,Merger/Acquisition,"""The Hague, Netherlands""",bubty,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Buda Juice (ASE: BUDA),08-Jan-2026,IPO,"""Dallas, TX""",buda juice,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bug Capture,11-Jun-2024,Merger/Acquisition,"""Berlin, Germany""",bug capture,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Build.Security,02-Sep-2021,Merger/Acquisition,"""Sunnyvale, CA""",buildsecurity,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bulb Technologies,09-Feb-2021,Merger/Acquisition,"""Zagreb, Croatia""",bulb technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bullet Solutions,01-Jul-2024,Merger/Acquisition,"""Porto, Portugal""",bullet solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bulletin,11-Jul-2022,Merger/Acquisition,"""Oyster Bay, NY""",bulletin,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q11605103|Q2720088|Q88163834|Q4996846|Q13548538.json
+BullFrog AI (NAS: BFRG),14-Feb-2023,IPO,"""Gaithersburg, MD""",bullfrog ai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bullfrog Power,30-Nov-2022,Merger/Acquisition,"""Calgary, Canada""",bullfrog power,2005-00-00,Wikidata,MEDIUM,70,REVIEW,Q4996889,Bullfrog Power,hq=canada; desc=Canadian renewable energy company
+Bumble (NAS: BMBL),11-Feb-2021,IPO,"""Austin, TX""",bumble,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q25407|Q21233433|Q358842|Q63522145|Q65083765.json
+Bumblebee (Energy Infrastructure),03-May-2023,Merger/Acquisition,"""Glasgow, United Kingdom""",bumblebee (energy infrastructure),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Bumped,08-Feb-2023,Merger/Acquisition,"""Portland, OR""",bumped,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4997319|Q134560315|Q2205365|Q33797884|Q38886453.json
+Business Talent Group,01-Apr-2021,Merger/Acquisition,"""Chicago, IL""",business talent,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Business+Talent+Group
+Busuu,29-Nov-2021,Merger/Acquisition,"""London, United Kingdom""",busuu,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=Busuu

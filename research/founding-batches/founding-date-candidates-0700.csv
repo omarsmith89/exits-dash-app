@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Compass (Application Software) (NYS: COMP),01-Apr-2021,IPO,"""New York, NY""",compass (application software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Compass Therapeutics (NAS: CMPX),04-Nov-2021,IPO,"""Boston, MA""",compass therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CompilerWorks,20-Oct-2021,Merger/Acquisition,"""Menlo Park, CA""",compilerworks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Complex Games,01-Nov-2022,Merger/Acquisition,"""Winnipeg, Canada""",complex games,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Comtravo,03-Feb-2022,Merger/Acquisition,"""Berlin, Germany""",comtravo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Confluent (NAS: CFLT),24-Jun-2021,IPO,"""Mountain View, CA""",confluent,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q212507|Q95581857|Q15709951|Q19994718|Q94758727.json
+Connect&GO,20-Nov-2025,Merger/Acquisition,"""Montreal, Canada""",connect and go,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ConnectM Technology Solutions (PINX: CNTM),12-Jul-2024,Reverse Merger,"""Marlborough, MA""",connectm technology solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Connexicon Medical,01-Feb-2023,Merger/Acquisition,"""Dublin, Ireland""",connexicon medical,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ContactEngine,17-Jun-2021,Merger/Acquisition,"""Southampton, United Kingdom""",contactengine,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ContentCal,08-Dec-2021,Merger/Acquisition,"""London, United Kingdom""",contentcal,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Contessa,01-Aug-2021,Merger/Acquisition,"""Nashville, TN""",contessa,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q862853|Q36948796|Q3519259|Q46607764|Q18429703.json
+Context (Acquired 2021),31-Dec-2021,Merger/Acquisition,"""Courbevoie, France""",context (acquired 2021),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Context Therapeutics (NAS: CNTX),20-Oct-2021,IPO,"""Philadelphia, PA""",context therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ContextLogic Holdings (PINX: LOGC),19-Apr-2024,Merger/Acquisition,"""San Francisco, CA""",contextlogic,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Contineum Therapeutics (NAS: CTNM),05-Apr-2024,IPO,"""San Diego, CA""",contineum therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Contovista,01-Jan-2022,Merger/Acquisition,"""Schlieren, Switzerland""",contovista,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Contract.fit,13-Sep-2024,Merger/Acquisition,"""Brussels, Belgium""",contractfit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Contura International,25-Feb-2021,Merger/Acquisition,"""London, United Kingdom""",contura international,2001-11,Wikidata,MEDIUM,70,REVIEW,Q132100482,Contura International Sa,hq=united kingdom
+Conversia,20-Nov-2023,Merger/Acquisition,"""Madrid, Spain""",conversia,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q11271324|Q1125947|Q5357967.json
+Conversocial,23-Aug-2021,Merger/Acquisition,"""Alpharetta, GA""",conversocial,2009-00-00,Wikidata,MEDIUM,70,REVIEW,Q13512395,Conversocial,hq=united states; desc=software company
+Convey (Business/Productivity Software),21-Sep-2021,Merger/Acquisition,"""Austin, TX""",convey (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Convion,26-Aug-2024,Merger/Acquisition,"""Espoo, Finland""",convion,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Coolbet,01-Jan-2021,Merger/Acquisition,"""Tallinn, Estonia""",coolbet,,Wikidata,NONE,45,NO_MATCH,Q37148076,Coolbeth,hq=estonia; desc=family name
+Coolwave Communication,06-Feb-2024,Merger/Acquisition,"""Dublin, Ireland""",coolwave communication,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Coorpacademy,01-Apr-2022,Merger/Acquisition,"""Paris, France""",coorpacademy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Copyright Agent,07-Jul-2021,IPO,"""Copenhagen, Denmark""",copyright agent,,Wikidata,NONE,45,NO_MATCH,Q106933823,Copyright Agents of Beijing of China,hq=denmark; desc=article published in 2008
+Core Scientific (NAS: CORZ),20-Jan-2022,Reverse Merger,"""Dover, DE""",core scientific,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q138585044|Q92375598.json
+Corellium,02-Dec-2025,Merger/Acquisition,"""Delray Beach, FL""",corellium,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CoreWeave (NAS: CRWV),28-Mar-2025,IPO,"""Livingston, NJ""",coreweave,2017-00-00,Wikidata,MEDIUM,70,REVIEW,Q121875386,CoreWeave,hq=united states; desc=American cloud computing company
+Corlieve Therapeutics,30-Jul-2021,Merger/Acquisition,"""Paris, France""",corlieve therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Corpay One,13-Jan-2021,Merger/Acquisition,"""Atlanta, GA""",corpay one,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Corvian,03-Mar-2021,IPO,"""Winnipeg, Canada""",corvian,,Wikidata,NONE,45,NO_MATCH,Q135043943,Corvian Curse,"hq=canada; desc=video game developed by Made by Gare, bumperoyster and BronxTacoGames"
+Corvium,10-Feb-2023,Merger/Acquisition,"""Reston, VA""",corvium,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Corvus Insurance,02-Jan-2024,Merger/Acquisition,"""Boston, MA""",corvus insurance,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Costa Brazil,07-May-2021,Merger/Acquisition,"""New York, NY""",costa brazil,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CoStim Pharmaceuticals,11-Jan-2024,Merger/Acquisition,"""Boston, MA""",costim pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cotsworks,07-Jul-2025,Merger/Acquisition,"""Cleveland, OH""",cotsworks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Coupang (NYS: CPNG),11-Mar-2021,IPO,"""Seattle, WA""",coupang,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12620655|Q116638614|Q119998701|Q15803953|Q15119762.json
+Courier Therapeutics,28-May-2021,Merger/Acquisition,"""Houston, TX""",courier therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Courseloop,01-Nov-2024,Merger/Acquisition,"""Fort Collins, CO""",courseloop,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Coursera (NYS: COUR),31-Mar-2021,IPO,"""Mountain View, CA""",coursera,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q499962|Q119001746|Q118770056.json
+Coveo Solutions (TSE: CVO),24-Nov-2021,IPO,"""Montreal, Canada""",coveo solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Cowboy (Automotive),18-Dec-2025,Merger/Acquisition,"""Brussels, Belgium""",cowboy (automotive),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Coworkees,10-Mar-2021,Merger/Acquisition,"""Annecy, France""",coworkees,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Coya,20-Jan-2022,Merger/Acquisition,"""Berlin, Germany""",coya,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q37573724|Q3312902|Q999064|Q5790436|Q20620353.json
+Coya Therapeutics (NAS: COYA),29-Dec-2022,IPO,"""Houston, TX""",coya therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CRA Health,01-Feb-2021,Merger/Acquisition,"""Waltham, MA""",cra health,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+CreateAI Holdings (PINX: TSPH),15-Apr-2021,IPO,"""San Diego, CA""",createai,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Creative Motion Control,06-Mar-2022,Merger/Acquisition,"""Woodinville, WA""",creative motion control,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Eppo,05-May-2025,Merger/Acquisition,"""San Francisco, CA""",eppo,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q21143212|Q1967903|Q5413070|Q1361639|Q21479701.json
+Epsagon,25-Oct-2021,Merger/Acquisition,"""New York, NY""",epsagon,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Epygenix Therapeutics,30-Apr-2024,Merger/Acquisition,"""Paramus, NJ""",epygenix therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EQRx,17-Dec-2021,Reverse Merger,"""Cambridge, MA""",eqrx,,Wikidata,NONE,45,NO_MATCH,Q126330357,EQRx launches to upend drug price paradigm,hq=united states; desc=scholarly article
+EquipmentShare (NAS: EQPT),23-Jan-2026,IPO,"""Columbia, MO""",equipmentshare,,Wikidata,NONE,70,NO_MATCH,Q131686900,EquipmentShare,hq=united states; desc=American tech company
+Equity Wine Group,06-Oct-2021,Merger/Acquisition,"""Jordan Station, Canada""",equity wine,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Erasca (NAS: ERAS),16-Jul-2021,IPO,"""San Diego, CA""",erasca,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q18439223|Q119857265|Q135078300.json
+Erbi Biosystems,01-Dec-2022,Merger/Acquisition,"""Stoneham, MA""",erbi biosystems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ErisX,02-May-2022,Merger/Acquisition,"""Chicago, IL""",erisx,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EryDel,20-Oct-2023,Merger/Acquisition,"""Milan, Italy""",erydel,,Wikidata,NONE,70,NO_MATCH,Q30268933,Erydel,"hq=italy; desc=company in Urbino, Italy"
+Escient Pharmaceuticals,30-May-2024,Merger/Acquisition,"""San Diego, CA""",escient pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+eSight,02-Nov-2023,Merger/Acquisition,"""Zeeland, MI""",esight,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q39087546|Q67129353.json
+EsoBiotec,19-May-2025,Merger/Acquisition,"""Charleroi, Belgium""",esobiotec,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ESS Tech (NYS: GWH),11-Oct-2021,Reverse Merger,"""Wilsonville, OR""",ess tech,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q16246329|Q138439713|Q131634353.json
+Eta Wireless,01-Sep-2021,Merger/Acquisition,"""Cambridge, MA""",eta wireless,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ETEC,16-Feb-2021,Merger/Acquisition,"""Dearborn, MI""",etec,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q10274514|Q18250402|Q265214|Q125422433|Q21130379.json
+Eternal (Food Products),25-Oct-2021,Merger/Acquisition,"""Coral Gables, FL""",eternal (food products),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ETF Stream,16-Jun-2025,Merger/Acquisition,"""London, United Kingdom""",etf stream,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ethos Technologies (Insurance Brokers) (NAS: LIFE),29-Jan-2026,IPO,"""Austin, TX""",ethos technologies (insurance brokers),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eupraxia Pharmaceuticals (TSE: EPRX),09-Mar-2021,IPO,"""Victoria, Canada""",eupraxia pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Evaxion (NAS: EVAX),05-Feb-2021,IPO,"""Hoersholm, Denmark""",evaxion,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eve Holding (NYS: EVEX),10-May-2022,Reverse Merger,"""Melbourne, FL""",eve,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Eventdex,14-Oct-2025,Merger/Acquisition,"""New York, NY""",eventdex,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Evergreen Theragnostics,01-Apr-2025,Merger/Acquisition,"""Springfield, NJ""",evergreen theragnostics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Everli,21-Feb-2024,Merger/Acquisition,"""Milan, Italy""",everli,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q37301847|Q21147749|Q37558133|Q1160264|Q489609.json
+Evermind,31-Dec-2025,Merger/Acquisition,"""Lancaster, PA""",evermind,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q993720|Q9142444|Q5417305.json
+EveryMundo,30-Nov-2021,Merger/Acquisition,"""Miami, FL""",everymundo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EvinceMed,14-Apr-2022,Merger/Acquisition,"""Las Vegas, NV""",evincemed,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Evisort,08-Oct-2024,Merger/Acquisition,"""San Francisco, CA""",evisort,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Evoke Neuroscience.,05-May-2025,Merger/Acquisition,"""New York, NY""",evoke neuroscience,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Evoke Pharma,15-Dec-2025,Merger/Acquisition,"""Solana Beach, CA""",evoke pharma,,Wikidata,NONE,70,NO_MATCH,Q126880189,Evoke Pharma,hq=united states
+Evolar,12-May-2023,Merger/Acquisition,"""Uppsala, Sweden""",evolar,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EvolutionIQ,23-Dec-2024,Merger/Acquisition,"""New York, NY""",evolutioniq,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Evolv Technologies Holdings (NAS: EVLV),16-Jul-2021,Reverse Merger,"""Waltham, MA""",evolv technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Evommune (NYS: EVMN),06-Nov-2025,IPO,"""Palo Alto, CA""",evommune,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EvoNext Holdings,28-Dec-2023,Merger/Acquisition,"""Reinach, Switzerland""",evonext,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EVRYTHNG,03-Jan-2022,Merger/Acquisition,"""London, United Kingdom""",evrythng,2012-00-00,Wikidata,MEDIUM,70,REVIEW,Q18388998,EVRYTHNG,hq=united kingdom; desc=UK business
+ExactCure,24-Apr-2024,Merger/Acquisition,"""Nice, France""",exactcure,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+exactEarth,01-Nov-2021,Merger/Acquisition,"""Cambridge, Canada""",exactearth,2009-06-00,Wikidata,MEDIUM,70,REVIEW,Q20644661,exactEarth,"hq=canada; desc=maritime data services company based in Cambridge, Ontario, Canada"
+ExactlyIT,22-Jun-2021,Merger/Acquisition,"""Morrisville, NC""",exactlyit,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Exalos,18-Sep-2023,Merger/Acquisition,"""Schlieren, Switzerland""",exalos,,Wikidata,NONE,45,NO_MATCH,Q30256310,Exalos (Switzerland),"hq=switzerland; desc=company in Schlieren, Switzerland"
+Execus (MIL: EXEC),04-Aug-2023,IPO,"""Milan, Italy""",execus,1987-00-00,Wikidata,LOW,45,REVIEW,Q6772980,ExecuStay,"hq=italy; aliases=Marriott ExecuStay; desc=provider of temporary, furnished, corporate relocation and insurance housing"
+Exium,16-Jun-2025,Merger/Acquisition,"""Palo Alto, CA""",exium,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Exo-Space,21-Aug-2023,Merger/Acquisition,"""Pasadena, CA""",exo-space,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Exodus Movement (ASE: EXOD),05-May-2021,IPO,"""Omaha, NE""",exodus movement,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Exonar,25-Mar-2022,Merger/Acquisition,"""Reading, United Kingdom""",exonar,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q3733024|Q5853198.json
+Exosome Diagnostics,15-Sep-2025,Merger/Acquisition,"""Waltham, MA""",exosome diagnostics,2008,Wikidata,LOW,45,REVIEW,Q41568420,Exosome Diagnostics (United States),"hq=united states; desc=company in Waltham, United States"
+Expandly,22-Mar-2021,Buyout/LBO,"""St. Albans, United Kingdom""",expandly,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Expensify (NAS: EXFY),10-Nov-2021,IPO,"""Portland, OR""",expensify,2008-00-00,Wikidata,MEDIUM,70,REVIEW,Q21178592,Expensify,hq=united states; desc=software company and its web and mobile application for managing personal and business expenses
+Expetitle,20-Jan-2022,Merger/Acquisition,"""Miami, FL""",expetitle,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

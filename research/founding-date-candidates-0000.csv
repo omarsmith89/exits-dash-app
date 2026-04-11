@@ -1,0 +1,11 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+&ever,01-Oct-2021,Merger/Acquisition,"""Munich, Germany""",and ever,,Wikidata,ERROR,0,ERROR,,,HTTP 429 for https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=%26ever
+1606 (PINX: CBDW),12-Jan-2023,IPO,"""Phoenix, AZ""",1606,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12681517|Q6747|Q583622|Q3597608|Q1481053.json
+21seeds,31-Mar-2022,Merger/Acquisition,"""San Francisco, CA""",21seeds,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+24Storage,20-Dec-2021,Merger/Acquisition,"""Stockholm, Sweden""",24storage,,Wikidata,NONE,70,NO_MATCH,Q60967916,24Storage,hq=sweden
+2600Hz,20-Oct-2023,Merger/Acquisition,"""Henderson, NV""",2600hz,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+2nd.MD,02-Mar-2021,Merger/Acquisition,"""Houston, TX""",2ndmd,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+"""300 (Movies, Music and Entertainment)""",16-Dec-2021,Merger/Acquisition,"""New York, NY""",300 (movies music and entertainment),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+360X,29-Apr-2021,Merger/Acquisition,"""Frankfurt, Germany""",360x,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+365Talents,20-Jan-2026,Merger/Acquisition,"""Lyon, France""",365talents,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+3a-Diagnostics,06-Dec-2021,Merger/Acquisition,"""Frickenhausen, Germany""",3a-diagnostics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

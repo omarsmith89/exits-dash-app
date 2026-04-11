@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Expion360 (NAS: XPON),01-Apr-2022,IPO,"""Redmond, OR""",expion360,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Exscientia,01-Oct-2021,IPO,"""Oxford, United Kingdom""",exscientia,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EyeBio,11-Jul-2024,Merger/Acquisition,"""London, United Kingdom""",eyebio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EYEVIDO,09-Aug-2023,Merger/Acquisition,"""Koblenz, Germany""",eyevido,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EZ-Wheel,01-Aug-2023,Merger/Acquisition,"""Charente, France""",ez-wheel,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+EZ4U,28-May-2024,Merger/Acquisition,"""Matosinhos, Portugal""",ez4u,,Wikidata,NONE,70,NO_MATCH,Q124065664,EZ4u,hq=portugal; desc=2017 video game
+F-Star Therapeutics,08-Mar-2023,Merger/Acquisition,"""Cambridge, United Kingdom""",f-star therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+F45 Training (PINX: FXLV),15-Jul-2021,IPO,"""Austin, TX""",f45 training,2011-00-00,Wikidata,MEDIUM,70,REVIEW,Q64390973,F45 Training,hq=united states; aliases=F45; desc=Australian fitness center chain
+Fabl,08-Jan-2021,Merger/Acquisition,"""Durham, NC""",fabl,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q693|Q944752|Q865902|Q3737903|Q598282.json
+Fabric (Other Financial Services),02-Jan-2024,Merger/Acquisition,"""Boulder, CO""",fabric (other financial services),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fabric Genomics,05-May-2025,Merger/Acquisition,"""Oakland, CA""",fabric genomics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Factorin,27-Jul-2021,Merger/Acquisition,"""Moscow, Russia""",factorin,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q188804|Q1391719|Q192674|Q97940647|Q18124729.json
+FactoryFour,05-Nov-2021,Merger/Acquisition,"""Culver City, CA""",factoryfour,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fadel Partners (LON: FADL),06-Apr-2023,IPO,"""New York, NY""",fadel partners,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fair,14-Mar-2022,Merger/Acquisition,"""Santa Monica, CA""",fair,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q25114509|Q6581072|Q288514|Q54231|Q18624008.json
+FairX,01-Feb-2022,Merger/Acquisition,"""Chicago, IL""",fairx,,Wikidata,NONE,20,NO_MATCH,Q114586908,COINBASE DERIVATIVES,"hq=united states; aliases=FREX|CDE|LMX LABS, LLC; desc=Designated Contract Market in United States of America"
+Falcon V Systems,11-Oct-2024,Merger/Acquisition,"""Gdynia, Poland""",falcon v systems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fall Damage,11-Oct-2023,Merger/Acquisition,"""Stockholm, Sweden""",fall damage,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fandor,19-Jan-2021,Merger/Acquisition,"""San Francisco, CA""",fandor,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q17053201|Q1311908|Q1912438|Q64875490|Q21512012.json
+FanFix,21-Jul-2022,Merger/Acquisition,"""Los Angeles, CA""",fanfix,,Wikidata,NONE,70,NO_MATCH,Q119770426,Fanfix,hq=united states; desc=content monetization platform
+Farada Group,16-Oct-2025,Buyout/LBO,"""Lubart�w, Poland""",farada,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Faraday Future Intelligent Electric (NAS: FFAI),22-Jul-2021,Reverse Merger,"""Gardena, CA""",faraday future intelligent electric,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Faradion,05-Jan-2022,Merger/Acquisition,"""Sheffield, United Kingdom""",faradion,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q82039415|Q30265587.json
+Farapulse,24-Jun-2021,Merger/Acquisition,"""Menlo Park, CA""",farapulse,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Farmobile,16-Apr-2021,Merger/Acquisition,"""Leawood, KS""",farmobile,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Faromatics,10-Sep-2021,Merger/Acquisition,"""Vilanova I La Geltru, Spain""",faromatics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fastback Networks,29-Jan-2021,Merger/Acquisition,"""Boulder, CO""",fastback networks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FasterLines,08-Sep-2021,Merger/Acquisition,"""Warrenton, NC""",fasterlines,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FastPay,12-Jul-2021,Merger/Acquisition,"""Los Angeles, CA""",fastpay,,Wikidata,NONE,70,NO_MATCH,Q110583280,FastPay,"hq=united states; desc=Payment centers, operating in Bulgaria"
+Fat Llama,15-Aug-2022,Merger/Acquisition,"""London, United Kingdom""",fat llama,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FaZe Clan,19-Jul-2022,Reverse Merger,"""Los Angeles, CA""",faze clan,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q21161576|Q109501268.json
+Faze Media,16-Jan-2025,Buyout/LBO,"""Frisco, TX""",faze media,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Feather Pay,01-Jan-2024,Merger/Acquisition,"""Atlanta, GA""",feather pay,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Featurespace,19-Dec-2024,Merger/Acquisition,"""Cambridge, United Kingdom""",featurespace,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FeedBackNow,01-Aug-2024,Merger/Acquisition,"""New York, NY""",feedbacknow,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Femasys (NAS: FEMY),18-Jun-2021,IPO,"""Suwanee, GA""",femasys,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FemtoTools,28-Jun-2024,Merger/Acquisition,"""Zurich, Switzerland""",femtotools,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FEops,18-Jul-2024,Merger/Acquisition,"""Gent, Belgium""",feops,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fermi (REIT) (NAS: FRMI),01-Oct-2025,IPO,"""Amarillo, TX""",fermi (reit),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fetch Robotics,09-Aug-2021,Merger/Acquisition,"""San Jose, CA""",fetch robotics,,Wikidata,NONE,70,NO_MATCH,Q53308692,"Fetch Robotics, Inc.",hq=united states
+Fexy,11-Jan-2023,Merger/Acquisition,"""Seattle, WA""",fexy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fidcar,03-Dec-2021,Merger/Acquisition,"""Paris, France""",fidcar,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Field of View,14-Nov-2022,Merger/Acquisition,"""Fargo, ND""",field of view,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1057751|Q1076893|Q95815741|Q64526304|Q884012.json
+FieldWire,19-Nov-2021,Merger/Acquisition,"""San Francisco, CA""",fieldwire,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fifax,25-Oct-2021,IPO,"""Eckero, Finland""",fifax,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q126041352|Q126372952.json
+FIGR (Consumer Non-Durables),28-Jun-2021,Merger/Acquisition,"""Charlottetown, Canada""",figr (consumer non-durables),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+FIGS (NYS: FIGS),27-May-2021,IPO,"""Santa Monica, CA""",figs,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q59798|Q55611365|Q51473474|Q17013516|Q36146.json
+Figure Technology Solutions (NAS: FIGR),11-Sep-2025,IPO,"""Charlotte, NC""",figure technology solutions,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Fiinu (LON: BANK),08-Jul-2022,Reverse Merger,"""Weybridge, United Kingdom""",fiinu,,Wikidata,NONE,45,NO_MATCH,Q85981987,Fiinu Autio,hq=united kingdom; desc=Finnish costume designer
+Fill Up Media (PAR: ALFUM),29-Jun-2022,IPO,"""Lyon, France""",fill up media,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

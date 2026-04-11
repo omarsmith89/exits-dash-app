@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+GRIID Infrastructure,29-Dec-2023,Reverse Merger,"""Cincinnati, OH""",griid infrastructure,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Groq,26-Dec-2025,Merger/Acquisition,"""San Jose, CA""",groq,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q126050137|Q105016311|Q3116950|Q113633295|Q105016293.json
+Groundbreaker,17-Nov-2023,Merger/Acquisition,"""Chicago, IL""",groundbreaker,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5610988|Q136409062.json
+GroupBy,25-Mar-2025,Merger/Acquisition,"""Toronto, Canada""",groupby,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Groupsense,01-Jan-2025,Merger/Acquisition,"""Arlington, VA""",groupsense,,Wikidata,NONE,70,NO_MATCH,Q130876908,GroupSense,hq=united states; desc=scientific article published on 09 January 2019
+Grove Collaborative (NYS: GROV),17-Jun-2022,Reverse Merger,"""San Francisco, CA""",grove collaborative,,Wikidata,NONE,70,NO_MATCH,Q111170467,Grove Collaborative,hq=united states; desc=American e-commerce company
+Growth Collective,01-Nov-2021,Merger/Acquisition,"""La Jolla, CA""",growth collective,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Grupa Pracuj (WAR: GPP),09-Dec-2021,IPO,"""Warsaw, Poland""",grupa pracuj,,Wikidata,NONE,70,NO_MATCH,Q16555856,Grupa Pracuj,hq=poland
+Gryphon Digital Mining,09-Feb-2024,Reverse Merger,"""Las Vegas, NV""",gryphon digital mining,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+GSA Environmental,20-May-2024,Merger/Acquisition,"""Lincoln, United Kingdom""",gsa environmental,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Guardian Firewall,10-Aug-2022,Merger/Acquisition,"""Groton, CT""",guardian firewall,,Wikidata,NONE,70,NO_MATCH,Q85764727,Guardian Firewall,hq=united states; desc=mobile application providing a virtual private network
+GuardRFID,07-Feb-2023,Merger/Acquisition,"""Delta, Canada""",guardrfid,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Guardum,13-Dec-2021,Merger/Acquisition,"""Sheffield, United Kingdom""",guardum,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Guerrilla RF (PINX: GUER),27-Oct-2021,Reverse Merger,"""Greensboro, NC""",guerrilla rf,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Guestjoy,30-Sep-2022,Merger/Acquisition,"""Tallinn, Estonia""",guestjoy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Guide Therapeutics,23-Feb-2021,Merger/Acquisition,"""Tucker, GA""",guide therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Guideline,03-Nov-2025,Merger/Acquisition,"""Burlingame, CA""",guideline,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q1151067|Q1630279|Q1087786|Q163186|Q97086015.json
+Guilded,16-Aug-2021,Merger/Acquisition,"""San Francisco, CA""",guilded,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q135018125|Q122373303|Q107271495|Q123404681|Q17019900.json
+Gynesonics,02-Jan-2025,Merger/Acquisition,"""Redwood City, CA""",gynesonics,2005,Wikidata,LOW,45,REVIEW,Q104480611,Gynesonics (United States),"hq=united states; desc=company in Redwood City, United States"
+Gyroscope,17-Feb-2022,Merger/Acquisition,"""London, United Kingdom""",gyroscope,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q5625522|Q483400|Q2380112|Q5625520|Q107632487.json
+Habu (Business/Productivity Software),31-Jan-2024,Merger/Acquisition,"""San Francisco, CA""",habu (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Halda Therapeutics,26-Dec-2025,Merger/Acquisition,"""New Haven, CT""",halda therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Halo Labs,21-May-2025,Merger/Acquisition,"""Burlingame, CA""",halo labs,2010,Wikidata,LOW,45,REVIEW,Q55453856,Halo Labs (United States),"hq=united states; aliases=Optofluidics; desc=company in Philadelphia, United States"
+Hamul,01-Apr-2022,Merger/Acquisition,"""Walnut, CA""",hamul,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q12258876|Q87306362|Q65129982|Q16982710|Q37458236.json
+Hannun (MAD: HAN),29-Jun-2022,IPO,"""Barcelona, Spain""",hannun,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q47897394|Q55363610|Q55373751|Q104537725|Q133451894.json
+HapYak Interactive Video,14-Oct-2021,Merger/Acquisition,"""Boston, MA""",hapyak interactive video,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hark (Leeds),06-Apr-2023,Merger/Acquisition,"""Leeds, United Kingdom""",hark (leeds),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hart Print,17-Nov-2021,Merger/Acquisition,"""Mount Royal, Canada""",hart print,,Wikidata,NONE,0,NO_MATCH,Q122921630,Firma Herman Hart & Co. N.V.,hq=canada
+Harvest Savings & Wealth Technologies,07-Apr-2021,Merger/Acquisition,"""Larkspur, CA""",harvest savings and wealth technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+has.to.be,06-Oct-2021,Merger/Acquisition,"""Radstadt, Austria""",hastobe,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HashiCorp,09-Dec-2021,IPO,"""San Francisco, CA""",hashicorp,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q21463167|Q28957072|Q7725312|Q88664426|Q28709844.json
+Hashnote,21-Jan-2025,Merger/Acquisition,"""Miami Beach, FL""",hashnote,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hashtag You,01-Aug-2025,Merger/Acquisition,"""Berlin, Germany""",hashtag you,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Haven (Logistics),07-Apr-2021,Merger/Acquisition,"""San Francisco, CA""",haven (logistics),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hawk (Media and Information Services B2B),13-Oct-2023,Merger/Acquisition,"""Paris, France""",hawk (media and information services b2b),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Haxiot,26-Mar-2021,Merger/Acquisition,"""Plano, TX""",haxiot,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Haystack Oncology,20-Jun-2023,Merger/Acquisition,"""Baltimore, MD""",haystack oncology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HazardHub,18-Aug-2021,Merger/Acquisition,"""San Diego, CA""",hazardhub,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HCW Biologics (NAS: HCWB),20-Jul-2021,IPO,"""Miramar, FL""",hcw biologics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HDF Energy (PAR: HDF),24-Jun-2021,IPO,"""Blanquefort, France""",hdf energy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Headstart (Human Capital Services),18-Aug-2022,Merger/Acquisition,"""London, United Kingdom""",headstart (human capital services),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Headup Games,15-Mar-2021,Merger/Acquisition,"""Duren, Germany""",headup games,2009,Wikidata,MEDIUM,70,REVIEW,Q4040478,Headup Games,hq=germany; aliases=Dieter Schoeller|Headup|Headup GmbH; desc=German video game publisher
+Healion Bio,02-Feb-2023,Merger/Acquisition,"""Frederick, MD""",healion bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Health & Her,08-Nov-2024,Merger/Acquisition,"""Cardiff, United Kingdom""",health and her,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HealthBeacon,15-Dec-2021,IPO,"""Dublin, Ireland""",healthbeacon,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HealthiNation,16-Apr-2021,Merger/Acquisition,"""New York, NY""",healthination,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Hearsay Systems,01-Aug-2024,Merger/Acquisition,"""San Francisco, CA""",hearsay systems,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HeartBeam (NAS: BEAT),11-Nov-2021,IPO,"""Santa Clara, CA""",heartbeam,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+HeartFlow (NAS: HTFL),08-Aug-2025,IPO,"""Mountain View, CA""",heartflow,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q66077962|Q63837942|Q104480693.json
+HeartSciences (NAS: HSCS),15-Jun-2022,IPO,"""Southlake, TX""",heartsciences,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

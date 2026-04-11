@@ -1,0 +1,14 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Kate Therapeutics,31-Oct-2024,Merger/Acquisition,"""San Diego, CA""",kate therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Kaupang,26-Mar-2021,Merger/Acquisition,"""Oslo, Norway""",kaupang,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q25804|Q33152869|Q1737156|Q17505196|Q109995682.json
+KBJ (WAR: KBJ),28-Jun-2024,Merger/Acquisition,"""Warsaw, Poland""",kbj,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q662999|Q6325927|Q6325918|Q6325907|Q6325923.json
+Keap (Business/Productivity Software),31-Oct-2024,Merger/Acquisition,"""Chandler, AZ""",keap (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Kenkoderm,01-Dec-2023,Merger/Acquisition,"""Arlington, VA""",kenkoderm,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Keonn,25-Apr-2025,Merger/Acquisition,"""Barcelona, Spain""",keonn,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q119560670|Q136673144.json
+Kerecis,31-Aug-2023,Merger/Acquisition,"""Isafjordur, Iceland""",kerecis,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q30266588|Q7825697|Q86266468|Q92193644.json
+Keros Therapeutics (NAS: KROS),04-Jan-2024,IPO,"""Lexington, MA""",keros therapeutics,2015,Wikidata,MEDIUM,65,REVIEW,Q135739113,Keros Therapeutics (United States),"hq=united states; aliases=Keros Therapeutics; desc=company in Lexington, United States"
+Keystone Bank (Regional Banks),02-Feb-2026,Merger/Acquisition,"""Bee Cave, TX""",keystone bank (regional banks),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Keystone Tower Systems,01-Jan-2024,Merger/Acquisition,"""Denver, CO""",keystone tower systems,,Wikidata,NONE,45,NO_MATCH,Q30267591,Keystone Tower Systems (United States),"hq=united states; desc=company in Westminster, United States"
+Kheiron Medical Technologies,14-Oct-2024,Merger/Acquisition,"""London, United Kingdom""",kheiron medical technologies,2016,Wikidata,LOW,45,REVIEW,Q59536844,Kheiron Medical Technologies (United Kingdom),"hq=united kingdom; desc=company in London, United Kingdom"
+Kickboard,01-Dec-2021,Merger/Acquisition,"""New Orleans, LA""",kickboard,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q502057|Q387607|Q1740819|Q74527501.json
+Kickserv,10-Aug-2023,Merger/Acquisition,"""Denver, CO""",kickserv,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

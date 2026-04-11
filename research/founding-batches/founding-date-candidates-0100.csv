@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Adyoulike,11-Apr-2022,Merger/Acquisition,France,adyoulike,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aelis Farma (PAR: AELIS),18-Feb-2022,IPO,"""Bordeaux, France""",aelis farma,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AeoniQ,21-Jul-2025,Merger/Acquisition,"""Schlieren, Switzerland""",aeoniq,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aeris (Household Appliances),15-Nov-2021,Merger/Acquisition,"""Cham, Switzerland""",aeris (household appliances),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aerodome,16-Oct-2024,Merger/Acquisition,"""New York, NY""",aerodome,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q42658254|Q132001280.json
+Aerostrat,12-Aug-2025,Merger/Acquisition,"""Seattle, WA""",aerostrat,2012-11,Wikidata,LOW,45,REVIEW,Q131800264,Aerostrat Composite,hq=united states
+Aerovate Therapeutics,30-Jun-2021,IPO,"""Waltham, MA""",aerovate therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aeva Technologies (NAS: AEVA),11-Mar-2021,Reverse Merger,"""Mountain View, CA""",aeva technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AEye (NAS: LIDR),18-Aug-2021,Reverse Merger,"""Pleasanton, CA""",aeye,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q126056485|Q133877657|Q158450|Q115341172.json
+Affectiva,23-Jun-2021,Merger/Acquisition,"""Boston, MA""",affectiva,2009-00-00,Wikidata,MEDIUM,70,REVIEW,Q4688886,Affectiva,hq=united states; aliases=affectiva.com; desc=American emotion measurement technology company
+Affera,30-Aug-2022,Merger/Acquisition,"""Newton, MA""",affera,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Affinio,01-Nov-2021,Merger/Acquisition,"""Halifax, Canada""",affinio,2005,Wikidata,LOW,45,REVIEW,Q4688958,Affinion Group,hq=canada; desc=American corporation
+Affinivax,15-Aug-2022,Merger/Acquisition,"""Cambridge, MA""",affinivax,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Affirm (NAS: AFRM),13-Jan-2021,IPO,"""San Francisco, CA""",affirm,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q3745428|Q6452715|Q65085822|Q214244|Q525361.json
+Africa Eats (XMAU: EATS.N000),21-Nov-2024,IPO,"""Bainbridge Island, WA""",africa eats,,Wikidata,NONE,70,NO_MATCH,Q133259031,Africa Eats,hq=united states; desc=investment holding company
+AfricaWeb,08-Jul-2024,Merger/Acquisition,"""Amsterdam, Netherlands""",africaweb,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AFX Networks,08-Nov-2021,Buyout/LBO,"""New York, NY""",afx networks,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Afyren (PAR: ALAFY),01-Oct-2021,IPO,"""Clermont-Ferrand, France""",afyren,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q128339402|Q126874361.json
+Agara,02-Nov-2021,Merger/Acquisition,"""Walnut, CA""",agara,,Wikidata,ERROR,0,ERROR,,,fetch failed
+Ageto Energy,01-Aug-2024,Merger/Acquisition,"""Fort Collins, CO""",ageto energy,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Agomab Therapeutics (NAS: AGMB),06-Feb-2026,IPO,"""Antwerp, Belgium""",agomab therapeutics,,Wikidata,NONE,70,NO_MATCH,Q126878492,Agomab Therapeutics,hq=belgium
+Agribody Technologies,15-Apr-2021,Merger/Acquisition,"""Great Falls, MT""",agribody technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Agricool,01-Sep-2022,Merger/Acquisition,"""La Courneuve, France""",agricool,2015-00-00,Wikidata,MEDIUM,70,REVIEW,Q51602551,Agricool,hq=france
+Agrivida,10-Jan-2023,Merger/Acquisition,"""Boston, MA""",agrivida,2002,Wikidata,LOW,45,REVIEW,Q30285666,Agrivida (United States),"hq=united states; desc=company in Medford, United States"
+Aidence,20-Jan-2022,Merger/Acquisition,"""Rotterdam, Netherlands""",aidence,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aiforia Technologies (HEL: AIFORIA),10-Dec-2021,IPO,"""Helsinki, Finland""",aiforia technologies,,Wikidata,NONE,45,NO_MATCH,Q115678908,Aiforia Technologies Oyj,hq=finland
+AImotive,22-Dec-2022,Merger/Acquisition,"""Budapest, Hungary""",aimotive,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q55080146|Q100353150.json
+Aiolos Bio,14-Feb-2024,Merger/Acquisition,"""Boston, MA""",aiolos bio,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aiqudo,09-Feb-2021,Merger/Acquisition,"""Campbell, CA""",aiqudo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Air Control Entech,25-Jul-2024,Merger/Acquisition,"""Aberdeen, United Kingdom""",air control entech,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Airbase,01-Oct-2024,Merger/Acquisition,"""San Francisco, CA""",airbase,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q695850|Q1049686|Q2629807|Q2629816|Q1283490.json
+Airgap,12-Apr-2024,Merger/Acquisition,"""Santa Clara, CA""",airgap,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4698697|Q75289972|Q121933535|Q127828316|Q114084469.json
+Airity Technologies,20-Jun-2024,Merger/Acquisition,"""Redwood City, CA""",airity technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AirJoule Technologies (NAS: AIRJ),14-Mar-2024,Reverse Merger,"""Wilmington, DE""",airjoule technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Airthings (OSL: AIRX),23-Dec-2025,Merger/Acquisition,"""Oslo, Norway""",airthings,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q25434744|Q104178685|Q110788271.json
+AiXPRT,21-Oct-2021,Merger/Acquisition,"""London, United Kingdom""",aixprt,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AjustLock,05-Dec-2023,Merger/Acquisition,"""New York, NY""",ajustlock,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Akili Interactive,02-Jul-2024,Merger/Acquisition,"""Boston, MA""",akili interactive,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Akkodis,24-Feb-2022,Merger/Acquisition,"""Zug, Switzerland""",akkodis,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q133042309|Q294213|Q126954524.json
+Akouos,01-Dec-2022,Merger/Acquisition,"""Boston, MA""",akouos,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Akoya Biosciences,16-Apr-2021,IPO,"""Marlborough, MA""",akoya biosciences,2015,Wikidata,LOW,45,REVIEW,Q104481158,Akoya Biosciences (United States),"hq=united states; desc=company in California, United States"
+Aktis Oncology (NAS: AKTS),09-Jan-2026,IPO,"""Boston, MA""",aktis oncology,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+ALAViDA,14-Oct-2021,Merger/Acquisition,"""Vancouver, Canada""",alavida,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q23736199|Q70121355|Q1129036.json
+Alchemy (Financial Software),08-Jun-2022,Merger/Acquisition,"""Irvine, CA""",alchemy (financial software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alcyone Therapeutics,07-Nov-2025,Merger/Acquisition,"""Lowell, MA""",alcyone therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alderys,28-Feb-2024,Merger/Acquisition,"""Orsay, France""",alderys,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alfi (Business/Productivity Software),04-May-2021,IPO,"""Miami Beach, FL""",alfi (business/productivity software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alfonsino (MIL: ALFO),22-Nov-2021,IPO,"""Caserta, Italy""",alfonsino,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q182807|Q111912664|Q138816608|Q17453188|Q100586597.json
+AlgaeneX,04-Aug-2021,Merger/Acquisition,"""San Diego, CA""",algaenex,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Aliada Therapeutics,11-Dec-2024,Merger/Acquisition,"""Boston, MA""",aliada therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results

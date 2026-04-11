@@ -8,7 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "founding:template": "node scripts/generate-founding-template.mjs"
+    "founding:template": "node scripts/generate-founding-template.mjs",
+    "founding:candidates": "node scripts/enrich-founding-candidates.mjs",
+    "founding:batches": "node scripts/run-founding-batches.mjs",
+    "founding:sec": "node scripts/enrich-founding-sec.mjs",
+    "founding:sites": "node scripts/enrich-founding-sites.mjs",
+    "founding:sec:batches": "node scripts/run-founding-sec-batches.mjs",
+    "founding:revisit": "node scripts/build-founding-revisit-lists.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.564.0",

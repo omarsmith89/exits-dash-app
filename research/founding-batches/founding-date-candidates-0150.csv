@@ -1,0 +1,51 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Alice's Table,31-Dec-2021,Merger/Acquisition,"""Jericho, NY""",alices table,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alimera Sciences,16-Sep-2024,Merger/Acquisition,"""Alpharetta, GA""",alimera sciences,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q4726659|Q50038314.json
+Alkami (NAS: ALKT),13-Apr-2021,IPO,"""Plano, TX""",alkami,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q102165835|Q2837356|Q129|Q112043719|Q111929908.json
+All In,10-Nov-2022,Merger/Acquisition,"""Los Angeles, CA""",all in,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q110644284|Q99584750|Q135437383|Q651141|Q110581098.json
+Allakos,15-May-2025,Merger/Acquisition,"""San Carlos, CA""",allakos,2012,Wikidata,MEDIUM,65,REVIEW,Q30286658,Allakos (United States),"hq=united states; aliases=Allakos Inc.; desc=company in San Carlos, United States"
+Allcyte,18-Aug-2021,Merger/Acquisition,"""Vienna, Austria""",allcyte,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Allegro 3D,05-May-2022,Merger/Acquisition,"""San Diego, CA""",allegro 3d,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AlloMEK Therapeutics,11-Oct-2022,Merger/Acquisition,"""Woodbridge, CT""",allomek therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Allovue,22-Jan-2024,Merger/Acquisition,"""Baltimore, MD""",allovue,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Allurion Technologies (NYS: ALUR),01-Aug-2023,Reverse Merger,"""Paris, France""",allurion technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alpha Capital Acquisition Company,19-Feb-2021,IPO,"""New York, NY""",alpha capital acquisition,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alpha Lithium,01-Nov-2023,Merger/Acquisition,"""Vancouver, Canada""",alpha lithium,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alpha Modus Holdings (NAS: DUMY0000230),13-Dec-2024,Reverse Merger,"""Cornelius, NC""",alpha modus,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alpine Optoelectronics,29-Apr-2022,Merger/Acquisition,"""Fremont, CA""",alpine optoelectronics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alsid,27-Apr-2021,Merger/Acquisition,"""Paris, France""",alsid,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q19428061|Q42244404|Q69524150|Q42180690|Q9385807.json
+ALSP Orchid Acquisition I,19-Nov-2021,IPO,"""Seattle, WA""",alsp orchid acquisition i,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alt 5,15-May-2024,Merger/Acquisition,"""Toronto, Canada""",alt 5,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Altar,03-Oct-2022,Merger/Acquisition,"""Evry, France""",altar,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q101687|Q1984795|Q46686|Q517315|Q4063577.json
+Alter (Multimedia and Design Software),01-Aug-2022,Merger/Acquisition,"""New York, NY""",alter (multimedia and design software),,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AlterG,11-Aug-2023,Merger/Acquisition,"""Fremont, CA""",alterg,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q17182538|Q2385364|Q37537690|Q4033828|Q18351430.json
+AltheaDx,26-Apr-2022,Merger/Acquisition,"""San Diego, CA""",altheadx,1998,Wikidata,LOW,45,REVIEW,Q30296123,AltheaDx (United States),"hq=united states; desc=company in San Diego, United States"
+Altiostar,04-Aug-2021,Merger/Acquisition,"""Tewksbury, MA""",altiostar,,Wikidata,NONE,70,NO_MATCH,Q96371871,Altiostar,hq=united states; desc=American vRAN provider
+Alto Neuroscience (NYS: ANRO),02-Feb-2024,IPO,"""Mountain View, CA""",alto neuroscience,2019,Wikidata,LOW,45,REVIEW,Q107517982,Alto Neuroscience (United States),"hq=united states; desc=company in Los Altos, United States"
+Altus Copper,12-Jan-2022,IPO,"""New York, NY""",altus copper,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Alumis (NAS: ALMS),28-Jun-2024,IPO,"""South San Francisco, CA""",alumis,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q36877526|Q131246144.json
+Alzamend Neuro (NAS: ALZN),15-Jun-2021,IPO,"""Atlanta, GA""",alzamend neuro,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Amalto,06-Apr-2021,Merger/Acquisition,"""Houston, TX""",amalto,2005-00-00,Wikidata,MEDIUM,70,REVIEW,Q18635283,Amalto,hq=united states; desc=software Development Company situated in Paris
+Ambia Solar,14-Nov-2025,Merger/Acquisition,"""Lindon, UT""",ambia solar,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ambiq (NYS: AMBQ),30-Jul-2025,IPO,"""Austin, TX""",ambiq,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q118301539|Q40082502|Q68288330|Q221552|Q72531111.json
+American Backhoe Services & Excavating,20-Dec-2022,Merger/Acquisition,"""University Park, IL""",american backhoe services and excavating,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+American Robotics,05-Aug-2021,Merger/Acquisition,"""Sparks, MD""",american robotics,,Wikidata,NONE,70,NO_MATCH,Q4745529,American robotics,hq=united states; aliases=robotics in America; desc=overview about robotics in America
+Amino,21-Apr-2021,Merger/Acquisition,"""New York, NY""",amino,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q64221183|Q14851773|Q15757015|Q238474|Q8066.json
+Amniotics,06-Jul-2021,IPO,"""Lund, Sweden""",amniotics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Amobee,12-Sep-2022,Merger/Acquisition,"""Redwood City, CA""",amobee,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ampere Computing,26-Nov-2025,Merger/Acquisition,"""Santa Clara, CA""",ampere computing,2017-00-00,Wikidata,MEDIUM,70,REVIEW,Q59491380,Ampere Computing,hq=united states; desc=American company that develops Cloud Native Processors
+Amprius Technologies (NYS: AMPX),14-Sep-2022,Reverse Merger,"""Fremont, CA""",amprius technologies,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Amryt Endo,05-Aug-2021,Merger/Acquisition,"""Needham, MA""",amryt endo,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AMTD Digital (NYS: HKD),15-Jul-2022,IPO,"""Paris, France""",amtd digital,,Wikidata,NONE,70,NO_MATCH,Q113459125,AMTD Digital,hq=france; desc=Hong Kong based technology company
+Amylyx Pharmaceuticals (NAS: AMLX),07-Jan-2022,IPO,"""Cambridge, MA""",amylyx pharmaceuticals,2013-00-00,Wikidata,HIGH,90,LIKELY_MATCH,Q115225388,Amylyx Pharmaceuticals,"hq=united states; aliases=Amylyx Pharmaceuticals, Inc.; desc=American biopharmaceutical company"
+AN2 Therapeutics (NAS: ANTX),25-Mar-2022,IPO,"""Menlo Park, CA""",an2 therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Anchor Semiconductor,01-Jul-2021,Merger/Acquisition,"""Santa Clara, CA""",anchor semiconductor,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Anebulo Pharmaceuticals (NAS: ANEB),07-May-2021,IPO,"""Lakeway, TX""",anebulo pharmaceuticals,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Angel Studios (NYS: ANGX),10-Sep-2025,Reverse Merger,"""Provo, UT""",angel studios,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q959329|Q4762283|Q113659629|Q119698741.json
+Angstrom Sports,17-Jun-2023,Merger/Acquisition,"""London, United Kingdom""",angstrom sports,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+AnHeart Therapeutics,09-Apr-2024,Merger/Acquisition,"""New York, NY""",anheart therapeutics,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
+Ante,04-Oct-2021,Merger/Acquisition,"""Copenhagen, Denmark""",ante,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q571530|Q37482871|Q572041|Q114946131|Q167934.json
+Antev,29-Aug-2025,Merger/Acquisition,"""London, United Kingdom""",antev,,Wikidata,ERROR,0,ERROR,,,HTTP 404 for https://www.wikidata.org/wiki/Special:EntityData/Q19988520|Q46998603|Q2857708|Q2565172|Q136450762.json
+AntlerA,26-Jul-2024,Merger/Acquisition,"""Toronto, Canada""",antlera,,Wikidata,NONE,65,NO_MATCH,Q136351897,"AntlerA Therapeutics, Inc. (United States)","hq=canada; aliases=AntlerA|AntlerA Therapeutics|AntlerA Therapeutics, Inc.; desc=company in San Francisco, United States"
+Aparito,24-May-2024,Merger/Acquisition,"""Wrexham, United Kingdom""",aparito,,Wikidata,NONE,0,NO_MATCH,Q4780946,apparitor,"hq=united kingdom; aliases=summoner|apparitores; desc=civil servant whose salary was paid from the public treasury, in Roman civilisation"
+ApcinteX,01-Jan-2021,Merger/Acquisition,"""London, United Kingdom""",apcintex,,Wikidata,NONE,0,NO_MATCH,,,No Wikidata search results
