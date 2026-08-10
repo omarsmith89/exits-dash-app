@@ -68,6 +68,7 @@ const ExitDashboard=()=>{
   const [expTop10,setExpTop10]=useState(null);
   const [scatterZoom,setScatterZoom]=useState(null);
   const [scatterDrag,setScatterDrag]=useState(null);
+  const scatterDragRef=useRef(null);
   const [scatterExpDeal,setScatterExpDeal]=useState(null);
   const scatterRef=useRef(null);
   const [catMap,setCatMap]=useState(DM_FIXED);
@@ -567,10 +568,13 @@ const ExitDashboard=()=>{
             </div>}
             {scatterZoom&&<button onClick={()=>setScatterZoom(null)} style={{marginBottom:8,background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'4px 10px',fontSize:11,cursor:'pointer'}}>↩ Reset Zoom</button>}
             <div ref={scatterRef} style={{position:'relative',userSelect:'none'}}
-              onMouseDown={e=>{if(e.button!==0)return;const r=scatterRef.current.getBoundingClientRect();setScatterDrag({px1:e.clientX-r.left,py1:e.clientY-r.top,px2:e.clientX-r.left,py2:e.clientY-r.top});}}
-              onMouseMove={e=>{if(!scatterDrag)return;const r=scatterRef.current.getBoundingClientRect();setScatterDrag(d=>({...d,px2:e.clientX-r.left,py2:e.clientY-r.top}));}}
+              onMouseDown={e=>{if(e.button!==0)return;const r=scatterRef.current.getBoundingClientRect();const d={px1:e.clientX-r.left,py1:e.clientY-r.top,px2:e.clientX-r.left,py2:e.clientY-r.top};scatterDragRef.current=d;setScatterDrag({...d});}}
+              onMouseMove={e=>{if(!scatterDragRef.current)return;const r=scatterRef.current.getBoundingClientRect();const d={...scatterDragRef.current,px2:e.clientX-r.left,py2:e.clientY-r.top};scatterDragRef.current=d;setScatterDrag({...d});}}
               onMouseUp={e=>{
-                if(!scatterDrag)return;
+                const drag=scatterDragRef.current;
+                if(!drag)return;
+                scatterDragRef.current=null;
+                setScatterDrag(null);
                 const r=scatterRef.current.getBoundingClientRect();
                 const W=r.width,H=420;
                 const ML=65,MR=20,MT=10,MB=30;
@@ -578,16 +582,16 @@ const ExitDashboard=()=>{
                 const xs=tteScatter.map(d=>d.x),ys=tteScatter.map(d=>d.y);
                 const[xDMin,xDMax]=scatterZoom?[scatterZoom.xMin,scatterZoom.xMax]:[Math.min(...xs),Math.max(...xs)];
                 const[yDMin,yDMax]=scatterZoom?[scatterZoom.yMin,scatterZoom.yMax]:[Math.min(...ys),Math.max(...ys)];
-                const px=(p)=>xDMin+(Math.min(Math.max(p-ML,0),chartW)/chartW)*(xDMax-xDMin);
+                const toX=(p)=>xDMin+(Math.min(Math.max(p-ML,0),chartW)/chartW)*(xDMax-xDMin);
                 const logMin=Math.log10(Math.max(1,yDMin)),logMax=Math.log10(yDMax);
-                const py=(p)=>Math.pow(10,logMax-((Math.min(Math.max(p-MT,0),chartH))/chartH)*(logMax-logMin));
-                const{px1,py1,px2,py2}=scatterDrag;
-                const xMin=px(Math.min(px1,px2)),xMax=px(Math.max(px1,px2));
-                const yMin=py(Math.max(py1,py2)),yMax=py(Math.min(py1,py2));
-                if(xMax-xMin>0.3&&yMax/yMin>1.2)setScatterZoom({xMin,xMax,yMin:Math.max(1,yMin),yMax});
-                setScatterDrag(null);
+                const toY=(p)=>Math.pow(10,logMax-((Math.min(Math.max(p-MT,0),chartH))/chartH)*(logMax-logMin));
+                const{px1,py1,px2,py2}=drag;
+                if(Math.abs(px2-px1)<8&&Math.abs(py2-py1)<8)return;
+                const xMin=toX(Math.min(px1,px2)),xMax=toX(Math.max(px1,px2));
+                const yMin=toY(Math.max(py1,py2)),yMax=toY(Math.min(py1,py2));
+                setScatterZoom({xMin,xMax,yMin:Math.max(1,yMin),yMax});
               }}
-              onMouseLeave={()=>setScatterDrag(null)}
+              onMouseLeave={()=>{scatterDragRef.current=null;setScatterDrag(null);}}
             >
               {scatterDrag&&(()=>{const l=Math.min(scatterDrag.px1,scatterDrag.px2),t=Math.min(scatterDrag.py1,scatterDrag.py2),w=Math.abs(scatterDrag.px2-scatterDrag.px1),h=Math.abs(scatterDrag.py2-scatterDrag.py1);return<div style={{position:'absolute',left:l,top:t,width:w,height:h,border:'2px solid #6366f1',background:'rgba(99,102,241,0.08)',pointerEvents:'none',zIndex:10}}/>;})()}
               <ResponsiveContainer width="100%" height={420}>
