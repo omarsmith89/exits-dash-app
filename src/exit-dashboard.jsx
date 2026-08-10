@@ -70,7 +70,7 @@ const ExitDashboard=()=>{
   const [filterMapped,setFilterMapped]=useState('all');
   const [importSt,setImportSt]=useState('');
   const [startYr,setStartYr]=useState('2021');
-  const [endYr,setEndYr]=useState('2025');
+  const [endYr,setEndYr]=useState('2026');
   const [dealMin,setDealMin]=useState(null);
   const [dealMax,setDealMax]=useState(null);
   const [timeToExitMin,setTimeToExitMin]=useState('');
@@ -268,7 +268,7 @@ const ExitDashboard=()=>{
 
   // Upload screen
   if(isBootLoading){
-    return(<div className="w-full min-h-screen bg-gray-50 p-6"><div className="max-w-3xl mx-auto"><div className="bg-white rounded-lg shadow-md p-8"><h2 className="text-xl font-semibold mb-2">Loading default dataset...</h2><p className="text-gray-600">Preparing VC exits data for 2021-2026.</p></div></div></div>);
+    return(<div className="w-full min-h-screen bg-gray-50 p-6"><div className="max-w-3xl mx-auto"><div className="bg-white rounded-lg shadow-md p-8"><h2 className="text-xl font-semibold mb-2">Loading default dataset...</h2><p className="text-gray-600">Preparing VC exits data for 2021–2026.</p></div></div></div>);
   }
 
   if(!data.length){
@@ -315,11 +315,11 @@ const ExitDashboard=()=>{
               <label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Time: {startYr} – {endYr}</label>
               <div style={{position:'relative',height:32,display:'flex',alignItems:'center'}}>
                 <div style={{position:'absolute',left:0,right:0,height:4,backgroundColor:'#e5e7eb',borderRadius:2}}/>
-                <input type="range" min="2021" max="2025" step="1" value={startYr} onChange={e=>{if(+e.target.value<=+endYr)setStartYr(e.target.value);}} style={{position:'absolute',left:0,right:0,appearance:'none',WebkitAppearance:'none',background:'transparent',pointerEvents:'none',height:32,width:'100%',zIndex:2}} className="rt"/>
-                <input type="range" min="2021" max="2025" step="1" value={endYr} onChange={e=>{if(+e.target.value>=+startYr)setEndYr(e.target.value);}} style={{position:'absolute',left:0,right:0,appearance:'none',WebkitAppearance:'none',background:'transparent',pointerEvents:'none',height:32,width:'100%',zIndex:3}} className="rt"/>
+                <input type="range" min="2021" max="2026" step="1" value={startYr} onChange={e=>{if(+e.target.value<=+endYr)setStartYr(e.target.value);}} style={{position:'absolute',left:0,right:0,appearance:'none',WebkitAppearance:'none',background:'transparent',pointerEvents:'none',height:32,width:'100%',zIndex:2}} className="rt"/>
+                <input type="range" min="2021" max="2026" step="1" value={endYr} onChange={e=>{if(+e.target.value>=+startYr)setEndYr(e.target.value);}} style={{position:'absolute',left:0,right:0,appearance:'none',WebkitAppearance:'none',background:'transparent',pointerEvents:'none',height:32,width:'100%',zIndex:3}} className="rt"/>
                 <style>{`.rt::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:#3b82f6;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,.3);cursor:pointer;pointer-events:auto}.rt::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#3b82f6;border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,.3);cursor:pointer;pointer-events:auto}`}</style>
               </div>
-              <div style={{display:'flex',justifyContent:'space-between',fontSize:10,color:'#9ca3af',marginTop:2}}><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span></div>
+              <div style={{display:'flex',justifyContent:'space-between',fontSize:10,color:'#9ca3af',marginTop:2}}><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span><span>2026</span></div>
             </div>
             <div>
               <label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Deal Size ($M)</label>
