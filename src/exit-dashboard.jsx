@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, AreaChart, Area, ScatterChart, Scatter, ZAxis } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, AreaChart, Area, ScatterChart, Scatter, ZAxis, ReferenceArea } from 'recharts';
 import { Upload, Edit2, X, ChevronDown, ChevronUp } from 'lucide-react';
 
 const DM={"6,464.20":"Other","Accounting, Audit and Tax Services (B2B)":"FinTech","Accounting, Audit and Tax Services (B2C)":"FinTech","Broadcasting, Radio and Television":"Gaming & Media","Computers, Parts and Peripherals":"Hardware & IoT","Movies, Music and Entertainment":"Gaming & Media","Other Metals, Minerals and Mining":"Industrials & Energy","Other Restaurants, Hotels and Leisure":"Travel, Dining & Hospitality","67.22":"Other","Accessories":"Retail & Consumer Brands","Aerospace and Defense":"Industrials & Energy","Agricultural Chemicals":"Industrials & Energy","Air":"Logistics & Transportation","Alternative Energy Equipment":"Industrials & Energy","Aluminum Mining":"Industrials & Energy","Animal Husbandry":"Agriculture & AgTech","Animal Textiles":"Retail & Consumer Brands","Application Software":"Enterprise SaaS","Application Specific Semiconductors":"Hardware & IoT","Aquaculture":"Agriculture & AgTech","Asset Management":"FinTech","Automation/Workflow Software":"Enterprise SaaS","Automotive":"Industrials & Energy","Automotive Insurance":"FinTech","BPO/Outsource Services":"HR Tech","Beverages":"Food & Beverages","Biotechnology":"HealthTech & Life Sciences","Brokerage":"FinTech","Building Products":"Real Estate & Construction","Buildings and Property":"Real Estate & Construction","Business Equipment and Supplies":"Retail & Consumer Brands","Business/Productivity Software":"Enterprise SaaS","Clinics/Outpatient Services":"HealthTech & Life Sciences","Clothing":"Retail & Consumer Brands","Commercial/Professional Insurance":"FinTech","Commodity Chemicals":"Industrials & Energy","Communication Software":"Enterprise SaaS","Connectivity Products":"Hardware & IoT","Construction and Engineering":"Real Estate & Construction","Consulting Services (B2B)":"Other","Consumer Finance":"FinTech","Cultivation":"Agriculture & AgTech","Database Software":"Enterprise SaaS","Decision/Risk Analysis":"Enterprise SaaS","Department Stores":"Retail & Consumer Brands","Diagnostic Equipment":"HealthTech & Life Sciences","Discovery Tools (Healthcare)":"HealthTech & Life Sciences","Distributors (Healthcare)":"HealthTech & Life Sciences","Distributors/Wholesale":"Logistics & Transportation","Drug Delivery":"HealthTech & Life Sciences","Drug Discovery":"HealthTech & Life Sciences","Education and Training Services (B2B)":"EdTech","Educational Software":"EdTech","Educational and Training Services (B2C)":"EdTech","Elder and Disabled Care":"HealthTech & Life Sciences","Electric Utilities":"Industrials & Energy","Electrical Equipment":"Hardware & IoT","Electronic Equipment and Instruments":"Hardware & IoT","Electronics (B2C)":"Hardware & IoT","Energy Infrastructure":"Industrials & Energy","Energy Marketing":"Industrials & Energy","Energy Production":"Industrials & Energy","Energy Storage":"Industrials & Energy","Energy Traders and Brokers":"Industrials & Energy","Energy Transportation":"Industrials & Energy","Enterprise Systems (Healthcare)":"HealthTech & Life Sciences","Entertainment Software":"Gaming & Media","Environmental Services (B2B)":"Industrials & Energy","Fiberoptic Equipment":"Hardware & IoT","Financial Software":"FinTech","Food Products":"Food & Beverages","Footwear":"Retail & Consumer Brands","Forestry Processing":"Industrials & Energy","General Merchandise Stores":"Retail & Consumer Brands","General Purpose Semiconductors":"Hardware & IoT","Generating Revenue":"Other","Home Furnishings":"Retail & Consumer Brands","Horticulture":"Agriculture & AgTech","Hospitals/Inpatient Services":"HealthTech & Life Sciences","Hotels and Resorts":"Travel, Dining & Hospitality","Household Appliances":"Retail & Consumer Brands","Human Capital Services":"HR Tech","IT Consulting and Outsourcing":"DevOps & Infrastructure","Industrial Chemicals":"Industrials & Energy","Industrial Supplies and Parts":"Industrials & Energy","Information Services (B2C)":"Gaming & Media","Infrastructure":"DevOps & Infrastructure","Insurance Brokers":"FinTech","International Banks":"FinTech","Internet Retail":"E-commerce & Marketplace Tech","Internet Service Providers":"DevOps & Infrastructure","Internet Software":"Enterprise SaaS","Investment Banks":"FinTech","Laboratory Services (Healthcare)":"HealthTech & Life Sciences","Legal Services (B2B)":"Other","Legal Services (B2C)":"Other","Leisure Facilities":"Gaming & Media","Logistics":"Logistics & Transportation","Machinery (B2B)":"Industrials & Energy","Marine":"Logistics & Transportation","Media and Information Services (B2B)":"Marketing & Sales Tech","Medical Records Systems":"HealthTech & Life Sciences","Medical Supplies":"HealthTech & Life Sciences","Metal Containers and Packaging":"Industrials & Energy","Monitoring Equipment":"HealthTech & Life Sciences","Multi-line Chemicals":"Industrials & Energy","Multi-line Insurance":"FinTech","Multi-line Mining":"Industrials & Energy","Multimedia and Design Software":"Gaming & Media","National Banks":"FinTech","Network Management Software":"DevOps & Infrastructure","Office Electronics":"Hardware & IoT","Office Services (B2B)":"Other","Oil and Gas Equipment":"Industrials & Energy","Other Agriculture":"Agriculture & AgTech","Other Capital Markets/Institutions":"FinTech","Other Commercial Banks":"FinTech","Other Commercial Products":"Other","Other Commercial Services":"Other","Other Communications and Networking":"DevOps & Infrastructure","Other Consumer Durables":"Retail & Consumer Brands","Other Consumer Non-Durables":"Retail & Consumer Brands","Other Containers and Packaging":"Industrials & Energy","Other Devices and Supplies":"Hardware & IoT","Other Energy Services":"Industrials & Energy","Other Equipment":"Industrials & Energy","Other Financial Services":"FinTech","Other Hardware":"Hardware & IoT","Other Healthcare Services":"HealthTech & Life Sciences","Other Healthcare Technology Systems":"HealthTech & Life Sciences","Other Insurance":"FinTech","Other Materials":"Industrials & Energy","Other Media":"Gaming & Media","Other Pharmaceuticals and Biotechnology":"HealthTech & Life Sciences","Other Semiconductors":"Hardware & IoT","Other Services (B2C Non-Financial)":"Other","Other Textiles":"Industrials & Energy","Other Transportation":"Logistics & Transportation","Outcome Management (Healthcare)":"HealthTech & Life Sciences","Paper Containers and Packaging":"Industrials & Energy","Personal Products":"Retail & Consumer Brands","Pharmaceuticals":"HealthTech & Life Sciences","Plastic Containers and Packaging":"Industrials & Energy","Practice Management (Healthcare)":"HealthTech & Life Sciences","Precious Metals and Minerals Mining":"Industrials & Energy","Printing Services (B2B)":"Other","Private Equity":"FinTech","Production (Semiconductors)":"Hardware & IoT","Profitable":"Other","Publishing":"Gaming & Media","Rail":"Logistics & Transportation","Raw Materials (Non-Wood)":"Industrials & Energy","Real Estate Investment Trusts (REITs)":"Real Estate & Construction","Real Estate Services (B2C)":"Real Estate & Construction","Recreational Goods":"Retail & Consumer Brands","Regional Banks":"FinTech","Restaurants and Bars":"Travel, Dining & Hospitality","Road":"Logistics & Transportation","Security Services (B2B)":"Other","Social Content":"Gaming & Media","Social/Platform Software":"Gaming & Media","Software Development Applications":"DevOps & Infrastructure","Specialized Finance":"FinTech","Specialty Chemicals":"Industrials & Energy","Specialty Retail":"Retail & Consumer Brands","Surgical Devices":"HealthTech & Life Sciences","Synthetic Textiles":"Industrials & Energy","Systems and Information Management":"Enterprise SaaS","Telecommunications Service Providers":"DevOps & Infrastructure","Therapeutic Devices":"HealthTech & Life Sciences","Thrifts and Mortgage Finance":"FinTech","Venture Capital-Backed":"Other","Vertical Market Software":"Enterprise SaaS","Wireless Communications Equipment":"Hardware & IoT"};
@@ -37,7 +37,9 @@ const getFoundingYear=(row,foundingMap)=>{const pb=row['Year Founded'];if(pb&&/^
 const pTimeToExit=(row,foundingMap)=>{const rec=getFoundingRecord(row,foundingMap);if(rec&&!isOperatingAgeBasis(rec.dateBasis))return null;const fy=getFoundingYear(row,foundingMap);const start=pDate(fy);const end=pDate(row['Deal Date']);if(!start||!end||end<start)return null;return Number((((end-start)/DAY_MS)/365.25).toFixed(2));};
 
 const DealDetail=({deal,onClose,customCategory,foundingRecord,timeToExit})=>{
-  const fields=[['Category',customCategory],['Deal Type',deal['Deal Type']],['Deal Date',deal['Deal Date']],['Year Founded',deal['Year Founded']||foundingRecord?.foundingDate],['Date Basis',foundingRecord?fmtDateBasis(foundingRecord.dateBasis):null],['Time to Exit',fmtYears(timeToExit)],['Founding Source',deal['Year Founded']?'PitchBook':foundingRecord?.source],['Confidence',foundingRecord?.confidence],['Deal Size',fmt(pSize(deal))],['HQ',gHQ(deal)],['Employees',deal['Employees']],['Investors',deal['Investors']],['New Investors',deal['New Investors']],['Implied EV',fmt(pNum(deal['Implied EV']))],['Post Valuation',fmt(pNum(deal['Post Valuation']))],['Revenue',fmt(pNum(deal['Revenue']))],['EBITDA',fmt(pNum(deal['EBITDA']))],['Net Income',fmt(pNum(deal['Net Income']))],['Val/Revenue',pNum(deal['Valuation/Revenue'])?pNum(deal['Valuation/Revenue']).toFixed(1)+'x':null],['Val/EBITDA',pNum(deal['Valuation/EBITDA'])?pNum(deal['Valuation/EBITDA']).toFixed(1)+'x':null],['Raised to Date',fmt(pNum(deal['Raised to Date']))],['Industries',deal['All Industries']],['Verticals',deal['Verticals']],['Keywords',deal['Keywords']],['Founding Notes',foundingRecord?.notes]];
+  const isIPO=(deal['Deal Type']||'').includes('IPO');
+  const acquirer=!isIPO?(deal['New Investors']||deal['Investors']||'').split(';')[0].trim()||null:null;
+  const fields=[['Category',customCategory],['Deal Type',deal['Deal Type']],['Deal Date',deal['Deal Date']],['Year Founded',deal['Year Founded']||foundingRecord?.foundingDate],['Date Basis',foundingRecord?fmtDateBasis(foundingRecord.dateBasis):null],['Time to Exit',fmtYears(timeToExit)],['Acquirer',acquirer],['Founding Source',deal['Year Founded']?'PitchBook':foundingRecord?.source],['Confidence',foundingRecord?.confidence],['Deal Size',fmt(pSize(deal))],['HQ',gHQ(deal)],['Employees',deal['Employees']],['Investors',deal['Investors']],['New Investors',deal['New Investors']],['Implied EV',fmt(pNum(deal['Implied EV']))],['Post Valuation',fmt(pNum(deal['Post Valuation']))],['Revenue',fmt(pNum(deal['Revenue']))],['EBITDA',fmt(pNum(deal['EBITDA']))],['Net Income',fmt(pNum(deal['Net Income']))],['Val/Revenue',pNum(deal['Valuation/Revenue'])?pNum(deal['Valuation/Revenue']).toFixed(1)+'x':null],['Val/EBITDA',pNum(deal['Valuation/EBITDA'])?pNum(deal['Valuation/EBITDA']).toFixed(1)+'x':null],['Raised to Date',fmt(pNum(deal['Raised to Date']))],['Industries',deal['All Industries']],['Verticals',deal['Verticals']],['Keywords',deal['Keywords']],['Founding Notes',foundingRecord?.notes]];
   return(<div style={{background:'#f8fafc',border:'1px solid #e2e8f0',borderRadius:8,padding:12,marginBottom:8}}>
     <div style={{display:'flex',justifyContent:'space-between',marginBottom:8}}><h4 style={{fontSize:14,fontWeight:700}}>{gName(deal)}</h4><button onClick={onClose} style={{background:'none',border:'none',cursor:'pointer',color:'#94a3b8',fontSize:16}}>×</button></div>
     <div style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:6}}>{fields.map(([l,v])=>v&&v!=='—'&&!String(v).includes('NaN')?<div key={l} style={{fontSize:11}}><span style={{color:'#64748b',fontWeight:500}}>{l}: </span><span style={{color:'#1e293b'}}>{v}</span></div>:null)}</div>
@@ -46,9 +48,11 @@ const DealDetail=({deal,onClose,customCategory,foundingRecord,timeToExit})=>{
 
 const DollarTooltip=({active,payload,label})=>{
   if(!active||!payload?.length)return null;
+  const d=payload[0]?.payload;
   return(<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:8,padding:'8px 12px',fontSize:12}}>
     <p style={{fontWeight:600,marginBottom:2}}>{label}</p>
     {payload.map((p,i)=>p.value!=null?<p key={i} style={{color:p.color}}>{p.name}: {fmt(p.value)}</p>:null)}
+    {d?.min!=null&&<p style={{color:'#9ca3af',marginTop:4}}>Min: {fmt(d.min)} · Max: {fmt(d.max)} · N: {d.n}</p>}
   </div>);
 };
 
@@ -62,6 +66,9 @@ const ExitDashboard=()=>{
   const [selCat,setSelCat]=useState(null);
   const [expDeal,setExpDeal]=useState(null);
   const [expTop10,setExpTop10]=useState(null);
+  const [scatterZoom,setScatterZoom]=useState(null);
+  const [scatterDrag,setScatterDrag]=useState(null);
+  const [scatterExpDeal,setScatterExpDeal]=useState(null);
   const [catMap,setCatMap]=useState(DM_FIXED);
   const [allCodes,setAllCodes]=useState([]);
   const [custCats,setCustCats]=useState(DC);
@@ -73,6 +80,8 @@ const ExitDashboard=()=>{
   const [endYr,setEndYr]=useState('2026');
   const [dealMin,setDealMin]=useState(null);
   const [dealMax,setDealMax]=useState(null);
+  const [dealMinInput,setDealMinInput]=useState('');
+  const [dealMaxInput,setDealMaxInput]=useState('');
   const [timeToExitMin,setTimeToExitMin]=useState('');
   const [timeToExitMax,setTimeToExitMax]=useState('');
   const [locFilter,setLocFilter]=useState('all');
@@ -156,8 +165,11 @@ const ExitDashboard=()=>{
   const dealTime=useMemo(()=>{
     const s=+startYr,e=+endYr,yd={};
     filtered.forEach(d=>{const y=pYear(d['Deal Date']),sz=pSize(d);if(!y||sz===null)return;if(!yd[y])yd[y]={all:[],ipo:[],ma:[]};yd[y].all.push(sz);const dt=d['Deal Type']||'';if(dt.includes('IPO'))yd[y].ipo.push(sz);else if(dt.includes('Merger/Acquisition')||dt.includes('Buyout/LBO'))yd[y].ma.push(sz);});
-    const med=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y);return s[Math.floor(s.length/2)];};const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null;
-    const r=[];for(let y=s;y<=e;y++){const d=yd[y]||{all:[],ipo:[],ma:[]};r.push({year:''+y,avg:avg(d.all),median:med(d.all),avgIPO:avg(d.ipo),medianIPO:med(d.ipo),avgMA:avg(d.ma),medianMA:med(d.ma)});}return r;
+    const med=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y);return s[Math.floor(s.length/2)];};
+    const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null;
+    const mn=a=>a.length?Math.min(...a):null;
+    const mx=a=>a.length?Math.max(...a):null;
+    const r=[];for(let y=s;y<=e;y++){const d=yd[y]||{all:[],ipo:[],ma:[]};r.push({year:''+y+(y===2026?' *':''),avg:avg(d.all),median:med(d.all),min:mn(d.all),max:mx(d.all),n:d.all.length,avgIPO:avg(d.ipo),medianIPO:med(d.ipo),avgMA:avg(d.ma),medianMA:med(d.ma)});}return r;
   },[filtered,startYr,endYr]);
 
   const ipoMaCat=useMemo(()=>{
@@ -184,17 +196,29 @@ const ExitDashboard=()=>{
 
   const timeToExitByYear=useMemo(()=>{
     const s=+startYr,e=+endYr,yd={};
-    filtered.forEach(d=>{const y=pYear(d['Deal Date']);const tte=pTimeToExit(d,foundingMap);if(!y||tte===null)return;if(!yd[y])yd[y]=[];yd[y].push(tte);});
-    const r=[];for(let y=s;y<=e;y++){const a=yd[y]||[];if(!a.length){r.push({year:''+y,avg:null,median:null,n:0});continue;}const ss=[...a].sort((x,y)=>x-y);r.push({year:''+y,avg:Number((a.reduce((x,y)=>x+y,0)/a.length).toFixed(1)),median:Number(ss[Math.floor(ss.length/2)].toFixed(1)),n:a.length});}return r;
+    filtered.forEach(d=>{const y=pYear(d['Deal Date']);const tte=pTimeToExit(d,foundingMap);if(!y||tte===null)return;const dt=d['Deal Type']||'';const bucket=dt.includes('IPO')?'ipo':dt.includes('Merger/Acquisition')||dt.includes('Buyout/LBO')?'ma':'other';if(!yd[y])yd[y]={ipo:[],ma:[]};if(bucket!=='other')yd[y][bucket].push(tte);});
+    const med=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y);return Number(s[Math.floor(s.length/2)].toFixed(1));};
+    const avg=a=>a.length?Number((a.reduce((x,y)=>x+y,0)/a.length).toFixed(1)):null;
+    const r=[];for(let y=s;y<=e;y++){const d=yd[y]||{ipo:[],ma:[]};r.push({year:''+y+(y===2026?' *':''),avgIPO:avg(d.ipo),medianIPO:med(d.ipo),nIPO:d.ipo.length,avgMA:avg(d.ma),medianMA:med(d.ma),nMA:d.ma.length});}return r;
   },[filtered,startYr,endYr,foundingMap]);
 
-  const cohortData=useMemo(()=>{
-    const c={};filtered.forEach(d=>{const fy=getFoundingYear(d,foundingMap);const tte=pTimeToExit(d,foundingMap);if(!fy||tte===null)return;const yr=+fy;if(!c[yr])c[yr]={ttes:[],ipo:0,ma:0,other:0,n:0};c[yr].ttes.push(tte);c[yr].n++;const dt=d['Deal Type']||'';if(dt.includes('IPO'))c[yr].ipo++;else if(dt.includes('Merger/Acquisition')||dt.includes('Buyout/LBO'))c[yr].ma++;else c[yr].other++;});
-    return Object.entries(c).filter(([,v])=>v.n>=3).map(([yr,v])=>{const s=[...v.ttes].sort((a,b)=>a-b);const median=Number(s[Math.floor(s.length/2)].toFixed(1));const avg=Number((v.ttes.reduce((a,b)=>a+b,0)/v.ttes.length).toFixed(1));return{cohort:yr,median,avg,n:v.n,ipoShare:Math.round(v.ipo/v.n*100)};}).sort((a,b)=>+a.cohort-+b.cohort);
-  },[filtered,foundingMap]);
+  const ipoShareByYear=useMemo(()=>{
+    const s=+startYr,e=+endYr,yd={};
+    filtered.forEach(d=>{const y=pYear(d['Deal Date']);if(!y)return;if(!yd[y])yd[y]={ipo:0,total:0};yd[y].total++;const dt=d['Deal Type']||'';if(dt.includes('IPO'))yd[y].ipo++;});
+    const r=[];for(let y=s;y<=e;y++){const d=yd[y]||{ipo:0,total:0};r.push({year:''+y+(y===2026?' *':''),ipoShare:d.total?Number((d.ipo/d.total*100).toFixed(1)):null,n:d.total});}return r;
+  },[filtered,startYr,endYr]);
+
+  const dealSizeHeatmap=useMemo(()=>{
+    const s=+startYr,e=+endYr,yrs=[];for(let y=s;y<=e;y++)yrs.push(y);
+    const data={};filtered.forEach(d=>{const y=pYear(d['Deal Date']);const cat=gCat(d,catLevel,catMap);const sz=pSize(d);if(!y||sz===null)return;if(!data[cat])data[cat]={};if(!data[cat][y])data[cat][y]=[];data[cat][y].push(sz);});
+    const cats=Object.keys(data).sort((a,b)=>{const ta=Object.values(data[a]).flat();const tb=Object.values(data[b]).flat();return(tb.reduce((x,y)=>x+y,0)/tb.length)-(ta.reduce((x,y)=>x+y,0)/ta.length);});
+    const allAvgs=cats.flatMap(cat=>yrs.map(y=>data[cat]?.[y]?.length?data[cat][y].reduce((a,b)=>a+b,0)/data[cat][y].length:null)).filter(Boolean);
+    const maxAvg=Math.max(...allAvgs);
+    return{cats,yrs,data,maxAvg};
+  },[filtered,startYr,endYr,catLevel,catMap]);
 
   const tteScatter=useMemo(()=>{
-    return filtered.map(d=>{const tte=pTimeToExit(d,foundingMap);const sz=pSize(d);const cat=gCat(d,catLevel,catMap);if(tte===null||sz===null)return null;return{x:tte,y:sz,name:gName(d),cat,dealType:d['Deal Type']||''};}).filter(Boolean);
+    return filtered.map(d=>{const tte=pTimeToExit(d,foundingMap);const sz=pSize(d);const cat=gCat(d,catLevel,catMap);if(tte===null||sz===null)return null;return{x:tte,y:sz,name:gName(d),cat,dealType:d['Deal Type']||'',_row:d};}).filter(Boolean);
   },[filtered,catLevel,catMap,foundingMap]);
 
   const byRegion=useMemo(()=>{const r={};filtered.forEach(d=>{const c=pCountry(gHQ(d)),reg=RM[c]||'Other';r[reg]=(r[reg]||0)+1;});return Object.entries(r).map(([n,v])=>({name:n,value:v})).sort((a,b)=>b.value-a.value);},[filtered]);
@@ -324,9 +348,9 @@ const ExitDashboard=()=>{
             <div>
               <label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Deal Size ($M)</label>
               <div style={{display:'flex',gap:6}}>
-                <input type="number" min={dealSizeBounds?.min??0} max={effDealMax} step="1" value={effDealMin} onChange={e=>{if(e.target.value===''){setDealMin(null);return;}const v=+e.target.value;if(!Number.isNaN(v)&&v<=effDealMax)setDealMin(v);}} disabled={!dealSizeBounds} placeholder="Min" style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
-                <input type="number" min={effDealMin} max={dealSizeBounds?.max??0} step="1" value={effDealMax} onChange={e=>{if(e.target.value===''){setDealMax(null);return;}const v=+e.target.value;if(!Number.isNaN(v)&&v>=effDealMin)setDealMax(v);}} disabled={!dealSizeBounds} placeholder="Max" style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
-                <button onClick={()=>{if(dealSizeBounds){setDealMin(dealSizeBounds.min);setDealMax(dealSizeBounds.max);}}} disabled={!dealSizeBounds} style={{background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:11,cursor:'pointer'}}>Reset</button>
+                <input type="number" step="1" value={dealMinInput} onChange={e=>setDealMinInput(e.target.value)} onBlur={e=>{const v=+e.target.value;if(e.target.value===''||Number.isNaN(v)){setDealMin(null);setDealMinInput('');}else{const c=Math.max(dealSizeBounds?.min??0,Math.min(v,dealMax??dealSizeBounds?.max??Infinity));setDealMin(c);setDealMinInput(''+c);}}} disabled={!dealSizeBounds} placeholder={`Min ($${dealSizeBounds?.min??0}M)`} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
+                <input type="number" step="1" value={dealMaxInput} onChange={e=>setDealMaxInput(e.target.value)} onBlur={e=>{const v=+e.target.value;if(e.target.value===''||Number.isNaN(v)){setDealMax(null);setDealMaxInput('');}else{const c=Math.max(dealMin??dealSizeBounds?.min??0,Math.min(v,dealSizeBounds?.max??Infinity));setDealMax(c);setDealMaxInput(''+c);}}} disabled={!dealSizeBounds} placeholder={`Max ($${dealSizeBounds?.max??0}M)`} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}/>
+                <button onClick={()=>{setDealMin(null);setDealMax(null);setDealMinInput('');setDealMaxInput('');}} disabled={!dealSizeBounds} style={{background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:11,cursor:'pointer'}}>Reset</button>
               </div>
               <div style={{fontSize:10,color:'#9ca3af',marginTop:4}}>Available in current scope: {fmtFilterSize(dealSizeBounds?.min??0)} – {fmtFilterSize(dealSizeBounds?.max??0)}</div>
             </div>
@@ -485,6 +509,23 @@ const ExitDashboard=()=>{
               <Bar dataKey="avg" fill="#ea580c" name="Average ($M)" cursor="pointer" onClick={clickBar}/>
             </BarChart></ResponsiveContainer>
           </div>
+          <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
+            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Avg Deal Size Heatmap (Category × Year)</h2>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Color intensity = average deal size. Darker = larger. Empty = no deals with size data that year.</p>
+            <div style={{overflowX:'auto'}}>
+              <table style={{borderCollapse:'collapse',fontSize:11,minWidth:'100%'}}>
+                <thead><tr>
+                  <th style={{padding:'4px 8px',textAlign:'left',fontWeight:500,color:'#6b7280',minWidth:160}}>Category</th>
+                  {dealSizeHeatmap.yrs.map(y=><th key={y} style={{padding:'4px 8px',textAlign:'center',fontWeight:500,color:'#6b7280',minWidth:52}}>{y}{y===2026?'*':''}</th>)}
+                </tr></thead>
+                <tbody>{dealSizeHeatmap.cats.map(cat=><tr key={cat}>
+                  <td style={{padding:'4px 8px',fontWeight:500,color:'#374151',whiteSpace:'nowrap'}}>{cat}</td>
+                  {dealSizeHeatmap.yrs.map(y=>{const vals=dealSizeHeatmap.data[cat]?.[y];const avg=vals?.length?vals.reduce((a,b)=>a+b,0)/vals.length:null;const intensity=avg?Math.min(1,avg/dealSizeHeatmap.maxAvg):0;const bg=avg?`rgba(99,102,241,${0.1+intensity*0.85})`:'#f9fafb';const color=intensity>0.5?'white':'#374151';return<td key={y} style={{padding:'4px 8px',textAlign:'center',background:bg,color,borderRadius:3,cursor:avg?'default':'default'}} title={avg?`${cat} ${y}: avg $${Math.round(avg)}M (n=${vals.length})`:'No data'}>{avg?avg>=1000?`$${(avg/1000).toFixed(1)}B`:`$${Math.round(avg)}M`:''}</td>;})}
+                </tr>)}</tbody>
+              </table>
+            </div>
+            <p style={{fontSize:10,color:'#9ca3af',marginTop:6}}>* 2026 partial through Aug 7</p>
+          </div>
         </>}
 
         {/* EXIT VELOCITY */}
@@ -499,51 +540,47 @@ const ExitDashboard=()=>{
             </BarChart></ResponsiveContainer>
           </div>
           <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
-            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Time to Exit by Deal Year</h2>
-            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Average and median operating age at exit by year. Shows whether exit timelines are compressing or expanding.</p>
-            <ResponsiveContainer width="100%" height={300}><LineChart data={timeToExitByYear} margin={{top:10,right:10,left:10,bottom:10}}>
-              <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="year" tick={{fontSize:12}}/><YAxis tick={{fontSize:11}} tickFormatter={v=>`${v}y`}/><Tooltip formatter={(v,n)=>[`${v} yrs`,n]}/><Legend wrapperStyle={{fontSize:11}}/>
-              <Line type="monotone" dataKey="avg" stroke="#6366f1" strokeWidth={2} name="Avg (yrs)" dot={{r:4}}/>
-              <Line type="monotone" dataKey="median" stroke="#a5b4fc" strokeWidth={2} strokeDasharray="5 5" name="Median (yrs)" dot={{r:3}}/>
+            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Time to Exit by Deal Year — IPO vs M&A</h2>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Average and median operating age at exit, split by exit type. * 2026 is partial (through Aug 7).</p>
+            <ResponsiveContainer width="100%" height={320}><LineChart data={timeToExitByYear} margin={{top:10,right:10,left:10,bottom:10}}>
+              <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="year" tick={{fontSize:12}}/><YAxis tick={{fontSize:11}} tickFormatter={v=>`${v}y`}/><Tooltip formatter={(v,n,p)=>[v!=null?`${v} yrs (n=${p.payload['n'+n.replace(/\D/g,'')||'']})`:'—',n]}/><Legend wrapperStyle={{fontSize:11}}/>
+              <Line type="monotone" dataKey="avgIPO" stroke="#3b82f6" strokeWidth={2} name="IPO Avg" dot={{r:4}} connectNulls/>
+              <Line type="monotone" dataKey="medianIPO" stroke="#93c5fd" strokeWidth={2} strokeDasharray="5 5" name="IPO Median" dot={{r:3}} connectNulls/>
+              <Line type="monotone" dataKey="avgMA" stroke="#10b981" strokeWidth={2} name="M&A Avg" dot={{r:4}} connectNulls/>
+              <Line type="monotone" dataKey="medianMA" stroke="#6ee7b7" strokeWidth={2} strokeDasharray="5 5" name="M&A Median" dot={{r:3}} connectNulls/>
             </LineChart></ResponsiveContainer>
           </div>
           <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
-            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Cohort / Vintage Analysis</h2>
-            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Companies grouped by founding year. Shows median time-to-exit and IPO share for each founding cohort. Cohorts with fewer than 3 exits excluded.</p>
-            <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:16}}>
-              <div>
-                <p style={{fontSize:11,fontWeight:500,color:'#374151',marginBottom:6}}>Median Time to Exit by Founding Cohort</p>
-                <ResponsiveContainer width="100%" height={280}><BarChart data={cohortData} margin={{top:10,right:10,left:10,bottom:10}}>
-                  <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="cohort" tick={{fontSize:11}}/><YAxis tick={{fontSize:11}} tickFormatter={v=>`${v}y`}/><Tooltip formatter={(v,n)=>[`${v} yrs`,n]} labelFormatter={l=>`Founded ${l}`}/>
-                  <Bar dataKey="median" fill="#6366f1" name="Median (yrs)"/>
-                  <Bar dataKey="avg" fill="#a5b4fc" name="Avg (yrs)"/>
-                </BarChart></ResponsiveContainer>
-              </div>
-              <div>
-                <p style={{fontSize:11,fontWeight:500,color:'#374151',marginBottom:6}}>IPO Share by Founding Cohort (%)</p>
-                <ResponsiveContainer width="100%" height={280}><BarChart data={cohortData} margin={{top:10,right:10,left:10,bottom:10}}>
-                  <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="cohort" tick={{fontSize:11}}/><YAxis tick={{fontSize:11}} tickFormatter={v=>`${v}%`}/><Tooltip formatter={(v,n)=>[`${v}%`,n]} labelFormatter={l=>`Founded ${l}`}/>
-                  <Bar dataKey="ipoShare" fill="#10b981" name="IPO Share (%)"/>
-                </BarChart></ResponsiveContainer>
-              </div>
-            </div>
+            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>IPO Share of Exit Mix by Deal Year</h2>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>% of exits in each year that were IPOs. * 2026 is partial (through Aug 7).</p>
+            <ResponsiveContainer width="100%" height={260}><BarChart data={ipoShareByYear} margin={{top:10,right:10,left:10,bottom:10}}>
+              <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="year" tick={{fontSize:12}}/><YAxis tick={{fontSize:11}} tickFormatter={v=>`${v}%`}/><Tooltip formatter={(v,n,p)=>[`${v}% (n=${p.payload.n})`,n]}/>
+              <Bar dataKey="ipoShare" fill="#3b82f6" name="IPO Share (%)"/>
+            </BarChart></ResponsiveContainer>
           </div>
           <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
             <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Time to Exit vs. Deal Size</h2>
-            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Each dot is one deal. X = years from founding to exit, Y = deal size ($M, log scale). Color = sector.</p>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Each dot is one deal. X = years from founding to exit, Y = deal size ($M, log scale). Color = sector. <strong>Click+drag to zoom in</strong> · Click a dot to expand deal details.</p>
             {[...new Set(tteScatter.map(d=>d.cat))].sort().length>0&&<div style={{display:'flex',flexWrap:'wrap',gap:6,marginBottom:10}}>
               {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><div key={cat} style={{display:'flex',alignItems:'center',gap:4,fontSize:10,color:'#374151'}}><div style={{width:8,height:8,borderRadius:'50%',background:CL[i%CL.length],flexShrink:0}}/>{cat}</div>)}
             </div>}
+            {scatterZoom&&<button onClick={()=>setScatterZoom(null)} style={{marginBottom:8,background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'4px 10px',fontSize:11,cursor:'pointer'}}>↩ Reset Zoom</button>}
             <ResponsiveContainer width="100%" height={420}>
-              <ScatterChart margin={{top:10,right:20,left:10,bottom:20}}>
+              <ScatterChart margin={{top:10,right:20,left:10,bottom:20}}
+                onMouseDown={e=>{if(e?.xValue!=null&&e?.yValue!=null)setScatterDrag({x1:e.xValue,y1:e.yValue,x2:e.xValue,y2:e.yValue});}}
+                onMouseMove={e=>{if(scatterDrag&&e?.xValue!=null&&e?.yValue!=null)setScatterDrag(d=>({...d,x2:e.xValue,y2:e.yValue}));}}
+                onMouseUp={()=>{if(scatterDrag){const{x1,x2,y1,y2}=scatterDrag;const xMin=Math.min(x1,x2),xMax=Math.max(x1,x2),yMin=Math.min(y1,y2),yMax=Math.max(y1,y2);if(xMax-xMin>0.5||yMax-yMin>10)setScatterZoom({xMin,xMax,yMin,yMax});setScatterDrag(null);}}}
+              >
                 <CartesianGrid strokeDasharray="3 3"/>
-                <XAxis type="number" dataKey="x" name="Time to Exit" tick={{fontSize:11}} tickFormatter={v=>`${v}y`} label={{value:'Years to Exit',position:'insideBottom',offset:-10,fontSize:11}}/>
-                <YAxis type="number" dataKey="y" name="Deal Size" tick={{fontSize:11}} tickFormatter={v=>v>=1000?`$${(v/1000).toFixed(0)}B`:`$${v}M`} scale="log" domain={['auto','auto']} label={{value:'Deal Size',angle:-90,position:'insideLeft',offset:10,fontSize:11}}/>
+                <XAxis type="number" dataKey="x" name="Time to Exit" tick={{fontSize:11}} tickFormatter={v=>`${v}y`} label={{value:'Years to Exit',position:'insideBottom',offset:-10,fontSize:11}} domain={scatterZoom?[scatterZoom.xMin,scatterZoom.xMax]:['auto','auto']}/>
+                <YAxis type="number" dataKey="y" name="Deal Size" tick={{fontSize:11}} tickFormatter={v=>v>=1000?`$${(v/1000).toFixed(0)}B`:`$${v}M`} scale="log" domain={scatterZoom?[Math.max(1,scatterZoom.yMin),scatterZoom.yMax]:['auto','auto']} label={{value:'Deal Size',angle:-90,position:'insideLeft',offset:10,fontSize:11}}/>
                 <ZAxis range={[20,20]}/>
-                <Tooltip cursor={{strokeDasharray:'3 3'}} content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11}}><div style={{fontWeight:600}}>{d.name}</div><div style={{color:'#6b7280'}}>{d.cat}</div><div>{d.x?.toFixed(1)} yrs · {d.y>=1000?`$${(d.y/1000).toFixed(1)}B`:`$${d.y?.toFixed(0)}M`}</div></div>:null;}}/>
-                {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><Scatter key={cat} name={cat} data={tteScatter.filter(d=>d.cat===cat)} fill={CL[i%CL.length]} opacity={0.65}/>)}
+                <Tooltip cursor={{strokeDasharray:'3 3'}} content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11}}><div style={{fontWeight:600}}>{d.name}</div><div style={{color:'#6b7280'}}>{d.cat}</div><div>{d.x?.toFixed(1)} yrs · {d.y>=1000?`$${(d.y/1000).toFixed(1)}B`:`$${d.y?.toFixed(0)}M`}</div><div style={{color:'#9ca3af',fontSize:10,marginTop:2}}>Click to expand</div></div>:null;}}/>
+                {scatterDrag&&<ReferenceArea x1={scatterDrag.x1} x2={scatterDrag.x2} y1={scatterDrag.y1} y2={scatterDrag.y2} stroke="#6366f1" strokeOpacity={0.5} fill="#6366f1" fillOpacity={0.1}/>}
+                {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><Scatter key={cat} name={cat} data={tteScatter.filter(d=>d.cat===cat)} fill={CL[i%CL.length]} opacity={0.65} cursor="pointer" onClick={pt=>{if(pt?._row)setScatterExpDeal(pt._row);}}/>)}
               </ScatterChart>
             </ResponsiveContainer>
+            {scatterExpDeal&&<div style={{marginTop:12}}><DealDetail deal={scatterExpDeal} customCategory={gCat(scatterExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(scatterExpDeal,foundingMap)} timeToExit={pTimeToExit(scatterExpDeal,foundingMap)} onClose={()=>setScatterExpDeal(null)}/></div>}
           </div>
         </>}
 
@@ -560,7 +597,7 @@ const ExitDashboard=()=>{
             <h2 style={{fontSize:15,fontWeight:600,marginBottom:12}}>Top 10 Largest Deals</h2>
             <table style={{width:'100%',borderCollapse:'collapse'}}>
               <thead><tr style={{borderBottom:'2px solid #e5e7eb'}}>
-                {['#','Company','Category','Type','Date','Size','HQ'].map(h=><th key={h} style={{textAlign:h==='Size'?'right':'left',padding:'8px 10px',fontSize:12,fontWeight:600}}>{h}</th>)}
+                {['#','Company','Category','Type','Date','Size','Time to Exit','HQ'].map(h=><th key={h} style={{textAlign:h==='Size'?'right':'left',padding:'8px 10px',fontSize:12,fontWeight:600}}>{h}</th>)}
               </tr></thead>
               <tbody>{top10.map((d,i)=><React.Fragment key={i}>
                 <tr style={{borderBottom:'1px solid #f3f4f6',cursor:'pointer',background:expTop10===i?'#f8fafc':'transparent'}} onClick={()=>setExpTop10(expTop10===i?null:i)}>
@@ -570,9 +607,10 @@ const ExitDashboard=()=>{
                   <td style={{padding:'6px 10px',fontSize:12,color:'#6b7280'}}>{d['Deal Type']||'—'}</td>
                   <td style={{padding:'6px 10px',fontSize:12,color:'#6b7280'}}>{d['Deal Date']||'—'}</td>
                   <td style={{padding:'6px 10px',fontSize:12,fontWeight:600,textAlign:'right'}}>{fmt(d._s)}</td>
+                  <td style={{padding:'6px 10px',fontSize:12,color:'#6b7280'}}>{fmtYears(pTimeToExit(d,foundingMap))}</td>
                   <td style={{padding:'6px 10px',fontSize:12,color:'#6b7280'}}>{gHQ(d)}</td>
                 </tr>
-                  {expTop10===i&&<tr><td colSpan={7} style={{padding:'4px 10px'}}><DealDetail deal={d} customCategory={gCat(d,'custom',catMap)} foundingRecord={getFoundingRecord(d,foundingMap)} timeToExit={pTimeToExit(d,foundingMap)} onClose={()=>setExpTop10(null)}/></td></tr>}
+                  {expTop10===i&&<tr><td colSpan={8} style={{padding:'4px 10px'}}><DealDetail deal={d} customCategory={gCat(d,'custom',catMap)} foundingRecord={getFoundingRecord(d,foundingMap)} timeToExit={pTimeToExit(d,foundingMap)} onClose={()=>setExpTop10(null)}/></td></tr>}
               </React.Fragment>)}</tbody>
             </table>
           </div>
