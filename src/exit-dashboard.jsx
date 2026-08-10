@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, AreaChart, Area, ScatterChart, Scatter, ZAxis, ReferenceArea } from 'recharts';
 import { Upload, Edit2, X, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -69,6 +69,7 @@ const ExitDashboard=()=>{
   const [scatterZoom,setScatterZoom]=useState(null);
   const [scatterDrag,setScatterDrag]=useState(null);
   const [scatterExpDeal,setScatterExpDeal]=useState(null);
+  const scatterRef=useRef(null);
   const [catMap,setCatMap]=useState(DM_FIXED);
   const [allCodes,setAllCodes]=useState([]);
   const [custCats,setCustCats]=useState(DC);
@@ -565,21 +566,41 @@ const ExitDashboard=()=>{
               {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><div key={cat} style={{display:'flex',alignItems:'center',gap:4,fontSize:10,color:'#374151'}}><div style={{width:8,height:8,borderRadius:'50%',background:CL[i%CL.length],flexShrink:0}}/>{cat}</div>)}
             </div>}
             {scatterZoom&&<button onClick={()=>setScatterZoom(null)} style={{marginBottom:8,background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'4px 10px',fontSize:11,cursor:'pointer'}}>↩ Reset Zoom</button>}
-            <ResponsiveContainer width="100%" height={420}>
-              <ScatterChart margin={{top:10,right:20,left:10,bottom:20}}
-                onMouseDown={e=>{if(e?.xValue!=null&&e?.yValue!=null)setScatterDrag({x1:e.xValue,y1:e.yValue,x2:e.xValue,y2:e.yValue});}}
-                onMouseMove={e=>{if(scatterDrag&&e?.xValue!=null&&e?.yValue!=null)setScatterDrag(d=>({...d,x2:e.xValue,y2:e.yValue}));}}
-                onMouseUp={()=>{if(scatterDrag){const{x1,x2,y1,y2}=scatterDrag;const xMin=Math.min(x1,x2),xMax=Math.max(x1,x2),yMin=Math.min(y1,y2),yMax=Math.max(y1,y2);if(xMax-xMin>0.5||yMax-yMin>10)setScatterZoom({xMin,xMax,yMin,yMax});setScatterDrag(null);}}}
-              >
-                <CartesianGrid strokeDasharray="3 3"/>
-                <XAxis type="number" dataKey="x" name="Time to Exit" tick={{fontSize:11}} tickFormatter={v=>`${v}y`} label={{value:'Years to Exit',position:'insideBottom',offset:-10,fontSize:11}} domain={scatterZoom?[scatterZoom.xMin,scatterZoom.xMax]:['auto','auto']}/>
-                <YAxis type="number" dataKey="y" name="Deal Size" tick={{fontSize:11}} tickFormatter={v=>v>=1000?`$${(v/1000).toFixed(0)}B`:`$${v}M`} scale="log" domain={scatterZoom?[Math.max(1,scatterZoom.yMin),scatterZoom.yMax]:['auto','auto']} label={{value:'Deal Size',angle:-90,position:'insideLeft',offset:10,fontSize:11}}/>
-                <ZAxis range={[20,20]}/>
-                <Tooltip cursor={{strokeDasharray:'3 3'}} content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11}}><div style={{fontWeight:600}}>{d.name}</div><div style={{color:'#6b7280'}}>{d.cat}</div><div>{d.x?.toFixed(1)} yrs · {d.y>=1000?`$${(d.y/1000).toFixed(1)}B`:`$${d.y?.toFixed(0)}M`}</div><div style={{color:'#9ca3af',fontSize:10,marginTop:2}}>Click to expand</div></div>:null;}}/>
-                {scatterDrag&&<ReferenceArea x1={scatterDrag.x1} x2={scatterDrag.x2} y1={scatterDrag.y1} y2={scatterDrag.y2} stroke="#6366f1" strokeOpacity={0.5} fill="#6366f1" fillOpacity={0.1}/>}
-                {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><Scatter key={cat} name={cat} data={tteScatter.filter(d=>d.cat===cat)} fill={CL[i%CL.length]} opacity={0.65} cursor="pointer" onClick={pt=>{if(pt?._row)setScatterExpDeal(pt._row);}}/>)}
-              </ScatterChart>
-            </ResponsiveContainer>
+            <div ref={scatterRef} style={{position:'relative',userSelect:'none'}}
+              onMouseDown={e=>{if(e.button!==0)return;const r=scatterRef.current.getBoundingClientRect();setScatterDrag({px1:e.clientX-r.left,py1:e.clientY-r.top,px2:e.clientX-r.left,py2:e.clientY-r.top});}}
+              onMouseMove={e=>{if(!scatterDrag)return;const r=scatterRef.current.getBoundingClientRect();setScatterDrag(d=>({...d,px2:e.clientX-r.left,py2:e.clientY-r.top}));}}
+              onMouseUp={e=>{
+                if(!scatterDrag)return;
+                const r=scatterRef.current.getBoundingClientRect();
+                const W=r.width,H=420;
+                const ML=65,MR=20,MT=10,MB=30;
+                const chartW=W-ML-MR,chartH=H-MT-MB;
+                const xs=tteScatter.map(d=>d.x),ys=tteScatter.map(d=>d.y);
+                const[xDMin,xDMax]=scatterZoom?[scatterZoom.xMin,scatterZoom.xMax]:[Math.min(...xs),Math.max(...xs)];
+                const[yDMin,yDMax]=scatterZoom?[scatterZoom.yMin,scatterZoom.yMax]:[Math.min(...ys),Math.max(...ys)];
+                const px=(p)=>xDMin+(Math.min(Math.max(p-ML,0),chartW)/chartW)*(xDMax-xDMin);
+                const logMin=Math.log10(Math.max(1,yDMin)),logMax=Math.log10(yDMax);
+                const py=(p)=>Math.pow(10,logMax-((Math.min(Math.max(p-MT,0),chartH))/chartH)*(logMax-logMin));
+                const{px1,py1,px2,py2}=scatterDrag;
+                const xMin=px(Math.min(px1,px2)),xMax=px(Math.max(px1,px2));
+                const yMin=py(Math.max(py1,py2)),yMax=py(Math.min(py1,py2));
+                if(xMax-xMin>0.3&&yMax/yMin>1.2)setScatterZoom({xMin,xMax,yMin:Math.max(1,yMin),yMax});
+                setScatterDrag(null);
+              }}
+              onMouseLeave={()=>setScatterDrag(null)}
+            >
+              {scatterDrag&&(()=>{const l=Math.min(scatterDrag.px1,scatterDrag.px2),t=Math.min(scatterDrag.py1,scatterDrag.py2),w=Math.abs(scatterDrag.px2-scatterDrag.px1),h=Math.abs(scatterDrag.py2-scatterDrag.py1);return<div style={{position:'absolute',left:l,top:t,width:w,height:h,border:'2px solid #6366f1',background:'rgba(99,102,241,0.08)',pointerEvents:'none',zIndex:10}}/>;})()}
+              <ResponsiveContainer width="100%" height={420}>
+                <ScatterChart margin={{top:10,right:20,left:15,bottom:20}}>
+                  <CartesianGrid strokeDasharray="3 3"/>
+                  <XAxis type="number" dataKey="x" name="Time to Exit" tick={{fontSize:11}} tickFormatter={v=>`${v}y`} label={{value:'Years to Exit',position:'insideBottom',offset:-10,fontSize:11}} domain={scatterZoom?[scatterZoom.xMin,scatterZoom.xMax]:['auto','auto']}/>
+                  <YAxis type="number" dataKey="y" name="Deal Size" tick={{fontSize:11}} tickFormatter={v=>v>=1000?`$${(v/1000).toFixed(0)}B`:`$${v}M`} scale="log" domain={scatterZoom?[Math.max(1,scatterZoom.yMin),scatterZoom.yMax]:['auto','auto']} label={{value:'Deal Size',angle:-90,position:'insideLeft',offset:10,fontSize:11}}/>
+                  <ZAxis range={[20,20]}/>
+                  <Tooltip cursor={{strokeDasharray:'3 3'}} content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11,pointerEvents:'none'}}><div style={{fontWeight:600}}>{d.name}</div><div style={{color:'#6b7280'}}>{d.cat}</div><div>{d.x?.toFixed(1)} yrs · {d.y>=1000?`$${(d.y/1000).toFixed(1)}B`:`$${d.y?.toFixed(0)}M`}</div><div style={{color:'#9ca3af',fontSize:10,marginTop:2}}>Click to expand</div></div>:null;}}/>
+                  {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><Scatter key={cat} name={cat} data={tteScatter.filter(d=>d.cat===cat)} fill={CL[i%CL.length]} opacity={0.65} cursor="pointer" onClick={pt=>{if(pt?._row)setScatterExpDeal(pt._row);}}/>)}
+                </ScatterChart>
+              </ResponsiveContainer>
+            </div>
             {scatterExpDeal&&<div style={{marginTop:12}}><DealDetail deal={scatterExpDeal} customCategory={gCat(scatterExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(scatterExpDeal,foundingMap)} timeToExit={pTimeToExit(scatterExpDeal,foundingMap)} onClose={()=>setScatterExpDeal(null)}/></div>}
           </div>
         </>}
