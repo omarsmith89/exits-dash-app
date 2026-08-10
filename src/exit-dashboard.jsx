@@ -729,13 +729,14 @@ const ExitDashboard=()=>{
               <h3 style={{fontSize:13,fontWeight:600,color:'#374151',marginBottom:8}}>All Companies</h3>
               <table style={{width:'100%',borderCollapse:'collapse'}}>
                 <thead style={{position:'sticky',top:0,backgroundColor:'white'}}><tr style={{borderBottom:'2px solid #e5e7eb'}}>
-                  {['Company','Category','Date','Type','Time to Exit','Size ($M)','HQ'].map(h=><th key={h} style={{textAlign:h.includes('Size')?'right':'left',padding:'8px 6px',fontSize:11,fontWeight:600}}>{h}</th>)}
+                  {['Company','Category','Date','Type','Acquirer','Time to Exit','Size ($M)','HQ'].map(h=><th key={h} style={{textAlign:h.includes('Size')?'right':'left',padding:'8px 6px',fontSize:11,fontWeight:600}}>{h}</th>)}
                 </tr></thead>
-                <tbody>{selCat.companies.map((c,i)=>{const s=pSize(c);return<tr key={i} style={{borderBottom:'1px solid #f3f4f6'}}>
+                <tbody>{selCat.companies.map((c,i)=>{const s=pSize(c);const isIPO=(c['Deal Type']||'').includes('IPO');const acq=!isIPO?(c['New Investors']||c['Investors']||'').split(';')[0].trim()||'—':'—';return<tr key={i} style={{borderBottom:'1px solid #f3f4f6'}}>
                   <td style={{padding:'5px 6px',fontSize:11,fontWeight:500}}>{gName(c)}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#475569'}}>{gCat(c,'custom',catMap)}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{c['Deal Date']||'—'}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{c['Deal Type']||'—'}</td>
+                  <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{acq}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{fmtYears(pTimeToExit(c,foundingMap))}</td>
                   <td style={{padding:'5px 6px',fontSize:11,textAlign:'right'}}>{s!==null?fmt(s):'—'}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{gHQ(c)}</td>
