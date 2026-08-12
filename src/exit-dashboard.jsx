@@ -76,6 +76,10 @@ const ExitDashboard=()=>{
   const [expTop10,setExpTop10]=useState(null);
   const [scatterExpDeal,setScatterExpDeal]=useState(null);
   const [capEffExpDeal,setCapEffExpDeal]=useState(null);
+  // The scatter charts are tall (600/520px), so a detail panel rendered beneath
+  // them lands off-screen and the click reads as a no-op. Pull it into view.
+  const scatterDetailRef=useRef(null);
+  const capEffDetailRef=useRef(null);
   const [sXMin,setSXMin]=useState(0);
   const [sXMax,setSXMax]=useState(30);
   const [sYLogMin,setSYLogMin]=useState(-2);
@@ -138,6 +142,8 @@ const ExitDashboard=()=>{
     setDealMax(v=>v===null?dealSizeBounds.max:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
   },[dealSizeBounds]);
   useEffect(()=>{if(!catDropOpen)return;const h=e=>{if(!e.target.closest('[data-catdrop]'))setCatDropOpen(false);};document.addEventListener('click',h);return()=>document.removeEventListener('click',h);},[catDropOpen]);
+  useEffect(()=>{if(scatterExpDeal)scatterDetailRef.current?.scrollIntoView({block:'center'});},[scatterExpDeal]);
+  useEffect(()=>{if(capEffExpDeal)capEffDetailRef.current?.scrollIntoView({block:'center'});},[capEffExpDeal]);
 
   const filtered=useMemo(()=>scopedBase.filter(d=>{const sz=pSize(d);if(sz===null||sz<effDealMin||sz>effDealMax)return false;if(!hasTimeToExitFilter)return true;const t=pTimeToExit(d,foundingMap);if(t===null)return false;if(effTimeToExitMin!==null&&t<effTimeToExitMin)return false;if(effTimeToExitMax!==null&&t>effTimeToExitMax)return false;return true;}),[scopedBase,effDealMin,effDealMax,hasTimeToExitFilter,effTimeToExitMin,effTimeToExitMax,foundingMap]);
 
@@ -604,7 +610,7 @@ const ExitDashboard=()=>{
                 <Scatter name="Deals" data={capEffScatter} fill="#6366f1" opacity={0.5} cursor="pointer" onClick={pt=>{if(pt?._row)setCapEffExpDeal(pt._row);}}/>
               </ScatterChart>
             </ResponsiveContainer>
-            {capEffExpDeal&&<div style={{marginTop:12}}><DealDetail deal={capEffExpDeal} customCategory={gCat(capEffExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(capEffExpDeal,foundingMap)} timeToExit={pTimeToExit(capEffExpDeal,foundingMap)} onClose={()=>setCapEffExpDeal(null)}/></div>}
+            {capEffExpDeal&&<div ref={capEffDetailRef} style={{marginTop:12}}><DealDetail deal={capEffExpDeal} customCategory={gCat(capEffExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(capEffExpDeal,foundingMap)} timeToExit={pTimeToExit(capEffExpDeal,foundingMap)} onClose={()=>setCapEffExpDeal(null)}/></div>}
             <p style={{fontSize:10,color:'#9ca3af',marginTop:6}}>n = {capEffScatter.length.toLocaleString()} deals with both values. Points far above the diagonal are more likely to reflect incomplete funding data than exceptional efficiency.</p>
           </div>
         </>}
@@ -674,7 +680,7 @@ const ExitDashboard=()=>{
                 {(()=>{const yMin=Math.pow(10,sYLogMin),yMax=Math.pow(10,sYLogMax);const visible=tteScatter.filter(d=>d.x>=sXMin&&d.x<=sXMax&&d.y>=yMin&&d.y<=yMax);return[...new Set(visible.map(d=>d.cat))].sort().map((cat,i)=><Scatter key={cat} name={cat} data={visible.filter(d=>d.cat===cat)} fill={CL[i%CL.length]} opacity={0.65} cursor="pointer" onClick={pt=>{if(pt?._row)setScatterExpDeal(pt._row);}}/>);})()}
               </ScatterChart>
             </ResponsiveContainer>
-            {scatterExpDeal&&<div style={{marginTop:12}}><DealDetail deal={scatterExpDeal} customCategory={gCat(scatterExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(scatterExpDeal,foundingMap)} timeToExit={pTimeToExit(scatterExpDeal,foundingMap)} onClose={()=>setScatterExpDeal(null)}/></div>}
+            {scatterExpDeal&&<div ref={scatterDetailRef} style={{marginTop:12}}><DealDetail deal={scatterExpDeal} customCategory={gCat(scatterExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(scatterExpDeal,foundingMap)} timeToExit={pTimeToExit(scatterExpDeal,foundingMap)} onClose={()=>setScatterExpDeal(null)}/></div>}
           </div>
         </>}
 
