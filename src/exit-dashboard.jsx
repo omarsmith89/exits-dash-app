@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, AreaChart, Area, ScatterChart, Scatter, ZAxis, ReferenceArea } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, AreaChart, Area, ScatterChart, Scatter, ZAxis, ReferenceArea, ReferenceLine } from 'recharts';
 import { Upload, Edit2, X, ChevronDown, ChevronUp } from 'lucide-react';
 
 const DM={"6,464.20":"Other","Accounting, Audit and Tax Services (B2B)":"FinTech","Accounting, Audit and Tax Services (B2C)":"FinTech","Broadcasting, Radio and Television":"Gaming & Media","Computers, Parts and Peripherals":"Hardware & IoT","Movies, Music and Entertainment":"Gaming & Media","Other Metals, Minerals and Mining":"Industrials & Energy","Other Restaurants, Hotels and Leisure":"Travel, Dining & Hospitality","67.22":"Other","Accessories":"Retail & Consumer Brands","Aerospace and Defense":"Industrials & Energy","Agricultural Chemicals":"Industrials & Energy","Air":"Logistics & Transportation","Alternative Energy Equipment":"Industrials & Energy","Aluminum Mining":"Industrials & Energy","Animal Husbandry":"Agriculture & AgTech","Animal Textiles":"Retail & Consumer Brands","Application Software":"Enterprise SaaS","Application Specific Semiconductors":"Hardware & IoT","Aquaculture":"Agriculture & AgTech","Asset Management":"FinTech","Automation/Workflow Software":"Enterprise SaaS","Automotive":"Industrials & Energy","Automotive Insurance":"FinTech","BPO/Outsource Services":"HR Tech","Beverages":"Food & Beverages","Biotechnology":"HealthTech & Life Sciences","Brokerage":"FinTech","Building Products":"Real Estate & Construction","Buildings and Property":"Real Estate & Construction","Business Equipment and Supplies":"Retail & Consumer Brands","Business/Productivity Software":"Enterprise SaaS","Clinics/Outpatient Services":"HealthTech & Life Sciences","Clothing":"Retail & Consumer Brands","Commercial/Professional Insurance":"FinTech","Commodity Chemicals":"Industrials & Energy","Communication Software":"Enterprise SaaS","Connectivity Products":"Hardware & IoT","Construction and Engineering":"Real Estate & Construction","Consulting Services (B2B)":"Other","Consumer Finance":"FinTech","Cultivation":"Agriculture & AgTech","Database Software":"Enterprise SaaS","Decision/Risk Analysis":"Enterprise SaaS","Department Stores":"Retail & Consumer Brands","Diagnostic Equipment":"HealthTech & Life Sciences","Discovery Tools (Healthcare)":"HealthTech & Life Sciences","Distributors (Healthcare)":"HealthTech & Life Sciences","Distributors/Wholesale":"Logistics & Transportation","Drug Delivery":"HealthTech & Life Sciences","Drug Discovery":"HealthTech & Life Sciences","Education and Training Services (B2B)":"EdTech","Educational Software":"EdTech","Educational and Training Services (B2C)":"EdTech","Elder and Disabled Care":"HealthTech & Life Sciences","Electric Utilities":"Industrials & Energy","Electrical Equipment":"Hardware & IoT","Electronic Equipment and Instruments":"Hardware & IoT","Electronics (B2C)":"Hardware & IoT","Energy Infrastructure":"Industrials & Energy","Energy Marketing":"Industrials & Energy","Energy Production":"Industrials & Energy","Energy Storage":"Industrials & Energy","Energy Traders and Brokers":"Industrials & Energy","Energy Transportation":"Industrials & Energy","Enterprise Systems (Healthcare)":"HealthTech & Life Sciences","Entertainment Software":"Gaming & Media","Environmental Services (B2B)":"Industrials & Energy","Fiberoptic Equipment":"Hardware & IoT","Financial Software":"FinTech","Food Products":"Food & Beverages","Footwear":"Retail & Consumer Brands","Forestry Processing":"Industrials & Energy","General Merchandise Stores":"Retail & Consumer Brands","General Purpose Semiconductors":"Hardware & IoT","Generating Revenue":"Other","Home Furnishings":"Retail & Consumer Brands","Horticulture":"Agriculture & AgTech","Hospitals/Inpatient Services":"HealthTech & Life Sciences","Hotels and Resorts":"Travel, Dining & Hospitality","Household Appliances":"Retail & Consumer Brands","Human Capital Services":"HR Tech","IT Consulting and Outsourcing":"DevOps & Infrastructure","Industrial Chemicals":"Industrials & Energy","Industrial Supplies and Parts":"Industrials & Energy","Information Services (B2C)":"Gaming & Media","Infrastructure":"DevOps & Infrastructure","Insurance Brokers":"FinTech","International Banks":"FinTech","Internet Retail":"E-commerce & Marketplace Tech","Internet Service Providers":"DevOps & Infrastructure","Internet Software":"Enterprise SaaS","Investment Banks":"FinTech","Laboratory Services (Healthcare)":"HealthTech & Life Sciences","Legal Services (B2B)":"Other","Legal Services (B2C)":"Other","Leisure Facilities":"Gaming & Media","Logistics":"Logistics & Transportation","Machinery (B2B)":"Industrials & Energy","Marine":"Logistics & Transportation","Media and Information Services (B2B)":"Marketing & Sales Tech","Medical Records Systems":"HealthTech & Life Sciences","Medical Supplies":"HealthTech & Life Sciences","Metal Containers and Packaging":"Industrials & Energy","Monitoring Equipment":"HealthTech & Life Sciences","Multi-line Chemicals":"Industrials & Energy","Multi-line Insurance":"FinTech","Multi-line Mining":"Industrials & Energy","Multimedia and Design Software":"Gaming & Media","National Banks":"FinTech","Network Management Software":"DevOps & Infrastructure","Office Electronics":"Hardware & IoT","Office Services (B2B)":"Other","Oil and Gas Equipment":"Industrials & Energy","Other Agriculture":"Agriculture & AgTech","Other Capital Markets/Institutions":"FinTech","Other Commercial Banks":"FinTech","Other Commercial Products":"Other","Other Commercial Services":"Other","Other Communications and Networking":"DevOps & Infrastructure","Other Consumer Durables":"Retail & Consumer Brands","Other Consumer Non-Durables":"Retail & Consumer Brands","Other Containers and Packaging":"Industrials & Energy","Other Devices and Supplies":"Hardware & IoT","Other Energy Services":"Industrials & Energy","Other Equipment":"Industrials & Energy","Other Financial Services":"FinTech","Other Hardware":"Hardware & IoT","Other Healthcare Services":"HealthTech & Life Sciences","Other Healthcare Technology Systems":"HealthTech & Life Sciences","Other Insurance":"FinTech","Other Materials":"Industrials & Energy","Other Media":"Gaming & Media","Other Pharmaceuticals and Biotechnology":"HealthTech & Life Sciences","Other Semiconductors":"Hardware & IoT","Other Services (B2C Non-Financial)":"Other","Other Textiles":"Industrials & Energy","Other Transportation":"Logistics & Transportation","Outcome Management (Healthcare)":"HealthTech & Life Sciences","Paper Containers and Packaging":"Industrials & Energy","Personal Products":"Retail & Consumer Brands","Pharmaceuticals":"HealthTech & Life Sciences","Plastic Containers and Packaging":"Industrials & Energy","Practice Management (Healthcare)":"HealthTech & Life Sciences","Precious Metals and Minerals Mining":"Industrials & Energy","Printing Services (B2B)":"Other","Private Equity":"FinTech","Production (Semiconductors)":"Hardware & IoT","Profitable":"Other","Publishing":"Gaming & Media","Rail":"Logistics & Transportation","Raw Materials (Non-Wood)":"Industrials & Energy","Real Estate Investment Trusts (REITs)":"Real Estate & Construction","Real Estate Services (B2C)":"Real Estate & Construction","Recreational Goods":"Retail & Consumer Brands","Regional Banks":"FinTech","Restaurants and Bars":"Travel, Dining & Hospitality","Road":"Logistics & Transportation","Security Services (B2B)":"Other","Social Content":"Gaming & Media","Social/Platform Software":"Gaming & Media","Software Development Applications":"DevOps & Infrastructure","Specialized Finance":"FinTech","Specialty Chemicals":"Industrials & Energy","Specialty Retail":"Retail & Consumer Brands","Surgical Devices":"HealthTech & Life Sciences","Synthetic Textiles":"Industrials & Energy","Systems and Information Management":"Enterprise SaaS","Telecommunications Service Providers":"DevOps & Infrastructure","Therapeutic Devices":"HealthTech & Life Sciences","Thrifts and Mortgage Finance":"FinTech","Venture Capital-Backed":"Other","Vertical Market Software":"Enterprise SaaS","Wireless Communications Equipment":"Hardware & IoT"};
@@ -36,6 +36,13 @@ const getFoundingRecord=(row,foundingMap)=>foundingMap.get(companyKey(gName(row)
 const getFoundingYear=(row,foundingMap)=>{const pb=row['Year Founded'];if(pb&&/^\d{4}$/.test(pb.toString().trim()))return pb.toString().trim();const rec=getFoundingRecord(row,foundingMap);if(!rec||!isOperatingAgeBasis(rec.dateBasis))return null;const m=rec.foundingDate?.match(/(\d{4})/);return m?m[1]:null;};
 const pTimeToExit=(row,foundingMap)=>{const rec=getFoundingRecord(row,foundingMap);if(rec&&!isOperatingAgeBasis(rec.dateBasis))return null;const fy=getFoundingYear(row,foundingMap);const start=pDate(fy);const end=pDate(row['Deal Date']);if(!start||!end||end<start)return null;return Number((((end-start)/DAY_MS)/365.25).toFixed(2));};
 
+// Capital efficiency: exit deal size divided by total capital raised.
+// NOT a true MOIC — ignores dilution, liquidation preferences, and deal structure.
+const pRaised=r=>{const n=pNum(r['Raised to Date']);return n!==null&&n>0?n:null;};
+const pCapEff=r=>{const ds=pSize(r),rd=pRaised(r);return ds!==null&&ds>0&&rd!==null?ds/rd:null;};
+const fmtX=v=>v==null?'—':v>=100?`${Math.round(v)}x`:v>=10?`${v.toFixed(1)}x`:`${v.toFixed(2)}x`;
+const fmtM=v=>v>=1000?`$${(v/1000).toLocaleString(undefined,{maximumFractionDigits:0})}B`:v>=1?`$${v.toLocaleString(undefined,{maximumFractionDigits:0})}M`:`$${v}M`;
+
 const DealDetail=({deal,onClose,customCategory,foundingRecord,timeToExit})=>{
   const isIPO=(deal['Deal Type']||'').includes('IPO');
   const acquirer=!isIPO?(deal['New Investors']||deal['Investors']||'').split(';')[0].trim()||null:null;
@@ -64,13 +71,15 @@ const ExitDashboard=()=>{
   const [debugInfo,setDebugInfo]=useState(null);
   const [showMapping,setShowMapping]=useState(false);
   const [selCat,setSelCat]=useState(null);
+  const [selCatSort,setSelCatSort]=useState({col:'Company',dir:1});
   const [expDeal,setExpDeal]=useState(null);
   const [expTop10,setExpTop10]=useState(null);
-  const [scatterZoom,setScatterZoom]=useState(null);
-  const [scatterDrag,setScatterDrag]=useState(null);
-  const scatterDragRef=useRef(null);
   const [scatterExpDeal,setScatterExpDeal]=useState(null);
-  const scatterRef=useRef(null);
+  const [capEffExpDeal,setCapEffExpDeal]=useState(null);
+  const [sXMin,setSXMin]=useState(0);
+  const [sXMax,setSXMax]=useState(30);
+  const [sYLogMin,setSYLogMin]=useState(-2);
+  const [sYLogMax,setSYLogMax]=useState(4.5);
   const [catMap,setCatMap]=useState(DM_FIXED);
   const [allCodes,setAllCodes]=useState([]);
   const [custCats,setCustCats]=useState(DC);
@@ -87,7 +96,8 @@ const ExitDashboard=()=>{
   const [timeToExitMin,setTimeToExitMin]=useState('');
   const [timeToExitMax,setTimeToExitMax]=useState('');
   const [locFilter,setLocFilter]=useState('all');
-  const [catFilter,setCatFilter]=useState('all');
+  const [catFilter,setCatFilter]=useState(new Set());
+  const [catDropOpen,setCatDropOpen]=useState(false);
   const [showClear,setShowClear]=useState(false);
   const [exportPrev,setExportPrev]=useState(null);
   const [tab,setTab]=useState('overview');
@@ -103,7 +113,7 @@ const ExitDashboard=()=>{
       if(exitType==='IPO'&&!d['Deal Type']?.includes('IPO'))return false;
       if(exitType==='M&A'){const dt=d['Deal Type'];if(!dt||(!dt.includes('Merger/Acquisition')&&!dt.includes('Buyout/LBO')))return false;}
       if(locFilter!=='all'){const c=pCountry(gHQ(d)),r=RM[c]||'Other';if(locFilter!==c&&locFilter!==r)return false;}
-      if(catFilter!=='all'&&gCat(d,catLevel,catMap)!==catFilter)return false;
+      if(catFilter.size>0&&!catFilter.has(gCat(d,catLevel,catMap)))return false;
       return pSize(d)!==null;
     });
   },[data,startYr,endYr,exitType,locFilter,catFilter,catLevel,catMap]);
@@ -127,6 +137,7 @@ const ExitDashboard=()=>{
     setDealMin(v=>v===null?dealSizeBounds.min:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
     setDealMax(v=>v===null?dealSizeBounds.max:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
   },[dealSizeBounds]);
+  useEffect(()=>{if(!catDropOpen)return;const h=e=>{if(!e.target.closest('[data-catdrop]'))setCatDropOpen(false);};document.addEventListener('click',h);return()=>document.removeEventListener('click',h);},[catDropOpen]);
 
   const filtered=useMemo(()=>scopedBase.filter(d=>{const sz=pSize(d);if(sz===null||sz<effDealMin||sz>effDealMax)return false;if(!hasTimeToExitFilter)return true;const t=pTimeToExit(d,foundingMap);if(t===null)return false;if(effTimeToExitMin!==null&&t<effTimeToExitMin)return false;if(effTimeToExitMax!==null&&t>effTimeToExitMax)return false;return true;}),[scopedBase,effDealMin,effDealMax,hasTimeToExitFilter,effTimeToExitMin,effTimeToExitMax,foundingMap]);
 
@@ -164,6 +175,24 @@ const ExitDashboard=()=>{
   },[filtered,catLevel,catMap]);
   const dealByCatInsight=useMemo(()=>dealByCat.map(d=>({...d,gap:d.avg-d.median})).sort((a,b)=>b.gap-a.gap),[dealByCat]);
 
+  // Capital efficiency — median by category. Median (not mean) is required here:
+  // the ratio distribution is extremely right-skewed (p99 ~333x, max ~9000x).
+  const capEffByCat=useMemo(()=>{
+    const c={};filtered.forEach(d=>{const r=pCapEff(d);if(r!==null){const cat=gCat(d,catLevel,catMap);(c[cat]=c[cat]||[]).push(r);}});
+    return Object.entries(c).filter(([,a])=>a.length>=5).map(([name,a])=>{const s=[...a].sort((x,y)=>x-y);const q=p=>s[Math.min(s.length-1,Math.floor(s.length*p))];
+      return{name,median:Number(q(0.5).toFixed(2)),p25:Number(q(0.25).toFixed(2)),p75:Number(q(0.75).toFixed(2)),n:a.length};}).sort((a,b)=>b.median-a.median);
+  },[filtered,catLevel,catMap]);
+
+  const capEffCoverage=useMemo(()=>{
+    const tot=filtered.length,withR=filtered.filter(d=>pCapEff(d)!==null).length;
+    return{tot,withR,pct:tot?100*withR/tot:0};
+  },[filtered]);
+
+  const capEffScatter=useMemo(()=>filtered.map(d=>{
+    const raised=pRaised(d),size=pSize(d);if(raised===null||size===null||size<=0)return null;
+    return{x:raised,y:size,ratio:size/raised,name:gName(d),cat:gCat(d,catLevel,catMap),_row:d};
+  }).filter(Boolean),[filtered,catLevel,catMap]);
+
   const dealTime=useMemo(()=>{
     const s=+startYr,e=+endYr,yd={};
     filtered.forEach(d=>{const y=pYear(d['Deal Date']),sz=pSize(d);if(!y||sz===null)return;if(!yd[y])yd[y]={all:[],ipo:[],ma:[]};yd[y].all.push(sz);const dt=d['Deal Type']||'';if(dt.includes('IPO'))yd[y].ipo.push(sz);else if(dt.includes('Merger/Acquisition')||dt.includes('Buyout/LBO'))yd[y].ma.push(sz);});
@@ -188,7 +217,7 @@ const ExitDashboard=()=>{
 
   const concen=useMemo(()=>{
     const s=+startYr,e=+endYr,r=[];
-    for(let y=s;y<=e;y++){const yd=filtered.filter(d=>pYear(d['Deal Date'])===y),cc={};yd.forEach(d=>{const c=gCat(d,catLevel,catMap);cc[c]=(cc[c]||0)+1;});const t=yd.length;let hhi=0;if(t>0)Object.values(cc).forEach(c=>{const s2=c/t;hhi+=s2*s2;});r.push({year:''+y,activeCats:Object.keys(cc).length,hhi:Number(hhi.toFixed(3))});}return r;
+    for(let y=s;y<=e;y++){const yd=filtered.filter(d=>pYear(d['Deal Date'])===y),cc={};yd.forEach(d=>{const c=gCat(d,catLevel,catMap);cc[c]=(cc[c]||0)+1;});const t=yd.length;let hhi=0;if(t>0)Object.values(cc).forEach(c=>{const s2=c/t;hhi+=s2*s2;});r.push({year:''+y,hhi:Number(hhi.toFixed(3))});}return r;
   },[filtered,startYr,endYr,catLevel,catMap]);
 
   const timeToExitByCat=useMemo(()=>{
@@ -381,11 +410,22 @@ const ExitDashboard=()=>{
                 <option value="group">PitchBook Industry Group</option>
                 <option value="code">PitchBook Industry Code</option>
               </select></div>
-            <div><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Category</label>
-              <select value={catFilter} onChange={e=>setCatFilter(e.target.value)} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
-                <option value="all">All Categories</option>
-                {avCats.map(([cat,cnt])=><option key={cat} value={cat}>{cat} ({cnt})</option>)}
-              </select></div>
+            <div style={{position:'relative'}} data-catdrop><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Category</label>
+              <button onClick={e=>{e.stopPropagation();setCatDropOpen(o=>!o);}} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12,background:'white',textAlign:'left',cursor:'pointer',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+                <span style={{overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{catFilter.size===0?'All Categories':`${catFilter.size} selected`}</span>
+                <span style={{flexShrink:0,marginLeft:4}}>{catDropOpen?'▲':'▼'}</span>
+              </button>
+              {catDropOpen&&<div style={{position:'absolute',top:'100%',left:0,right:0,zIndex:100,background:'white',border:'1px solid #d1d5db',borderRadius:6,boxShadow:'0 4px 12px rgba(0,0,0,0.12)',maxHeight:260,overflowY:'auto',marginTop:2}}>
+                <div style={{padding:'6px 8px',borderBottom:'1px solid #f3f4f6',display:'flex',gap:8}}>
+                  <button onClick={()=>setCatFilter(new Set())} style={{fontSize:11,color:'#6366f1',background:'none',border:'none',cursor:'pointer',padding:0}}>All</button>
+                  <button onClick={()=>setCatFilter(new Set(avCats.map(([c])=>c)))} style={{fontSize:11,color:'#6366f1',background:'none',border:'none',cursor:'pointer',padding:0}}>Select all</button>
+                </div>
+                {avCats.map(([cat,cnt])=>{const on=catFilter.has(cat);return<label key={cat} style={{display:'flex',alignItems:'center',gap:8,padding:'5px 8px',cursor:'pointer',background:on?'#f0f0ff':'white',fontSize:12}}>
+                  <input type="checkbox" checked={on} onChange={()=>{const n=new Set(catFilter);on?n.delete(cat):n.add(cat);setCatFilter(n);}} style={{accentColor:'#6366f1'}}/>
+                  <span style={{flex:1}}>{cat}</span><span style={{color:'#9ca3af',fontSize:11}}>{cnt}</span>
+                </label>;})}
+              </div>}
+            </div>
             <div><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Exit Type</label>
               <select value={exitType} onChange={e=>setExitType(e.target.value)} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
                 <option value="all">All Exits</option><option value="IPO">IPOs Only</option><option value="M&A">M&A / LBOs Only</option>
@@ -486,21 +526,12 @@ const ExitDashboard=()=>{
               <Line type="monotone" dataKey="medianMA" stroke="#10b981" strokeWidth={2} strokeDasharray="5 5" name="Median (M&A)" dot={{r:3}}/>
             </LineChart></ResponsiveContainer>
           </div>
-          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:16,marginBottom:16}}>
-            <div className="bg-white rounded-lg shadow-md" style={{padding:16}}>
-              <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Active Categories by Year</h2>
-              <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Count of categories with at least one exit in each year. Higher values indicate broader participation across categories.</p>
-              <ResponsiveContainer width="100%" height={280}><BarChart data={concen} margin={{top:10,right:10,left:10,bottom:10}}>
-                <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="year" tick={{fontSize:12}}/><YAxis tick={{fontSize:11}} allowDecimals={false}/><Tooltip/><Bar dataKey="activeCats" fill="#3b82f6" name="Active Categories"/>
-              </BarChart></ResponsiveContainer>
-            </div>
-            <div className="bg-white rounded-lg shadow-md" style={{padding:16}}>
-              <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Concentration Index (HHI) by Year</h2>
-              <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>HHI measures how concentrated exits are across categories. Higher HHI means exits are concentrated in fewer categories.</p>
-              <ResponsiveContainer width="100%" height={280}><LineChart data={concen} margin={{top:10,right:10,left:10,bottom:10}}>
-                <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="year" tick={{fontSize:12}}/><YAxis domain={[0,1]} tick={{fontSize:11}}/><Tooltip/><Line type="monotone" dataKey="hhi" stroke="#ef4444" strokeWidth={2} name="HHI" dot={{r:4}}/>
-              </LineChart></ResponsiveContainer>
-            </div>
+          <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
+            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Concentration Index (HHI) by Year</h2>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>HHI measures how concentrated exits are across categories. Higher HHI means exits are concentrated in fewer categories.</p>
+            <ResponsiveContainer width="100%" height={280}><LineChart data={concen} margin={{top:10,right:10,left:10,bottom:10}}>
+              <CartesianGrid strokeDasharray="3 3"/><XAxis dataKey="year" tick={{fontSize:12}}/><YAxis domain={[0,1]} tick={{fontSize:11}}/><Tooltip/><Line type="monotone" dataKey="hhi" stroke="#ef4444" strokeWidth={2} name="HHI" dot={{r:4}}/>
+            </LineChart></ResponsiveContainer>
           </div>
           <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
             <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Deal Size by Category (Avg vs Median)</h2>
@@ -527,6 +558,54 @@ const ExitDashboard=()=>{
               </table>
             </div>
             <p style={{fontSize:10,color:'#9ca3af',marginTop:6}}>* 2026 partial through Aug 7</p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
+            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Capital Efficiency by Category (Median)</h2>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:4}}>Exit deal size ÷ total capital raised. Median shown with 25th–75th percentile range. Categories with fewer than 5 deals excluded.</p>
+            <div style={{fontSize:11,color:'#92400e',background:'#fffbeb',border:'1px solid #fde68a',borderRadius:6,padding:'8px 10px',marginBottom:10}}>
+              <strong>Not a MOIC.</strong> This is exit value over total capital raised — it ignores dilution, liquidation preferences, and deal structure, so it is not an investor return. Coverage is {capEffCoverage.pct.toFixed(1)}% ({capEffCoverage.withR.toLocaleString()} of {capEffCoverage.tot.toLocaleString()} deals in the current filter); the rest have no <em>Raised to Date</em> value. Very high ratios usually mean PitchBook captured only part of a company's funding history rather than genuine efficiency.
+            </div>
+            <ResponsiveContainer width="100%" height={Math.max(280,capEffByCat.length*26+60)}>
+              <BarChart data={capEffByCat} layout="vertical" margin={{top:10,right:30,left:150,bottom:10}}>
+                <CartesianGrid strokeDasharray="3 3"/>
+                <XAxis type="number" dataKey="median" domain={[0,Math.ceil(Math.max(1.2,...capEffByCat.map(d=>d.median))*2)/2]} tick={{fontSize:11}} tickFormatter={fmtX}/>
+                <YAxis type="category" dataKey="name" width={145} tick={{fontSize:11}}/>
+                <Tooltip content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11}}>
+                  <div style={{fontWeight:600}}>{d.name}</div>
+                  <div>Median: <strong>{fmtX(d.median)}</strong></div>
+                  <div style={{color:'#6b7280'}}>p25–p75: {fmtX(d.p25)} – {fmtX(d.p75)}</div>
+                  <div style={{color:'#9ca3af',marginTop:2}}>n = {d.n}</div>
+                </div>:null;}}/>
+                <ReferenceLine x={1} stroke="#ef4444" strokeDasharray="4 4" label={{value:'1x',fontSize:10,fill:'#ef4444',position:'top'}}/>
+                <Bar dataKey="median" fill="#0f766e" name="Median multiple"/>
+              </BarChart>
+            </ResponsiveContainer>
+            <p style={{fontSize:10,color:'#9ca3af',marginTop:6}}>Bars left of the 1x line exited for less than the capital raised into them.</p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
+            <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Capital Raised vs. Exit Size</h2>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Each dot is one deal, both axes log scale. The diagonal is 1x — above it the exit exceeded capital raised, below it the exit did not. Click a dot to expand deal details.</p>
+            <ResponsiveContainer width="100%" height={520}>
+              <ScatterChart margin={{top:10,right:20,left:15,bottom:20}}>
+                <CartesianGrid strokeDasharray="3 3"/>
+                <XAxis type="number" dataKey="x" name="Raised" scale="log" domain={[0.01,200000]} ticks={[0.01,0.1,1,10,100,1000,10000,100000]} tick={{fontSize:11}} tickFormatter={fmtM} label={{value:'Capital Raised to Date',position:'insideBottom',offset:-10,fontSize:11}}/>
+                <YAxis type="number" dataKey="y" name="Exit Size" scale="log" domain={[0.01,200000]} ticks={[0.01,0.1,1,10,100,1000,10000,100000]} tick={{fontSize:11}} tickFormatter={fmtM} label={{value:'Exit Deal Size',angle:-90,position:'insideLeft',offset:10,fontSize:11}}/>
+                <ZAxis range={[18,18]}/>
+                <Tooltip cursor={{strokeDasharray:'3 3'}} content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11,pointerEvents:'none'}}>
+                  <div style={{fontWeight:600}}>{d.name}</div><div style={{color:'#6b7280'}}>{d.cat}</div>
+                  <div>Raised {fmt(d.x)} → Exit {fmt(d.y)}</div>
+                  <div style={{fontWeight:600,color:d.ratio>=1?'#059669':'#dc2626'}}>{fmtX(d.ratio)}</div>
+                  <div style={{color:'#9ca3af',fontSize:10,marginTop:2}}>Click to expand</div>
+                </div>:null;}}/>
+                {(()=>{const xs=capEffScatter.map(d=>d.x),ys=capEffScatter.map(d=>d.y);if(!xs.length)return null;const lo=Math.min(Math.min(...xs),Math.min(...ys)),hi=Math.max(Math.max(...xs),Math.max(...ys));
+                  return <ReferenceLine segment={[{x:lo,y:lo},{x:hi,y:hi}]} stroke="#ef4444" strokeDasharray="5 5" ifOverflow="hidden"/>;})()}
+                <Scatter name="Deals" data={capEffScatter} fill="#6366f1" opacity={0.5} cursor="pointer" onClick={pt=>{if(pt?._row)setCapEffExpDeal(pt._row);}}/>
+              </ScatterChart>
+            </ResponsiveContainer>
+            {capEffExpDeal&&<div style={{marginTop:12}}><DealDetail deal={capEffExpDeal} customCategory={gCat(capEffExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(capEffExpDeal,foundingMap)} timeToExit={pTimeToExit(capEffExpDeal,foundingMap)} onClose={()=>setCapEffExpDeal(null)}/></div>}
+            <p style={{fontSize:10,color:'#9ca3af',marginTop:6}}>n = {capEffScatter.length.toLocaleString()} deals with both values. Points far above the diagonal are more likely to reflect incomplete funding data than exceptional efficiency.</p>
           </div>
         </>}
 
@@ -562,49 +641,39 @@ const ExitDashboard=()=>{
           </div>
           <div className="bg-white rounded-lg shadow-md" style={{padding:16,marginBottom:16}}>
             <h2 style={{fontSize:15,fontWeight:600,marginBottom:6}}>Time to Exit vs. Deal Size</h2>
-            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Each dot is one deal. X = years from founding to exit, Y = deal size ($M, log scale). Color = sector. <strong>Click+drag to zoom in</strong> · Click a dot to expand deal details.</p>
+            <p style={{fontSize:12,color:'#6b7280',marginBottom:10}}>Each dot is one deal. X = years from founding to exit, Y = deal size ($M, log scale). Color = sector. Use sliders to zoom · Click a dot to expand deal details.</p>
             {[...new Set(tteScatter.map(d=>d.cat))].sort().length>0&&<div style={{display:'flex',flexWrap:'wrap',gap:6,marginBottom:10}}>
               {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><div key={cat} style={{display:'flex',alignItems:'center',gap:4,fontSize:10,color:'#374151'}}><div style={{width:8,height:8,borderRadius:'50%',background:CL[i%CL.length],flexShrink:0}}/>{cat}</div>)}
             </div>}
-            {scatterZoom&&<button onClick={()=>setScatterZoom(null)} style={{marginBottom:8,background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'4px 10px',fontSize:11,cursor:'pointer'}}>↩ Reset Zoom</button>}
-            <div ref={scatterRef} style={{position:'relative',userSelect:'none'}}
-              onMouseDown={e=>{if(e.button!==0)return;const r=scatterRef.current.getBoundingClientRect();const d={px1:e.clientX-r.left,py1:e.clientY-r.top,px2:e.clientX-r.left,py2:e.clientY-r.top};scatterDragRef.current=d;setScatterDrag({...d});}}
-              onMouseMove={e=>{if(!scatterDragRef.current)return;const r=scatterRef.current.getBoundingClientRect();const d={...scatterDragRef.current,px2:e.clientX-r.left,py2:e.clientY-r.top};scatterDragRef.current=d;setScatterDrag({...d});}}
-              onMouseUp={e=>{
-                const drag=scatterDragRef.current;
-                if(!drag)return;
-                scatterDragRef.current=null;
-                setScatterDrag(null);
-                const r=scatterRef.current.getBoundingClientRect();
-                const W=r.width,H=420;
-                const ML=65,MR=20,MT=10,MB=30;
-                const chartW=W-ML-MR,chartH=H-MT-MB;
-                const xs=tteScatter.map(d=>d.x),ys=tteScatter.map(d=>d.y);
-                const[xDMin,xDMax]=scatterZoom?[scatterZoom.xMin,scatterZoom.xMax]:[Math.min(...xs),Math.max(...xs)];
-                const[yDMin,yDMax]=scatterZoom?[scatterZoom.yMin,scatterZoom.yMax]:[Math.min(...ys),Math.max(...ys)];
-                const toX=(p)=>xDMin+(Math.min(Math.max(p-ML,0),chartW)/chartW)*(xDMax-xDMin);
-                const logMin=Math.log10(Math.max(1,yDMin)),logMax=Math.log10(yDMax);
-                const toY=(p)=>Math.pow(10,logMax-((Math.min(Math.max(p-MT,0),chartH))/chartH)*(logMax-logMin));
-                const{px1,py1,px2,py2}=drag;
-                if(Math.abs(px2-px1)<8&&Math.abs(py2-py1)<8)return;
-                const xMin=toX(Math.min(px1,px2)),xMax=toX(Math.max(px1,px2));
-                const yMin=toY(Math.max(py1,py2)),yMax=toY(Math.min(py1,py2));
-                setScatterZoom({xMin,xMax,yMin:Math.max(1,yMin),yMax});
-              }}
-              onMouseLeave={()=>{scatterDragRef.current=null;setScatterDrag(null);}}
-            >
-              {scatterDrag&&(()=>{const l=Math.min(scatterDrag.px1,scatterDrag.px2),t=Math.min(scatterDrag.py1,scatterDrag.py2),w=Math.abs(scatterDrag.px2-scatterDrag.px1),h=Math.abs(scatterDrag.py2-scatterDrag.py1);return<div style={{position:'absolute',left:l,top:t,width:w,height:h,border:'2px solid #6366f1',background:'rgba(99,102,241,0.08)',pointerEvents:'none',zIndex:10}}/>;})()}
-              <ResponsiveContainer width="100%" height={420}>
-                <ScatterChart margin={{top:10,right:20,left:15,bottom:20}}>
-                  <CartesianGrid strokeDasharray="3 3"/>
-                  <XAxis type="number" dataKey="x" name="Time to Exit" tick={{fontSize:11}} tickFormatter={v=>`${v}y`} label={{value:'Years to Exit',position:'insideBottom',offset:-10,fontSize:11}} domain={scatterZoom?[scatterZoom.xMin,scatterZoom.xMax]:['auto','auto']}/>
-                  <YAxis type="number" dataKey="y" name="Deal Size" tick={{fontSize:11}} tickFormatter={v=>v>=1000?`$${(v/1000).toFixed(0)}B`:`$${v}M`} scale="log" domain={scatterZoom?[Math.max(1,scatterZoom.yMin),scatterZoom.yMax]:['auto','auto']} label={{value:'Deal Size',angle:-90,position:'insideLeft',offset:10,fontSize:11}}/>
-                  <ZAxis range={[20,20]}/>
-                  <Tooltip cursor={{strokeDasharray:'3 3'}} content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11,pointerEvents:'none'}}><div style={{fontWeight:600}}>{d.name}</div><div style={{color:'#6b7280'}}>{d.cat}</div><div>{d.x?.toFixed(1)} yrs · {d.y>=1000?`$${(d.y/1000).toFixed(1)}B`:`$${d.y?.toFixed(0)}M`}</div><div style={{color:'#9ca3af',fontSize:10,marginTop:2}}>Click to expand</div></div>:null;}}/>
-                  {[...new Set(tteScatter.map(d=>d.cat))].sort().map((cat,i)=><Scatter key={cat} name={cat} data={tteScatter.filter(d=>d.cat===cat)} fill={CL[i%CL.length]} opacity={0.65} cursor="pointer" onClick={pt=>{if(pt?._row)setScatterExpDeal(pt._row);}}/>)}
-                </ScatterChart>
-              </ResponsiveContainer>
+            <div style={{display:'flex',flexWrap:'wrap',gap:20,alignItems:'center',marginBottom:12,padding:'8px 12px',background:'#f9fafb',borderRadius:8,fontSize:11}}>
+              <div style={{display:'flex',alignItems:'center',gap:6}}>
+                <span style={{fontWeight:500,color:'#374151',whiteSpace:'nowrap'}}>Years to Exit:</span>
+                <span style={{color:'#6b7280',minWidth:24}}>{sXMin.toFixed(0)}y</span>
+                <input type="range" min={0} max={30} step={0.5} value={sXMin} onChange={e=>setSXMin(Math.min(+e.target.value,sXMax-1))} style={{width:90,accentColor:'#6366f1'}}/>
+                <span style={{color:'#6b7280'}}>–</span>
+                <input type="range" min={0} max={30} step={0.5} value={sXMax} onChange={e=>setSXMax(Math.max(+e.target.value,sXMin+1))} style={{width:90,accentColor:'#6366f1'}}/>
+                <span style={{color:'#6b7280',minWidth:24}}>{sXMax.toFixed(0)}y</span>
+              </div>
+              <div style={{display:'flex',alignItems:'center',gap:6}}>
+                <span style={{fontWeight:500,color:'#374151',whiteSpace:'nowrap'}}>Deal Size:</span>
+                <span style={{color:'#6b7280',minWidth:40}}>{Math.pow(10,sYLogMin)>=1000?`$${(Math.pow(10,sYLogMin)/1000).toFixed(0)}B`:`$${Math.pow(10,sYLogMin).toFixed(0)}M`}</span>
+                <input type="range" min={-2} max={4.5} step={0.1} value={sYLogMin} onChange={e=>setSYLogMin(Math.min(+e.target.value,sYLogMax-0.5))} style={{width:90,accentColor:'#6366f1'}}/>
+                <span style={{color:'#6b7280'}}>–</span>
+                <input type="range" min={-2} max={4.5} step={0.1} value={sYLogMax} onChange={e=>setSYLogMax(Math.max(+e.target.value,sYLogMin+0.5))} style={{width:90,accentColor:'#6366f1'}}/>
+                <span style={{color:'#6b7280',minWidth:40}}>{Math.pow(10,sYLogMax)>=1000?`$${(Math.pow(10,sYLogMax)/1000).toFixed(0)}B`:`$${Math.pow(10,sYLogMax).toFixed(0)}M`}</span>
+              </div>
+              <button onClick={()=>{setSXMin(0);setSXMax(30);setSYLogMin(-2);setSYLogMax(4.5);}} style={{background:'#f3f4f6',border:'1px solid #d1d5db',borderRadius:6,padding:'3px 10px',fontSize:11,cursor:'pointer'}}>↩ Reset</button>
             </div>
+            <ResponsiveContainer width="100%" height={600}>
+              <ScatterChart margin={{top:10,right:20,left:15,bottom:20}}>
+                <CartesianGrid strokeDasharray="3 3"/>
+                <XAxis type="number" dataKey="x" name="Time to Exit" tick={{fontSize:11}} tickFormatter={v=>`${v}y`} label={{value:'Years to Exit',position:'insideBottom',offset:-10,fontSize:11}} domain={[sXMin,sXMax]}/>
+                <YAxis type="number" dataKey="y" name="Deal Size" tick={{fontSize:11}} tickFormatter={v=>v>=1000?`$${(v/1000).toFixed(0)}B`:`$${v}M`} scale="log" domain={[Math.pow(10,sYLogMin),Math.pow(10,sYLogMax)]} label={{value:'Deal Size',angle:-90,position:'insideLeft',offset:10,fontSize:11}}/>
+                <ZAxis range={[20,20]}/>
+                <Tooltip cursor={{strokeDasharray:'3 3'}} content={({active,payload})=>{if(!active||!payload?.length)return null;const d=payload[0]?.payload;return d?<div style={{background:'white',border:'1px solid #e5e7eb',borderRadius:6,padding:'6px 10px',fontSize:11,pointerEvents:'none'}}><div style={{fontWeight:600}}>{d.name}</div><div style={{color:'#6b7280'}}>{d.cat}</div><div>{d.x?.toFixed(1)} yrs · {d.y>=1000?`$${(d.y/1000).toFixed(1)}B`:`$${d.y?.toFixed(0)}M`}</div><div style={{color:'#9ca3af',fontSize:10,marginTop:2}}>Click to expand</div></div>:null;}}/>
+                {(()=>{const yMin=Math.pow(10,sYLogMin),yMax=Math.pow(10,sYLogMax);const visible=tteScatter.filter(d=>d.x>=sXMin&&d.x<=sXMax&&d.y>=yMin&&d.y<=yMax);return[...new Set(visible.map(d=>d.cat))].sort().map((cat,i)=><Scatter key={cat} name={cat} data={visible.filter(d=>d.cat===cat)} fill={CL[i%CL.length]} opacity={0.65} cursor="pointer" onClick={pt=>{if(pt?._row)setScatterExpDeal(pt._row);}}/>);})()}
+              </ScatterChart>
+            </ResponsiveContainer>
             {scatterExpDeal&&<div style={{marginTop:12}}><DealDetail deal={scatterExpDeal} customCategory={gCat(scatterExpDeal,'custom',catMap)} foundingRecord={getFoundingRecord(scatterExpDeal,foundingMap)} timeToExit={pTimeToExit(scatterExpDeal,foundingMap)} onClose={()=>setScatterExpDeal(null)}/></div>}
           </div>
         </>}
@@ -729,9 +798,9 @@ const ExitDashboard=()=>{
               <h3 style={{fontSize:13,fontWeight:600,color:'#374151',marginBottom:8}}>All Companies</h3>
               <table style={{width:'100%',borderCollapse:'collapse'}}>
                 <thead style={{position:'sticky',top:0,backgroundColor:'white'}}><tr style={{borderBottom:'2px solid #e5e7eb'}}>
-                  {['Company','Category','Date','Type','Acquirer','Time to Exit','Size ($M)','HQ'].map(h=><th key={h} style={{textAlign:h.includes('Size')?'right':'left',padding:'8px 6px',fontSize:11,fontWeight:600}}>{h}</th>)}
+                  {['Company','Category','Date','Type','Acquirer','Time to Exit','Size ($M)','HQ'].map(h=>{const active=selCatSort.col===h;return<th key={h} onClick={()=>setSelCatSort(s=>s.col===h?{col:h,dir:-s.dir}:{col:h,dir:h==='Size ($M)'||h==='Time to Exit'?-1:1})} style={{textAlign:h.includes('Size')?'right':'left',padding:'8px 6px',fontSize:11,fontWeight:600,cursor:'pointer',whiteSpace:'nowrap',color:active?'#3b82f6':'inherit'}}>{h}{active?(selCatSort.dir===1?' ↑':' ↓'):' ↕'}</th>;})}
                 </tr></thead>
-                <tbody>{selCat.companies.map((c,i)=>{const s=pSize(c);const isIPO=(c['Deal Type']||'').includes('IPO');const acq=!isIPO?(c['New Investors']||c['Investors']||'').split(';')[0].trim()||'—':'—';return<tr key={i} style={{borderBottom:'1px solid #f3f4f6'}}>
+                <tbody>{[...selCat.companies].map(c=>({...c,_s:pSize(c),_tte:pTimeToExit(c,foundingMap)})).sort((a,b)=>{const{col,dir}=selCatSort;if(col==='Size ($M)'){return dir*((a._s??-Infinity)-(b._s??-Infinity));}if(col==='Time to Exit'){return dir*((a._tte??-Infinity)-(b._tte??-Infinity));}if(col==='Date'){return dir*(new Date(a['Deal Date']||0)-new Date(b['Deal Date']||0));}const va=col==='Company'?gName(a):col==='Category'?gCat(a,'custom',catMap):col==='Type'?a['Deal Type']:col==='HQ'?gHQ(a):col==='Acquirer'?(!(a['Deal Type']||'').includes('IPO')?(a['New Investors']||a['Investors']||'').split(';')[0].trim():''):'';const vb=col==='Company'?gName(b):col==='Category'?gCat(b,'custom',catMap):col==='Type'?b['Deal Type']:col==='HQ'?gHQ(b):col==='Acquirer'?(!(b['Deal Type']||'').includes('IPO')?(b['New Investors']||b['Investors']||'').split(';')[0].trim():''):'';return dir*(va||'').localeCompare(vb||'');}).map((c,i)=>{const s=c._s;const isIPO=(c['Deal Type']||'').includes('IPO');const acq=!isIPO?(c['New Investors']||c['Investors']||'').split(';')[0].trim()||'—':'—';return<tr key={i} style={{borderBottom:'1px solid #f3f4f6'}}>
                   <td style={{padding:'5px 6px',fontSize:11,fontWeight:500}}>{gName(c)}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#475569'}}>{gCat(c,'custom',catMap)}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{c['Deal Date']||'—'}</td>
