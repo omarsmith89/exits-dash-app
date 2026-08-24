@@ -17,7 +17,8 @@ function pYear(d){if(!d)return null;let m=d.match(/(\d{1,2})-(\w{3})-(\d{4})/);i
 function pSize(r){const v=r['Deal Size']||r['Deal Value']||'';if(!v)return null;const n=parseFloat(v.toString().replace(/[^0-9.-]/g,''));return isNaN(n)?null:n;}
 const normCode=v=>(v||'').toString().replace(/\r/g,'').trim().replace(/^"(.*)"$/,'$1').replace(/\*/g,'');
 const companyKey=v=>(v||'').toString().trim().toLowerCase();
-function gCat(row,level,mp){const nm=row['Companies']||'';if(COVR[nm])return COVR[nm];if(/rivian/i.test(nm))return'Logistics & Transportation';if(CYBER.has(nm))return'Cybersecurity';if(level==='custom')return mp[normCode(row['Primary Industry Code'])||'Unknown']||'Unmapped';const f=level==='sector'?'Primary Industry Sector':level==='group'?'Primary Industry Group':'Primary Industry Code';return row[f]||'Unknown';}
+let THESIS_MAP=new Map();
+function gCat(row,level,mp){const nm=row['Companies']||'';if(level==='thesis')return THESIS_MAP.get(companyKey(nm))?.sector||'Unmapped';if(COVR[nm])return COVR[nm];if(/rivian/i.test(nm))return'Logistics & Transportation';if(CYBER.has(nm))return'Cybersecurity';if(level==='custom')return mp[normCode(row['Primary Industry Code'])||'Unknown']||'Unmapped';const f=level==='sector'?'Primary Industry Sector':level==='group'?'Primary Industry Group':'Primary Industry Code';return row[f]||'Unknown';}
 function gName(r){return r['Companies']||r['Company Name']||'—';}
 function gHQ(r){return r['HQ Location']||r['Company HQ Location']||'—';}
 function gAcq(r){return(r['Investors']||'').replace(/\([^()]*\)/g,'').replace(/\s+/g,' ').trim()||'—';}
@@ -31,6 +32,9 @@ const inferDateBasis=(source,notes)=>{const text=`${source||''} ${notes||''}`.to
 const isOperatingAgeBasis=basis=>!['issuer_incorporation_review','exclude_from_time_to_exit'].includes(basis||'');
 const fmtDateBasis=basis=>({operating_founding:'Operating founding',legal_incorporation:'Legal incorporation',issuer_incorporation_review:'Issuer incorporation - review',exclude_from_time_to_exit:'Excluded'}[basis]||basis||'Operating founding');
 const parseFoundingText=text=>{const rows=parseCsv(text);if(!rows.length)return new Map();const hdrs=rows[0].map(h=>h.trim());const idx=Object.fromEntries(hdrs.map((h,i)=>[h,i]));const out=new Map();rows.slice(1).forEach(cols=>{const company=(cols[idx.company]||'').trim();if(!company)return;const source=(cols[idx.source]||'').trim(),notes=(cols[idx.notes]||'').trim();const dateBasis=(cols[idx.date_basis]||inferDateBasis(source,notes)).trim();out.set(companyKey(company),{company,foundingDate:(cols[idx.founding_date]||'').trim(),dateBasis,source,confidence:(cols[idx.confidence]||'').trim(),notes});});return out;};
+const parseThesisText=text=>{const rows=parseCsv(text);if(!rows.length)return new Map();const hdrs=rows[0].map(h=>h.trim());const idx=Object.fromEntries(hdrs.map((h,i)=>[h,i]));const out=new Map();rows.slice(1).forEach(cols=>{const company=(cols[idx.company]||'').trim();if(!company)return;out.set(companyKey(company),{sector:(cols[idx.sector]||'').trim(),sectorAlt:(cols[idx.sector_alt]||'').trim(),description:(cols[idx.description]||'').trim(),confidence:(cols[idx.confidence]||'').trim(),products:(cols[idx.products]||'').split('+').map(s=>s.trim()).filter(Boolean),b2b:(cols[idx.b2b]||'').trim().toLowerCase()==='true',b2c:(cols[idx.b2c]||'').trim().toLowerCase()==='true'});});return out;};
+const gProducts=row=>THESIS_MAP.get(companyKey(row['Companies']||''))?.products||[];
+const gBizModel=row=>{const t=THESIS_MAP.get(companyKey(row['Companies']||''));if(!t)return null;if(t.b2b&&t.b2c)return'B2B + B2C';if(t.b2b)return'B2B';if(t.b2c)return'B2C';return null;};
 function pDate(v){if(!v)return null;const s=v.toString().trim();let m=s.match(/^(\d{4})-(\d{2})-(\d{2})$/);if(m){if(+m[2]<1||+m[2]>12||+m[3]<1||+m[3]>31)return null;return new Date(Date.UTC(+m[1],+m[2]-1,+m[3]));}m=s.match(/^(\d{4})-(\d{2})$/);if(m){if(+m[2]<1||+m[2]>12)return null;return new Date(Date.UTC(+m[1],+m[2]-1,1));}m=s.match(/^(\d{4})$/);if(m)return new Date(Date.UTC(+m[1],0,1));m=s.match(/(\d{1,2})-(\w{3})-(\d{4})/);if(m)return new Date(`${m[1]} ${m[2]} ${m[3]} UTC`);m=s.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);if(m)return new Date(Date.UTC(+m[3],+m[1]-1,+m[2]));m=s.match(/(\d{4})-(\d{1,2})-(\d{1,2})/);if(m){if(+m[2]<1||+m[2]>12||+m[3]<1||+m[3]>31)return null;return new Date(Date.UTC(+m[1],+m[2]-1,+m[3]));}return null;}
 const getFoundingRecord=(row,foundingMap)=>foundingMap.get(companyKey(gName(row)))||null;
 const getFoundingYear=(row,foundingMap)=>{const pb=row['Year Founded'];if(pb&&/^\d{4}$/.test(pb.toString().trim()))return pb.toString().trim();const rec=getFoundingRecord(row,foundingMap);if(!rec||!isOperatingAgeBasis(rec.dateBasis))return null;const m=rec.foundingDate?.match(/(\d{4})/);return m?m[1]:null;};
@@ -66,7 +70,8 @@ const DollarTooltip=({active,payload,label})=>{
 const ExitDashboard=()=>{
   const [data,setData]=useState([]);
   const [foundingMap,setFoundingMap]=useState(new Map());
-  const [catLevel,setCatLevel]=useState('custom');
+  const [thesisMap,setThesisMap]=useState(new Map());
+  const [catLevel,setCatLevel]=useState('thesis');
   const [exitType,setExitType]=useState('all');
   const [debugInfo,setDebugInfo]=useState(null);
   const [showMapping,setShowMapping]=useState(false);
@@ -102,13 +107,16 @@ const ExitDashboard=()=>{
   const [locFilter,setLocFilter]=useState('all');
   const [catFilter,setCatFilter]=useState(new Set());
   const [catDropOpen,setCatDropOpen]=useState(false);
+  const [productFilter,setProductFilter]=useState(new Set());
+  const [productDropOpen,setProductDropOpen]=useState(false);
+  const [bizModelFilter,setBizModelFilter]=useState('all');
   const [showClear,setShowClear]=useState(false);
   const [exportPrev,setExportPrev]=useState(null);
   const [tab,setTab]=useState('overview');
   const [isBootLoading,setIsBootLoading]=useState(true);
   const [bootErr,setBootErr]=useState('');
 
-  useEffect(()=>{let on=true;(async()=>{try{const [dealResp,foundingResp]=await Promise.all([fetch('/VC_Exits_21-26_deal_data.txt'),fetch('/company_founding_dates.csv')]);if(!dealResp.ok)throw new Error(`HTTP ${dealResp.status}`);const text=await dealResp.text();const {parsed,hdrs,codes}=parseDealText(text);if(!on)return;setAllCodes(codes);setDebugInfo({totalRows:parsed.length,cols:hdrs.length});setData(parsed);if(foundingResp.ok){const foundingText=await foundingResp.text();if(on)setFoundingMap(parseFoundingText(foundingText));}}catch(e){if(on)setBootErr('Default dataset failed to load. You can still upload manually.');}finally{if(on)setIsBootLoading(false);}})();return()=>{on=false;};},[]);
+  useEffect(()=>{let on=true;(async()=>{try{const [dealResp,foundingResp,thesisResp]=await Promise.all([fetch('/VC_Exits_21-26_deal_data.txt'),fetch('/company_founding_dates.csv'),fetch('/thesis_sectors.csv')]);if(!dealResp.ok)throw new Error(`HTTP ${dealResp.status}`);const text=await dealResp.text();const {parsed,hdrs,codes}=parseDealText(text);if(!on)return;setAllCodes(codes);setDebugInfo({totalRows:parsed.length,cols:hdrs.length});setData(parsed);if(foundingResp.ok){const foundingText=await foundingResp.text();if(on)setFoundingMap(parseFoundingText(foundingText));}if(thesisResp.ok){const thesisText=await thesisResp.text();const tm=parseThesisText(thesisText);if(on){THESIS_MAP=tm;setThesisMap(tm);}}}catch(e){if(on)setBootErr('Default dataset failed to load. You can still upload manually.');}finally{if(on)setIsBootLoading(false);}})();return()=>{on=false;};},[]);
 
   const scopedBase=useMemo(()=>{
     if(!data.length)return[];const s=+startYr,e=+endYr;
@@ -118,9 +126,11 @@ const ExitDashboard=()=>{
       if(exitType==='M&A'){const dt=d['Deal Type'];if(!dt||(!dt.includes('Merger/Acquisition')&&!dt.includes('Buyout/LBO')))return false;}
       if(locFilter!=='all'){const c=pCountry(gHQ(d)),r=RM[c]||'Other';if(locFilter!==c&&locFilter!==r)return false;}
       if(catFilter.size>0&&!catFilter.has(gCat(d,catLevel,catMap)))return false;
+      if(productFilter.size>0&&!gProducts(d).some(p=>productFilter.has(p)))return false;
+      if(bizModelFilter!=='all'){const t=THESIS_MAP.get(companyKey(d['Companies']||''));if(!t||!t[bizModelFilter])return false;}
       return pSize(d)!==null;
     });
-  },[data,startYr,endYr,exitType,locFilter,catFilter,catLevel,catMap]);
+  },[data,startYr,endYr,exitType,locFilter,catFilter,catLevel,catMap,productFilter,bizModelFilter,thesisMap]);
   const dealSizeBounds=useMemo(()=>{
     const vals=scopedBase.map(pSize).filter(v=>v!==null);
     if(!vals.length)return null;
@@ -142,6 +152,7 @@ const ExitDashboard=()=>{
     setDealMax(v=>v===null?dealSizeBounds.max:Math.max(dealSizeBounds.min,Math.min(v,dealSizeBounds.max)));
   },[dealSizeBounds]);
   useEffect(()=>{if(!catDropOpen)return;const h=e=>{if(!e.target.closest('[data-catdrop]'))setCatDropOpen(false);};document.addEventListener('click',h);return()=>document.removeEventListener('click',h);},[catDropOpen]);
+  useEffect(()=>{if(!productDropOpen)return;const h=e=>{if(!e.target.closest('[data-productdrop]'))setProductDropOpen(false);};document.addEventListener('click',h);return()=>document.removeEventListener('click',h);},[productDropOpen]);
   useEffect(()=>{if(scatterExpDeal)scatterDetailRef.current?.scrollIntoView({block:'center'});},[scatterExpDeal]);
   useEffect(()=>{if(capEffExpDeal)capEffDetailRef.current?.scrollIntoView({block:'center'});},[capEffExpDeal]);
 
@@ -150,7 +161,8 @@ const ExitDashboard=()=>{
   const allByYr=useMemo(()=>{if(!data.length)return[];const s=+startYr,e=+endYr;return data.filter(d=>{const y=pYear(d['Deal Date']);return y===null||(y>=s&&y<=e);});},[data,startYr,endYr]);
   const avCountries=useMemo(()=>{const c={};data.forEach(d=>{const co=pCountry(gHQ(d));if(co&&co!=='Unknown')c[co]=(c[co]||0)+1;});return Object.entries(c).sort((a,b)=>b[1]-a[1]);},[data]);
   const avRegions=useMemo(()=>{const r={};avCountries.forEach(([c])=>{const reg=RM[c]||'Other';r[reg]=(r[reg]||0)+1;});return Object.entries(r).sort((a,b)=>b[1]-a[1]);},[avCountries]);
-  const avCats=useMemo(()=>{const c={};allByYr.forEach(d=>{const cat=gCat(d,catLevel,catMap);c[cat]=(c[cat]||0)+1;});return Object.entries(c).sort((a,b)=>b[1]-a[1]);},[allByYr,catLevel,catMap]);
+  const avCats=useMemo(()=>{const c={};allByYr.forEach(d=>{const cat=gCat(d,catLevel,catMap);c[cat]=(c[cat]||0)+1;});return Object.entries(c).sort((a,b)=>b[1]-a[1]);},[allByYr,catLevel,catMap,thesisMap]);
+  const avProducts=useMemo(()=>{const c={};allByYr.forEach(d=>{gProducts(d).forEach(p=>{c[p]=(c[p]||0)+1;});});return Object.entries(c).sort((a,b)=>b[1]-a[1]);},[allByYr,thesisMap]);
   const foundingCoverage=useMemo(()=>{const total=scopedBase.length;const covered=scopedBase.filter(d=>pTimeToExit(d,foundingMap)!==null).length;return{total,covered,pct:total?covered/total*100:0};},[scopedBase,foundingMap]);
 
   const stats=useMemo(()=>{
@@ -410,7 +422,8 @@ const ExitDashboard=()=>{
                 <optgroup label="Countries">{avCountries.slice(0,30).map(([c,n])=><option key={c} value={c}>{c} ({n})</option>)}</optgroup>
               </select></div>
             <div><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Category Level</label>
-              <select value={catLevel} onChange={e=>{setCatLevel(e.target.value);setCatFilter('all');}} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
+              <select value={catLevel} onChange={e=>{setCatLevel(e.target.value);setCatFilter(new Set());}} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
+                <option value="thesis">Omar's Category Mapping V2</option>
                 <option value="custom">Omar's Re-mapped Categories</option>
                 <option value="sector">PitchBook Industry Sector</option>
                 <option value="group">PitchBook Industry Group</option>
@@ -432,6 +445,28 @@ const ExitDashboard=()=>{
                 </label>;})}
               </div>}
             </div>
+            <div style={{position:'relative'}} data-productdrop><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Product Type</label>
+              <button onClick={e=>{e.stopPropagation();setProductDropOpen(o=>!o);}} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12,background:'white',textAlign:'left',cursor:'pointer',display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+                <span style={{overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap'}}>{productFilter.size===0?'All Product Types':`${productFilter.size} selected`}</span>
+                <span style={{flexShrink:0,marginLeft:4}}>{productDropOpen?'▲':'▼'}</span>
+              </button>
+              {productDropOpen&&<div style={{position:'absolute',top:'100%',left:0,right:0,zIndex:100,background:'white',border:'1px solid #d1d5db',borderRadius:6,boxShadow:'0 4px 12px rgba(0,0,0,0.12)',maxHeight:260,overflowY:'auto',marginTop:2}}>
+                <div style={{padding:'6px 8px',borderBottom:'1px solid #f3f4f6',display:'flex',gap:8}}>
+                  <button onClick={()=>setProductFilter(new Set())} style={{fontSize:11,color:'#6366f1',background:'none',border:'none',cursor:'pointer',padding:0}}>All</button>
+                  <button onClick={()=>setProductFilter(new Set(avProducts.map(([p])=>p)))} style={{fontSize:11,color:'#6366f1',background:'none',border:'none',cursor:'pointer',padding:0}}>Select all</button>
+                </div>
+                {avProducts.map(([p,cnt])=>{const on=productFilter.has(p);return<label key={p} style={{display:'flex',alignItems:'center',gap:8,padding:'5px 8px',cursor:'pointer',background:on?'#f0f0ff':'white',fontSize:12}}>
+                  <input type="checkbox" checked={on} onChange={()=>{const n=new Set(productFilter);on?n.delete(p):n.add(p);setProductFilter(n);}} style={{accentColor:'#6366f1'}}/>
+                  <span style={{flex:1}}>{p}</span><span style={{color:'#9ca3af',fontSize:11}}>{cnt}</span>
+                </label>;})}
+              </div>}
+            </div>
+            <div><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Business Model</label>
+              <select value={bizModelFilter} onChange={e=>setBizModelFilter(e.target.value)} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
+                <option value="all">All (B2B + B2C)</option>
+                <option value="b2b">B2B</option>
+                <option value="b2c">B2C</option>
+              </select></div>
             <div><label style={{display:'block',fontSize:12,fontWeight:500,marginBottom:6}}>Exit Type</label>
               <select value={exitType} onChange={e=>setExitType(e.target.value)} style={{width:'100%',border:'1px solid #d1d5db',borderRadius:6,padding:'6px 8px',fontSize:12}}>
                 <option value="all">All Exits</option><option value="IPO">IPOs Only</option><option value="M&A">M&A / LBOs Only</option>
@@ -806,9 +841,9 @@ const ExitDashboard=()=>{
                 <thead style={{position:'sticky',top:0,backgroundColor:'white'}}><tr style={{borderBottom:'2px solid #e5e7eb'}}>
                   {['Company','Category','Date','Type','Acquirer','Time to Exit','Size ($M)','HQ'].map(h=>{const active=selCatSort.col===h;return<th key={h} onClick={()=>setSelCatSort(s=>s.col===h?{col:h,dir:-s.dir}:{col:h,dir:h==='Size ($M)'||h==='Time to Exit'?-1:1})} style={{textAlign:h.includes('Size')?'right':'left',padding:'8px 6px',fontSize:11,fontWeight:600,cursor:'pointer',whiteSpace:'nowrap',color:active?'#3b82f6':'inherit'}}>{h}{active?(selCatSort.dir===1?' ↑':' ↓'):' ↕'}</th>;})}
                 </tr></thead>
-                <tbody>{[...selCat.companies].map(c=>({...c,_s:pSize(c),_tte:pTimeToExit(c,foundingMap)})).sort((a,b)=>{const{col,dir}=selCatSort;if(col==='Size ($M)'){return dir*((a._s??-Infinity)-(b._s??-Infinity));}if(col==='Time to Exit'){return dir*((a._tte??-Infinity)-(b._tte??-Infinity));}if(col==='Date'){return dir*(new Date(a['Deal Date']||0)-new Date(b['Deal Date']||0));}const va=col==='Company'?gName(a):col==='Category'?gCat(a,'custom',catMap):col==='Type'?a['Deal Type']:col==='HQ'?gHQ(a):col==='Acquirer'?(!(a['Deal Type']||'').includes('IPO')?(a['New Investors']||a['Investors']||'').split(';')[0].trim():''):'';const vb=col==='Company'?gName(b):col==='Category'?gCat(b,'custom',catMap):col==='Type'?b['Deal Type']:col==='HQ'?gHQ(b):col==='Acquirer'?(!(b['Deal Type']||'').includes('IPO')?(b['New Investors']||b['Investors']||'').split(';')[0].trim():''):'';return dir*(va||'').localeCompare(vb||'');}).map((c,i)=>{const s=c._s;const isIPO=(c['Deal Type']||'').includes('IPO');const acq=!isIPO?(c['New Investors']||c['Investors']||'').split(';')[0].trim()||'—':'—';return<tr key={i} style={{borderBottom:'1px solid #f3f4f6'}}>
+                <tbody>{[...selCat.companies].map(c=>({...c,_s:pSize(c),_tte:pTimeToExit(c,foundingMap)})).sort((a,b)=>{const{col,dir}=selCatSort;if(col==='Size ($M)'){return dir*((a._s??-Infinity)-(b._s??-Infinity));}if(col==='Time to Exit'){return dir*((a._tte??-Infinity)-(b._tte??-Infinity));}if(col==='Date'){return dir*(new Date(a['Deal Date']||0)-new Date(b['Deal Date']||0));}const va=col==='Company'?gName(a):col==='Category'?gCat(a,catLevel,catMap):col==='Type'?a['Deal Type']:col==='HQ'?gHQ(a):col==='Acquirer'?(!(a['Deal Type']||'').includes('IPO')?(a['New Investors']||a['Investors']||'').split(';')[0].trim():''):'';const vb=col==='Company'?gName(b):col==='Category'?gCat(b,catLevel,catMap):col==='Type'?b['Deal Type']:col==='HQ'?gHQ(b):col==='Acquirer'?(!(b['Deal Type']||'').includes('IPO')?(b['New Investors']||b['Investors']||'').split(';')[0].trim():''):'';return dir*(va||'').localeCompare(vb||'');}).map((c,i)=>{const s=c._s;const isIPO=(c['Deal Type']||'').includes('IPO');const acq=!isIPO?(c['New Investors']||c['Investors']||'').split(';')[0].trim()||'—':'—';return<tr key={i} style={{borderBottom:'1px solid #f3f4f6'}}>
                   <td style={{padding:'5px 6px',fontSize:11,fontWeight:500}}>{gName(c)}</td>
-                  <td style={{padding:'5px 6px',fontSize:11,color:'#475569'}}>{gCat(c,'custom',catMap)}</td>
+                  <td style={{padding:'5px 6px',fontSize:11,color:'#475569'}}>{gCat(c,catLevel,catMap)}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{c['Deal Date']||'—'}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{c['Deal Type']||'—'}</td>
                   <td style={{padding:'5px 6px',fontSize:11,color:'#6b7280'}}>{acq}</td>

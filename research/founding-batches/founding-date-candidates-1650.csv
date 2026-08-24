@@ -1,0 +1,4 @@
+company,latest_exit_date,deal_type,hq_location,normalized_company,founding_date,source,confidence,score,status,wikidata_id,wikidata_label,notes
+Kumovis,01-Apr-2022,Merger/Acquisition,"""Munich, Germany""",kumovis,,Wikidata,NONE,0,NO_MATCH,Q4246979,Kumovyshche,"hq=germany; desc=village in Horokhiv Raion, Volyn Oblast, Ukraine"
+Kung Fu Factory,12-Feb-2021,Merger/Acquisition,"""Los Angeles, CA""",kung fu factory,2002-00-00,Wikidata,MEDIUM,70,REVIEW,Q6444446,Kung Fu Factory,hq=united states; aliases=Just Games Interactive; desc=video game developer
+Kuprion,19-May-2023,Merger/Acquisition,"""San Jose, CA""",kuprion,,Wikidata,ERROR,0,ERROR,,,fetch failed

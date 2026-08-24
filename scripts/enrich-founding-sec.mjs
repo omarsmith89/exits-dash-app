@@ -16,6 +16,7 @@ const HEADERS = [
   'deal_type',
   'hq_location',
   'founding_date',
+  'date_basis',
   'source',
   'confidence',
   'status',
@@ -136,11 +137,11 @@ const fetchJson = async (url) => JSON.parse(await fetchText(url));
 const parseFoundingFromText = (text) => {
   const flat = text.replace(/\s+/g, ' ');
   const patterns = [
-    { re: /\bincorporated(?: in [A-Za-z .]+)? on ([A-Z][a-z]+ \d{1,2}, \d{4})\b/i, confidence: 'HIGH' },
-    { re: /\bincorporated(?: in [A-Za-z .]+)? in ([A-Z][a-z]+ \d{4})\b/i, confidence: 'MEDIUM_HIGH' },
-    { re: /\bincorporated(?: in [A-Za-z .]+)? in (\d{4})\b/i, confidence: 'MEDIUM' },
-    { re: /\bfounded in ([A-Z][a-z]+ \d{4})\b/i, confidence: 'MEDIUM' },
-    { re: /\bfounded in (\d{4})\b/i, confidence: 'LOW' },
+    { re: /\bincorporated(?: in [A-Za-z .]+)? on ([A-Z][a-z]+ \d{1,2}, \d{4})\b/i, confidence: 'HIGH', date_basis: 'legal_incorporation' },
+    { re: /\bincorporated(?: in [A-Za-z .]+)? in ([A-Z][a-z]+ \d{4})\b/i, confidence: 'MEDIUM_HIGH', date_basis: 'legal_incorporation' },
+    { re: /\bincorporated(?: in [A-Za-z .]+)? in (\d{4})\b/i, confidence: 'MEDIUM', date_basis: 'legal_incorporation' },
+    { re: /\bfounded in ([A-Z][a-z]+ \d{4})\b/i, confidence: 'MEDIUM', date_basis: 'operating_founding' },
+    { re: /\bfounded in (\d{4})\b/i, confidence: 'LOW', date_basis: 'operating_founding' },
   ];
 
   for (const pattern of patterns) {
@@ -160,6 +161,7 @@ const parseFoundingFromText = (text) => {
     })();
     return {
       founding_date: date,
+      date_basis: pattern.date_basis,
       confidence: pattern.confidence,
       notes: `Extracted from filing text: ${match[0].slice(0, 160)}`,
     };
@@ -205,6 +207,7 @@ const buildCandidate = async (row, maps) => {
       ticker,
       cik: '',
       founding_date: '',
+      date_basis: '',
       source: 'SEC',
       confidence: 'NONE',
       status: 'NO_SEC_MATCH',
@@ -229,6 +232,7 @@ const buildCandidate = async (row, maps) => {
         ticker: match.ticker,
         cik: match.cik,
         founding_date: '',
+        date_basis: '',
         source: 'SEC',
         confidence: 'LOW',
         status: 'NO_TARGET_FORM',
@@ -253,6 +257,7 @@ const buildCandidate = async (row, maps) => {
         ticker: match.ticker,
         cik: match.cik,
         founding_date: '',
+        date_basis: '',
         source: 'SEC',
         confidence: 'LOW',
         status: 'MATCH_NO_DATE',
@@ -268,6 +273,7 @@ const buildCandidate = async (row, maps) => {
       ticker: match.ticker,
       cik: match.cik,
       founding_date: parsed.founding_date,
+      date_basis: parsed.date_basis,
       source: 'SEC filing',
       confidence: parsed.confidence,
       status: 'SEC_MATCH',
@@ -282,6 +288,7 @@ const buildCandidate = async (row, maps) => {
       ticker: match.ticker,
       cik: match.cik,
       founding_date: '',
+      date_basis: '',
       source: 'SEC',
       confidence: 'ERROR',
       status: 'ERROR',

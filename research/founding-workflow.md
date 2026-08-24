@@ -15,6 +15,7 @@
 
 - `company`
 - `founding_date`
+- `date_basis`
 - `source`
 - `confidence`
 - `notes`
@@ -27,10 +28,17 @@ Accepted `founding_date` formats:
 
 The dashboard interprets partial dates conservatively using the first day of the month or year when calculating time to exit.
 
+Accepted `date_basis` values:
+
+- `operating_founding`: earliest credible date the operating business was founded.
+- `legal_incorporation`: incorporation date that appears to describe the original operating company rather than a later issuer shell.
+- `issuer_incorporation_review`: possible holding-company, SPAC, reorganization, successor, or public issuer date. Keep visible for review, but do not use for the operating-age filter.
+- `exclude_from_time_to_exit`: known non-operating date that should stay out of time-to-exit analysis.
+
 ## Recommended Research Order
 
-1. SEC filing or company registry incorporation date
-2. Official company about / history page
+1. Official company about/history page or prospectus language stating when the operating business was founded
+2. SEC filing or company registry incorporation date, only when it appears to describe the original operating company
 3. Other primary source such as an investor relations page or prospectus
 4. Secondary source only when clearly attributed
 5. LinkedIn only as a fallback
@@ -39,9 +47,10 @@ The dashboard interprets partial dates conservatively using the first day of the
 
 1. Run `npm run founding:template`
 2. Run `npm run founding:candidates`
-3. Review high-confidence rows in `research/founding-date-candidates.csv`
-4. Move approved rows into `public/company_founding_dates.csv`
-5. Rebuild the app
+3. Run `npm run founding:promotion-review`
+4. Review high-confidence rows in `research/revisit-lists/founding-promotion-review.csv`
+5. Move approved rows into `public/company_founding_dates.csv` with a reviewed `date_basis`
+6. Rebuild the app
 
 ## Bulk Candidate Generator
 
@@ -66,6 +75,7 @@ Each batch writes its own resumable CSV into `research/founding-batches/`.
 What it gives you:
 
 - a candidate `founding_date`
+- a candidate `date_basis` of `operating_founding`
 - a `wikidata_id`
 - a rough confidence score
 - notes about country and alias matching
@@ -95,6 +105,7 @@ What it does:
 - pulls recent filings from SEC submissions JSON
 - prioritizes forms like `S-1`, `F-1`, `10-K`, `20-F`, and `8-K`
 - extracts phrases like `incorporated on ...`, `incorporated in ...`, or `founded in ...`
+- tags `founded` phrases as `operating_founding` and `incorporated` phrases as `legal_incorporation`
 
 Recommended ordering:
 
@@ -118,8 +129,20 @@ Tradeoffs:
 - noisier than SEC
 - requires review because search-engine and page-text matching are heuristic
 
+## Promotion Review
+
+`npm run founding:promotion-review` combines SEC, Wikidata, and official-site batch output into `research/revisit-lists/founding-promotion-review.csv`.
+
+It does not update the live dashboard data. It ranks rows as:
+
+- `PROMOTE_CANDIDATE`: likely operating founding date, ready for quick review.
+- `REVIEW`: useful candidate, but legal/incorporation basis or suspiciously short age needs human review.
+- `SKIP`: no usable date or weak status.
+
+The review step is where we prevent holding-company, SPAC, issuer, and reorganization incorporation dates from becoming fake "fast exits."
+
 ## Current Behavior In The App
 
-- `Time to Exit (Years)` is off by default.
-- Once you enter a min or max, the app filters only to deals with verified founding dates in `public/company_founding_dates.csv`.
+- `Time to Exit (Operating Age)` is off by default.
+- Once you enter a min or max, the app filters only to deals with reviewed operating-age dates in `public/company_founding_dates.csv`.
 - Coverage shown in the filter bar is based on the current non-time-filter scope.

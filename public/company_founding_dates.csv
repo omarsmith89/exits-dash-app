@@ -1,6 +1,202 @@
-company,founding_date,source,confidence,notes
-1stdibs (NAS: DIBS),2000-03-10,SEC filing,HIGH,Incorporated March 10 2000
-23andMe Holding,2006,SEC filing / company materials,MEDIUM_HIGH,Quick pass confirmed year but not exact day
-SentinelOne (NYS: S),2013-01,SEC filing,HIGH,SEC materials state incorporation in January 2013
-Rubrik (NYS: RBRK),2013-12,SEC filing,HIGH,SEC materials state incorporation in December 2013
-Figma (NYS: FIG),2012-10-19,SEC filing,HIGH,Originally incorporated on October 19 2012
+company,founding_date,date_basis,source,confidence,notes
+1stdibs (NAS: DIBS),2000-03-10,legal_incorporation,SEC filing,HIGH,Incorporated March 10 2000; appears to reflect original operating company age
+23andMe Holding,2006,operating_founding,SEC filing / company materials,MEDIUM_HIGH,Quick pass confirmed year but not exact day
+SentinelOne (NYS: S),2013-01,legal_incorporation,SEC filing,HIGH,SEC materials state incorporation in January 2013; appears to reflect original operating company age
+Rubrik (NYS: RBRK),2013-12,legal_incorporation,SEC filing,HIGH,SEC materials state incorporation in December 2013; official company history says founded in 2014
+Figma (NYS: FIG),2012-10-19,legal_incorporation,SEC filing,HIGH,Originally incorporated on October 19 2012; appears to reflect original operating company age
+21seeds,2019,operating_founding,Official site heuristic,MEDIUM,Extracted from site text: founded in 2019; Source URL: https://www.diageo.com/en/news-and-media/press-releases/2022/diageo-acquires-female-owned-super-premium-flavoured-tequila-brand-21seeds
+24Storage,2015,operating_founding,Official site heuristic,MEDIUM,Extracted from site text: founded in 2015; Source URL: https://dev.swfinstitute.org/profile/5e39a484fcbe7e8ca71a8b8d
+Amylyx Pharmaceuticals (NAS: AMLX),2013,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Amylyx Pharmaceuticals, Inc.; desc=American biopharmaceutical company"
+Apollomics (NAS: APLM),2015-05,operating_founding,SEC filing,MEDIUM,Extracted from filing text: founded in May 2015; Source URL: https://www.sec.gov/Archives/edgar/data/1944885/000095017025050531/aplm-20241231.htm
+AVAX One Technology (NAS: AVX),2021-11,operating_founding,SEC filing,MEDIUM,Extracted from filing text: founded in November 2021; Source URL: https://www.sec.gov/Archives/edgar/data/1826397/000149315226014138/form10-k.htm
+Azerion Group (AMS: AZRN),2013,operating_founding,Wikidata,HIGH,hq=netherlands; aliases=Azerion Group N.V.|OrangeGames; desc=Dutch video game company
+Bakkt Holdings (NYS: BKKT),2018,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Bakkt Holdings, Inc|BKKT; desc=Spot market for crypto currency and derivatives"
+Bossa Studios,2010-10,operating_founding,Wikidata,HIGH,"hq=united kingdom; aliases=Bossa Studios Ltd.; desc=video game developer and publisher based in London, UK"
+Caribou Biosciences (NAS: CRBU),2011,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Caribou Biosciences, Inc.; desc=company in Berkeley, United States"
+Codecademy,2011,operating_founding,Wikidata,HIGH,"hq=united states; aliases=codecademy.com|Codecademy, Inc.; desc=online code-learning platform"
+Cyngn (NAS: CYN),2012,operating_founding,Wikidata,HIGH,hq=united states; aliases=Cyanogen Inc|Cyngn
+Doximity (NYS: DOCS),2011,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Doximity Inc.; desc=company in San Mateo, United States"
+EnergyVision (BRU: ENRGY),2014-10-08,operating_founding,Wikidata,HIGH,hq=belgium; aliases=Energy Vision NV|Energyvision|energyvision; desc=Belgian renewable energy company
+Fyndiq,2010,operating_founding,Wikidata,HIGH,hq=sweden; aliases=Fyndiq AB; desc=Swedish e-commerce company
+Ibotta (NYS: IBTA),2011,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Ibotta, Inc.; desc=marketing company"
+Invitae,2010,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Invitae Corporation; desc=company in San Francisco, United States"
+Jumpship,2017-01-19,operating_founding,Wikidata,HIGH,hq=united kingdom; aliases=Jumpship Limited; desc=British video game developer
+Karuna Therapeutics,2009,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Karuna Therapeutics, Inc.; desc=biopharmaceutical company"
+Klaviyo (NYS: KVYO),2012,operating_founding,Wikidata,HIGH,hq=united states; aliases=Klaviyo Inc.|Clavio|klayvio; desc=marketing automation platform
+KonMari Media,2015,operating_founding,Wikidata,HIGH,"hq=united states; aliases=KonMari Media, Inc."
+Local Bounti (NYS: LOCL),2018-08,operating_founding,SEC filing,MEDIUM,Extracted from filing text: founded in August 2018; Source URL: https://www.sec.gov/Archives/edgar/data/1840780/000162828026021706/locl-20251231.htm
+Marpai (PINX: MRAI),2022-03,operating_founding,SEC filing,MEDIUM,Extracted from filing text: founded in March 2022; Source URL: https://www.sec.gov/Archives/edgar/data/1844392/000121390026034129/ea0282918-10k_marpai.htm
+Maximum Games,2009,operating_founding,Wikidata,HIGH,hq=united states; aliases=Global Software Publishing Ltd.|Global Software Publishing|Maximum Games Ltd; desc=video game publisher and distributor
+Navitas Semiconductor (NAS: NVTS),2014,operating_founding,Wikidata,HIGH,hq=united states; aliases=Navitas Semiconductor Corp|Navitas Semiconductor Corporation
+Planethic Group (FRA: VEZ),2011,operating_founding,Wikidata,HIGH,hq=germany; aliases=Veganz AG|Planethic Group; desc=provider of vegan foods and FoodTech solutions
+Pony.ai (HKG: 02026),2016-12,operating_founding,Wikidata,HIGH,hq=united states; aliases=pony.ai|Pony AI; desc=autonomous vehicle technology company
+Skytap,2006,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Skytap, Inc.; desc=American cloud computing company"
+Terran Orbital,2013,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Terran Orbital; desc=American satellite company, subsidiary of Lockheed Martin"
+Tyra Biosciences (NAS: TYRA),2018,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Tyra|Tyra Biosciences, Inc.; desc=company in Carlsbad, United States"
+UiPath (NYS: PATH),2005,operating_founding,Wikidata,HIGH,hq=united states; aliases=UiPath Inc.; desc=robotics process automation company
+VocaliD,2014,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Vocalid|VOCALiD; desc=voice AI company based in Belmont, Massachusetts, United States"
+Warby Parker (NYS: WRBY),2010,operating_founding,Wikidata,HIGH,"hq=united states; aliases=Warby Parker (dba Jand)|JAND, Inc|Warby Parker Inc.; desc=American eyeglasses and contact lens retailer"
+Wealthfront (NAS: WLTH),2008,operating_founding,Wikidata,HIGH,hq=united states; aliases=Wealthfront Corporation; desc=automated investment service firm
+Yardbarker,2006,operating_founding,Wikidata,HIGH,hq=united states; aliases=yardbarker.com|yardbarker; desc=American sports news website
+Yubico (STO: YUBICO),2007,operating_founding,Wikidata,HIGH,hq=sweden; aliases=Yubico AB; desc=Swedish manufacturer of hardware authentication devices
+Epsagon,2017,operating_founding,WebSearch,HIGH,Founded by Nitzan Shapira and Ran Ribenzaft; acquired by Cisco for $500M 2021
+RiskIQ,2009,operating_founding,WebSearch,HIGH,"Founded by Lou Manousos, Chris Kiernan, David Pon; acquired by Microsoft 2021"
+Siemplify,2015,operating_founding,WebSearch,HIGH,"Founded by Amos Stern, Alon Cohen, Garry Fatakhov; acquired by Google 2022"
+Beacon Platform,2014,operating_founding,WebSearch,HIGH,Founded by Kirat Singh and Mark Higgins; disambiguated from a different 2024 'Beacon Software' company
+Noname Security,2020,operating_founding,WebSearch,HIGH,Founded by Shay Levi and Oz Golan; acquired by Akamai 2024
+Volterra,2017,operating_founding,WebSearch,HIGH,Edge cloud startup; acquired by F5 Networks Jan 2021 for $500M
+RigNet,2000,operating_founding,WebSearch,MEDIUM,Some sources cite 2001; acquired by ViaSat Dec 2020
+Axis Security,2019,operating_founding,WebSearch,HIGH,Founded by Dor Knafo and Gil Azrielant; acquired by HPE Mar 2023
+Wandera,2012,operating_founding,WebSearch,HIGH,Founded by Eldar and Roy Tuvey; acquired by Jamf May 2021
+Dig Security,2021,operating_founding,WebSearch,HIGH,"Founded by Dan Benjamin, Ido Azran, Gad Akuka; acquired by Palo Alto Networks Oct 2023"
+Mir,2019,operating_founding,WebSearch,MEDIUM,Mir Protocol / zero-knowledge Ethereum scaling startup founded by Brendan Farmer and Daniel Lubarov; acquired by Polygon Dec 2021 for $400M
+Ava Security,2016,operating_founding,WebSearch,MEDIUM,Some sources cite 2018 or a 2020 merger; acquired by Motorola Solutions Mar 2022
+Gem (Network Management Software),2022,operating_founding,WebSearch,HIGH,"Cloud detection and response; founded by Arie Zilberstein, Ron Konigsberg, Ofir Brukner; acquired by Wiz Apr 2024 for $350M"
+CloudCheckr,2011,operating_founding,WebSearch,HIGH,Founded by Aaron C. Newman and Aaron Klein; acquired by NetApp Oct 2021
+NTT Application Security,2001,operating_founding,WebSearch,HIGH,"Originally WhiteHat Security, founded by Jeremiah Grossman; NTT acquired 2019, later rebranded, then Synopsys acquired 2022 - founding date reflects original WhiteHat Security operating company"
+IntSights,2015,operating_founding,WebSearch,HIGH,Founded by former IDF intelligence officers; acquired by Rapid7 Jul 2021
+Aerodome,2023,operating_founding,WebSearch,HIGH,"Founded by Rahul Sidhu and Kenaniah Cerny, April 2023; acquired by Flock Safety Oct 2024 only 17 months later"
+Lakera,2021,operating_founding,WebSearch,HIGH,"Founded by David Haber, Mateo Rojas-Carulla, Matthias Kraft; acquired by Check Point Sept 2025"
+mParticle,2013,operating_founding,WebSearch,HIGH,Customer data platform; acquired by Rokt 2025
+VeloCloud,2012,operating_founding,WebSearch,HIGH,SD-WAN startup; acquired by VMware Nov 2017 for ~$470M
+Wizeline,2013,operating_founding,WebSearch,MEDIUM,Some sources cite 2014 scaling; founded by Bismarck Lepe
+Openpath,2016,operating_founding,WebSearch,HIGH,Access control startup; acquired by Motorola Solutions Jul 2021
+Prompt Security,2023,operating_founding,WebSearch,HIGH,"Founded Aug 2023 by Itamar Golan and Lior Drihem; acquired by SentinelOne Aug 2025 for ~$250M, roughly 2 years after founding"
+Nubis Communications,2020,operating_founding,WebSearch,HIGH,Founded by Peter Winzer; acquired by Ciena Sept 2025
+Flow Commerce,2015,operating_founding,WebSearch,HIGH,Founded by Rob Keve and Michael Bryzek; acquired by Global-e Nov 2021
+Rockset,2016,operating_founding,WebSearch,HIGH,Founded by ex-Facebook engineers Venkat Venkataramani and Dhruba Borthakur; acquired by OpenAI June 2024
+Touchcast (Information Technology),2010,operating_founding,WebSearch,MEDIUM,"Some sources cite 2012; founded by Erick Schonfeld, Edo Segal, Charley Miller; acquired by Infinite Reality Apr 2025"
+Instaclustr,2013,operating_founding,WebSearch,HIGH,Managed open source data platform; acquired by NetApp May 2022
+Brightflag,2014,operating_founding,WebSearch,HIGH,Founded by Ian Nolan and Alex Kelly; acquired by Wolters Kluwer
+ReKTGlobal,2017,operating_founding,WebSearch,HIGH,Founded by Amish Shah and Dave Bialek; some sources cite 2016
+Foresight Diagnostics,2020,operating_founding,WebSearch,HIGH,"Stanford spinout founded by Ash Alizadeh, Jake Chabon, Maximilian Diehn, David Kurtz; acquired by Natera"
+Landvault,2017,operating_founding,WebSearch,HIGH,Founded by Samuel Huber and Joe Bachle-Morris; acquired by Napster/Infinite Reality Jul 2024
+Nuvolo (Business/Productivity Software),2013,operating_founding,WebSearch,HIGH,Founded by Tom Stanford; ServiceNow-based EAM software; acquired by Trane Technologies Oct 2023
+Spiff,2017,operating_founding,WebSearch,HIGH,Sales commission software; acquired by Salesforce Feb 2024 for $419M
+Appetize,2011,operating_founding,WebSearch,HIGH,"Founded by Max Roper, Kevin Anderson, Jason Pratts; acquired by SpotOn Sep 2021"
+AdColony,2008,operating_founding,WebSearch,HIGH,Mobile ad network; acquired by Opera 2014 then Digital Turbine Feb 2021
+CentML,2022,operating_founding,WebSearch,HIGH,"AI inference optimization, Univ of Toronto spinout; acquired by Nvidia Jun 2025"
+ErisX,2018,operating_founding,WebSearch,HIGH,Digital asset exchange; acquired by Cboe May 2022
+Tapjoy,2007,operating_founding,WebSearch,HIGH,Mobile ad monetization; acquired by ironSource Oct 2021 for $400M
+Trifacta,2012,operating_founding,WebSearch,HIGH,"Founded by Joe Hellerstein, Jeffrey Heer, Sean Kandel; acquired by Alteryx Jan 2022"
+NuOrder,2011,operating_founding,WebSearch,HIGH,"Founded by Olivia Skuza and Heath Wells; B2B wholesale ecommerce, later Lightspeed"
+Influential,2013,operating_founding,WebSearch,MEDIUM,"Influencer marketing platform, single-source confirmation"
+Wurl,2017,operating_founding,WebSearch,MEDIUM,Some sources cite 2011; CTV streaming tech; acquired by AppLovin 2022 for $430M
+Zoomin (Business/Productivity Software),2015,operating_founding,WebSearch,HIGH,Founded by Gal Oron and Hannan Saltzman; some sources cite 2016; acquired by Salesforce Sep 2024
+Humio,2016,operating_founding,WebSearch,HIGH,London-based log management; acquired by CrowdStrike Feb 2021 for $400M
+Audigent,2016,operating_founding,WebSearch,HIGH,"Founded by Jon Gosier, Brian Brater, Shelton Mercer, Drew Stein; acquired by Experian"
+Caper,2016,operating_founding,WebSearch,HIGH,Founded by Lindon Gao and York Yang; smart shopping carts; acquired by Instacart Oct 2021 for $350M
+Inflection Risk Solutions,2006,operating_founding,WebSearch,MEDIUM,"Background check/identity verification, single-source confirmation"
+Ivantis,2007,operating_founding,WebSearch,HIGH,"Glaucoma MIGS device, Hydrus Microstent; acquired by Alcon Jan 2022"
+IPG (Managed Care),2002,operating_founding,WebSearch,MEDIUM,"Disambiguated from IPG Photonics (unrelated, founded 1990); single-source for the managed care entity"
+Clinigence Health,2010,operating_founding,WebSearch,HIGH,Founded Mar 19 2010; population health analytics; acquired by AssureCare Sep 2024
+Oxford Immunotec,2002,operating_founding,WebSearch,HIGH,Oxford University spinout founded by Dr Peter Wrighton-Smith; acquired by PerkinElmer/Revvity Mar 2021
+Lensar (NAS: LNSR),2004,operating_founding,WebSearch,HIGH,Femtosecond laser cataract surgery; acquired by Alcon Mar 2025
+PlushCare,2014,operating_founding,WebSearch,HIGH,Founded by Dr James Wantuck and Ryan McQuaid; acquired by Accolade 2021 for $450M
+OODA Health,2017,operating_founding,WebSearch,HIGH,"Founded by Seth Cohen and Giovanni Colella (also founded Castlight Health, RelayHealth); acquired by Cedar for $425M"
+2nd.MD,2011,operating_founding,WebSearch,HIGH,Second-opinion telehealth; acquired by Accolade 2021 for $460M
+Mesa Biotech,2015,operating_founding,WebSearch,MEDIUM,One source cites 2009; point-of-care PCR diagnostics; acquired by Thermo Fisher Feb 2021
+Inivata,2014,operating_founding,WebSearch,HIGH,Founded by Davina Gale and Tim Forshew; liquid biopsy; acquired by NeoGenomics May 2021
+Haystack Oncology,2021,operating_founding,WebSearch,HIGH,Johns Hopkins-derived MRD testing; acquired by Quest Diagnostics Jun 2023
+Current Health,2014,operating_founding,WebSearch,HIGH,Scottish remote patient monitoring; acquired by Best Buy 2021 for ~$400M
+Bardy Diagnostics,2013,operating_founding,WebSearch,HIGH,Founded by Dr Gust H. Bardy; cardiac monitoring patch; acquired by Hillrom 2021 for $375M
+InterWell Health,2019,operating_founding,WebSearch,HIGH,Founded Dec 2019 with Fresenius Medical Care backing; one weaker source cites 2014; kidney care value-based platform
+Dialogue Health Technologies,2016,operating_founding,WebSearch,HIGH,Montreal virtual care platform; acquired by Sun Life Oct 2023
+Gynesonics,2005,operating_founding,WebSearch,HIGH,Uterine fibroid treatment devices; acquired by Hologic Jan 2025
+DeVoro Medical,2018,operating_founding,WebSearch,HIGH,"Thrombectomy device maker (WOLF technology); acquired by Boston Scientific Sep 2021, confirmed acquirer match"
+Contura International,2003,operating_founding,WebSearch,LOW,"Conflicting sources: 2000, 2003, 2006 all cited; hydrogel medical device company"
+Asuragen,2006,operating_founding,WebSearch,HIGH,Molecular diagnostics/oncology; acquired by Bio-Techne Mar 2021
+SilverCloud Health,2012,operating_founding,WebSearch,HIGH,Digital mental health platform; acquired by Amwell alongside Conversa Health for $320M combined
+LimFlow,2012,operating_founding,WebSearch,HIGH,Founded by Dr Martin Rothman with MD Start incubator; acquired by Inari Medical Nov 2023
+Endomag,2007,operating_founding,WebSearch,HIGH,"UCL/Univ of Houston spinout, breast cancer surgical guidance; acquired by Hologic Apr 2024 for $310M"
+Citizen Health,2017,operating_founding,WebSearch,HIGH,"Originally launched as Ciitizen; acquired by Invitae 2021 for $325M, later relaunched as Citizen Health after Invitae divestiture"
+Desktop Metal,2015,operating_founding,WebSearch,HIGH,Founded Oct 2015 by Ric Fulop and 6 others incl MIT professors; metal 3D printing
+ETEC,2002,operating_founding,WebSearch,HIGH,"Originally EnvisionTEC, founded 2002; acquired by Desktop Metal, rebranded ETEC 2022 - founding date reflects original operating company"
+has.to.be,2013,operating_founding,WebSearch,HIGH,"EV charging software; acquired by ChargePoint Jul 2021 for ~£216M, not Shell as originally guessed"
+Proterra (Road),2004,operating_founding,WebSearch,HIGH,"Founded by Dale Hill, originally Mobile Energy Solutions LLC; electric bus maker"
+Greenscreens.ai,2020,operating_founding,WebSearch,HIGH,Freight pricing intelligence; acquired by Triumph Financial Feb 2025
+Yodel (Logistics),2008,operating_founding,WebSearch,MEDIUM,"Complex history: founded as Home Delivery Network 2008, rebranded Yodel 2010 after acquiring DHL UK parcel ops"
+Radicle (Environmental Services (B2B)),2008,operating_founding,WebSearch,HIGH,"Founded by Alastair Handley, originally CCSI Group; carbon credit/emissions management; acquired by BMO Jul 2022"
+Markforged,2013,operating_founding,WebSearch,HIGH,Founded by Gregory Mark and David Benhaim; carbon fiber 3D printing
+Micro-LAM,2012,operating_founding,WebSearch,HIGH,Western Michigan University spinout founded by Dr Deepak Ravindra Menon; acquired by IDEX Jul 2025
+Remix Technologies,2014,operating_founding,WebSearch,HIGH,Founded by Sam Hashemi and Danny Whalen; transit planning software; acquired by Via Mar 2021 for $100M
+StruXure Outdoor,2011,operating_founding,WebSearch,HIGH,"Founded by Scott Selzer, formerly known as Arcadia; pergola manufacturer"
+Epiluvac,2013,operating_founding,WebSearch,HIGH,Note: not vaccine mfg as query assumed - actually silicon carbide CVD equipment for semiconductors; acquired by Veeco Feb 2023
+Earthly Labs,2016,operating_founding,WebSearch,MEDIUM,One source cites 2017; small-scale carbon capture; merged with Chart Industries Dec 2022
+Clutter,2015,operating_founding,WebSearch,MEDIUM,One source cites 2013; on-demand storage/moving
+Knotel,2016,operating_founding,WebSearch,HIGH,"Flexible office space, WeWork competitor"
+Electric Last Mile Solutions,2020,operating_founding,WebSearch,HIGH,Founded Aug 2020 by James Taylor and Jason Luo; electric delivery vans; went bankrupt Jun 2022
+Precision Extraction Solutions,2014,operating_founding,WebSearch,MEDIUM,"Conflicting sources cite 2011, 2012, or 2014; founded by Nick Tennant; cannabis extraction equipment; acquired by Agrify Oct 2021"
+Recyclus Group,2019,operating_founding,WebSearch,HIGH,"UK lithium-ion battery recycler, co-founded by Robin Brundle"
+Valka,2003,operating_founding,WebSearch,HIGH,Icelandic fish processing automation; acquired by Marel Nov 2021
+Titan Robotics (Machinery),2014,operating_founding,WebSearch,HIGH,Founded by Clay Guillory; industrial 3D printers; acquired by 3D Systems Feb 2022
+AAT Carriers,2007,operating_founding,WebSearch,HIGH,Hazmat trucking carrier
+TRS Group (Environmental Services (B2B)),2000,operating_founding,WebSearch,HIGH,Thermal remediation technology; acquired by Parsons Corp Feb 2025 for $36M
+Package Concierge,2012,operating_founding,WebSearch,HIGH,Smart parcel locker systems; acquired by Quadient Dec 2024
+Velo3D (NAS: VELO),2014,operating_founding,WebSearch,HIGH,"Metal laser 3D printing, backed by Khosla and SpaceX"
+Monk AI,2019,operating_founding,WebSearch,HIGH,Note: not construction tech as query assumed - actually AI-powered vehicle inspection; acquired by ACV Auctions Mar 2022 for $19M
+Kumovis,2017,operating_founding,WebSearch,HIGH,"TU Munich spinout founded by Miriam Haerst and Stefan Leonhardt; acquired by 3D Systems"
+Bridgecrew,2019,operating_founding,WebSearch,HIGH,"Founded by Idan Tendler, Barak Schoster Goihman, Guy Eisenkot; acquired by Palo Alto Networks Feb 2021 for $156M"
+Humi (Business/Productivity Softwar),2016,operating_founding,WebSearch,HIGH,"Founded Jan 2016 Toronto by Kevin Kliman, Matt Loszak, Simon Bourgeois; YC W2017; acquired by Employment Hero Jan 2025"
+QueueDr,2013,operating_founding,WebSearch,HIGH,"Healthcare appointment automation; acquired by Phreesia 2021"
+Demyst,2010,operating_founding,WebSearch,HIGH,"Data orchestration platform; acquired by Feedzai Apr 2025"
+Betty Labs,2018,operating_founding,WebSearch,HIGH,"Founded by Howard Akumiah; Locker Room live sports audio app; acquired by Spotify Mar 2021"
+Upskill (Software Development Applications),2010,operating_founding,WebSearch,HIGH,"Enterprise AR software; acquired by TeamViewer Mar 2021"
+HUUB (Logistics),2015,operating_founding,WebSearch,HIGH,"Portuguese fashion supply chain platform; acquired by Maersk Sep 2021"
+Mirametrix,2010,operating_founding,WebSearch,MEDIUM,"Some sources cite 2011; Montreal eye tracking/computer vision; acquired by Lattice Semiconductor Nov 2021"
+Kinvolved,2012,operating_founding,WebSearch,MEDIUM,"One source cites 2013; founded by Miriam Altman-Reyes and Alexandra Meis; acquired by PowerSchool Jan 2022"
+Later (Media and Information Services (B2B)),2013,operating_founding,WebSearch,MEDIUM,"Founded as Latergramme, some sources cite 2014; acquired by Mavrck Apr 2022"
+i2O Water,2005,operating_founding,WebSearch,HIGH,"Smart water network management UK; acquired by Mueller Water Products 2021 for ~$20M"
+Credly,2012,operating_founding,WebSearch,HIGH,"Founded by Jonathan Finkelstein; digital credentials; acquired by Pearson Jan 2022 for $200M"
+Neteven,2005,operating_founding,WebSearch,HIGH,"Founded by former eBay execs, Paris; marketplace management SaaS; acquired by Lectra Jun 2021"
+TurboSquid,2000,operating_founding,WebSearch,HIGH,"3D model marketplace New Orleans; acquired by Shutterstock 2021 for $75M"
+LaborChart,2014,operating_founding,WebSearch,HIGH,"Construction workforce management; acquired by Procore Oct 2021"
+Uplogix,2003,operating_founding,WebSearch,MEDIUM,"Some sources cite 2004; out-of-band network management Austin; acquired by Lantronix Sep 2022"
+UpLift (Clinics/Outpatient Services),2020,operating_founding,WebSearch,HIGH,"In-network digital mental health, Tampa; acquired by Teladoc Apr 2025 for $30M"
+Fit Analytics,2010,operating_founding,WebSearch,HIGH,"Berlin apparel size recommendation; acquired by Snap Mar 2021"
+Twistle,2011,operating_founding,WebSearch,HIGH,"Patient engagement software; acquired by Health Catalyst Jun 2021 for $104.5M"
+GeoPhy,2014,operating_founding,WebSearch,HIGH,"Property valuation analytics Netherlands; acquired by Walker & Dunlop Feb 2022 for $85M"
+Wematter,2014,operating_founding,WebSearch,HIGH,"Swedish SLS 3D printing; acquired by 3D Systems Apr 2023"
+THEO Technologies,2012,operating_founding,WebSearch,HIGH,"Leuven Belgium, THEOplayer video streaming; acquired by Dolby Jul 2024"
+Cognito (Network Management Software),2014,operating_founding,WebSearch,HIGH,"Identity verification/KYC; acquired by Plaid Jan 2022 for $250M"
+Pento,2016,operating_founding,WebSearch,MEDIUM,"One source cites 2017 Copenhagen; founded by Jonas Bogh Larsen and Emil Hagbarth; acquired by HiBob Feb 2024"
+Kiln Enterprises,2012,operating_founding,WebSearch,MEDIUM,"One source cites Dec 2013; founded by Duncan Clark and Robin Houston; created Flourish dataviz; acquired by Canva"
+DataFleets,2018,operating_founding,WebSearch,HIGH,"Privacy-preserving distributed data; acquired by LiveRamp Feb 2021 for $68M"
+Stackla,2012,operating_founding,WebSearch,HIGH,"Founded in Australia by Peter Cassidy, Justin Barrie, Damien Mahoney; UGC platform; acquired by Nosto Jun 2021"
+Presto,2008,operating_founding,WebSearch,HIGH,"Formerly E la Carte; restaurant AI/tablet automation, San Carlos CA"
+Adsmurai,2014,operating_founding,WebSearch,HIGH,"Founded by Marc Elena, Otto Wust, Juan A. Robles; Barcelona digital marketing"
+DocSend,2013,operating_founding,WebSearch,HIGH,"Document sharing analytics SF; acquired by Dropbox Mar 2021 for $165M"
+DFLabs,2003,operating_founding,WebSearch,MEDIUM,"One source cites 2004; founded by Dario Forte, Milan; SOAR; acquired by Sumo Logic Mar 2021"
+Moz (Business/Productivity Software),2004,operating_founding,WebSearch,HIGH,"Founded as SEOmoz by Rand Fishkin and Gillian Muessig; rebranded Moz 2013; acquired by iContact Jun 2021"
+Dadi,2019,operating_founding,WebSearch,HIGH,"At-home male fertility testing; acquired by Ro 2022 for ~$100M"
+Strata Health,2001,operating_founding,WebSearch,LOW,"Conflicting sources: 2001, 2002, and 2012 all cited; Calgary patient flow software; acquired by VitalHub Oct 2024"
+Koopid,2016,operating_founding,WebSearch,HIGH,"Omnichannel conversational AI; acquired by Dialpad Oct 2021"
+Fuze (Communication Software),2006,operating_founding,WebSearch,HIGH,"Formerly ThinkingPhones, Boston cloud communications; acquired by 8x8 Jan 2022"
+Zephr (Business/Productivity Software),2017,operating_founding,WebSearch,MEDIUM,"Some sources cite 2018; founded by James Henderson and Chris Scott; acquired by Zuora Sep 2022 for $44M"
+Sidertia,2012,operating_founding,WebSearch,MEDIUM,"Madrid cybersecurity, critical infrastructure; acquired by Izertis"
+Opstrace,2019,operating_founding,WebSearch,HIGH,"Founded Apr 2019; open source observability; acquired by GitLab Dec 2021"
+Aceyus,2002,operating_founding,WebSearch,HIGH,"Contact center analytics Charlotte NC; acquired by Five9 Aug 2023"
+Akili Interactive,2011,operating_founding,WebSearch,HIGH,"Boston prescription video game digital therapeutics; acquired by Virtual Therapeutics May 2024"
+Sedona Systems,2014,operating_founding,WebSearch,HIGH,"Israeli network automation (NetFusion); acquired by Cisco Jul 2021 for ~$100M"
+AltheaDx,2013,operating_founding,WebSearch,LOW,"Conflicting sources: 2009 vs 2013; San Diego pharmacogenomics; acquired by Castle Biosciences Apr 2022 for $65M"
+Sinch Engage-EMEA,2015,operating_founding,WebSearch,HIGH,"Formerly MessengerPeople, Munich; acquired by Sinch Sep 2021 for EUR48M"
+Vandersat,2015,operating_founding,WebSearch,HIGH,"Founded by Richard de Jeu and Robbert Mica; satellite soil moisture; acquired by Planet Labs"
+Avalun,2013,operating_founding,WebSearch,HIGH,"CEA Leti spinout Grenoble, LabPad POC diagnostics; acquired by Biosynex May 2021"
+LightDeck,2009,operating_founding,WebSearch,HIGH,"Boulder CO diagnostics; acquired by Heska Jan 2023"
+Access Physicians,2011,operating_founding,WebSearch,HIGH,"Founded by Dr Chris Gallagher, Dallas telemedicine; acquired by SOC Telemed/Access TeleCare Mar 2021"
+Maestro Health,2013,operating_founding,WebSearch,HIGH,"Chicago employee health benefits; acquired by Marpai Aug 2022"
+Voluntis,2001,operating_founding,WebSearch,HIGH,"Suresnes France digital therapeutics; acquired by Aptar 2021"
+Valispace,2016,operating_founding,WebSearch,MEDIUM,"One source cites 2015; founded May 2016 by Marco Witzmann and Simon Bussche; acquired by Altium Dec 2023 for ~$15.6M"
+Limeade,2006,operating_founding,WebSearch,HIGH,"Bellevue WA employee wellbeing; acquired by WebMD Health Services 2023 for ~$75M"
+Benefits Science,2012,operating_founding,WebSearch,HIGH,"Boston, founded by MIT-trained data scientists; acquired by MultiPlan/Claritev May 2023"
+Fabric Genomics,2009,operating_founding,WebSearch,HIGH,"Oakland CA AI genomic interpretation (formerly Omicia); acquired by GeneDx May 2025"
+Accellix,2007,operating_founding,WebSearch,HIGH,"Automated cell phenotyping/flow cytometry; acquired by bioMerieux Jan 2026"
+Parse Biosciences,2018,operating_founding,WebSearch,HIGH,"UW spinout founded by Alex Rosenberg, Charlie Roco, Georg Seelig; acquired by Qiagen Nov 2025 for $225M"
+Usermind,2013,operating_founding,WebSearch,HIGH,"Seattle journey orchestration; acquired by Qualtrics Jul 2021"
+42matters,2011,operating_founding,WebSearch,HIGH,"Zurich mobile app intelligence; acquired by Similarweb"
+Linkfluence,2006,operating_founding,WebSearch,HIGH,"Paris social listening/AI; acquired by Meltwater Mar 2021 for EUR50M"
+BlackSwan Vascular,2017,operating_founding,WebSearch,HIGH,"Founded by Suresh Pai, Celso Bagaoisan, Sanjay Shrivastava; liquid embolics; acquired via Sirtex/Grand Pharma"
+Rhebo,2014,operating_founding,WebSearch,HIGH,"Leipzig OT/IIoT anomaly detection; acquired by Landis+Gyr 2021, later sold to Everfield 2026"
+SSIMWAVE,2013,operating_founding,WebSearch,HIGH,"University of Waterloo spinout, video quality; acquired by IMAX Sep 2022 for CAD28.3M"
+Satalia,2008,operating_founding,WebSearch,HIGH,"UCL spinout founded by Dr Daniel Hulme; enterprise AI/optimization; acquired by WPP Aug 2021"
+monoDrive,2016,operating_founding,WebSearch,HIGH,"Austin AV simulation; acquired by National Instruments 2021"

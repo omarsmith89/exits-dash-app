@@ -1,0 +1,26 @@
+company,ticker,cik,latest_exit_date,deal_type,hq_location,founding_date,source,confidence,status,matched_name,form,filing_url,notes
+Lyell Immunopharma (NAS: LYEL),LYEL,0001806952,17-Jun-2021,IPO,"""South San Francisco, CA""",2018-06,SEC filing,MEDIUM_HIGH,SEC_MATCH,"Lyell Immunopharma, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1806952/000162828026017253/lyel-20251231.htm,Extracted from filing text: incorporated in June 2018
+Lytix Biopharma (OSL: LYTIX),LYTIX,,14-Jun-2021,IPO,"""Oslo, Norway""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+MaaT Pharma (PAR: MAAT),MAAT,,08-Nov-2021,IPO,"""Lyon, France""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+MAIA Biotechnology (ASE: MAIA),MAIA,0001878313,28-Jul-2022,IPO,"""Chicago, IL""",,SEC,LOW,MATCH_NO_DATE,"MAIA Biotechnology, Inc.",8-K,https://www.sec.gov/Archives/edgar/data/1878313/000149315226015662/form8-k.htm,Matched by ticker; no founding/incorporation text extracted from 8-K filed 2026-04-08
+Mainz Biomed (NAS: MYNZ),QUCY,0001874252,08-Nov-2021,IPO,"""Mainz, Germany""",,SEC,LOW,MATCH_NO_DATE,MAINZ BIOMED N.V.,10-K,https://www.sec.gov/Archives/edgar/data/1874252/000121390026037676/ea0283918-10k_mainz.htm,Matched by name; no founding/incorporation text extracted from 10-K filed 2026-03-31
+Mangoceuticals (NAS: MGRX),MGRX,0001938046,21-Mar-2023,IPO,"""Dallas, TX""",2021-10-07,SEC filing,HIGH,SEC_MATCH,"MANGOCEUTICALS, INC.",10-K,https://www.sec.gov/Archives/edgar/data/1938046/000149315226014478/form10-k.htm,"Extracted from filing text: incorporated in the State of a Texas on October 7, 2021"
+MapLight (NAS: MPLT),MPLT,0001770069,27-Oct-2025,IPO,"""Redwood City, CA""",2018-11,SEC filing,MEDIUM_HIGH,SEC_MATCH,"MapLight Therapeutics, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1770069/000119312526125072/mplt-20251231.htm,Extracted from filing text: incorporated in November 2018
+Marpai (PINX: MRAI),MRAI,0001844392,27-Oct-2021,IPO,"""Tampa, FL""",2022-03,SEC filing,MEDIUM,SEC_MATCH,"Marpai, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1844392/000121390026034129/ea0282918-10k_marpai.htm,Extracted from filing text: founded in March 2022
+Marqeta (NAS: MQ),MQ,0001522540,09-Jun-2021,IPO,"""Oakland, CA""",2010,SEC filing,MEDIUM,SEC_MATCH,"Marqeta, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1522540/000152254026000017/mq-20251231.htm,Extracted from filing text: incorporated in 2010
+Mashup Ireland (STO: MASHUP),MASHUP,,23-Feb-2024,Merger/Acquisition,"""Waterford, Ireland""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Maven Wireless (STO: MAVEN),MAVEN,,10-Jun-2021,IPO,"""Kista, Sweden""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Mawson Infrastructure Group (NAS: MIGI),MIGI,0001218683,17-Mar-2021,Reverse Merger,"""Midland, PA""",,SEC,LOW,MATCH_NO_DATE,Mawson Infrastructure Group Inc.,8-K,https://www.sec.gov/Archives/edgar/data/1218683/000121390026041279/ea0285488-8k_mawson.htm,Matched by ticker; no founding/incorporation text extracted from 8-K filed 2026-04-08
+Maze Therapeutics (NAS: MAZE),MAZE,0001842295,30-Jan-2025,IPO,"""South San Francisco, CA""",,SEC,LOW,MATCH_NO_DATE,"Maze Therapeutics, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1842295/000119312526122778/maze-20251231.htm,Matched by ticker; no founding/incorporation text extracted from 10-K filed 2026-03-25
+MBX Biosciences (NAS: MBX),MBX,0001776111,13-Sep-2024,IPO,"""Carmel, IN""",,SEC,LOW,MATCH_NO_DATE,"MBX Biosciences, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1776111/000119312526103121/mbx-20251231.htm,Matched by ticker; no founding/incorporation text extracted from 10-K filed 2026-03-12
+Mednow.ca (PINX: MDNWF),MDNWF,,09-Mar-2021,IPO,"""Toronto, Canada""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Meds Apotek (STO: MEDS),MEDS,,23-Sep-2025,IPO,"""Stockholm, Sweden""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Mendell Helium (NEXX: VOY),VOY,,30-Jun-2021,IPO,"""Perth, United Kingdom""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Merus Power (HEL: MERUS),MERUS,,08-Jun-2021,IPO,"""Yl�j�rvi, Finland""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Metagenomi Therapeutics (NAS: MGX),MGX,0001785279,09-Feb-2024,IPO,"""Emeryville, CA""",,SEC,LOW,MATCH_NO_DATE,"Metagenomi Therapeutics, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1785279/000119312526093976/mgx-20251231.htm,Matched by ticker; no founding/incorporation text extracted from 10-K filed 2026-03-05
+Metro Bank (LON: MTRO),MTRO,,03-Nov-2023,Merger/Acquisition,"""London, United Kingdom""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Miata Metals (CNQ: MMET),MMET,,20-Jul-2023,IPO,"""Vancouver, Canada""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+MicroSalt (LON: SALT),SALT,,01-Feb-2024,IPO,"""West Palm Beach, FL""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Mijem (CNQ: MJEM.X),MJEM.X,,10-Jan-2022,IPO,"""Toronto, Canada""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Military Metals (CNQ: MILI),MILIF,0001866460,30-Jun-2022,IPO,"""Vancouver, Canada""",,SEC,LOW,NO_TARGET_FORM,Military Metals Corp.,,,"Matched by name, but no target form found in recent submissions"
+Minehub Technologies (TSX: MHUB),MHUBF,0001869137,07-Sep-2021,IPO,"""Vancouver, Canada""",,SEC,LOW,NO_TARGET_FORM,MineHub Technologies Inc.,,,"Matched by name, but no target form found in recent submissions"

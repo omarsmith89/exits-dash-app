@@ -1,0 +1,26 @@
+company,ticker,cik,latest_exit_date,deal_type,hq_location,founding_date,source,confidence,status,matched_name,form,filing_url,notes
+Largo (Electronics) (PAR: ALLGO),ALLGO,,23-Apr-2021,IPO,"""Sainte-Luce-sur-Loire, France""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Latch Systems (PINX: LTCH),LTCH,0001826000,10-Jun-2021,Reverse Merger,"""New York, NY""",,SEC,LOW,MATCH_NO_DATE,"Latch, Inc.",8-K,https://www.sec.gov/Archives/edgar/data/1826000/000182600026000032/lat-20260331.htm,Matched by ticker; no founding/incorporation text extracted from 8-K filed 2026-03-31
+LB Pharmaceuticals (NAS: LBRX),LBRX,0001691082,10-Sep-2025,IPO,"""New York, NY""",,SEC,LOW,MATCH_NO_DATE,LB PHARMACEUTICALS INC,S-1,https://www.sec.gov/Archives/edgar/data/1691082/000119312526143724/d115802ds1.htm,Matched by ticker; no founding/incorporation text extracted from S-1 filed 2026-04-06
+LeddarTech Holdings (PINX: LDTCF),LDTCF,0001981462,06-Dec-2023,Reverse Merger,"""Quebec City, Canada""",2007,SEC filing,LOW,SEC_MATCH,LeddarTech Holdings Inc.,F-1/A,https://www.sec.gov/Archives/edgar/data/1981462/000121390025014535/ea0208053-06.htm,Extracted from filing text: Founded in 2007
+Legimi (WAR: LEG),LEG,0000058492,14-Apr-2021,IPO,"""Poznan, Poland""",,SEC,LOW,MATCH_NO_DATE,LEGGETT & PLATT INC,10-K,https://www.sec.gov/Archives/edgar/data/58492/000005849226000107/leg-20251231.htm,Matched by ticker; no founding/incorporation text extracted from 10-K filed 2026-02-26
+LendInvest (LON: LINV),LINV,,14-Jul-2021,IPO,"""London, United Kingdom""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Lensar (NAS: LNSR),LNSR,0001320350,01-Sep-2025,Merger/Acquisition,"""Orlando, FL""",2004-08-20,SEC filing,HIGH,SEC_MATCH,"LENSAR, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1320350/000119312526134587/lnsr-20251231.htm,"Extracted from filing text: incorporated in the State of Delaware on August 20, 2004"
+LENZ Therapeutics (NAS: LENZ),LENZ,0001815776,21-Mar-2024,Reverse Merger,"""Solana Beach, CA""",,SEC,LOW,MATCH_NO_DATE,"LENZ Therapeutics, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1815776/000181577626000011/lenz-20251231.htm,Matched by ticker; no founding/incorporation text extracted from 10-K filed 2026-03-24
+Lepermislibre (PAR: ALLPL),ALLPL,,13-Feb-2023,IPO,"""Lyon, France""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Lexeo Therapeutics (NAS: LXEO),LXEO,0001907108,03-Nov-2023,IPO,"""New York, NY""",,SEC,LOW,MATCH_NO_DATE,"Lexeo Therapeutics, Inc.",10-K,https://www.sec.gov/Archives/edgar/data/1907108/000119312526132085/lxeo-20251231.htm,Matched by ticker; no founding/incorporation text extracted from 10-K filed 2026-03-30
+Lhyfe (PAR: LHYFE),LHYFE,,23-May-2022,IPO,"""Nantes, France""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Lichthund (WAR: LHD),LHD,,13-May-2024,IPO,"""Warsaw, Poland""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Lightning eMotors (PINX: ZEVY),ZEVY,,07-May-2021,Reverse Merger,"""Loveland, CO""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+LightOn (PAR: ALTAI),ALTAI,,26-Nov-2024,IPO,"""Paris, France""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Lilium (PINX: LILMF),LILMF,0001855756,14-Sep-2021,Reverse Merger,"""Gauting, Germany""",2015,SEC filing,MEDIUM,SEC_MATCH,Lilium N.V.,20-F,https://www.sec.gov/Archives/edgar/data/1855756/000141057824000206/lilm-20231231x20f.htm,Extracted from filing text: incorporated in 2015
+Lineage (NAS: LINE),LINE,0001868159,26-Jul-2024,IPO,"""Novi, MI""",,SEC,LOW,MATCH_NO_DATE,"Lineage, Inc.",8-K,https://www.sec.gov/Archives/edgar/data/1868159/000186815926000015/line-20260407.htm,Matched by ticker; no founding/incorporation text extracted from 8-K filed 2026-04-09
+Lipella Pharmaceuticals (PINX: LIPO),LIPO,0001347242,20-Dec-2022,IPO,"""Pittsburgh, PA""",,SEC,LOW,MATCH_NO_DATE,LIPELLA PHARMACEUTICALS INC.,8-K,https://www.sec.gov/Archives/edgar/data/1347242/000175392626000577/g085465_8k.htm,Matched by ticker; no founding/incorporation text extracted from 8-K filed 2026-03-31
+Lipigon Pharmaceuticals (STO: LPGO),LPGO,,01-Mar-2021,IPO,"""Umeaa, Sweden""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Lipum (STO: LIPUM),LIPUM,,22-Apr-2021,IPO,"""Umea, Sweden""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Live Motion Games (WAR: LMG),LMG,,03-Dec-2021,IPO,"""Warsaw, Poland""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Local Bounti (NYS: LOCL),LOCL,0001840780,19-Nov-2021,Reverse Merger,"""Hamilton, MT""",2018-08,SEC filing,MEDIUM,SEC_MATCH,Local Bounti Corporation/DE,10-K,https://www.sec.gov/Archives/edgar/data/1840780/000162828026021706/locl-20251231.htm,Extracted from filing text: founded in August 2018
+Longeveron (NAS: LGVN),LGVN,0001721484,12-Feb-2021,IPO,"""Miami, FL""",,SEC,LOW,MATCH_NO_DATE,Longeveron Inc.,8-K,https://www.sec.gov/Archives/edgar/data/1721484/000121390026042565/ea0285933-8k_longeveron.htm,Matched by ticker; no founding/incorporation text extracted from 8-K filed 2026-04-10
+Lowell Farms (CNQ: LOWL),LOWL,,05-Mar-2021,Reverse Merger,"""Salinas, CA""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+LumenRadio (STO: LUMEN),LUMEN,,08-Dec-2022,IPO,"""Gothenburg, Sweden""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match
+Lyckeg�rd (STO: LYGRD),LYGRD,,21-Feb-2022,IPO,"""V�ster�s, Sweden""",,SEC,NONE,NO_SEC_MATCH,,,,No SEC ticker/name match

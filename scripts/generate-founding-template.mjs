@@ -79,7 +79,7 @@ const covered = new Set(
 );
 
 const templateRows = [
-  ['company', 'latest_exit_date', 'deal_type', 'hq_location', 'founding_date', 'source', 'confidence', 'notes'],
+  ['company', 'latest_exit_date', 'deal_type', 'hq_location', 'founding_date', 'date_basis', 'source', 'confidence', 'notes'],
 ];
 
 for (const [key, row] of uniqueCompanies.entries()) {
@@ -89,6 +89,7 @@ for (const [key, row] of uniqueCompanies.entries()) {
     row.latest_exit_date,
     row.deal_type,
     row.hq_location,
+    '',
     '',
     '',
     '',
